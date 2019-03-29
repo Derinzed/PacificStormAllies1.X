@@ -1,0 +1,63 @@
+material SL/Units/PDIcons_Haruna
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				texture Haruna_iconPD.png
+			}
+		}
+	}
+}
+
+
+material SL/Units/PEIcons_Haruna
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				texture Haruna_iconPE.png
+			}
+		}
+	}
+}
+
+
+material SL/Units/Icons_Haruna
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				texture Haruna_icon.png
+			}
+		}
+	}
+}
+
+

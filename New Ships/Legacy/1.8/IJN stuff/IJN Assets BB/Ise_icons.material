@@ -1,0 +1,63 @@
+material SL/Units/PDIcons_Ise
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				texture Ise_iconPD.png
+			}
+		}
+	}
+}
+
+
+material SL/Units/PEIcons_Ise
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				texture Ise_iconPE.png
+			}
+		}
+	}
+}
+
+
+material SL/Units/Icons_Ise
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				texture Ise_icon.png
+			}
+		}
+	}
+}
+
+

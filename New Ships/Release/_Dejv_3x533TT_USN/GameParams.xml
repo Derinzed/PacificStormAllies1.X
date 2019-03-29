@@ -1,0 +1,61 @@
+<?xml version="1.0" standalone="yes" ?>
+<root>
+	<object name="SteelMonstersParams">
+		<object name="Rifles">
+			<object name="US_Torp_App_1x">
+				<float name="AARange" value="0."/>
+				<string name="Ammo" value="Torp_US_Mk15;Torp_US_Mk15_M_I;Torp_US_Mk15_A_SA;uk_torp_fleet"/>
+				<integer name="AmmoStorage" value="2"/>
+				<float name="AmmoWeight" value="1742."/>
+				<float name="Caliber" value="533."/>
+				<integer name="Country" value="1"/>
+				<string name="DefaultAmmo" value="Torp_US_Mk15"/>
+				<integer name="FinalSpeed" value="0"/>
+				<string name="FireSound" value="Guns\Torpedo"/>
+				<boolean name="IgnoreXMLFile" value="false"/>
+				<float name="Money" value="8."/>
+				<boolean name="New" value="true"/>
+				<float name="ROF" value="0.1"/>
+				<float name="Range" value="8."/>
+				<boolean name="SLLauncher" value="false"/>
+				<string name="SMU_File" value="US_Torp_App_1x_stvol"/>
+				<integer name="StartSpeed" value="0"/>
+				<integer name="Unreliability" value="0"/>
+				<string name="Usage" value="Ships"/>
+				<float name="Weight" value="16."/>
+			</object>
+		</object>
+		<object name="Turrets">
+			<object name="US_Torp_App_3x_Turret">
+				<integer name="Amount" value="3"/>
+				<integer name="ArmorFront" value="25"/>
+				<integer name="ArmorSide" value="25"/>
+				<integer name="ArmorTop" value="25"/>
+				<string name="Content" value="Rifles.US_Torp_App_1x"/>
+				<integer name="Country" value="1"/>
+				<integer name="Elevation" value="0"/>
+				<integer name="ElevationRate" value="0"/>
+				<boolean name="IgnoreXMLFile" value="false"/>
+				<float name="Iron" value="0.45"/>
+				<float name="Money" value="1."/>
+				<boolean name="New" value="false"/>
+				<boolean name="Production" value="false"/>
+				<integer name="RotationRate" value="7"/>
+				<string name="SMU_File" value="US_Torp_App_3x_Turret"/>
+				<string name="Type" value="Gun"/>
+				<float name="Vitality" value="250."/>
+				<float name="Weight" value="0.4"/>
+			</object>
+		</object>
+		<object name="Hit_Location">
+			<object name="USTTApp3x">
+				<integer name="Country" value="1"/>
+				<float name="ER" value="0.5"/>
+				<string name="Hull" value="Hood_Rockets"/>
+				<string name="Name" value="TA"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="US_Torp_App_3x_Turret"/>
+			</object>
+		</object>
+	</object>
+</root>

@@ -1,0 +1,72 @@
+material Green_Main_Gun_203x2_Takao
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 1 1
+			texture_unit
+			{
+				texture Green_Main_Gun_203x2_Takao.dds
+				filtering trilinear
+			}
+		}
+		pass
+		{
+			ambient 1 1 1
+			scene_blend add
+			lighting off
+			fog_override true none
+			texture_unit
+			{
+				texture Green_Main_Gun_203x2_Takao_Spec.dds
+				filtering trilinear
+			}
+			texture_unit
+			{
+				cubic_texture shipenvmap.dds combinedUVW
+				env_map cubic_reflection
+				tex_address_mode clamp
+				colour_op_ex modulate src_texture src_current
+			}
+		}
+	}
+}
+
+material Green_2x127mm_Mogami
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 1 1
+			texture_unit
+			{
+				texture Green_Universal_Gun_127x2_Mogami.dds
+				filtering trilinear
+			}
+		}
+		pass
+		{
+			ambient 1 1 1
+			scene_blend add
+			lighting off
+			fog_override true none
+			texture_unit
+			{
+				texture Green_Universal_Gun_127x2_Mogami_spec.dds
+				filtering trilinear
+			}
+			texture_unit
+			{
+				cubic_texture shipenvmap.dds combinedUVW
+				env_map cubic_reflection
+				tex_address_mode clamp
+				colour_op_ex modulate src_texture src_current
+			}
+		}
+	}
+}
+
+
+

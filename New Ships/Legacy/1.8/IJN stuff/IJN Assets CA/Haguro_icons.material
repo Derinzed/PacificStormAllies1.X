@@ -1,0 +1,69 @@
+material SL/Units/PDIcons_Haguro
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				tex_val_size 0.375 0.25 0.5 0.375 
+				texture UnitIcons_PD1.png
+			}
+		}
+	}
+}
+
+
+
+material SL/Units/PEIcons_Haguro
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				tex_val_size 0.375 0.25 0.5 0.375 
+				texture UnitIcons_PE1.png
+			}
+		}
+	}
+}
+
+
+
+material SL/Units/Icons_Haguro
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				tex_val_size 0. 0.328125 0.21484375 0.3828125 
+				texture UnitIcons_Ships.png
+			}
+		}
+	}
+}
+
+
+

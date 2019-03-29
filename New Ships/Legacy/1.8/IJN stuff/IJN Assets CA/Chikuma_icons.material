@@ -1,0 +1,63 @@
+material SL/Units/PDIcons_Chikuma
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				texture Chikuma_iconPD.png
+			}
+		}
+	}
+}
+
+
+material SL/Units/PEIcons_Chikuma
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				texture Chikuma_iconPE.png
+			}
+		}
+	}
+}
+
+
+material SL/Units/Icons_Chikuma
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				texture Chikuma_icon.png
+			}
+		}
+	}
+}
+
+

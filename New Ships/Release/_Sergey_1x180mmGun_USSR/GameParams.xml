@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" standalone="yes" ?>
+<root>
+	<object name="SteelMonstersParams">
+		<object name="Rifles">
+			<object name="RU_Gun_180x1">
+				<float name="AARange" value="0."/>
+				<string name="Ammo" value="Proj_180_R"/>
+				<integer name="AmmoStorage" value="224"/>
+				<float name="AmmoWeight" value="97.5"/>
+				<string name="ArmPiercing" value="Proj_180_R_AP"/>
+				<float name="Caliber" value="180."/>
+				<integer name="Country" value="6"/>
+				<float name="Dispersion" value="4."/>
+				<integer name="FinalSpeed" value="320"/>
+				<string name="FireSound" value="Guns\203mm"/>
+				<boolean name="IgnoreXMLFile" value="false"/>
+				<float name="Money" value="8."/>
+				<boolean name="New" value="true"/>
+				<float name="ROF" value="6."/>
+				<float name="Range" value="37.80"/>
+				<boolean name="SLLauncher" value="false"/>
+				<string name="SMU_File" value="RU_Gun_180x1"/>
+				<integer name="StartSpeed" value="920"/>
+				<integer name="Unreliability" value="0"/>
+				<string name="Usage" value="Ships"/>
+				<float name="Weight" value="18.2"/>
+			</object>
+		</object>
+		<object name="Turrets">
+			<object name="RU_Turret_180x1">
+				<integer name="Amount" value="1"/>
+				<integer name="ArmorFront" value="76"/>
+				<integer name="ArmorSide" value="76"/>
+				<integer name="ArmorTop" value="76"/>
+				<string name="Content" value="Rifles.RU_Gun_180x1"/>
+				<integer name="Country" value="6"/>
+				<integer name="Elevation" value="60"/>
+				<integer name="ElevationRate" value="8."/>
+				<boolean name="IgnoreXMLFile" value="false"/>
+				<float name="Iron" value="200."/>
+				<float name="Money" value="18."/>
+				<boolean name="New" value="true"/>
+				<boolean name="Production" value="false"/>
+				<integer name="RotationRate" value="8"/>
+				<string name="SMU_File" value="RU_Turret_180x1"/>
+				<string name="Type" value="Gun"/>
+				<float name="Vitality" value="350."/>
+				<float name="Weight" value="192."/>
+			</object>
+		</object>
+		<object name="Hit_Location">
+			<object name="180K7877">
+				<integer name="Country" value="6"/>
+				<float name="ER" value="2."/>
+				<string name="Hull" value="Std_Turret_RF"/>
+				<string name="Name" value="Rangefinder"/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="RU_Turret_180x1"/>
+			</object>
+			<object name="180K7878">
+				<integer name="Country" value="6"/>
+				<float name="ER" value="6."/>
+				<string name="Hull" value="26bis_MTurret"/>
+				<string name="Name" value="Turret"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="RU_Turret_180x1"/>
+			</object>
+			<object name="180K7879">
+				<integer name="Country" value="6"/>
+				<float name="ER" value="6."/>
+				<string name="Hull" value="26bis_MTurret_Shakegeban"/>
+				<string name="Name" value="Shakegeban"/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="RU_Turret_180x1"/>
+			</object>
+		</object>
+	</object>
+</root>

@@ -1,0 +1,93 @@
+<?xml version="1.0" standalone="yes" ?>
+<root>
+	<object name="1x127mm_mk30_us">
+		<object name="Components">
+			<object name="Gun_127x1_Turret">
+				<object name="DynamicData">
+					<object name="ComponentCG">
+						<float name="X" value="-0.371429172"/>
+						<float name="Y" value="1.11657878"/>
+						<float name="Z" value="3.31091881e-003"/>
+					</object>
+					<object name="ComponentInertia">
+						<float name="X" value="0."/>
+						<float name="Y" value="0."/>
+						<float name="Z" value="0."/>
+					</object>
+					<float name="Mass" value="0.100000002"/>
+				</object>
+				<string name="Mesh" value="1x127mm_mk30_us.mesh"/>
+				<object name="LOD3">
+					<float name="Depth" value="30."/>
+					<string name="Mesh" value="1x127mm_mk30_us_Lod.mesh"/>
+				</object>
+				<object name="SubComponents">
+					<object name="TPort_0">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="30."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="0."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="1x127mm_mk30_us_stvol"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="0.101"/>
+								<float name="Y" value="2.035"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+				</object>
+				<string name="Type" value="Mesh"/>
+				<boolean name="Visible" value="true"/>
+			</object>
+		</object>
+		<object name="Flags">
+			<string name="Type" value="cannon"/>
+			<boolean name="Updatable" value="true"/>
+		</object>
+		<object name="Ports">
+			<object name="TPort_0">
+				<string name="ConcreteType" value="TPort"/>
+				<float name="PortMaxValueY" value="30."/>
+				<float name="PortMaxValueZ" value="0."/>
+				<float name="PortMinValueY" value="0."/>
+				<float name="PortMinValueZ" value="0."/>
+				<string name="PortMoType" value="Rotate"/>
+				<string name="PortType" value="1x127mm_mk30_us_stvol"/>
+				<object name="Transform">
+					<object name="Rotate">
+						<float name="X" value="0."/>
+						<float name="Y" value="0."/>
+						<float name="Z" value="0."/>
+					</object>
+					<object name="Scale">
+						<float name="X" value="1."/>
+						<float name="Y" value="1."/>
+						<float name="Z" value="1."/>
+					</object>
+					<object name="Translate">
+						<float name="X" value="0.101"/>
+						<float name="Y" value="2.035"/>
+						<float name="Z" value="0."/>
+					</object>
+				</object>
+				<string name="Type" value="Port"/>
+			</object>
+		</object>
+		<string name="Prefix" value="1x127mm_mk30_us"/>
+		<float name="VisibilityRange" value="2000."/>
+	</object>
+</root>

@@ -1,0 +1,62 @@
+material SL/Units/PDIcons_Bogue
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				tex_val_size 0.75 0.5 0.875 0.625 
+				texture UnitIcons_PD1.png
+			}
+		}
+	}
+}
+
+material SL/Units/PEIcons_Bogue
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				tex_val_size 0.75 0.5 0.875 0.625 
+				texture UnitIcons_PE1.png
+			}
+		}
+	}
+}
+
+material SL/Units/Icons_Bogue
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				tex_val_size 0.4296875 0.7109375 0.64453125 0.765625 
+				texture UnitIcons_Ships.png
+			}
+		}
+	}
+}

@@ -1,0 +1,63 @@
+material SL/Units/PDIcons_Wasp
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				texture Wasp_iconPD.png
+			}
+		}
+	}
+}
+
+
+material SL/Units/PEIcons_Wasp
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				texture Wasp_iconPE.png
+			}
+		}
+	}
+}
+
+
+material SL/Units/Icons_Wasp
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				texture Wasp_icon.png
+			}
+		}
+	}
+}
+
+

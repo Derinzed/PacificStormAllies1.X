@@ -1,0 +1,38 @@
+<?xml version="1.0" standalone="yes" ?>
+<root>
+	<object name="Fuel_Tank_330">
+		<float name="BoundingRadius" value="1.5"/>
+		<object name="Components">
+			<object name="Tank_330">
+				<object name="HitBubbles">
+					<object name="Hit_Bubble01">
+						<object name="Radius">
+							<float name="R" value="0.800000101"/>
+						</object>
+						<object name="Translate">
+							<float name="X" value="-8.94069672e-008"/>
+							<float name="Y" value="0."/>
+							<float name="Z" value="-8.94069672e-008"/>
+						</object>
+					</object>
+				</object>
+				<object name="LOD3">
+					<float name="Depth" value="150."/>
+					<string name="Mesh" value="Fuel_Tank_330_lod.mesh"/>
+				</object>
+				<string name="Mesh" value="Fuel_Tank_330.mesh"/>
+				<string name="Type" value="Mesh"/>
+				<boolean name="Visible" value="true"/>
+			</object>
+		</object>
+		<object name="Flags">
+			<boolean name="Selectable" value="false"/>
+			<string name="Type" value="bomb"/>
+			<boolean name="Updatable" value="true"/>
+		</object>
+		<object name="Ports"/>
+		<string name="Prefix" value="bomb"/>
+		<float name="UpdateInterval" value="2.e-002"/>
+		<float name="VisibilityRange" value="1000."/>
+	</object>
+</root>

@@ -1,0 +1,407 @@
+<?xml version="1.0" standalone="yes" ?>
+<root>
+	<object name="HB_Hit_Location">
+		<object name="SubNodes">
+			<object name="HB_BattleCabin">
+				<string name="ParentObject" value="HB_Hit_Location"/>
+				<string name="Rotate" value="0,0,0"/>
+				<string name="Size" value="7.370038509,2.112122774,4.736066341"/>
+				<string name="Translate" value="27.96683287,6.451449449,0"/>
+			</object>
+			<object name="HB_ConingBridge">
+				<string name="ParentObject" value="HB_Hit_Location"/>
+				<string name="Rotate" value="0,0,0"/>
+				<string name="Size" value="5.255010128,2.203453779,4.736066341"/>
+				<string name="Translate" value="26.93199926,8.614775904,0"/>
+			</object>
+			<object name="HB_HullSection_Bow2">
+				<string name="CrashObjectList" value=""/>
+				<string name="ParentObject" value="HB_Hit_Location"/>
+				<string name="Rotate" value="0,0,0"/>
+				<string name="Size" value="10.08481693,10.43488312,10.34719753"/>
+				<object name="SubNodes">
+					<object name="HB_Bow2_Deck">
+						<string name="ParentObject" value="HB_HullSection_Bow2"/>
+						<string name="Rotate" value="0,0,0"/>
+						<string name="Size" value="9.720562935,5.197937965,4.246837139"/>
+						<object name="SubNodes">
+							<object name="HB_Probe_MG">
+								<string name="ParentObject" value="HB_Bow2_Deck"/>
+								<string name="Rotate" value="0,0,0"/>
+								<string name="Size" value="4.882081509,1.719978094,4.736066341"/>
+								<string name="Translate" value="28.7156399,3.568859301,0"/>
+							</object>
+							<object name="HB_Probe_Radar">
+								<string name="ParentObject" value="HB_Bow2_Deck"/>
+								<string name="Rotate" value="0,0,0"/>
+								<string name="Size" value="2.307376862,1.963229656,4.736066341"/>
+								<string name="Translate" value="30.03356061,1.398956864,0"/>
+							</object>
+							<object name="HB_Probe_Radio">
+								<string name="ParentObject" value="HB_Bow2_Deck"/>
+								<string name="Rotate" value="0,0,0"/>
+								<string name="Size" value="2.307376862,1.963229656,4.736066341"/>
+								<string name="Translate" value="27.39335546,1.459316282,0"/>
+							</object>
+						</object>
+						<string name="Translate" value="29.07240132,2.711845476,0"/>
+					</object>
+					<object name="HM_Bow2_LBoard_Lower">
+						<string name="Materials" value="Side_Right Side_Right Side_Top Side_Top Side_Left Side_Left Side_Bottom Side_Bottom Side_Front Side_Front Side_Rear Side_Rear "/>
+						<string name="ParentObject" value="HB_HullSection_Bow2"/>
+						<object name="SubNodes">
+							<object name="HB_Sonar">
+								<string name="ParentObject" value="HM_Bow2_LBoard_Lower"/>
+								<string name="Rotate" value="0,0,0"/>
+								<string name="Size" value="3.388873339,1.782622933,1.433556676"/>
+								<string name="Translate" value="28.73857574,-1.68232378,-1.07331806"/>
+							</object>
+						</object>
+						<string name="Triangles" value="0 1 2 1 3 2 4 2 5 2 3 5 6 4 7 4 5 7 0 6 1 6 7 1 5 3 7 1 7 3 4 6 2 6 0 2 "/>
+						<string name="Vertices" value="24.27321625 -4.148400307 -0.01069575548 33.92501831 -4.148400307 -0.01069575548 24.27321625 -0.008659273386 -0.01069575548 33.92501831 -0.008659273386 -0.01069575548 24.27321625 -0.008659273386 -4.176821232 33.92501831 -0.008659273386 -2.871016741 24.27321625 -3.66061759 -2.911566496 33.92501831 -3.657420397 -2.073148012 "/>
+					</object>
+					<object name="HM_Bow2_LBoard_Upper">
+						<string name="Materials" value="Side_Right Side_Right Side_Top Side_Top Side_Left Side_Left Side_Bottom Side_Bottom Side_Front Side_Front Side_Rear Side_Rear "/>
+						<string name="ParentObject" value="HB_HullSection_Bow2"/>
+						<string name="Triangles" value="0 1 2 1 3 2 4 2 5 2 3 5 4 5 6 5 7 6 6 7 0 7 1 0 1 7 3 7 5 3 4 6 2 6 0 2 "/>
+						<string name="Vertices" value="24.26980782 0.07610756159 -2.214344025 33.88516998 0.07610756159 -2.214344025 24.26980782 5.275206089 -2.214344025 33.88516998 5.275206089 -2.214344025 24.26980782 5.275206089 -4.973798752 33.88516998 5.275206089 -4.53949976 24.26980782 0.07610756159 -4.144913197 33.88516998 0.07610756159 -2.881238222 "/>
+					</object>
+					<object name="HM_Bow2_RBoard_Lower">
+						<string name="Materials" value="Side_Right Side_Right Side_Top Side_Top Side_Left Side_Left Side_Bottom Side_Bottom Side_Front Side_Front Side_Rear Side_Rear "/>
+						<string name="ParentObject" value="HB_HullSection_Bow2"/>
+						<string name="Triangles" value="3 2 1 2 0 1 2 3 4 3 5 4 4 5 6 5 7 6 1 0 7 0 6 7 3 1 5 1 7 5 2 4 0 6 0 4 "/>
+						<string name="Vertices" value="24.26999283 -3.662186861 2.908797264 33.95454788 -3.671242237 2.064645529 24.26999283 -0.000172495842 4.183377266 33.95454788 -0.000172495842 2.930265903 24.26999283 -0.000172495842 0.0365639329 33.95454788 -0.000172495842 0.0365639329 24.26999283 -4.148400307 0.0365639329 33.95454788 -4.148400307 0.0365639329 "/>
+					</object>
+					<object name="HM_Bow2_RBoard_Upper">
+						<string name="Materials" value="Side_Right Side_Right Side_Top Side_Top Side_Left Side_Left Side_Bottom Side_Bottom Side_Front Side_Front Side_Rear Side_Rear "/>
+						<string name="ParentObject" value="HB_HullSection_Bow2"/>
+						<string name="Triangles" value="1 3 0 0 3 2 2 3 4 3 5 4 4 5 6 5 7 6 0 6 1 6 7 1 7 5 1 1 5 3 2 4 0 6 0 4 "/>
+						<string name="Vertices" value="24.16683578 0.1003800631 4.222060204 33.94019699 0.1003800631 2.942079067 24.16683578 5.280372143 4.988438606 33.94019699 5.280372143 4.518830299 24.16683578 5.280372143 2.192472219 33.94019699 5.280372143 2.192472219 24.16683578 0.1003800631 2.192472219 33.94019699 0.1003800631 2.192472219 "/>
+					</object>
+				</object>
+				<string name="Translate" value="29.14321335,0.8054252303,0"/>
+			</object>
+			<object name="HB_HullSection_Middle1">
+				<string name="CrashObjectList" value=""/>
+				<string name="ParentObject" value="HB_Hit_Location"/>
+				<string name="Rotate" value="0,0,0"/>
+				<string name="Size" value="10.08481693,8.370729446,10.34719753"/>
+				<object name="SubNodes">
+					<object name="HB_Middle1_BoilerCover">
+						<string name="ParentObject" value="HB_HullSection_Middle1"/>
+						<string name="Rotate" value="0,0,0"/>
+						<string name="Size" value="10.26329041,6.636729717,4.338678837"/>
+						<object name="SubNodes">
+							<object name="HB_Boiler1">
+								<string name="ParentObject" value="HB_Middle1_BoilerCover"/>
+								<string name="Rotate" value="0,0,0"/>
+								<string name="Size" value="8.578144073,5.474218845,3.637701511"/>
+								<string name="Translate" value="18.9624915,-0.6240430024,1.734723476e-018"/>
+							</object>
+						</object>
+						<string name="Translate" value="19.00660819,-0.3093207502,1.734723476e-018"/>
+					</object>
+					<object name="HM_Middle1_LBoard_Lower">
+						<string name="Materials" value="Side_Right Side_Right Side_Top Side_Top Side_Left Side_Left Side_Bottom Side_Bottom Side_Front Side_Front Side_Rear Side_Rear "/>
+						<string name="ParentObject" value="HB_HullSection_Middle1"/>
+						<string name="Triangles" value="0 1 2 1 3 2 4 2 5 2 3 5 4 5 6 5 7 6 6 7 0 7 1 0 5 3 7 1 7 3 4 6 2 6 0 2 "/>
+						<string name="Vertices" value="13.89221382 -3.65533638 -2.211773634 24.23215294 -3.65533638 -2.211773634 13.89221382 -5.567073822e-005 -2.211773634 24.23215294 -5.567073822e-005 -2.211773634 13.89221382 -5.567073822e-005 -4.994493484 24.23215294 -5.567073822e-005 -4.168429375 13.89221382 -3.65533638 -3.656238079 24.23215294 -3.65533638 -2.906596661 "/>
+					</object>
+					<object name="HM_Middle1_LBoard_Upper">
+						<string name="Materials" value="Side_Right Side_Right Side_Top Side_Top Side_Left Side_Left Side_Bottom Side_Bottom Side_Front Side_Front Side_Rear Side_Rear "/>
+						<string name="ParentObject" value="HB_HullSection_Middle1"/>
+						<string name="Triangles" value="0 1 2 1 3 2 4 2 5 2 3 5 4 5 6 5 7 6 6 7 0 7 1 0 5 3 7 1 7 3 4 6 2 6 0 2 "/>
+						<string name="Vertices" value="13.87814617 0.0611923337 -2.255516052 24.14582443 0.0611923337 -2.255516052 13.87814617 3.022755861 -2.255516052 24.14582443 3.022755861 -2.255516052 13.87814617 3.022755861 -5.332836151 24.14582443 3.022755861 -4.62460804 13.87814617 0.0611923337 -4.962890625 24.14582443 0.0611923337 -4.148973465 "/>
+					</object>
+					<object name="HM_Middle1_RBoard_Lower">
+						<string name="Materials" value="Side_Right Side_Right Side_Top Side_Top Side_Left Side_Left Side_Bottom Side_Bottom Side_Front Side_Front Side_Rear Side_Rear "/>
+						<string name="ParentObject" value="HB_HullSection_Middle1"/>
+						<string name="Triangles" value="2 0 3 0 1 3 2 3 4 3 5 4 4 5 6 5 7 6 0 6 1 6 7 1 3 1 5 1 7 5 2 4 0 6 0 4 "/>
+						<string name="Vertices" value="13.8570013 -3.631086349 3.664432049 24.23067284 -3.631086349 2.920523167 13.8570013 0.008540689945 4.984240532 24.23067284 0.008540689945 4.17800045 13.8570013 0.008540689945 2.183390379 24.23067284 0.008540689945 2.183390379 13.8570013 -3.631086349 2.183390379 24.23067284 -3.631086349 2.183390379 "/>
+					</object>
+					<object name="HM_Middle1_RBoard_Upper">
+						<string name="Materials" value="Side_Right Side_Right Side_Top Side_Top Side_Left Side_Left Side_Bottom Side_Bottom Side_Front Side_Front Side_Rear Side_Rear "/>
+						<string name="ParentObject" value="HB_HullSection_Middle1"/>
+						<string name="Triangles" value="1 3 0 0 3 2 2 3 4 3 5 4 4 5 6 5 7 6 0 6 1 6 7 1 3 1 5 1 7 5 2 4 0 6 0 4 "/>
+						<string name="Vertices" value="13.86742783 0.08989310265 4.9832201 24.16947365 0.08989310265 4.189598083 13.86742783 3.033439159 5.321621895 24.16947365 3.033439159 4.759715557 13.86742783 3.033439159 2.201765537 24.16947365 3.033439159 2.201765537 13.86742783 0.08989310265 2.201765537 24.16947365 0.08989310265 2.201765537 "/>
+					</object>
+				</object>
+				<string name="Translate" value="19.04457774,-0.2152119799,-0.005607228879"/>
+			</object>
+			<object name="HB_HullSection_Middle2">
+				<string name="CrashObjectList" value=""/>
+				<string name="ParentObject" value="HB_Hit_Location"/>
+				<string name="Rotate" value="0,0,0"/>
+				<string name="Size" value="10.08481693,8.370729446,12.08713913"/>
+				<object name="SubNodes">
+					<object name="HB_Middle2_BoilerCover">
+						<string name="ParentObject" value="HB_HullSection_Middle2"/>
+						<string name="Rotate" value="0,0,0"/>
+						<string name="Size" value="10.26329041,6.653687477,4.338678837"/>
+						<object name="SubNodes">
+							<object name="HB_Boiler2">
+								<string name="ParentObject" value="HB_Middle2_BoilerCover"/>
+								<string name="Rotate" value="0,0,0"/>
+								<string name="Size" value="8.578144073,5.474218845,3.637701511"/>
+								<string name="Translate" value="8.642666368,-0.6240430024,0"/>
+							</object>
+						</object>
+						<string name="Translate" value="8.642666368,-0.3008418063,0"/>
+					</object>
+					<object name="HM_Middle2_LBoard_Lower">
+						<string name="Materials" value="Side_Right Side_Right Side_Top Side_Top Side_Left Side_Left Side_Bottom Side_Bottom Side_Front Side_Front Side_Rear Side_Rear "/>
+						<string name="ParentObject" value="HB_HullSection_Middle2"/>
+						<string name="Triangles" value="0 1 2 1 3 2 4 2 5 2 3 5 7 6 5 4 5 6 6 7 0 7 1 0 5 3 7 1 7 3 4 6 2 6 0 2 "/>
+						<string name="Vertices" value="3.513484001 -3.65533638 -2.211773634 13.75987434 -3.65533638 -2.211773634 3.513484001 -5.567073822e-005 -2.211773634 13.75987434 -5.567073822e-005 -2.211773634 3.513484001 -5.567073822e-005 -5.337553978 13.75987434 -5.567073822e-005 -4.953392029 3.513484001 -3.65533638 -4.236979961 13.75987434 -3.65533638 -3.691559315 "/>
+					</object>
+					<object name="HM_Middle2_LBoard_Upper">
+						<string name="Materials" value="Side_Right Side_Right Side_Top Side_Top Side_Left Side_Left Side_Bottom Side_Bottom Side_Front Side_Front Side_Rear Side_Rear "/>
+						<string name="ParentObject" value="HB_HullSection_Middle2"/>
+						<string name="Triangles" value="0 1 2 1 3 2 4 2 5 2 3 5 4 5 6 5 7 6 6 7 0 7 1 0 5 3 7 1 7 3 4 6 2 6 0 2 "/>
+						<string name="Vertices" value="3.59575367 0.0611923337 -2.255516052 13.86343098 0.0611923337 -2.255516052 3.59575367 3.022755861 -2.255516052 13.86343098 3.022755861 -2.255516052 3.59575367 3.022755861 -5.621474743 13.86343098 3.022755861 -5.339388371 3.59575367 0.0611923337 -5.320569515 13.86343098 0.0611923337 -4.953502178 "/>
+					</object>
+					<object name="HM_Middle2_RBoard_Lower">
+						<string name="Materials" value="Side_Right Side_Right Side_Top Side_Top Side_Left Side_Left Side_Bottom Side_Bottom Side_Front Side_Front Side_Rear Side_Rear "/>
+						<string name="ParentObject" value="HB_HullSection_Middle2"/>
+						<string name="Triangles" value="1 3 0 0 3 2 2 3 4 3 5 4 4 5 6 5 7 6 0 6 1 6 7 1 3 1 5 1 7 5 2 4 0 6 0 4 "/>
+						<string name="Vertices" value="3.523692608 -3.631086349 4.226224422 13.78528786 -3.631086349 3.676401138 3.523692608 0.008540689945 5.356597424 13.78528786 0.008540689945 4.982189178 3.523692608 0.008540689945 2.183390379 13.78528786 0.008540689945 2.183390379 3.523692608 -3.631086349 2.183390379 13.78528786 -3.631086349 2.183390379 "/>
+					</object>
+					<object name="HM_Middle2_RBoard_Upper">
+						<string name="Materials" value="Side_Right Side_Right Side_Top Side_Top Side_Left Side_Left Side_Bottom Side_Bottom Side_Front Side_Front Side_Rear Side_Rear "/>
+						<string name="ParentObject" value="HB_HullSection_Middle2"/>
+						<string name="Triangles" value="1 3 0 0 3 2 2 3 4 3 5 4 4 5 6 5 7 6 0 6 1 6 7 1 3 1 5 1 7 5 2 4 0 6 0 4 "/>
+						<string name="Vertices" value="3.498094082 0.08989310265 5.322209835 13.76042652 0.08989310265 5.000352383 3.498094082 3.033439159 5.618133545 13.76042652 3.033439159 5.328948021 3.498094082 3.033439159 2.201765537 13.76042652 3.033439159 2.201765537 3.498094082 0.08989310265 2.201765537 13.76042652 0.08989310265 2.201765537 "/>
+					</object>
+				</object>
+				<string name="Translate" value="8.680762398,-0.2152119799,0"/>
+			</object>
+			<object name="HB_HullSection_Middle3">
+				<string name="CrashObjectList" value=""/>
+				<string name="ParentObject" value="HB_Hit_Location"/>
+				<string name="Rotate" value="0,0,0"/>
+				<string name="Size" value="10.08481693,8.370729446,12.23575592"/>
+				<object name="SubNodes">
+					<object name="HB_Middle3_BoilerCover">
+						<string name="ParentObject" value="HB_HullSection_Middle3"/>
+						<string name="Rotate" value="0,0,0"/>
+						<string name="Size" value="10.26329041,6.647515297,4.338678837"/>
+						<object name="SubNodes">
+							<object name="HB_Boiler3">
+								<string name="ParentObject" value="HB_Middle3_BoilerCover"/>
+								<string name="Rotate" value="0,0,0"/>
+								<string name="Size" value="8.578144073,5.474218845,3.637701511"/>
+								<string name="Translate" value="-1.709892881,-0.6240430024,0"/>
+							</object>
+						</object>
+						<string name="Translate" value="-1.651648002,-0.3039279771,0"/>
+					</object>
+					<object name="HM_Middle3_LBoard_Lower">
+						<string name="Materials" value="Side_Right Side_Right Side_Top Side_Top Side_Left Side_Left Side_Bottom Side_Bottom Side_Front Side_Front Side_Rear Side_Rear "/>
+						<string name="ParentObject" value="HB_HullSection_Middle3"/>
+						<string name="Triangles" value="0 1 2 1 3 2 4 2 5 2 3 5 4 5 6 5 7 6 6 7 0 7 1 0 5 3 7 1 7 3 4 6 2 6 0 2 "/>
+						<string name="Vertices" value="-6.769846439 -3.65533638 -2.211773634 3.476544142 -3.65533638 -2.211773634 -6.769846439 -5.567073822e-005 -2.211773634 3.476544142 -5.567073822e-005 -2.211773634 -6.769846439 -5.567073822e-005 -5.489798069 3.476544142 -5.567073822e-005 -5.336541653 -6.769846439 -3.65533638 -4.389223576 3.476544142 -3.65533638 -4.267020226 "/>
+					</object>
+					<object name="HM_Middle3_LBoard_Upper">
+						<string name="Materials" value="Side_Right Side_Right Side_Top Side_Top Side_Left Side_Left Side_Bottom Side_Bottom Side_Front Side_Front Side_Rear Side_Rear "/>
+						<string name="ParentObject" value="HB_HullSection_Middle3"/>
+						<string name="Triangles" value="0 1 2 1 3 2 2 3 4 3 5 4 4 5 6 5 7 6 6 7 0 7 1 0 5 3 7 1 7 3 4 6 2 6 0 2 "/>
+						<string name="Vertices" value="-6.758798122 0.0611923337 -2.255516052 3.508878946 0.0611923337 -2.255516052 -6.758798122 3.022755861 -2.255516052 3.508878946 3.022755861 -2.255516052 -6.758798122 3.022755861 -5.729637146 3.508878946 3.022755861 -5.609884262 -6.758798122 0.0611923337 -5.476373672 3.508878946 0.0611923337 -5.358614445 "/>
+					</object>
+					<object name="HM_Middle3_RBoard_Lower">
+						<string name="Materials" value="Side_Right Side_Right Side_Top Side_Top Side_Left Side_Left Side_Bottom Side_Bottom Side_Front Side_Front Side_Rear Side_Rear "/>
+						<string name="ParentObject" value="HB_HullSection_Middle3"/>
+						<string name="Triangles" value="1 3 0 0 3 2 2 3 4 3 5 4 4 5 6 5 7 6 0 6 1 6 7 1 3 1 5 1 7 5 2 4 0 6 0 4 "/>
+						<string name="Vertices" value="-6.806367397 -3.631086349 4.433004379 3.455228329 -3.631086349 4.225880623 -6.806367397 0.008540689945 5.50012064 3.455228329 0.008540689945 5.347073555 -6.806367397 0.008540689945 2.183390379 3.455228329 0.008540689945 2.183390379 -6.806367397 -3.631086349 2.183390379 3.455228329 -3.631086349 2.183390379 "/>
+					</object>
+					<object name="HM_Middle3_RBoard_Upper">
+						<string name="Materials" value="Side_Right Side_Right Side_Top Side_Top Side_Left Side_Left Side_Bottom Side_Bottom Side_Front Side_Front Side_Rear Side_Rear "/>
+						<string name="ParentObject" value="HB_HullSection_Middle3"/>
+						<string name="Triangles" value="1 3 0 0 3 2 2 3 4 3 5 4 4 5 6 5 7 6 6 7 0 7 1 0 3 1 5 1 7 5 2 4 0 6 0 4 "/>
+						<string name="Vertices" value="-6.855298519 0.08989310265 5.478768349 3.407034636 0.08989310265 5.33087492 -6.855298519 3.033439159 5.750600815 3.407034636 3.033439159 5.61813879 -6.855298519 3.033439159 2.201765537 3.407034636 3.033439159 2.201765537 -6.855298519 0.08989310265 2.201765537 3.407034636 0.08989310265 2.201765537 "/>
+					</object>
+				</object>
+				<string name="Translate" value="-1.6732098,-0.2152119799,0"/>
+			</object>
+			<object name="HB_HullSection_Middle4">
+				<string name="CrashObjectList" value=""/>
+				<string name="ParentObject" value="HB_Hit_Location"/>
+				<string name="Rotate" value="0,0,0"/>
+				<string name="Size" value="18.8519001,8.370729446,12.23575592"/>
+				<object name="SubNodes">
+					<object name="HB_Middle4_LEngineCover">
+						<string name="ParentObject" value="HB_HullSection_Middle4"/>
+						<string name="Rotate" value="0,0,0"/>
+						<string name="Size" value="19.23830938,3.601289511,3.495494366"/>
+						<object name="SubNodes">
+							<object name="HB_Engine1">
+								<string name="ParentObject" value="HB_Middle4_LEngineCover"/>
+								<string name="Rotate" value="0,0,0"/>
+								<string name="Size" value="16.57123566,3.093675137,2.546378851"/>
+								<string name="Translate" value="-16.8334952,-2.067911445,-1.653373543"/>
+							</object>
+						</object>
+						<string name="Translate" value="-16.49255639,-1.807058914,-1.708169455"/>
+					</object>
+					<object name="HB_Middle4_REngineCover">
+						<string name="ParentObject" value="HB_HullSection_Middle4"/>
+						<string name="Rotate" value="0,0,0"/>
+						<string name="Size" value="19.23830938,3.614823222,3.495494366"/>
+						<object name="SubNodes">
+							<object name="HB_Engine2">
+								<string name="ParentObject" value="HB_Middle4_REngineCover"/>
+								<string name="Rotate" value="0,0,0"/>
+								<string name="Size" value="16.57123566,3.093675137,2.546378851"/>
+								<string name="Translate" value="-16.8334952,-2.067911445,1.689929417"/>
+							</object>
+						</object>
+						<string name="Translate" value="-16.49255639,-1.800292054,1.780407449"/>
+					</object>
+					<object name="HB_Middle4_UpperDeck">
+						<string name="ParentObject" value="HB_HullSection_Middle4"/>
+						<string name="Rotate" value="0,0,0"/>
+						<string name="Size" value="19.25919819,3.0104599,7.118434906"/>
+						<object name="SubNodes">
+							<object name="HB_AmmoStore_Torpedos">
+								<string name="ParentObject" value="HB_Middle4_UpperDeck"/>
+								<string name="Rotate" value="0,0,0"/>
+								<string name="Size" value="8.284540176,1.417580724,4.736066341"/>
+								<string name="Translate" value="-21.49313068,1.563782317,0"/>
+							</object>
+						</object>
+						<string name="Translate" value="-16.52502048,1.518008426,0"/>
+					</object>
+					<object name="HM_Middle4_LBoard_Lower">
+						<string name="Materials" value="Side_Right Side_Right Side_Top Side_Top Side_Left Side_Left Side_Bottom Side_Bottom Side_Front Side_Front Side_Rear Side_Rear "/>
+						<string name="ParentObject" value="HB_HullSection_Middle4"/>
+						<string name="Triangles" value="0 1 2 1 3 2 5 4 3 2 3 4 5 7 4 4 7 6 6 7 0 0 7 1 5 3 7 1 7 3 4 6 2 6 0 2 "/>
+						<string name="Vertices" value="-26.09578896 -3.65533638 -3.55629158 -6.829795837 -3.65533638 -3.55629158 -26.09578896 -5.567073822e-005 -3.55629158 -6.829795837 -5.567073822e-005 -3.55629158 -26.09578896 -5.567073822e-005 -5.199537754 -6.829795837 -5.567073822e-005 -5.490131378 -26.09578896 -2.93017745 -4.119189262 -6.829795837 -3.65533638 -4.435541153 "/>
+					</object>
+					<object name="HM_Middle4_LBoard_Upper">
+						<string name="Materials" value="Side_Right Side_Right Side_Top Side_Top Side_Left Side_Left Side_Bottom Side_Bottom Side_Front Side_Front Side_Rear Side_Rear "/>
+						<string name="ParentObject" value="HB_HullSection_Middle4"/>
+						<string name="Triangles" value="0 1 2 1 3 2 2 3 4 3 5 4 5 7 4 4 7 6 7 1 6 6 1 0 5 3 7 1 7 3 4 6 2 6 0 2 "/>
+						<string name="Vertices" value="-26.1377697 0.0611923337 -3.562026501 -6.892401695 0.0611923337 -3.562026501 -26.1377697 3.022755861 -3.562026501 -6.892401695 3.022755861 -3.562026501 -26.1377697 3.022755861 -5.508142948 -6.892401695 3.022755861 -5.710049629 -26.1377697 0.0611923337 -5.203346252 -6.892401695 0.0611923337 -5.499210835 "/>
+					</object>
+					<object name="HM_Middle4_RBoard_Lower">
+						<string name="Materials" value="Side_Right Side_Right Side_Top Side_Top Side_Left Side_Left Side_Bottom Side_Bottom Side_Front Side_Front Side_Rear Side_Rear "/>
+						<string name="ParentObject" value="HB_HullSection_Middle4"/>
+						<string name="Triangles" value="3 2 1 0 1 2 3 5 2 2 5 4 4 5 6 5 7 6 7 1 6 0 6 1 3 1 5 1 7 5 2 4 0 6 0 4 "/>
+						<string name="Vertices" value="-26.05656433 -2.591102362 4.113903522 -6.879146576 -3.631086349 4.44667244 -26.05656433 0.008540689945 5.162959099 -6.879146576 0.008540689945 5.482920647 -26.05656433 0.008540689945 3.618436813 -6.879146576 0.008540689945 3.618436813 -26.05656433 -3.631086349 3.618436813 -6.879146576 -3.631086349 3.618436813 "/>
+					</object>
+					<object name="HM_Middle4_RBoard_Upper">
+						<string name="Materials" value="Side_Right Side_Right Side_Top Side_Top Side_Left Side_Left Side_Bottom Side_Bottom Side_Front Side_Front Side_Rear Side_Rear "/>
+						<string name="ParentObject" value="HB_HullSection_Middle4"/>
+						<string name="Triangles" value="0 1 2 1 3 2 3 5 2 2 5 4 4 5 6 5 7 6 1 0 7 6 7 0 3 1 5 1 7 5 2 4 0 6 0 4 "/>
+						<string name="Vertices" value="-26.08850288 0.08989310265 5.138297081 -6.892307281 0.08989310265 5.495188713 -26.08850288 3.033439159 5.521380901 -6.892307281 3.033439159 5.743576527 -26.08850288 3.033439159 3.605187416 -6.892307281 3.033439159 3.605187416 -26.08850288 0.08989310265 3.605187416 -6.892307281 0.08989310265 3.605187416 "/>
+					</object>
+				</object>
+				<string name="Translate" value="-16.49220774,-0.2152119799,0"/>
+			</object>
+			<object name="HB_HullSection_Stern1">
+				<string name="CrashObjectList" value=""/>
+				<string name="ParentObject" value="HB_Hit_Location"/>
+				<string name="Rotate" value="0,0,0"/>
+				<string name="Size" value="13.477808,8.370729446,12.23575592"/>
+				<object name="SubNodes">
+					<object name="HB_AmmoStore_MG_2">
+						<string name="ParentObject" value="HB_HullSection_Stern1"/>
+						<string name="Rotate" value="0,0,0"/>
+						<string name="Size" value="5.097960949,4.735654831,4.736066341"/>
+						<string name="Translate" value="-29.46711385,2.87329823,0"/>
+					</object>
+					<object name="HM_Stern1_Bottom">
+						<string name="Materials" value="Side_Right Side_Right Side_Top Side_Top Side_Left Side_Left Side_Bottom Side_Bottom Side_Front Side_Front Side_Rear Side_Rear "/>
+						<string name="ParentObject" value="HB_HullSection_Stern1"/>
+						<string name="Triangles" value="0 1 2 2 1 3 3 5 2 2 5 4 5 7 4 4 7 6 7 1 6 6 1 0 5 3 7 1 7 3 2 4 0 6 0 4 "/>
+						<string name="Vertices" value="-39.39038849 -2.98960948 1.915589333 -26.20782661 -3.584263325 3.690099239 -39.39038849 0.01120868325 4.247106075 -26.20782661 0.01120868325 5.161096573 -39.39038849 0.01120868325 -4.247106075 -26.20782661 0.01120868325 -5.161096573 -39.39038849 -2.98960948 -1.915589333 -26.20782661 -3.584263325 -3.690099239 "/>
+					</object>
+					<object name="HM_Stern1_UpperDeck">
+						<string name="Materials" value="Side_Right Side_Right Side_Top Side_Top Side_Left Side_Left Side_Bottom Side_Bottom Side_Front Side_Front Side_Rear Side_Rear "/>
+						<string name="ParentObject" value="HB_HullSection_Stern1"/>
+						<object name="SubNodes">
+							<object name="HB_AmmoStore_MG_3">
+								<string name="ParentObject" value="HM_Stern1_UpperDeck"/>
+								<string name="Rotate" value="0,0,0"/>
+								<string name="Size" value="4.228818417,2.548816442,4.567281246"/>
+								<string name="Translate" value="-35.48401931,1.46176051,0"/>
+							</object>
+						</object>
+						<string name="Triangles" value="0 1 2 1 3 2 3 5 2 2 5 4 6 4 7 4 5 7 7 1 6 6 1 0 5 3 7 1 7 3 2 4 0 6 0 4 "/>
+						<string name="Vertices" value="-39.43471909 0.06915661693 4.283596039 -26.20887375 0.06915661693 5.132171631 -39.43471909 3.022117615 5.060165882 -26.20887375 3.022117615 5.490418434 -39.43471909 3.022117615 -5.060165882 -26.20887375 3.022117615 -5.494976997 -39.43471909 0.06915661693 -4.283596039 -26.20887375 0.06915661693 -5.202473164 "/>
+					</object>
+				</object>
+				<string name="Translate" value="-32.58234174,0.275423259,0"/>
+			</object>
+			<object name="HB_Mover1">
+				<string name="ParentObject" value="HB_Hit_Location"/>
+				<string name="Rotate" value="0,0,0"/>
+				<string name="Size" value="2.67434907,2.502448559,2.93812108"/>
+				<string name="Translate" value="-49.28320953,-2.999160871,-2.641291083"/>
+			</object>
+			<object name="HB_Mover2">
+				<string name="ParentObject" value="HB_Hit_Location"/>
+				<string name="Rotate" value="0,0,0"/>
+				<string name="Size" value="2.67434907,2.502448559,2.93812108"/>
+				<string name="Translate" value="-49.28320953,-2.999160871,2.643676513"/>
+			</object>
+			<object name="HB_Probe_Torpedos">
+				<string name="ParentObject" value="HB_Hit_Location"/>
+				<string name="Rotate" value="0,0,0"/>
+				<string name="Size" value="5.201577663,1.963229656,4.736066341"/>
+				<string name="Translate" value="26.9211142,10.71741844,0"/>
+			</object>
+			<object name="HB_Rudder">
+				<string name="ParentObject" value="HB_Hit_Location"/>
+				<string name="Rotate" value="0,0,0"/>
+				<string name="Size" value="3.979084492,3.557691574,0.7906662226"/>
+				<string name="Translate" value="-54.1085712,-2.369913559,0.0197473068"/>
+			</object>
+			<object name="HM_Bow1_Bottom">
+				<string name="Materials" value="Side_Right Side_Right Side_Top Side_Top Side_Left Side_Left Side_Bottom Side_Bottom Side_Front Side_Front Side_Rear Side_Rear "/>
+				<string name="ParentObject" value="HB_Hit_Location"/>
+				<string name="Triangles" value="3 2 1 0 1 2 3 5 2 2 5 4 5 7 4 4 7 6 7 1 6 6 1 0 5 3 7 1 7 3 2 4 0 6 0 4 "/>
+				<string name="Vertices" value="34.00001907 -4.127030373 1.950294971 54.07006836 -3.718199015 0.1504261196 34.00001907 0.02626469731 2.906526566 57.1948967 0.02626469731 0.2176904827 34.00001907 0.02626469731 -2.906526566 57.1948967 0.02626469731 -0.2176904827 34.00001907 -4.127030373 -1.950294971 54.07006836 -3.718199015 -0.1504261196 "/>
+			</object>
+			<object name="HM_Bow1_Deck">
+				<string name="Materials" value="Side_Right Side_Right Side_Top Side_Top Side_Left Side_Left Side_Bottom Side_Bottom Side_Front Side_Front Side_Rear Side_Rear "/>
+				<string name="ParentObject" value="HB_Hit_Location"/>
+				<object name="SubNodes">
+					<object name="HB_AmmoStore_MG_1">
+						<string name="ParentObject" value="HM_Bow1_Deck"/>
+						<string name="Rotate" value="0,0,0"/>
+						<string name="Size" value="4.465867519,5.040756702,4.485525131"/>
+						<string name="Translate" value="36.46403329,2.84851213,0"/>
+					</object>
+				</object>
+				<string name="Triangles" value="3 2 1 0 1 2 3 5 2 2 5 4 5 7 4 4 7 6 7 1 6 6 1 0 1 7 3 7 5 3 2 4 0 6 0 4 "/>
+				<string name="Vertices" value="34.03067017 0.09371417761 2.918992043 57.24529648 0.09371417761 0.308855027 34.03067017 5.307093143 4.527350426 58.24926758 5.949605465 1.250531077 34.03067017 5.307093143 -4.527350426 58.24926758 5.949605465 -1.250531077 34.03067017 0.09371417761 -2.918992043 57.24529648 0.09371417761 -0.308855027 "/>
+			</object>
+			<object name="HM_BowSmokeStack">
+				<string name="Materials" value="Side_Right Side_Right Side_Top Side_Top Side_Left Side_Left Side_Bottom Side_Bottom Side_Front Side_Front Side_Rear Side_Rear "/>
+				<string name="ParentObject" value="HB_Hit_Location"/>
+				<string name="Triangles" value="1 3 0 0 3 2 2 3 4 4 3 5 4 5 6 6 5 7 6 7 0 0 7 1 1 7 3 3 7 5 6 0 4 4 0 2 "/>
+				<string name="Vertices" value="11.9293251 4.004646301 0.5 16.95707512 4.004646301 0.5 11.67246056 11.85422802 0.5 15.38901901 13.22724152 0.5 11.67246056 11.85422802 -0.5 15.38901901 13.22724152 -0.5 11.9293251 4.004646301 -0.5 16.95707512 4.004646301 -0.5 "/>
+			</object>
+			<object name="HM_Stern2">
+				<string name="Materials" value="Side_Right Side_Right Side_Top Side_Top Side_Left Side_Left Side_Bottom Side_Bottom Side_Front Side_Front Side_Rear Side_Rear "/>
+				<string name="ParentObject" value="HB_Hit_Location"/>
+				<object name="SubNodes">
+					<object name="HB_Tiller">
+						<string name="ParentObject" value="HM_Stern2"/>
+						<string name="Rotate" value="0,0,0"/>
+						<string name="Size" value="9.826973915,2.502448559,2.93812108"/>
+						<string name="Translate" value="-51.14110297,1.322991403,0"/>
+					</object>
+				</object>
+				<string name="Triangles" value="1 3 0 0 3 2 3 5 2 2 5 4 7 6 5 4 5 6 7 1 6 6 1 0 5 3 7 1 7 3 2 4 0 6 0 4 "/>
+				<string name="Vertices" value="-58.87369919 -0.230540961 1.543934107 -39.70753098 -2.946278334 1.769438505 -58.87369919 3.005292416 3.062539339 -39.70753098 3.005292416 5.026278496 -58.87369919 3.005292416 -3.062539339 -39.70753098 3.005292416 -5.026278496 -58.87369919 -0.230540961 -1.543934107 -39.70753098 -2.946278334 -1.769438505 "/>
+			</object>
+			<object name="HM_SternSmokeStack">
+				<string name="Materials" value="Side_Right Side_Right Side_Top Side_Top Side_Left Side_Left Side_Bottom Side_Bottom Side_Front Side_Front Side_Rear Side_Rear "/>
+				<string name="ParentObject" value="HB_Hit_Location"/>
+				<string name="Triangles" value="0 1 2 2 1 3 2 3 4 4 3 5 5 7 4 4 7 6 6 7 0 0 7 1 1 7 3 3 7 5 6 0 4 4 0 2 "/>
+				<string name="Vertices" value="-3.93808341 3.321972609 0.7225467563 -0.6635736227 3.321972609 0.7225467563 -3.93808341 11.07866478 0.7225467563 -0.6635736227 11.93372917 0.7225467563 -3.93808341 11.07866478 -0.7225467563 -0.6635736227 11.93372917 -0.7225467563 -3.93808341 3.321972609 -0.7225467563 -0.6635736227 3.321972609 -0.7225467563 "/>
+			</object>
+		</object>
+	</object>
+</root>

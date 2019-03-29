@@ -1,0 +1,65 @@
+material SL/Units/PDIcons_Suzuya
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				tex_val_size 0.625 0. 0.75 0.125 
+				texture UnitIcons_PD1.png
+			}
+		}
+	}
+}
+
+
+
+material SL/Units/PEIcons_Suzuya
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				texture Suzuya_iconPE.png
+			}
+		}
+	}
+}
+
+
+material SL/Units/Icons_Suzuya
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				texture Suzuya_icon.png
+			}
+		}
+	}
+}
+
+

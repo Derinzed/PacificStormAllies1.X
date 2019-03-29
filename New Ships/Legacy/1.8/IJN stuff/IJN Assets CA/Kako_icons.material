@@ -1,0 +1,63 @@
+material SL/Units/PDIcons_Kako
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				texture Kako_iconPD.png
+			}
+		}
+	}
+}
+
+
+material SL/Units/PEIcons_Kako
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				texture Kako_iconPE.png
+			}
+		}
+	}
+}
+
+
+material SL/Units/Icons_Kako
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				texture Kako_icon.png
+			}
+		}
+	}
+}
+
+

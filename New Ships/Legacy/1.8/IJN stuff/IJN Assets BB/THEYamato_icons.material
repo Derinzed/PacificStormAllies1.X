@@ -1,0 +1,66 @@
+material SL/Units/PDIcons_THEYamato
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				tex_val_size 0.125 0. 0.25 0.125 
+				texture UnitIcons_PD1.png
+			}
+		}
+	}
+}
+
+
+material SL/Units/PEIcons_THEYamato
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				tex_val_size 0.125 0. 0.25 0.125 
+				texture UnitIcons_PE1.png
+			}
+		}
+	}
+}
+
+
+material SL/Units/Icons_THEYamato
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				tex_val_size 0.21484375 0. 0.4296875 5.46875e-002 
+				texture UnitIcons_Ships.png
+			}
+		}
+	}
+}
+
+

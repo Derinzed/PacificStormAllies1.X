@@ -1,0 +1,61 @@
+material SL/Units/PDIcons_Unyo
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				texture Unyo_iconPD.png
+			}
+		}
+	}
+}
+
+
+material SL/Units/PEIcons_Unyo
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				texture Unyo_iconPE.png
+			}
+		}
+	}
+}
+
+
+material SL/Units/Icons_Unyo
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				texture Unyo_icon.png
+			}
+		}
+	}
+}

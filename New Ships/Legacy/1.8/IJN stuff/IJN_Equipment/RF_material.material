@@ -1,0 +1,428 @@
+
+material IJN_Rafts_mat
+{
+  technique
+  {
+    pass
+    {
+      ambient 1. 1. 1.
+      scene_blend one zero
+
+      texture_unit
+      {
+        texture Lodka_02.dds
+        filtering trilinear
+      }
+    }
+
+    pass
+    {
+      ambient 1. 1. 1.
+      scene_blend add
+      lighting off
+
+      fog_override true none
+      texture_unit
+      {
+        texture Lodka_02_spec.dds
+        filtering trilinear
+      }
+      texture_unit
+      {
+        cubic_texture shipenvmap.dds combinedUVW
+        env_map cubic_reflection
+        tex_address_mode clamp
+        colour_op_ex modulate src_texture src_current
+      }
+    }
+  }
+}
+
+material IJN_Boats_mat
+{
+  technique
+  {
+    pass
+    {
+      ambient 1. 1. 1.
+      scene_blend one zero
+
+      texture_unit
+      {
+        texture MaximGorkij_DPort_1V.dds
+        filtering trilinear
+      }
+    }
+
+    pass
+    {
+      ambient 1. 1. 1.
+      scene_blend add
+      lighting off
+
+      fog_override true none
+      texture_unit
+      {
+        texture MaximGorkij_DPort_1V_Spec.dds
+        filtering trilinear
+      }
+      texture_unit
+      {
+        cubic_texture shipenvmap.dds combinedUVW
+        env_map cubic_reflection
+        tex_address_mode clamp
+        colour_op_ex modulate src_texture src_current
+      }
+    }
+  }
+} 
+
+
+material DalnomerC1
+{
+    technique
+    {
+        pass
+        {
+            ambient 1.0 1.0 1.0
+            cull_hardware none
+            cull_software none
+            texture_unit
+            {
+                texture J_Korus_up_07_v2.dds
+				filtering trilinear
+            }
+        }
+       pass
+       {
+         ambient 1. 1. 1.
+         scene_blend add
+         lighting off
+
+         fog_override true none
+         texture_unit
+           {
+               texture J_Korus_up_07_v2.dds
+				filtering trilinear
+           }
+         texture_unit
+            {
+                cubic_texture shipenvmap.dds combinedUVW
+                env_map cubic_reflection
+                tex_address_mode clamp
+                colour_op_ex modulate src_texture src_current
+            }
+        }
+    }
+}
+
+material IJN_Katapult_mat
+{
+    technique
+    {
+        pass
+        {
+            ambient 1.0 1.0 1.0
+            cull_hardware none
+            cull_software none
+            texture_unit
+            {
+                texture Takao_Katapult.dds
+				filtering trilinear
+            }
+        }
+       pass
+       {
+         ambient 1. 1. 1.
+         scene_blend add
+         lighting off
+
+         fog_override true none
+         texture_unit
+           {
+               texture Takao_Katapult_spec.dds
+				filtering trilinear
+           }
+         texture_unit
+            {
+                cubic_texture shipenvmap.dds combinedUVW
+                env_map cubic_reflection
+                tex_address_mode clamp
+                colour_op_ex modulate src_texture src_current
+            }
+        }
+    }
+}
+
+material IJN_Glass_mat
+{
+    technique
+    {
+        pass
+        {
+            ambient 1.0 1.0 1.0
+            cull_hardware none
+            cull_software none
+            texture_unit
+            {
+                texture IJN_Glass.dds
+				filtering trilinear
+            }
+        }
+       pass
+       {
+         ambient 1. 1. 1.
+         scene_blend add
+         lighting off
+
+         fog_override true none
+         texture_unit
+           {
+               texture IJN_Glass_spec.dds
+				filtering trilinear
+           }
+         texture_unit
+            {
+                cubic_texture shipenvmap.dds combinedUVW
+                env_map cubic_reflection
+                tex_address_mode clamp
+                colour_op_ex modulate src_texture src_current
+            }
+        }
+    }
+}  
+
+material Kanji_mat
+{
+    technique
+    {
+        pass
+        {
+            ambient 1.0 1.0 1.0
+            cull_hardware none
+            cull_software none
+            texture_unit
+            {
+                texture Kanji_tex.dds
+				filtering trilinear
+            }
+        }
+       pass
+       {
+         ambient 1. 1. 1.
+         scene_blend add
+         lighting off
+
+         fog_override true none
+         texture_unit
+           {
+               texture Kanji_tex_spec.dds
+				filtering trilinear
+           }
+         texture_unit
+            {
+                cubic_texture shipenvmap.dds combinedUVW
+                env_map cubic_reflection
+                tex_address_mode clamp
+                colour_op_ex modulate src_texture src_current
+            }
+        }
+    }
+}
+
+material Type22
+{
+  technique
+  {
+    pass
+    {
+      ambient 1. 1. 1.
+      scene_blend one zero
+
+      texture_unit
+      {
+        texture Type22.dds
+        filtering trilinear
+      }
+    }
+
+    pass
+    {
+      ambient 1. 1. 1.
+      scene_blend add
+      lighting off
+
+      fog_override true none
+      texture_unit
+      {
+        texture Type22_spec.dds
+        filtering trilinear
+      }
+      texture_unit
+      {
+        cubic_texture shipenvmap.dds combinedUVW
+        env_map cubic_reflection
+        tex_address_mode clamp
+        colour_op_ex modulate src_texture src_current
+      }
+    }
+  }
+}
+
+material IJN_Imperial_seal_mat
+{
+  technique
+  {
+    pass
+    {
+      ambient 1. 1. 1.
+      scene_blend one zero
+
+      texture_unit
+      {
+        texture Imperial_Seal_of_Japan.dds
+        filtering trilinear
+      }
+    }
+
+    pass
+    {
+      ambient 1. 1. 1.
+      scene_blend add
+      lighting off
+
+      fog_override true none
+      texture_unit
+      {
+        texture Imperial_Seal_of_Japan_spec.dds
+        filtering trilinear
+      }
+      texture_unit
+      {
+        cubic_texture shipenvmap.dds combinedUVW
+        env_map cubic_reflection
+        tex_address_mode clamp
+        colour_op_ex modulate src_texture src_current
+      }
+    }
+  }
+}
+
+
+
+material IJN_Kapetan
+{
+  technique
+  {
+    pass
+    {
+      ambient 1. 1. 1.
+      scene_blend one zero
+
+      texture_unit
+      {
+        texture IJN_Capetain_tex.dds
+        filtering trilinear
+      }
+    }
+
+    pass
+    {
+      ambient 1. 1. 1.
+      scene_blend add
+      lighting off
+
+      fog_override true none
+      texture_unit
+      {
+        texture IJN_Capetain_tex_spec.dds
+        filtering trilinear
+      }
+      texture_unit
+      {
+        cubic_texture shipenvmap.dds combinedUVW
+        env_map cubic_reflection
+        tex_address_mode clamp
+        colour_op_ex modulate src_texture src_current
+      }
+    }
+  }
+}
+
+material IJN_Dvogled
+{
+  technique
+  {
+    pass
+    {
+      ambient 1. 1. 1.
+      scene_blend one zero
+
+      texture_unit
+      {
+        texture IJN_Capetain_Binoculars.dds
+        filtering trilinear
+      }
+    }
+
+    pass
+    {
+      ambient 1. 1. 1.
+      scene_blend add
+      lighting off
+
+      fog_override true none
+      texture_unit
+      {
+        texture IJN_Capetain_Binoculars_spec.dds
+        filtering trilinear
+      }
+      texture_unit
+      {
+        cubic_texture shipenvmap.dds combinedUVW
+        env_map cubic_reflection
+        tex_address_mode clamp
+        colour_op_ex modulate src_texture src_current
+      }
+    }
+  }
+}
+material Fubuki_RF
+{
+  technique
+  {
+    pass
+    {
+      ambient 1. 1. 1.
+      scene_blend one zero
+
+      texture_unit
+      {
+        texture Fubuki_RF.dds
+        filtering trilinear
+      }
+    }
+
+    pass
+    {
+      ambient 1. 1. 1.
+      scene_blend add
+      lighting off
+
+      fog_override true none
+      texture_unit
+      {
+        texture Fubuki_RF_spec.dds
+        filtering trilinear
+      }
+      texture_unit
+      {
+        cubic_texture shipenvmap.dds combinedUVW
+        env_map cubic_reflection
+        tex_address_mode clamp
+        colour_op_ex modulate src_texture src_current
+      }
+    }
+  }
+}
+

@@ -1,0 +1,196 @@
+material Arethusa_mat
+{
+	technique
+	{
+		pass
+		{
+			ambient 1. 1. 1.
+			scene_blend one zero
+
+			texture_unit
+			{
+				texture Arethusa_tex.dds
+				filtering trilinear
+			}
+		}
+
+		pass
+		{
+			ambient 1 1 1
+			scene_blend add
+			lighting off
+			fog_override true none
+			texture_unit
+			{
+				texture Arethusa_tex_spec.dds
+				filtering trilinear
+			}
+			texture_unit
+			{
+				cubic_texture shipenvmap.dds combinedUVW
+				env_map cubic_reflection
+				tex_address_mode clamp
+				colour_op_ex modulate src_texture src_current
+			}
+		}
+	}
+}
+
+material Arethusa_Paluba_mat
+{
+	technique
+	{
+		pass
+		{
+			ambient 1. 1. 1.
+			scene_blend one zero
+
+			texture_unit
+			{
+				texture Arethusa_Paluba.dds
+				filtering trilinear
+			}
+		}
+
+		pass
+		{
+			ambient 1 1 1
+			scene_blend add
+			lighting off
+			fog_override true none
+			texture_unit
+			{
+				texture Arethusa_Paluba_spec.dds
+				filtering trilinear
+			}
+			texture_unit
+			{
+				cubic_texture shipenvmap.dds combinedUVW
+				env_map cubic_reflection
+				tex_address_mode clamp
+				colour_op_ex modulate src_texture src_current
+			}
+		}
+	}
+}
+
+material Arethusa_Paluba1_mat
+{
+	technique
+	{
+		pass
+		{
+			ambient 1. 1. 1.
+			scene_blend one zero
+
+			texture_unit
+			{
+				texture Arethusa_PalubaBow.dds
+				filtering trilinear
+			}
+		}
+
+		pass
+		{
+			ambient 1 1 1
+			scene_blend add
+			lighting off
+			fog_override true none
+			texture_unit
+			{
+				texture Arethusa_PalubaBow_spec.dds
+				filtering trilinear
+			}
+			texture_unit
+			{
+				cubic_texture shipenvmap.dds combinedUVW
+				env_map cubic_reflection
+				tex_address_mode clamp
+				colour_op_ex modulate src_texture src_current
+			}
+		}
+	}
+}
+
+
+material Arethusa_Boats_mat
+{
+  technique
+  {
+    pass
+    {
+      ambient 1. 1. 1.
+      scene_blend one zero
+
+      texture_unit
+      {
+        texture spasbot.dds
+        filtering trilinear
+      }
+    }
+
+    pass
+    {
+      ambient 1. 1. 1.
+      scene_blend add
+      lighting off
+
+      fog_override true none
+      texture_unit
+      {
+        texture spasbot_spec.dds
+        filtering trilinear
+      }
+      texture_unit
+      {
+        cubic_texture planeenvmap.dds combinedUVW
+        env_map cubic_reflection
+        tex_address_mode clamp
+        colour_op_ex modulate src_texture src_current
+      }
+    }
+  }
+}
+ 
+material Arethusa_Rafts_mat
+{
+  technique
+  {
+    pass
+    {
+      ambient 1. 1. 1.
+      scene_blend one zero
+
+      texture_unit
+      {
+        texture Lodka_02.dds
+        filtering trilinear
+      }
+    }
+
+    pass
+    {
+      ambient 1. 1. 1.
+      scene_blend add
+      lighting off
+
+      fog_override true none
+      texture_unit
+      {
+        texture Lodka_02_spec.dds
+        filtering trilinear
+      }
+      texture_unit
+      {
+        cubic_texture planeenvmap.dds combinedUVW
+        env_map cubic_reflection
+        tex_address_mode clamp
+        colour_op_ex modulate src_texture src_current
+      }
+    }
+  }
+}
+
+
+
+

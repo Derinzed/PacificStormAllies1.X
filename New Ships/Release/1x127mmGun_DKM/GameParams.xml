@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" standalone="yes" ?>
+<root>
+	<object name="SteelMonstersParams">
+		<object name="Hit_Location">
+			<object name="DKM_127_Gun_01">
+				<integer name="Country" value="0"/>
+				<float name="ER" value="10"/>
+				<string name="Hull" value="Default"/>
+				<string name="Name" value="Turret"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="DKM_127_Gun"/>
+			</object>
+			<object name="DKM_127_Gun_02">
+				<integer name="Country" value="0"/>
+				<integer name="Crew" value="1"/>
+				<float name="ER" value="0.03"/>
+				<string name="Hull" value="Default"/>
+				<string name="Name" value="Crew"/>
+				<string name="TypHL" value="Crew"/>
+				<string name="UnitName" value="DKM_127_Gun"/>
+			</object>
+			<object name="DKM_127_Gun_03">
+				<integer name="Country" value="0"/>
+				<float name="ER" value="1"/>
+				<string name="Hull" value="Default"/>
+				<string name="Name" value="AmmoStore"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="DKM_127_Gun"/>
+			</object>
+		</object>
+		<object name="Rifles">
+			<object name="DKM_127_Gun_Stvol">
+				<float name="AARange" value="14.8"/>
+				<string name="Ammo" value="Proj_127_G"/>
+				<integer name="AmmoStorage" value="120"/>
+				<float name="AmmoWeight" value="28."/>
+				<float name="Caliber" value="127."/>
+				<integer name="Country" value="5"/>
+				<float name="Dispersion" value="8."/>
+				<integer name="FinalSpeed" value="188"/>
+				<string name="FireSound" value="Guns\127mm"/>
+				<string name="HighExp" value="Proj_127_G_HE"/>
+				<boolean name="IgnoreXMLFile" value="false"/>
+				<float name="Money" value="2.1"/>
+				<boolean name="New" value="true"/>
+				<float name="Range" value="17.4"/>
+				<float name="ROF" value="18."/>
+				<boolean name="SLLauncher" value="false"/>
+				<string name="SMU_File" value="DKM_127_Stvol"/>
+				<integer name="StartSpeed" value="830"/>
+				<integer name="Unreliability" value="0"/>
+				<string name="Usage" value="Ships"/>
+				<float name="Weight" value="3.645"/>
+			</object>
+		</object>
+		<object name="Turrets">
+			<object name="DKM_127_Gun">
+				<integer name="Amount" value="1"/>
+				<integer name="ArmorFront" value="10"/>
+				<integer name="ArmorSide" value="10"/>
+				<integer name="ArmorTop" value="10"/>
+				<string name="Building" value="Artillery"/>
+				<string name="Content" value="Rifles.DKM_127_Gun_Stvol"/>
+				<integer name="Country" value="0"/>
+				<float name="DTimeProd" value="7."/>
+				<integer name="Elevation" value="30"/>
+				<integer name="ElevationRate" value="24"/>
+				<string name="Icon" value="Artillery"/>
+				<boolean name="IgnoreXMLFile" value="false"/>
+				<float name="Iron" value="27."/>
+				<float name="Money" value="6."/>
+				<boolean name="New" value="true"/>
+				<float name="NTimeProd" value="50."/>
+				<boolean name="Production" value="true"/>
+				<integer name="QualityRate" value="4"/>
+				<integer name="RotationRate" value="30"/>
+				<string name="SMU_File" value="DKM_127_Gun"/>
+				<string name="Type" value="Gun"/>
+				<float name="Vitality" value="350."/>
+				<float name="Weight" value="10.22"/>
+			</object>
+		</object>
+	</object>
+</root>

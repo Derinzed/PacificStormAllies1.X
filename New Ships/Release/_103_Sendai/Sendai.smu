@@ -1,0 +1,5509 @@
+﻿<?xml version="1.0" standalone="yes" ?>
+<root>
+	<object name="Sendai">
+		<object name="HLSubstitutions">
+			<string name="GameParams" value="Sendai"/>
+			<string name="HLUIImage" value="Sendai"/>
+		</object>
+
+		<object name="Cockpits">
+			<object name="Gun1">
+				<string name="ExactType" value="ForwardRight"/>
+				<float name="InitialOrientation" value="-45."/>
+				<float name="LeftLimit" value="60."/>
+				<float name="RightLimit" value="135."/>
+				<string name="SubstitutedPort" value="TPort_AA37FR"/>
+			</object>
+			<object name="Gun2">
+				<string name="ExactType" value="ForwardLeft"/>
+				<float name="InitialOrientation" value="45."/>
+				<float name="LeftLimit" value="135."/>
+				<float name="RightLimit" value="60."/>
+				<string name="SubstitutedPort" value="TPort_AA37FL"/>
+			</object>
+			<object name="Gun3">
+				<string name="ExactType" value="MiddleRight"/>
+				<float name="InitialOrientation" value="-90."/>
+				<float name="LeftLimit" value="80."/>
+				<float name="RightLimit" value="80."/>
+				<string name="SubstitutedPort" value="TPort_AA20mmMR"/>
+			</object>
+			<object name="Gun4">
+				<string name="ExactType" value="MiddleLeft"/>
+				<float name="InitialOrientation" value="90."/>
+				<float name="LeftLimit" value="80."/>
+				<float name="RightLimit" value="80."/>
+				<string name="SubstitutedPort" value="TPort_AA20mmML"/>
+			</object>
+			<object name="Gun5">
+				<string name="ExactType" value="BackRight"/>
+				<float name="InitialOrientation" value="-90."/>
+				<float name="LeftLimit" value="180."/>
+				<float name="RightLimit" value="180."/>
+				<string name="SubstitutedPort" value="TPort_AAQBR"/>
+			</object>
+			<object name="Gun6">
+				<string name="ExactType" value="BackLeft"/>
+				<float name="InitialOrientation" value="90."/>
+				<float name="LeftLimit" value="90."/>
+				<float name="RightLimit" value="90."/>
+				<string name="SubstitutedPort" value="TPort_AAQBL"/>
+			</object>
+		</object>
+		<object name="Components">
+			<object name="Sch_L2_Korp_Up_02">
+				<string name="Mesh" value="Sendai_Katarka.mesh"/>
+				<object name="SubComponents">
+					<object name="DPort_Anchor">
+						<string name="ConcreteType" value="DPort"/>
+						<string name="PortHolder" value=""/>
+						<string name="PortType" value="Sendai_Anchor"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="DPort_Kran">
+						<string name="ConcreteType" value="DPort"/>
+						<string name="PortHolder" value=""/>
+						<string name="PortType" value="Sendai_Kran"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-34.128"/>
+								<float name="Y" value="13.595"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="DPort_Jap_Flag">
+						<string name="ConcreteType" value="DPort"/>
+						<string name="PortHolder" value=""/>
+						<string name="PortType" value="Jap_Flag"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="35.557"/>
+								<float name="Y" value="30.615"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>	
+					<object name="DPort_Jap_Flag1">
+						<string name="ConcreteType" value="DPort"/>
+						<string name="PortHolder" value=""/>
+						<string name="PortType" value="Jap_Flag"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="3.554"/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-81.789"/>
+								<float name="Y" value="7.712"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>	
+					<object name="DPort_SpasBot">
+						<string name="ConcreteType" value="DPort"/>
+						<string name="PortHolder" value=""/>
+						<string name="PortType" value="Sendai_Boats"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="DPort_Rafts">
+						<string name="ConcreteType" value="DPort"/>
+						<string name="PortHolder" value=""/>
+						<string name="PortType" value="Sendai_Rafts"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object> 
+					<object name="EPortFire">
+						<string name="ConcreteType" value="EPort"/>
+						<string name="Handling" value="0"/>
+						<string name="PortHolder" value="nothing"/>
+						<string name="PortType" value="fire"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="72.755"/>
+								<float name="Y" value="6.538"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="EPortFire1">
+						<string name="ConcreteType" value="EPort"/>
+						<string name="Handling" value="0"/>
+						<string name="PortHolder" value="nothing"/>
+						<string name="PortType" value="fire"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="63.64"/>
+								<float name="Y" value="6.486"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="EPortFire10">
+						<string name="ConcreteType" value="EPort"/>
+						<string name="Handling" value="0"/>
+						<string name="PortHolder" value="nothing"/>
+						<string name="PortType" value="fire"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="51.361"/>
+								<float name="Y" value="6.486"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="EPortFire11">
+						<string name="ConcreteType" value="EPort"/>
+						<string name="Handling" value="0"/>
+						<string name="PortHolder" value="nothing"/>
+						<string name="PortType" value="fire"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="40.052"/>
+								<float name="Y" value="6.486"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="EPortFire12">
+						<string name="ConcreteType" value="EPort"/>
+						<string name="Handling" value="0"/>
+						<string name="PortHolder" value="nothing"/>
+						<string name="PortType" value="fire"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="28.183"/>
+								<float name="Y" value="5.183"/>
+								<float name="Z" value="3.828"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="EPortFire13">
+						<string name="ConcreteType" value="EPort"/>
+						<string name="Handling" value="0"/>
+						<string name="PortHolder" value="nothing"/>
+						<string name="PortType" value="fire"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="28.183"/>
+								<float name="Y" value="5.183"/>
+								<float name="Z" value="-3.828"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="EPortFire14">
+						<string name="ConcreteType" value="EPort"/>
+						<string name="Handling" value="0"/>
+						<string name="PortHolder" value="nothing"/>
+						<string name="PortType" value="fire"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="13.505"/>
+								<float name="Y" value="7.368"/>
+								<float name="Z" value="3.828"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="EPortFire15">
+						<string name="ConcreteType" value="EPort"/>
+						<string name="Handling" value="0"/>
+						<string name="PortHolder" value="nothing"/>
+						<string name="PortType" value="fire"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="13.505"/>
+								<float name="Y" value="7.368"/>
+								<float name="Z" value="-3.828"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="EPortFire16">
+						<string name="ConcreteType" value="EPort"/>
+						<string name="Handling" value="0"/>
+						<string name="PortHolder" value="nothing"/>
+						<string name="PortType" value="fire"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-2.749"/>
+								<float name="Y" value="7.368"/>
+								<float name="Z" value="3.828"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="EPortFire17">
+						<string name="ConcreteType" value="EPort"/>
+						<string name="Handling" value="0"/>
+						<string name="PortHolder" value="nothing"/>
+						<string name="PortType" value="fire"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-2.749"/>
+								<float name="Y" value="7.368"/>
+								<float name="Z" value="-3.828"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="EPortFire18">
+						<string name="ConcreteType" value="EPort"/>
+						<string name="Handling" value="0"/>
+						<string name="PortHolder" value="nothing"/>
+						<string name="PortType" value="fire"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-21.742"/>
+								<float name="Y" value="7.368"/>
+								<float name="Z" value="3.828"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="EPortFire19">
+						<string name="ConcreteType" value="EPort"/>
+						<string name="Handling" value="0"/>
+						<string name="PortHolder" value="nothing"/>
+						<string name="PortType" value="fire"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-21.742"/>
+								<float name="Y" value="7.368"/>
+								<float name="Z" value="-3.828"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="EPortFire2">
+						<string name="ConcreteType" value="EPort"/>
+						<string name="Handling" value="0"/>
+						<string name="PortHolder" value="nothing"/>
+						<string name="PortType" value="fire"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-67.294"/>
+								<float name="Y" value="5.177"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="EPortFire3">
+						<string name="ConcreteType" value="EPort"/>
+						<string name="Handling" value="0"/>
+						<string name="PortHolder" value="nothing"/>
+						<string name="PortType" value="fire"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-54.997"/>
+								<float name="Y" value="7.159"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="EPortFire4">
+						<string name="ConcreteType" value="EPort"/>
+						<string name="Handling" value="0"/>
+						<string name="PortHolder" value="nothing"/>
+						<string name="PortType" value="fire"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-46.088"/>
+								<float name="Y" value="7.159"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="EPortFire5">
+						<string name="ConcreteType" value="EPort"/>
+						<string name="Handling" value="0"/>
+						<string name="PortHolder" value="nothing"/>
+						<string name="PortType" value="fire"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-37.394"/>
+								<float name="Y" value="7.159"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="EPortFire6">
+						<string name="ConcreteType" value="EPort"/>
+						<string name="Handling" value="0"/>
+						<string name="PortHolder" value="nothing"/>
+						<string name="PortType" value="fire"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-29.53"/>
+								<float name="Y" value="7.159"/>
+								<float name="Z" value="1.612"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="EPortFire7">
+						<string name="ConcreteType" value="EPort"/>
+						<string name="Handling" value="0"/>
+						<string name="PortHolder" value="nothing"/>
+						<string name="PortType" value="fire"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-29.53"/>
+								<float name="Y" value="7.159"/>
+								<float name="Z" value="-1.612"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="EPort_Smoke01">
+						<string name="ConcreteType" value="EPort"/>
+						<string name="Handling" value="1"/>
+						<string name="PortHolder" value=""/>
+						<string name="PortType" value="Smoke"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="26.104"/>
+								<float name="Y" value="15.765"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="EPort_Smoke02">
+						<string name="ConcreteType" value="EPort"/>
+						<string name="Handling" value="1"/>
+						<string name="PortHolder" value=""/>
+						<string name="PortType" value="Smoke"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="12.104"/>
+								<float name="Y" value="14.858"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="EPort_Smoke03">
+						<string name="ConcreteType" value="EPort"/>
+						<string name="Handling" value="1"/>
+						<string name="PortHolder" value=""/>
+						<string name="PortType" value="Smoke"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="2.032"/>
+								<float name="Y" value="14.858"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="EPort_Smoke04">
+						<string name="ConcreteType" value="EPort"/>
+						<string name="Handling" value="1"/>
+						<string name="PortHolder" value=""/>
+						<string name="PortType" value="Smoke"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-10.493"/>
+								<float name="Y" value="14.858"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+
+					<object name="TPort_TORPFR">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="0."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-140."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Jap_Torp_App_2x_Turret_v2"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="16.995"/>
+								<float name="Y" value="3.518"/>
+								<float name="Z" value="4.342"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_TORPFL">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="140."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="0."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Jap_Torp_App_2x_Turret_v2"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="16.995"/>
+								<float name="Y" value="3.518"/>
+								<float name="Z" value="-4.342"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_TORPBR">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="180."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="0."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Jap_Torp_App_2x_Turret_v2"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="180."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-18.237"/>
+								<float name="Y" value="3.518"/>
+								<float name="Z" value="4.342"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_TORPBL">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="0."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-180."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Jap_Torp_App_2x_Turret_v2"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="180."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-18.237"/>
+								<float name="Y" value="3.518"/>
+								<float name="Z" value="-4.342"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_ASW_R">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="0."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="0."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Bomb_Kletka_Small_4x"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-77.354"/>
+								<float name="Y" value="3.631"/>
+								<float name="Z" value="2.485"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_ASW_L">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="0."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="0."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Bomb_Kletka_Small_4x"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-77.354"/>
+								<float name="Y" value="3.631"/>
+								<float name="Z" value="-2.485"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_AAA2x127mmR">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="75."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-60."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Universal_Turret_127x2_Mogami"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="-90."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="10.879"/>
+								<float name="Y" value="5.787"/>
+								<float name="Z" value="4.446"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_AAA2x127mmL">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="60."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-75."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Universal_Turret_127x2_Mogami"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="90."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="10.879"/>
+								<float name="Y" value="5.787"/>
+								<float name="Z" value="-4.446"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_AA3x25mmF">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="110."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-110."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Jap_Turret_25x3"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="48.258"/>
+								<float name="Y" value="11.069"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object> 
+					<object name="TPort_AA3x25mmFR">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="65."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-93."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Jap_Turret_25x3"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="-90."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="37.339"/>
+								<float name="Y" value="13.517"/>
+								<float name="Z" value="2.306"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_AA3x25mmFL">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="93."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-65."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Jap_Turret_25x3"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="90."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="37.339"/>
+								<float name="Y" value="13.517"/>
+								<float name="Z" value="-2.306"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_AA3x25mmM1R">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="85."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-85."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Jap_Turret_25x3"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="-90."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-4.556"/>
+								<float name="Y" value="8.813"/>
+								<float name="Z" value="1.767"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_AA3x25mmM1L">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="85."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-85."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Jap_Turret_25x3"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="90."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-4.556"/>
+								<float name="Y" value="8.813"/>
+								<float name="Z" value="-1.767"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_AA3x25mmB1R">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="93."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-115."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Jap_Turret_25x3"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="-90."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-48.149"/>
+								<float name="Y" value="5.782"/>
+								<float name="Z" value="4.431"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_AA3x25mmB1L">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="115."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-93."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Jap_Turret_25x3"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="90."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-48.149"/>
+								<float name="Y" value="5.782"/>
+								<float name="Z" value="-4.431"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_AA3x25mmB2R">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="179."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-179."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Jap_Turret_25x3"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="-90."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-68.161"/>
+								<float name="Y" value="3.515"/>
+								<float name="Z" value="3.312"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_AA3x25mmB2L">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="179."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-179."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Jap_Turret_25x3"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="90."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-68.161"/>
+								<float name="Y" value="3.515"/>
+								<float name="Z" value="-3.312"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_AA2x25mmF1R">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="135."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-115."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Jap_Turret_25x2"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="-45."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="49.497"/>
+								<float name="Y" value="5.791"/>
+								<float name="Z" value="3.097"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_AA2x25mmF1L">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="115."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-135."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Jap_Turret_25x2"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="45."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="49.497"/>
+								<float name="Y" value="5.791"/>
+								<float name="Z" value="-3.097"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_AA2x25mmM1R">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="93."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-93."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Jap_Turret_25x2"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="-90."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-30.834"/>
+								<float name="Y" value="3.515"/>
+								<float name="Z" value="5.77"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_AA2x25mmM1L">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="93."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-93."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Jap_Turret_25x2"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="90."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-30.834"/>
+								<float name="Y" value="3.515"/>
+								<float name="Z" value="-5.77"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object> 
+					<object name="TPort_AA2x25mmM2R">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="93."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-93."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Jap_Turret_25x2"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="-90."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-34.605"/>
+								<float name="Y" value="3.515"/>
+								<float name="Z" value="5.77"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_AA2x25mmM2L">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="93."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-93."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Jap_Turret_25x2"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="90."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-34.605"/>
+								<float name="Y" value="3.515"/>
+								<float name="Z" value="-5.77"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_AA1x25mmF1R">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="90."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-90."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Jap_Turret_25x1"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="-90."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-31.036"/>
+								<float name="Y" value="5.785"/>
+								<float name="Z" value="3.251"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_AA1x25mmF1L">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="90."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-90."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Jap_Turret_25x1"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="90."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-31.036"/>
+								<float name="Y" value="5.785"/>
+								<float name="Z" value="-3.251"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_AA1x25mmF2R">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="90."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-220."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Jap_Turret_25x1"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="-90."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-63.623"/>
+								<float name="Y" value="3.511"/>
+								<float name="Z" value="4.016"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_AA1x25mmF2L">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="220."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-90."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Jap_Turret_25x1"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="90."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-63.623"/>
+								<float name="Y" value="3.511"/>
+								<float name="Z" value="-4.016"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_AA1x25mmB">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="179."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-179."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Jap_Turret_25x1"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="180."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-70.75"/>
+								<float name="Y" value="3.511"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_AA1x13mmFR">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="85."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-85."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="1x13mm_Turret_IJN"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="-90."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-4.24"/>
+								<float name="Y" value="5.779"/>
+								<float name="Z" value="5.965"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_AA1x13mmFL">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="85."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-85."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="1x13mm_Turret_IJN"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="90."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-4.24"/>
+								<float name="Y" value="5.779"/>
+								<float name="Z" value="-5.965"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_AA2x13mmBR">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="65."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-65."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Jap_Turret_13x2_Base"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="-90."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="18.9"/>
+								<float name="Y" value="5.781"/>
+								<float name="Z" value="1.22"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_AA2x13mmBL">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="65."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-65."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Jap_Turret_13x2_Base"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="90."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="18.9"/>
+								<float name="Y" value="5.781"/>
+								<float name="Z" value="-1.22"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_ProjFR">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="90."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-90."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Jap_Projector"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="-135."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="35.112"/>
+								<float name="Y" value="16.882"/>
+								<float name="Z" value="1.117"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object> 
+					<object name="TPort_ProjFL">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="90."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-90."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Jap_Projector"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="135."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="35.112"/>
+								<float name="Y" value="16.882"/>
+								<float name="Z" value="-1.117"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_ProjB">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="90."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-90."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Jap_Projector"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-29.369"/>
+								<float name="Y" value="14.185"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>  
+
+					<object name="TPort_RF_Typ95_02_F1R">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="360."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-360."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Director_Typ95_Yamato_02"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="-90."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="44.154"/>
+								<float name="Y" value="13.211"/>
+								<float name="Z" value="3.762"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_RF_Typ95_02_F1L">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="360."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-360."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Director_Typ95_Yamato_02"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="90."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="44.154"/>
+								<float name="Y" value="13.211"/>
+								<float name="Z" value="-3.762"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_RF_Jap_Mk52_FR">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="60."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-80."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Jap_RangeFinder_Mk52"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="-90."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="37.422"/>
+								<float name="Y" value="11.756"/>
+								<float name="Z" value="2.676"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_RF_Jap_Mk52_FL">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="80."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-60."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Jap_RangeFinder_Mk52"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="90."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="37.422"/>
+								<float name="Y" value="11.756"/>
+								<float name="Z" value="-2.676"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_RF_Jap_Mk52_BR">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="85."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-85."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Jap_RangeFinder_Mk52"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="-90."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="7.456"/>
+								<float name="Y" value="9.618"/>
+								<float name="Z" value="1.377"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_RF_Jap_Mk52_BL">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="85."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-85."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Jap_RangeFinder_Mk52"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="90."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="7.456"/>
+								<float name="Y" value="9.618"/>
+								<float name="Z" value="-1.377"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+
+
+
+					<object name="TPort_Main_Gun_Director1">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="360."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-360"/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Dalnomer45_Akagi"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="0.8"/>
+								<float name="Y" value="0.8"/>
+								<float name="Z" value="0.8"/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="41.091"/>
+								<float name="Y" value="16.108"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_Main_Gun_Director2">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="360."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-360."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Dalnomer25_Akagi"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-16.678"/>
+								<float name="Y" value="8.783"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_Main_Gun_Director3">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="360."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-360."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Dalnomer_C1"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="180."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="35.051"/>
+								<float name="Y" value="20.447"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object> 
+ 
+
+
+
+
+					<object name="TPort_RADAR1">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="360."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-360"/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Radar_Typ13_2"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="36.035"/>
+								<float name="Y" value="22.746"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_RADAR2">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="360."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-360"/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Radar_Typ13"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-31.647"/>
+								<float name="Y" value="18.767"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+
+					<object name="Sch_L2_Korp_Up_01">
+						<string name="Mesh" value="Sendai_Hull.mesh"/>
+						<object name="SubComponents">
+							<object name="EPort_017">
+								<string name="ConcreteType" value="EPort"/>
+								<string name="Handling" value="1"/>
+								<string name="PortHolder" value=""/>
+								<string name="PortType" value="Forwardtrail\Spray"/>
+								<object name="Transform">
+									<object name="Rotate">
+										<float name="X" value="0."/>
+										<float name="Y" value="90."/>
+										<float name="Z" value="0."/>
+									</object>
+									<object name="Scale">
+										<float name="X" value="1."/>
+										<float name="Y" value="1."/>
+										<float name="Z" value="1."/>
+									</object>
+									<object name="Translate">
+										<float name="X" value="78.084"/>
+										<float name="Y" value="0."/>
+										<float name="Z" value="0."/>
+									</object>
+								</object>
+								<string name="Type" value="Port"/>
+							</object>
+							<object name="EPort_018">
+								<string name="ConcreteType" value="EPort"/>
+								<string name="Handling" value="1"/>
+								<string name="PortHolder" value=""/>
+								<string name="PortType" value="Forwardtrail\Spray"/>
+								<object name="Transform">
+									<object name="Rotate">
+										<float name="X" value="0."/>
+										<float name="Y" value="-90."/>
+										<float name="Z" value="0."/>
+									</object>
+									<object name="Scale">
+										<float name="X" value="1."/>
+										<float name="Y" value="1."/>
+										<float name="Z" value="1."/>
+									</object>
+									<object name="Translate">
+										<float name="X" value="78.698"/>
+										<float name="Y" value="0."/>
+										<float name="Z" value="0."/>
+									</object>
+								</object>
+								<string name="Type" value="Port"/>
+							</object>
+							<object name="EPort_019">
+								<string name="ConcreteType" value="EPort"/>
+								<string name="Handling" value="1"/>
+								<string name="PortHolder" value=""/>
+								<string name="PortType" value="Backtrail/BackAngle"/>
+								<object name="Transform">
+									<object name="Rotate">
+										<float name="X" value="7.01958357e-015"/>
+										<float name="Y" value="170."/>
+										<float name="Z" value="0."/>
+									</object>
+									<object name="Scale">
+										<float name="X" value="1."/>
+										<float name="Y" value="1."/>
+										<float name="Z" value="1."/>
+									</object>
+									<object name="Translate">
+										<float name="X" value="59.482"/>
+										<float name="Y" value="0."/>
+										<float name="Z" value="-3.008"/>
+									</object>
+								</object>
+								<string name="Type" value="Port"/>
+							</object>
+							<object name="EPort_020">
+								<string name="ConcreteType" value="EPort"/>
+								<string name="Handling" value="1"/>
+								<string name="PortHolder" value=""/>
+								<string name="PortType" value="Backtrail/BackAngle"/>
+								<object name="Transform">
+									<object name="Rotate">
+										<float name="X" value="7.01958357e-015"/>
+										<float name="Y" value="-170."/>
+										<float name="Z" value="0."/>
+									</object>
+									<object name="Scale">
+										<float name="X" value="1."/>
+										<float name="Y" value="1."/>
+										<float name="Z" value="1."/>
+									</object>
+									<object name="Translate">
+										<float name="X" value="59.482"/>
+										<float name="Y" value="0."/>
+										<float name="Z" value="3.008"/>
+									</object>
+								</object>
+								<string name="Type" value="Port"/>
+							</object>
+							<object name="EPort_021">
+								<string name="ConcreteType" value="EPort"/>
+								<string name="Handling" value="1"/>
+								<string name="PortHolder" value=""/>
+								<string name="PortType" value="Backtrail/BackAngle"/>
+								<object name="Transform">
+									<object name="Rotate">
+										<float name="X" value="0."/>
+										<float name="Y" value="90."/>
+										<float name="Z" value="0."/>
+									</object>
+									<object name="Scale">
+										<float name="X" value="1."/>
+										<float name="Y" value="1."/>
+										<float name="Z" value="1."/>
+									</object>
+									<object name="Translate">
+										<float name="X" value="30.898"/>
+										<float name="Y" value="0."/>
+										<float name="Z" value="-5.267"/>
+									</object>
+								</object>
+								<string name="Type" value="Port"/>
+							</object>
+							<object name="EPort_022">
+								<string name="ConcreteType" value="EPort"/>
+								<string name="Handling" value="1"/>
+								<string name="PortHolder" value=""/>
+								<string name="PortType" value="Backtrail/BackAngle"/>
+								<object name="Transform">
+									<object name="Rotate">
+										<float name="X" value="0."/>
+										<float name="Y" value="-90."/>
+										<float name="Z" value="0."/>
+									</object>
+									<object name="Scale">
+										<float name="X" value="1."/>
+										<float name="Y" value="1."/>
+										<float name="Z" value="1."/>
+									</object>
+									<object name="Translate">
+										<float name="X" value="30.898"/>
+										<float name="Y" value="0."/>
+										<float name="Z" value="5.267"/>
+									</object>
+								</object>
+								<string name="Type" value="Port"/>
+							</object>
+							<object name="EPort_023">
+								<string name="ConcreteType" value="EPort"/>
+								<string name="Handling" value="1"/>
+								<string name="PortHolder" value=""/>
+								<string name="PortType" value="Backtrail/BackAngle"/>
+								<object name="Transform">
+									<object name="Rotate">
+										<float name="X" value="7.01958357e-015"/>
+										<float name="Y" value="160."/>
+										<float name="Z" value="0."/>
+									</object>
+									<object name="Scale">
+										<float name="X" value="1."/>
+										<float name="Y" value="1."/>
+										<float name="Z" value="1."/>
+									</object>
+									<object name="Translate">
+										<float name="X" value="-10.856"/>
+										<float name="Y" value="0."/>
+										<float name="Z" value="-6.96"/>
+									</object>
+								</object>
+								<string name="Type" value="Port"/>
+							</object>
+							<object name="EPort_024">
+								<string name="ConcreteType" value="EPort"/>
+								<string name="Handling" value="1"/>
+								<string name="PortHolder" value=""/>
+								<string name="PortType" value="Backtrail/BackAngle"/>
+								<object name="Transform">
+									<object name="Rotate">
+										<float name="X" value="7.01958357e-015"/>
+										<float name="Y" value="-160."/>
+										<float name="Z" value="0."/>
+									</object>
+									<object name="Scale">
+										<float name="X" value="1."/>
+										<float name="Y" value="1."/>
+										<float name="Z" value="1."/>
+									</object>
+									<object name="Translate">
+										<float name="X" value="-10.856"/>
+										<float name="Y" value="0."/>
+										<float name="Z" value="6.96"/>
+									</object>
+								</object>
+								<string name="Type" value="Port"/>
+							</object>
+							<object name="EPort_025">
+								<string name="ConcreteType" value="EPort"/>
+								<string name="Handling" value="1"/>
+								<string name="PortHolder" value=""/>
+								<string name="PortType" value="Backtrail/BackAngle"/>
+								<object name="Transform">
+									<object name="Rotate">
+										<float name="X" value="0."/>
+										<float name="Y" value="90."/>
+										<float name="Z" value="0."/>
+									</object>
+									<object name="Scale">
+										<float name="X" value="1."/>
+										<float name="Y" value="1."/>
+										<float name="Z" value="1."/>
+									</object>
+									<object name="Translate">
+										<float name="X" value="-53.59"/>
+										<float name="Y" value="0."/>
+										<float name="Z" value="-5.494"/>
+									</object>
+								</object>
+								<string name="Type" value="Port"/>
+							</object>
+							<object name="EPort_026">
+								<string name="ConcreteType" value="EPort"/>
+								<string name="Handling" value="1"/>
+								<string name="PortHolder" value=""/>
+								<string name="PortType" value="Backtrail/BackAngle"/>
+								<object name="Transform">
+									<object name="Rotate">
+										<float name="X" value="0."/>
+										<float name="Y" value="-90."/>
+										<float name="Z" value="0."/>
+									</object>
+									<object name="Scale">
+										<float name="X" value="1."/>
+										<float name="Y" value="1."/>
+										<float name="Z" value="1."/>
+									</object>
+									<object name="Translate">
+										<float name="X" value="-53.59"/>
+										<float name="Y" value="0."/>
+										<float name="Z" value="5.494"/>
+									</object>
+								</object>
+								<string name="Type" value="Port"/>
+							</object>
+							<object name="EPort_04">
+								<string name="ConcreteType" value="EPort"/>
+								<string name="Handling" value="1"/>
+								<string name="PortHolder" value=""/>
+								<string name="PortType" value="Backtrail/BackSpray"/>
+								<object name="Transform">
+									<object name="Rotate">
+										<float name="X" value="0."/>
+										<float name="Y" value="0."/>
+										<float name="Z" value="0."/>
+									</object>
+									<object name="Scale">
+										<float name="X" value="1."/>
+										<float name="Y" value="1."/>
+										<float name="Z" value="1."/>
+									</object>
+									<object name="Translate">
+										<float name="X" value="-81.043"/>
+										<float name="Y" value="0."/>
+										<float name="Z" value="0."/>
+									</object>
+								</object>
+								<string name="Type" value="Port"/>
+							</object>
+							<object name="TPort_MainGun_Turret_F1">
+								<string name="ConcreteType" value="TPort"/>
+								<float name="PortMaxValueY" value="150."/>
+								<float name="PortMaxValueZ" value="0."/>
+								<float name="PortMinValueY" value="-150."/>
+								<float name="PortMinValueZ" value="0."/>
+								<string name="PortMoType" value="Rotate"/>
+								<string name="PortType" value="Main_Turret_Kuma"/>
+								<object name="Transform">
+									<object name="Rotate">
+										<float name="X" value="0."/>
+										<float name="Y" value="0."/>
+										<float name="Z" value="0."/>
+									</object>
+									<object name="Scale">
+										<float name="X" value="1."/>
+										<float name="Y" value="1."/>
+										<float name="Z" value="1."/>
+									</object>
+									<object name="Translate">
+										<float name="X" value="60.747"/>
+										<float name="Y" value="5.934"/>
+										<float name="Z" value="0."/>
+									</object>
+								</object>
+								<string name="Type" value="Port"/>
+							</object>
+							<object name="TPort_MainGun_Turret_F2">
+								<string name="ConcreteType" value="TPort"/>
+								<float name="PortMaxValueY" value="150."/>
+								<float name="PortMaxValueZ" value="0."/>
+								<float name="PortMinValueY" value="-150."/>
+								<float name="PortMinValueZ" value="0."/>
+								<string name="PortMoType" value="Rotate"/>
+								<string name="PortType" value="Main_Turret_Kuma"/>
+								<object name="Transform">
+									<object name="Rotate">
+										<float name="X" value="0."/>
+										<float name="Y" value="180."/>
+										<float name="Z" value="0."/>
+									</object>
+									<object name="Scale">
+										<float name="X" value="1."/>
+										<float name="Y" value="1."/>
+										<float name="Z" value="1."/>
+									</object>
+									<object name="Translate">
+										<float name="X" value="54.898"/>
+										<float name="Y" value="5.827"/>
+										<float name="Z" value="0."/>
+									</object>
+								</object>
+								<string name="Type" value="Port"/>
+							</object>
+							<object name="TPort_MainGun_Turret_F3R">
+								<string name="ConcreteType" value="TPort"/>
+								<float name="PortMaxValueY" value="0."/>
+								<float name="PortMaxValueZ" value="0."/>
+								<float name="PortMinValueY" value="-155."/>
+								<float name="PortMinValueZ" value="0."/>
+								<string name="PortMoType" value="Rotate"/>
+								<string name="PortType" value="Main_Turret_Kuma"/>
+								<object name="Transform">
+									<object name="Rotate">
+										<float name="X" value="0."/>
+										<float name="Y" value="0."/>
+										<float name="Z" value="0."/>
+									</object>
+									<object name="Scale">
+										<float name="X" value="1."/>
+										<float name="Y" value="1."/>
+										<float name="Z" value="1."/>
+									</object>
+									<object name="Translate">
+										<float name="X" value="36.768"/>
+										<float name="Y" value="5.806"/>
+										<float name="Z" value="4.363"/>
+									</object>
+								</object>
+								<string name="Type" value="Port"/>
+							</object>
+							<object name="TPort_MainGun_Turret_F3L">
+								<string name="ConcreteType" value="TPort"/>
+								<float name="PortMaxValueY" value="155."/>
+								<float name="PortMaxValueZ" value="0."/>
+								<float name="PortMinValueY" value="-0."/>
+								<float name="PortMinValueZ" value="0."/>
+								<string name="PortMoType" value="Rotate"/>
+								<string name="PortType" value="Main_Turret_Kuma"/>
+								<object name="Transform">
+									<object name="Rotate">
+										<float name="X" value="0."/>
+										<float name="Y" value="0."/>
+										<float name="Z" value="0."/>
+									</object>
+									<object name="Scale">
+										<float name="X" value="1."/>
+										<float name="Y" value="1."/>
+										<float name="Z" value="1."/>
+									</object>
+									<object name="Translate">
+										<float name="X" value="36.768"/>
+										<float name="Y" value="5.806"/>
+										<float name="Z" value="-4.363"/>
+									</object>
+								</object>
+								<string name="Type" value="Port"/>
+							</object>
+							<object name="TPort_MainGun_Turret_F4">
+								<string name="ConcreteType" value="TPort"/>
+								<float name="PortMaxValueY" value="135."/>
+								<float name="PortMaxValueZ" value="0."/>
+								<float name="PortMinValueY" value="-135."/>
+								<float name="PortMinValueZ" value="0."/>
+								<string name="PortMoType" value="Rotate"/>
+								<string name="PortType" value="Main_Turret_Kuma"/>
+								<object name="Transform">
+									<object name="Rotate">
+										<float name="X" value="0."/>
+										<float name="Y" value="180."/>
+										<float name="Z" value="0."/>
+									</object>
+									<object name="Scale">
+										<float name="X" value="1."/>
+										<float name="Y" value="1."/>
+										<float name="Z" value="1."/>
+									</object>
+									<object name="Translate">
+										<float name="X" value="-23.685"/>
+										<float name="Y" value="5.787"/>
+										<float name="Z" value="0."/>
+									</object>
+								</object>
+								<string name="Type" value="Port"/>
+							</object>
+							<object name="TPort_MainGun_Turret_F5">
+								<string name="ConcreteType" value="TPort"/>
+								<float name="PortMaxValueY" value="150."/>
+								<float name="PortMaxValueZ" value="0."/>
+								<float name="PortMinValueY" value="-150."/>
+								<float name="PortMinValueZ" value="0."/>
+								<string name="PortMoType" value="Rotate"/>
+								<string name="PortType" value="Main_Turret_Kuma"/>
+								<object name="Transform">
+									<object name="Rotate">
+										<float name="X" value="0."/>
+										<float name="Y" value="0."/>
+										<float name="Z" value="0."/>
+									</object>
+									<object name="Scale">
+										<float name="X" value="1."/>
+										<float name="Y" value="1."/>
+										<float name="Z" value="1."/>
+									</object>
+									<object name="Translate">
+										<float name="X" value="-40.725"/>
+										<float name="Y" value="5.787"/>
+										<float name="Z" value="0."/>
+									</object>
+								</object>
+								<string name="Type" value="Port"/>
+							</object>
+							<object name="TPort_MainGun_Turret_F6">
+								<string name="ConcreteType" value="TPort"/>
+								<float name="PortMaxValueY" value="155."/>
+								<float name="PortMaxValueZ" value="0."/>
+								<float name="PortMinValueY" value="-155."/>
+								<float name="PortMinValueZ" value="0."/>
+								<string name="PortMoType" value="Rotate"/>
+								<string name="PortType" value="Main_Turret_Kuma"/>
+								<object name="Transform">
+									<object name="Rotate">
+										<float name="X" value="0."/>
+										<float name="Y" value="180."/>
+										<float name="Z" value="0."/>
+									</object>
+									<object name="Scale">
+										<float name="X" value="1."/>
+										<float name="Y" value="1."/>
+										<float name="Z" value="1."/>
+									</object>
+									<object name="Translate">
+										<float name="X" value="-57.299"/>
+										<float name="Y" value="5.787"/>
+										<float name="Z" value="0."/>
+									</object>
+								</object>
+								<string name="Type" value="Port"/>
+							</object>
+						</object>
+						<string name="Type" value="Mesh"/>
+						<boolean name="Visible" value="true"/>
+					</object>
+					<object name="Sch_L2_Korp_Up_03">
+						<string name="Mesh" value="Sendai_Paluba.mesh"/>
+						<object name="SubComponents">
+							<object name="TPort_VINTR">
+								<string name="ConcreteType" value="TPort"/>
+								<float name="PortMaxValueY" value="360."/>
+								<float name="PortMaxValueZ" value="0."/>
+								<float name="PortMinValueY" value="0."/>
+								<float name="PortMinValueZ" value="0."/>
+								<string name="PortMoType" value="Rotate"/>
+								<string name="PortType" value="Vint_Fletcher"/>
+								<object name="Transform">
+									<object name="Rotate">
+										<float name="X" value="0"/>
+										<float name="Y" value="0."/>
+										<float name="Z" value="90."/>
+									</object>
+									<object name="Scale">
+										<float name="X" value="1."/>
+										<float name="Y" value="1."/>
+										<float name="Z" value="1."/>
+									</object>
+									<object name="Translate">
+										<float name="X" value="-78.857"/>
+										<float name="Y" value="-3.944"/>
+										<float name="Z" value="2.114"/>
+									</object>
+								</object>
+								<string name="Type" value="Port"/>
+							</object>
+							<object name="TPort_VINTL">
+								<string name="ConcreteType" value="TPort"/>
+								<float name="PortMaxValueY" value="360."/>
+								<float name="PortMaxValueZ" value="0."/>
+								<float name="PortMinValueY" value="0."/>
+								<float name="PortMinValueZ" value="0."/>
+								<string name="PortMoType" value="Rotate"/>
+								<string name="PortType" value="Vint_Fletcher"/>
+								<object name="Transform">
+									<object name="Rotate">
+										<float name="X" value="0"/>
+										<float name="Y" value="0"/>
+										<float name="Z" value="90."/>
+									</object>
+									<object name="Scale">
+										<float name="X" value="1."/>
+										<float name="Y" value="1."/>
+										<float name="Z" value="1."/>
+									</object>
+									<object name="Translate">
+										<float name="X" value="-78.857"/>
+										<float name="Y" value="-3.944"/>
+										<float name="Z" value="-2.114"/>
+									</object>
+								</object>
+								<string name="Type" value="Port"/>
+							</object>
+							<object name="TPort_KATAPULT">
+								<string name="ConcreteType" value="TPort"/>
+								<float name="PortMaxValueY" value="70."/>
+								<float name="PortMaxValueZ" value="0."/>
+								<float name="PortMinValueY" value="-70."/>
+								<float name="PortMinValueZ" value="0."/>
+								<string name="PortMoType" value="Rotate"/>
+								<string name="PortType" value="Katapulta"/>
+								<object name="Transform">
+									<object name="Rotate">
+										<float name="X" value="0."/>
+										<float name="Y" value="0."/>
+										<float name="Z" value="0."/>
+									</object>
+									<object name="Scale">
+										<float name="X" value="1."/>
+										<float name="Y" value="1."/>
+										<float name="Z" value="1."/>
+									</object>
+									<object name="Translate">
+										<float name="X" value="-48.012"/>
+										<float name="Y" value="9.852"/>
+										<float name="Z" value="0."/>
+									</object>
+								</object>
+								<string name="Type" value="Port"/>
+							</object>
+
+						</object>
+						<string name="Type" value="Mesh"/>
+						<boolean name="Visible" value="true"/>
+					</object>
+					<object name="ZPort_AAGunContr1">
+						<string name="ConcreteType" value="ZPort"/>
+						<string name="PortType" value=""/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="5.66998286e-002"/>
+								<float name="Y" value="0.245336382"/>
+								<float name="Z" value="0.118575903"/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="38.774"/>
+								<float name="Y" value="9.875"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="ZPort_Bridge">
+						<string name="ConcreteType" value="ZPort"/>
+						<string name="PortType" value="PortType"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="47.686"/>
+								<float name="Y" value="14.509"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="ZPort_FuelTank">
+						<string name="ConcreteType" value="ZPort"/>
+						<string name="PortType" value=""/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1.46660277"/>
+								<float name="Y" value="0.694199402"/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="27.833"/>
+								<float name="Y" value="-1.802"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="ZPort_Jammer_JS_A">
+						<string name="ConcreteType" value="ZPort"/>
+						<string name="PortType" value=""/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="5.66998286e-002"/>
+								<float name="Y" value="0.245336382"/>
+								<float name="Z" value="0.118575903"/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="45.621"/>
+								<float name="Y" value="9.16"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="ZPort_Jammer_US_A1">
+						<string name="ConcreteType" value="ZPort"/>
+						<string name="PortType" value=""/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="5.66998286e-002"/>
+								<float name="Y" value="0.245336382"/>
+								<float name="Z" value="0.118575903"/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-41.002"/>
+								<float name="Y" value="1.44"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="ZPort_MainGunContr">
+						<string name="ConcreteType" value="ZPort"/>
+						<string name="PortType" value=""/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="5.66998286e-002"/>
+								<float name="Y" value="0.245336382"/>
+								<float name="Z" value="0.118575903"/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="44.78"/>
+								<float name="Y" value="11.723"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="ZPort_Radio">
+						<string name="ConcreteType" value="ZPort"/>
+						<string name="PortType" value=""/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="5.66998286e-002"/>
+								<float name="Y" value="0.245336382"/>
+								<float name="Z" value="0.118575903"/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="36.66"/>
+								<float name="Y" value="14.253"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="ZPort_Sonar">
+						<string name="ConcreteType" value="ZPort"/>
+						<string name="PortType" value=""/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="39.98"/>
+								<float name="Y" value="-0.705"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="ZPort_Sonar1">
+						<string name="ConcreteType" value="ZPort"/>
+						<string name="PortType" value=""/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-26.296"/>
+								<float name="Y" value="1.177"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="ZPort_SteamTurbine_01">
+						<string name="ConcreteType" value="ZPort"/>
+						<string name="PortType" value=""/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="2.24917782"/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="7.694"/>
+								<float name="Y" value="0.533"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="ZPort_Rudder">
+						<string name="ConcreteType" value="ZPort"/>
+						<string name="PortType" value=""/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-73.359"/>
+								<float name="Y" value="-3.47"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+				</object>
+				<string name="Type" value="Mesh"/>
+				<boolean name="Visible" value="true"/>
+			</object>
+		</object>
+		<object name="Flags">
+			<boolean name="Selectable" value="true"/>
+			<string name="Type" value="ship"/>
+			<boolean name="Updatable" value="true"/>
+		</object>
+		<object name="Ports">
+					<object name="DPort_Anchor">
+						<string name="ConcreteType" value="DPort"/>
+						<string name="PortHolder" value=""/>
+						<string name="PortType" value="Sendai_Anchor"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="DPort_Kran">
+						<string name="ConcreteType" value="DPort"/>
+						<string name="PortHolder" value=""/>
+						<string name="PortType" value="Sendai_Kran"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-34.128"/>
+								<float name="Y" value="13.595"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="DPort_Jap_Flag">
+						<string name="ConcreteType" value="DPort"/>
+						<string name="PortHolder" value=""/>
+						<string name="PortType" value="Jap_Flag"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="35.557"/>
+								<float name="Y" value="30.615"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>	
+					<object name="DPort_Jap_Flag1">
+						<string name="ConcreteType" value="DPort"/>
+						<string name="PortHolder" value=""/>
+						<string name="PortType" value="Jap_Flag"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="3.554"/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-81.789"/>
+								<float name="Y" value="7.712"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="DPort_SpasBot">
+						<string name="ConcreteType" value="DPort"/>
+						<string name="PortHolder" value=""/>
+						<string name="PortType" value="Sendai_Boats"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="DPort_Rafts">
+						<string name="ConcreteType" value="DPort"/>
+						<string name="PortHolder" value=""/>
+						<string name="PortType" value="Sendai_Rafts"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object> 
+					<object name="EPortFire">
+						<string name="ConcreteType" value="EPort"/>
+						<string name="Handling" value="0"/>
+						<string name="PortHolder" value="nothing"/>
+						<string name="PortType" value="fire"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="72.755"/>
+								<float name="Y" value="6.538"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="EPortFire1">
+						<string name="ConcreteType" value="EPort"/>
+						<string name="Handling" value="0"/>
+						<string name="PortHolder" value="nothing"/>
+						<string name="PortType" value="fire"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="63.64"/>
+								<float name="Y" value="6.486"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="EPortFire10">
+						<string name="ConcreteType" value="EPort"/>
+						<string name="Handling" value="0"/>
+						<string name="PortHolder" value="nothing"/>
+						<string name="PortType" value="fire"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="51.361"/>
+								<float name="Y" value="6.486"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="EPortFire11">
+						<string name="ConcreteType" value="EPort"/>
+						<string name="Handling" value="0"/>
+						<string name="PortHolder" value="nothing"/>
+						<string name="PortType" value="fire"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="40.052"/>
+								<float name="Y" value="6.486"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="EPortFire12">
+						<string name="ConcreteType" value="EPort"/>
+						<string name="Handling" value="0"/>
+						<string name="PortHolder" value="nothing"/>
+						<string name="PortType" value="fire"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="28.183"/>
+								<float name="Y" value="5.183"/>
+								<float name="Z" value="3.828"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="EPortFire13">
+						<string name="ConcreteType" value="EPort"/>
+						<string name="Handling" value="0"/>
+						<string name="PortHolder" value="nothing"/>
+						<string name="PortType" value="fire"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="28.183"/>
+								<float name="Y" value="5.183"/>
+								<float name="Z" value="-3.828"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="EPortFire14">
+						<string name="ConcreteType" value="EPort"/>
+						<string name="Handling" value="0"/>
+						<string name="PortHolder" value="nothing"/>
+						<string name="PortType" value="fire"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="13.505"/>
+								<float name="Y" value="7.368"/>
+								<float name="Z" value="3.828"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="EPortFire15">
+						<string name="ConcreteType" value="EPort"/>
+						<string name="Handling" value="0"/>
+						<string name="PortHolder" value="nothing"/>
+						<string name="PortType" value="fire"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="13.505"/>
+								<float name="Y" value="7.368"/>
+								<float name="Z" value="-3.828"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="EPortFire16">
+						<string name="ConcreteType" value="EPort"/>
+						<string name="Handling" value="0"/>
+						<string name="PortHolder" value="nothing"/>
+						<string name="PortType" value="fire"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-2.749"/>
+								<float name="Y" value="7.368"/>
+								<float name="Z" value="3.828"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="EPortFire17">
+						<string name="ConcreteType" value="EPort"/>
+						<string name="Handling" value="0"/>
+						<string name="PortHolder" value="nothing"/>
+						<string name="PortType" value="fire"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-2.749"/>
+								<float name="Y" value="7.368"/>
+								<float name="Z" value="-3.828"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="EPortFire18">
+						<string name="ConcreteType" value="EPort"/>
+						<string name="Handling" value="0"/>
+						<string name="PortHolder" value="nothing"/>
+						<string name="PortType" value="fire"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-21.742"/>
+								<float name="Y" value="7.368"/>
+								<float name="Z" value="3.828"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="EPortFire19">
+						<string name="ConcreteType" value="EPort"/>
+						<string name="Handling" value="0"/>
+						<string name="PortHolder" value="nothing"/>
+						<string name="PortType" value="fire"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-21.742"/>
+								<float name="Y" value="7.368"/>
+								<float name="Z" value="-3.828"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="EPortFire2">
+						<string name="ConcreteType" value="EPort"/>
+						<string name="Handling" value="0"/>
+						<string name="PortHolder" value="nothing"/>
+						<string name="PortType" value="fire"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-67.294"/>
+								<float name="Y" value="5.177"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="EPortFire3">
+						<string name="ConcreteType" value="EPort"/>
+						<string name="Handling" value="0"/>
+						<string name="PortHolder" value="nothing"/>
+						<string name="PortType" value="fire"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-54.997"/>
+								<float name="Y" value="7.159"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="EPortFire4">
+						<string name="ConcreteType" value="EPort"/>
+						<string name="Handling" value="0"/>
+						<string name="PortHolder" value="nothing"/>
+						<string name="PortType" value="fire"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-46.088"/>
+								<float name="Y" value="7.159"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="EPortFire5">
+						<string name="ConcreteType" value="EPort"/>
+						<string name="Handling" value="0"/>
+						<string name="PortHolder" value="nothing"/>
+						<string name="PortType" value="fire"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-37.394"/>
+								<float name="Y" value="7.159"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="EPortFire6">
+						<string name="ConcreteType" value="EPort"/>
+						<string name="Handling" value="0"/>
+						<string name="PortHolder" value="nothing"/>
+						<string name="PortType" value="fire"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-29.53"/>
+								<float name="Y" value="7.159"/>
+								<float name="Z" value="1.612"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="EPortFire7">
+						<string name="ConcreteType" value="EPort"/>
+						<string name="Handling" value="0"/>
+						<string name="PortHolder" value="nothing"/>
+						<string name="PortType" value="fire"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-29.53"/>
+								<float name="Y" value="7.159"/>
+								<float name="Z" value="-1.612"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+
+
+					<object name="EPort_Smoke01">
+						<string name="ConcreteType" value="EPort"/>
+						<string name="Handling" value="1"/>
+						<string name="PortHolder" value=""/>
+						<string name="PortType" value="Smoke"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="26.104"/>
+								<float name="Y" value="15.765"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="EPort_Smoke02">
+						<string name="ConcreteType" value="EPort"/>
+						<string name="Handling" value="1"/>
+						<string name="PortHolder" value=""/>
+						<string name="PortType" value="Smoke"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="12.104"/>
+								<float name="Y" value="14.858"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="EPort_Smoke03">
+						<string name="ConcreteType" value="EPort"/>
+						<string name="Handling" value="1"/>
+						<string name="PortHolder" value=""/>
+						<string name="PortType" value="Smoke"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="2.032"/>
+								<float name="Y" value="14.858"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="EPort_Smoke04">
+						<string name="ConcreteType" value="EPort"/>
+						<string name="Handling" value="1"/>
+						<string name="PortHolder" value=""/>
+						<string name="PortType" value="Smoke"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-10.493"/>
+								<float name="Y" value="14.858"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+
+
+
+
+							<object name="EPort_017">
+								<string name="ConcreteType" value="EPort"/>
+								<string name="Handling" value="1"/>
+								<string name="PortHolder" value=""/>
+								<string name="PortType" value="Forwardtrail\Spray"/>
+								<object name="Transform">
+									<object name="Rotate">
+										<float name="X" value="0."/>
+										<float name="Y" value="90."/>
+										<float name="Z" value="0."/>
+									</object>
+									<object name="Scale">
+										<float name="X" value="1."/>
+										<float name="Y" value="1."/>
+										<float name="Z" value="1."/>
+									</object>
+									<object name="Translate">
+										<float name="X" value="78.084"/>
+										<float name="Y" value="0."/>
+										<float name="Z" value="0."/>
+									</object>
+								</object>
+								<string name="Type" value="Port"/>
+							</object>
+							<object name="EPort_018">
+								<string name="ConcreteType" value="EPort"/>
+								<string name="Handling" value="1"/>
+								<string name="PortHolder" value=""/>
+								<string name="PortType" value="Forwardtrail\Spray"/>
+								<object name="Transform">
+									<object name="Rotate">
+										<float name="X" value="0."/>
+										<float name="Y" value="-90."/>
+										<float name="Z" value="0."/>
+									</object>
+									<object name="Scale">
+										<float name="X" value="1."/>
+										<float name="Y" value="1."/>
+										<float name="Z" value="1."/>
+									</object>
+									<object name="Translate">
+										<float name="X" value="78.698"/>
+										<float name="Y" value="0."/>
+										<float name="Z" value="0."/>
+									</object>
+								</object>
+								<string name="Type" value="Port"/>
+							</object>
+							<object name="EPort_019">
+								<string name="ConcreteType" value="EPort"/>
+								<string name="Handling" value="1"/>
+								<string name="PortHolder" value=""/>
+								<string name="PortType" value="Backtrail/BackAngle"/>
+								<object name="Transform">
+									<object name="Rotate">
+										<float name="X" value="7.01958357e-015"/>
+										<float name="Y" value="170."/>
+										<float name="Z" value="0."/>
+									</object>
+									<object name="Scale">
+										<float name="X" value="1."/>
+										<float name="Y" value="1."/>
+										<float name="Z" value="1."/>
+									</object>
+									<object name="Translate">
+										<float name="X" value="59.482"/>
+										<float name="Y" value="0."/>
+										<float name="Z" value="-3.008"/>
+									</object>
+								</object>
+								<string name="Type" value="Port"/>
+							</object>
+							<object name="EPort_020">
+								<string name="ConcreteType" value="EPort"/>
+								<string name="Handling" value="1"/>
+								<string name="PortHolder" value=""/>
+								<string name="PortType" value="Backtrail/BackAngle"/>
+								<object name="Transform">
+									<object name="Rotate">
+										<float name="X" value="7.01958357e-015"/>
+										<float name="Y" value="-170."/>
+										<float name="Z" value="0."/>
+									</object>
+									<object name="Scale">
+										<float name="X" value="1."/>
+										<float name="Y" value="1."/>
+										<float name="Z" value="1."/>
+									</object>
+									<object name="Translate">
+										<float name="X" value="59.482"/>
+										<float name="Y" value="0."/>
+										<float name="Z" value="3.008"/>
+									</object>
+								</object>
+								<string name="Type" value="Port"/>
+							</object>
+							<object name="EPort_021">
+								<string name="ConcreteType" value="EPort"/>
+								<string name="Handling" value="1"/>
+								<string name="PortHolder" value=""/>
+								<string name="PortType" value="Backtrail/BackAngle"/>
+								<object name="Transform">
+									<object name="Rotate">
+										<float name="X" value="0."/>
+										<float name="Y" value="90."/>
+										<float name="Z" value="0."/>
+									</object>
+									<object name="Scale">
+										<float name="X" value="1."/>
+										<float name="Y" value="1."/>
+										<float name="Z" value="1."/>
+									</object>
+									<object name="Translate">
+										<float name="X" value="30.898"/>
+										<float name="Y" value="0."/>
+										<float name="Z" value="-5.267"/>
+									</object>
+								</object>
+								<string name="Type" value="Port"/>
+							</object>
+							<object name="EPort_022">
+								<string name="ConcreteType" value="EPort"/>
+								<string name="Handling" value="1"/>
+								<string name="PortHolder" value=""/>
+								<string name="PortType" value="Backtrail/BackAngle"/>
+								<object name="Transform">
+									<object name="Rotate">
+										<float name="X" value="0."/>
+										<float name="Y" value="-90."/>
+										<float name="Z" value="0."/>
+									</object>
+									<object name="Scale">
+										<float name="X" value="1."/>
+										<float name="Y" value="1."/>
+										<float name="Z" value="1."/>
+									</object>
+									<object name="Translate">
+										<float name="X" value="30.898"/>
+										<float name="Y" value="0."/>
+										<float name="Z" value="5.267"/>
+									</object>
+								</object>
+								<string name="Type" value="Port"/>
+							</object>
+							<object name="EPort_023">
+								<string name="ConcreteType" value="EPort"/>
+								<string name="Handling" value="1"/>
+								<string name="PortHolder" value=""/>
+								<string name="PortType" value="Backtrail/BackAngle"/>
+								<object name="Transform">
+									<object name="Rotate">
+										<float name="X" value="7.01958357e-015"/>
+										<float name="Y" value="160."/>
+										<float name="Z" value="0."/>
+									</object>
+									<object name="Scale">
+										<float name="X" value="1."/>
+										<float name="Y" value="1."/>
+										<float name="Z" value="1."/>
+									</object>
+									<object name="Translate">
+										<float name="X" value="-10.856"/>
+										<float name="Y" value="0."/>
+										<float name="Z" value="-6.96"/>
+									</object>
+								</object>
+								<string name="Type" value="Port"/>
+							</object>
+							<object name="EPort_024">
+								<string name="ConcreteType" value="EPort"/>
+								<string name="Handling" value="1"/>
+								<string name="PortHolder" value=""/>
+								<string name="PortType" value="Backtrail/BackAngle"/>
+								<object name="Transform">
+									<object name="Rotate">
+										<float name="X" value="7.01958357e-015"/>
+										<float name="Y" value="-160."/>
+										<float name="Z" value="0."/>
+									</object>
+									<object name="Scale">
+										<float name="X" value="1."/>
+										<float name="Y" value="1."/>
+										<float name="Z" value="1."/>
+									</object>
+									<object name="Translate">
+										<float name="X" value="-10.856"/>
+										<float name="Y" value="0."/>
+										<float name="Z" value="6.96"/>
+									</object>
+								</object>
+								<string name="Type" value="Port"/>
+							</object>
+							<object name="EPort_025">
+								<string name="ConcreteType" value="EPort"/>
+								<string name="Handling" value="1"/>
+								<string name="PortHolder" value=""/>
+								<string name="PortType" value="Backtrail/BackAngle"/>
+								<object name="Transform">
+									<object name="Rotate">
+										<float name="X" value="0."/>
+										<float name="Y" value="90."/>
+										<float name="Z" value="0."/>
+									</object>
+									<object name="Scale">
+										<float name="X" value="1."/>
+										<float name="Y" value="1."/>
+										<float name="Z" value="1."/>
+									</object>
+									<object name="Translate">
+										<float name="X" value="-53.59"/>
+										<float name="Y" value="0."/>
+										<float name="Z" value="-5.494"/>
+									</object>
+								</object>
+								<string name="Type" value="Port"/>
+							</object>
+							<object name="EPort_026">
+								<string name="ConcreteType" value="EPort"/>
+								<string name="Handling" value="1"/>
+								<string name="PortHolder" value=""/>
+								<string name="PortType" value="Backtrail/BackAngle"/>
+								<object name="Transform">
+									<object name="Rotate">
+										<float name="X" value="0."/>
+										<float name="Y" value="-90."/>
+										<float name="Z" value="0."/>
+									</object>
+									<object name="Scale">
+										<float name="X" value="1."/>
+										<float name="Y" value="1."/>
+										<float name="Z" value="1."/>
+									</object>
+									<object name="Translate">
+										<float name="X" value="-53.59"/>
+										<float name="Y" value="0."/>
+										<float name="Z" value="5.494"/>
+									</object>
+								</object>
+								<string name="Type" value="Port"/>
+							</object>
+							<object name="EPort_04">
+								<string name="ConcreteType" value="EPort"/>
+								<string name="Handling" value="1"/>
+								<string name="PortHolder" value=""/>
+								<string name="PortType" value="Backtrail/BackSpray"/>
+								<object name="Transform">
+									<object name="Rotate">
+										<float name="X" value="0."/>
+										<float name="Y" value="0."/>
+										<float name="Z" value="0."/>
+									</object>
+									<object name="Scale">
+										<float name="X" value="1."/>
+										<float name="Y" value="1."/>
+										<float name="Z" value="1."/>
+									</object>
+									<object name="Translate">
+										<float name="X" value="-81.043"/>
+										<float name="Y" value="0."/>
+										<float name="Z" value="0."/>
+									</object>
+								</object>
+								<string name="Type" value="Port"/>
+							</object>
+
+
+
+
+
+
+							<object name="TPort_MainGun_Turret_F1">
+								<string name="ConcreteType" value="TPort"/>
+								<float name="PortMaxValueY" value="150."/>
+								<float name="PortMaxValueZ" value="0."/>
+								<float name="PortMinValueY" value="-150."/>
+								<float name="PortMinValueZ" value="0."/>
+								<string name="PortMoType" value="Rotate"/>
+								<string name="PortType" value="Main_Turret_Kuma"/>
+								<object name="Transform">
+									<object name="Rotate">
+										<float name="X" value="0."/>
+										<float name="Y" value="0."/>
+										<float name="Z" value="0."/>
+									</object>
+									<object name="Scale">
+										<float name="X" value="1."/>
+										<float name="Y" value="1."/>
+										<float name="Z" value="1."/>
+									</object>
+									<object name="Translate">
+										<float name="X" value="60.747"/>
+										<float name="Y" value="5.934"/>
+										<float name="Z" value="0."/>
+									</object>
+								</object>
+								<string name="Type" value="Port"/>
+							</object>
+							<object name="TPort_MainGun_Turret_F2">
+								<string name="ConcreteType" value="TPort"/>
+								<float name="PortMaxValueY" value="150."/>
+								<float name="PortMaxValueZ" value="0."/>
+								<float name="PortMinValueY" value="-150."/>
+								<float name="PortMinValueZ" value="0."/>
+								<string name="PortMoType" value="Rotate"/>
+								<string name="PortType" value="Main_Turret_Kuma"/>
+								<object name="Transform">
+									<object name="Rotate">
+										<float name="X" value="0."/>
+										<float name="Y" value="180."/>
+										<float name="Z" value="0."/>
+									</object>
+									<object name="Scale">
+										<float name="X" value="1."/>
+										<float name="Y" value="1."/>
+										<float name="Z" value="1."/>
+									</object>
+									<object name="Translate">
+										<float name="X" value="54.898"/>
+										<float name="Y" value="5.827"/>
+										<float name="Z" value="0."/>
+									</object>
+								</object>
+								<string name="Type" value="Port"/>
+							</object>
+							<object name="TPort_MainGun_Turret_F3R">
+								<string name="ConcreteType" value="TPort"/>
+								<float name="PortMaxValueY" value="0."/>
+								<float name="PortMaxValueZ" value="0."/>
+								<float name="PortMinValueY" value="-155."/>
+								<float name="PortMinValueZ" value="0."/>
+								<string name="PortMoType" value="Rotate"/>
+								<string name="PortType" value="Main_Turret_Kuma"/>
+								<object name="Transform">
+									<object name="Rotate">
+										<float name="X" value="0."/>
+										<float name="Y" value="0."/>
+										<float name="Z" value="0."/>
+									</object>
+									<object name="Scale">
+										<float name="X" value="1."/>
+										<float name="Y" value="1."/>
+										<float name="Z" value="1."/>
+									</object>
+									<object name="Translate">
+										<float name="X" value="36.768"/>
+										<float name="Y" value="5.806"/>
+										<float name="Z" value="4.363"/>
+									</object>
+								</object>
+								<string name="Type" value="Port"/>
+							</object>
+							<object name="TPort_MainGun_Turret_F3L">
+								<string name="ConcreteType" value="TPort"/>
+								<float name="PortMaxValueY" value="155."/>
+								<float name="PortMaxValueZ" value="0."/>
+								<float name="PortMinValueY" value="-0."/>
+								<float name="PortMinValueZ" value="0."/>
+								<string name="PortMoType" value="Rotate"/>
+								<string name="PortType" value="Main_Turret_Kuma"/>
+								<object name="Transform">
+									<object name="Rotate">
+										<float name="X" value="0."/>
+										<float name="Y" value="0."/>
+										<float name="Z" value="0."/>
+									</object>
+									<object name="Scale">
+										<float name="X" value="1."/>
+										<float name="Y" value="1."/>
+										<float name="Z" value="1."/>
+									</object>
+									<object name="Translate">
+										<float name="X" value="36.768"/>
+										<float name="Y" value="5.806"/>
+										<float name="Z" value="-4.363"/>
+									</object>
+								</object>
+								<string name="Type" value="Port"/>
+							</object>
+							<object name="TPort_MainGun_Turret_F4">
+								<string name="ConcreteType" value="TPort"/>
+								<float name="PortMaxValueY" value="135."/>
+								<float name="PortMaxValueZ" value="0."/>
+								<float name="PortMinValueY" value="-135."/>
+								<float name="PortMinValueZ" value="0."/>
+								<string name="PortMoType" value="Rotate"/>
+								<string name="PortType" value="Main_Turret_Kuma"/>
+								<object name="Transform">
+									<object name="Rotate">
+										<float name="X" value="0."/>
+										<float name="Y" value="180."/>
+										<float name="Z" value="0."/>
+									</object>
+									<object name="Scale">
+										<float name="X" value="1."/>
+										<float name="Y" value="1."/>
+										<float name="Z" value="1."/>
+									</object>
+									<object name="Translate">
+										<float name="X" value="-23.685"/>
+										<float name="Y" value="5.787"/>
+										<float name="Z" value="0."/>
+									</object>
+								</object>
+								<string name="Type" value="Port"/>
+							</object>
+							<object name="TPort_MainGun_Turret_F5">
+								<string name="ConcreteType" value="TPort"/>
+								<float name="PortMaxValueY" value="150."/>
+								<float name="PortMaxValueZ" value="0."/>
+								<float name="PortMinValueY" value="-150."/>
+								<float name="PortMinValueZ" value="0."/>
+								<string name="PortMoType" value="Rotate"/>
+								<string name="PortType" value="Main_Turret_Kuma"/>
+								<object name="Transform">
+									<object name="Rotate">
+										<float name="X" value="0."/>
+										<float name="Y" value="0."/>
+										<float name="Z" value="0."/>
+									</object>
+									<object name="Scale">
+										<float name="X" value="1."/>
+										<float name="Y" value="1."/>
+										<float name="Z" value="1."/>
+									</object>
+									<object name="Translate">
+										<float name="X" value="-40.725"/>
+										<float name="Y" value="5.787"/>
+										<float name="Z" value="0."/>
+									</object>
+								</object>
+								<string name="Type" value="Port"/>
+							</object>
+							<object name="TPort_MainGun_Turret_F6">
+								<string name="ConcreteType" value="TPort"/>
+								<float name="PortMaxValueY" value="155."/>
+								<float name="PortMaxValueZ" value="0."/>
+								<float name="PortMinValueY" value="-155."/>
+								<float name="PortMinValueZ" value="0."/>
+								<string name="PortMoType" value="Rotate"/>
+								<string name="PortType" value="Main_Turret_Kuma"/>
+								<object name="Transform">
+									<object name="Rotate">
+										<float name="X" value="0."/>
+										<float name="Y" value="180."/>
+										<float name="Z" value="0."/>
+									</object>
+									<object name="Scale">
+										<float name="X" value="1."/>
+										<float name="Y" value="1."/>
+										<float name="Z" value="1."/>
+									</object>
+									<object name="Translate">
+										<float name="X" value="-57.299"/>
+										<float name="Y" value="5.787"/>
+										<float name="Z" value="0."/>
+									</object>
+								</object>
+								<string name="Type" value="Port"/>
+							</object>
+
+
+					<object name="TPort_TORPFR">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="0."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-140."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Jap_Torp_App_2x_Turret_v2"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="16.995"/>
+								<float name="Y" value="3.518"/>
+								<float name="Z" value="4.342"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_TORPFL">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="140."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="0."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Jap_Torp_App_2x_Turret_v2"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="16.995"/>
+								<float name="Y" value="3.518"/>
+								<float name="Z" value="-4.342"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_TORPBR">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="180."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="0."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Jap_Torp_App_2x_Turret_v2"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="180."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-18.237"/>
+								<float name="Y" value="3.518"/>
+								<float name="Z" value="4.342"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_TORPBL">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="0."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-180."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Jap_Torp_App_2x_Turret_v2"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="180."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-18.237"/>
+								<float name="Y" value="3.518"/>
+								<float name="Z" value="-4.342"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_ASW_R">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="0."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="0."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Bomb_Kletka_Small_4x"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-77.354"/>
+								<float name="Y" value="3.631"/>
+								<float name="Z" value="2.485"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_ASW_L">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="0."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="0."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Bomb_Kletka_Small_4x"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-77.354"/>
+								<float name="Y" value="3.631"/>
+								<float name="Z" value="-2.485"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_AAA2x127mmR">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="75."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-60."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Universal_Turret_127x2_Mogami"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="-90."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="10.879"/>
+								<float name="Y" value="5.787"/>
+								<float name="Z" value="4.446"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_AAA2x127mmL">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="60."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-75."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Universal_Turret_127x2_Mogami"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="90."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="10.879"/>
+								<float name="Y" value="5.787"/>
+								<float name="Z" value="-4.446"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+
+					<object name="TPort_AA3x25mmF">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="110."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-110."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Jap_Turret_25x3"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="48.258"/>
+								<float name="Y" value="11.069"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object> 
+					<object name="TPort_AA3x25mmFR">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="65."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-93."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Jap_Turret_25x3"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="-90."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="37.339"/>
+								<float name="Y" value="13.517"/>
+								<float name="Z" value="2.306"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_AA3x25mmFL">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="93."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-65."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Jap_Turret_25x3"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="90."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="37.339"/>
+								<float name="Y" value="13.517"/>
+								<float name="Z" value="-2.306"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_AA3x25mmM1R">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="85."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-85."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Jap_Turret_25x3"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="-90."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-4.556"/>
+								<float name="Y" value="8.813"/>
+								<float name="Z" value="1.767"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_AA3x25mmM1L">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="85."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-85."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Jap_Turret_25x3"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="90."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-4.556"/>
+								<float name="Y" value="8.813"/>
+								<float name="Z" value="-1.767"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_AA3x25mmB1R">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="93."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-115."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Jap_Turret_25x3"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="-90."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-48.149"/>
+								<float name="Y" value="5.782"/>
+								<float name="Z" value="4.431"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_AA3x25mmB1L">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="115."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-93."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Jap_Turret_25x3"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="90."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-48.149"/>
+								<float name="Y" value="5.782"/>
+								<float name="Z" value="-4.431"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_AA3x25mmB2R">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="179."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-179."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Jap_Turret_25x3"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="-90."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-68.161"/>
+								<float name="Y" value="3.515"/>
+								<float name="Z" value="3.312"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_AA3x25mmB2L">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="179."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-179."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Jap_Turret_25x3"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="90."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-68.161"/>
+								<float name="Y" value="3.515"/>
+								<float name="Z" value="-3.312"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_AA2x25mmF1R">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="135."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-115."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Jap_Turret_25x2"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="-45."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="49.497"/>
+								<float name="Y" value="5.791"/>
+								<float name="Z" value="3.097"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_AA2x25mmF1L">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="115."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-135."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Jap_Turret_25x2"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="45."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="49.497"/>
+								<float name="Y" value="5.791"/>
+								<float name="Z" value="-3.097"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_AA2x25mmM1R">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="93."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-93."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Jap_Turret_25x2"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="-90."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-30.834"/>
+								<float name="Y" value="3.515"/>
+								<float name="Z" value="5.77"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_AA2x25mmM1L">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="93."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-93."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Jap_Turret_25x2"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="90."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-30.834"/>
+								<float name="Y" value="3.515"/>
+								<float name="Z" value="-5.77"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object> 
+					<object name="TPort_AA2x25mmM2R">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="93."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-93."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Jap_Turret_25x2"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="-90."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-34.605"/>
+								<float name="Y" value="3.515"/>
+								<float name="Z" value="5.77"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_AA2x25mmM2L">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="93."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-93."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Jap_Turret_25x2"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="90."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-34.605"/>
+								<float name="Y" value="3.515"/>
+								<float name="Z" value="-5.77"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_AA1x25mmF1R">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="90."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-90."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Jap_Turret_25x1"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="-90."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-31.036"/>
+								<float name="Y" value="5.785"/>
+								<float name="Z" value="3.251"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_AA1x25mmF1L">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="90."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-90."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Jap_Turret_25x1"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="90."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-31.036"/>
+								<float name="Y" value="5.785"/>
+								<float name="Z" value="-3.251"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_AA1x25mmF2R">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="90."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-220."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Jap_Turret_25x1"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="-90."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-63.623"/>
+								<float name="Y" value="3.511"/>
+								<float name="Z" value="4.016"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_AA1x25mmF2L">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="220."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-90."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Jap_Turret_25x1"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="90."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-63.623"/>
+								<float name="Y" value="3.511"/>
+								<float name="Z" value="-4.016"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_AA1x25mmB">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="179."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-179."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Jap_Turret_25x1"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="180."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-70.75"/>
+								<float name="Y" value="3.511"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_AA1x13mmFR">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="85."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-85."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="1x13mm_Turret_IJN"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="-90."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-4.24"/>
+								<float name="Y" value="5.779"/>
+								<float name="Z" value="5.965"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_AA1x13mmFL">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="85."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-85."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="1x13mm_Turret_IJN"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="90."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-4.24"/>
+								<float name="Y" value="5.779"/>
+								<float name="Z" value="-5.965"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_AA2x13mmBR">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="65."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-65."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Jap_Turret_13x2_Base"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="-90."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="18.9"/>
+								<float name="Y" value="5.781"/>
+								<float name="Z" value="1.22"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_AA2x13mmBL">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="65."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-65."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Jap_Turret_13x2_Base"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="90."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="18.9"/>
+								<float name="Y" value="5.781"/>
+								<float name="Z" value="-1.22"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+
+
+
+
+					<object name="TPort_ProjFR">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="90."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-90."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Jap_Projector"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="-135."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="35.112"/>
+								<float name="Y" value="16.882"/>
+								<float name="Z" value="1.117"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object> 
+					<object name="TPort_ProjFL">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="90."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-90."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Jap_Projector"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="135."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="35.112"/>
+								<float name="Y" value="16.882"/>
+								<float name="Z" value="-1.117"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_ProjB">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="90."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-90."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Jap_Projector"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-29.369"/>
+								<float name="Y" value="14.185"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>  
+
+					<object name="TPort_RF_Typ95_02_F1R">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="360."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-360."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Director_Typ95_Yamato_02"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="-90."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="44.154"/>
+								<float name="Y" value="13.211"/>
+								<float name="Z" value="3.762"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_RF_Typ95_02_F1L">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="360."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-360."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Director_Typ95_Yamato_02"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="90."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="44.154"/>
+								<float name="Y" value="13.211"/>
+								<float name="Z" value="-3.762"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_RF_Jap_Mk52_FR">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="60."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-80."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Jap_RangeFinder_Mk52"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="-90."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="37.422"/>
+								<float name="Y" value="11.756"/>
+								<float name="Z" value="2.676"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_RF_Jap_Mk52_FL">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="80."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-60."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Jap_RangeFinder_Mk52"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="90."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="37.422"/>
+								<float name="Y" value="11.756"/>
+								<float name="Z" value="-2.676"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_RF_Jap_Mk52_BR">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="85."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-85."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Jap_RangeFinder_Mk52"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="-90."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="7.456"/>
+								<float name="Y" value="9.618"/>
+								<float name="Z" value="1.377"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_RF_Jap_Mk52_BL">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="85."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-85."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Jap_RangeFinder_Mk52"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="90."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="7.456"/>
+								<float name="Y" value="9.618"/>
+								<float name="Z" value="-1.377"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+
+
+
+					<object name="TPort_Main_Gun_Director1">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="360."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-360"/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Dalnomer45_Akagi"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="0.8"/>
+								<float name="Y" value="0.8"/>
+								<float name="Z" value="0.8"/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="41.091"/>
+								<float name="Y" value="16.108"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_Main_Gun_Director2">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="360."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-360."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Dalnomer25_Akagi"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-16.678"/>
+								<float name="Y" value="8.783"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_Main_Gun_Director3">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="360."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-360."/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Dalnomer_C1"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="180."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="35.051"/>
+								<float name="Y" value="20.447"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object> 
+ 
+
+
+
+
+					<object name="TPort_RADAR1">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="360."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-360"/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Radar_Typ13_2"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="36.035"/>
+								<float name="Y" value="22.746"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_RADAR2">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="360."/>
+						<float name="PortMaxValueZ" value="0."/>
+						<float name="PortMinValueY" value="-360"/>
+						<float name="PortMinValueZ" value="0."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Radar_Typ13"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-31.647"/>
+								<float name="Y" value="18.767"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+
+
+
+
+
+							<object name="TPort_VINTR">
+								<string name="ConcreteType" value="TPort"/>
+								<float name="PortMaxValueY" value="360."/>
+								<float name="PortMaxValueZ" value="0."/>
+								<float name="PortMinValueY" value="0."/>
+								<float name="PortMinValueZ" value="0."/>
+								<string name="PortMoType" value="Rotate"/>
+								<string name="PortType" value="Vint_Fletcher"/>
+								<object name="Transform">
+									<object name="Rotate">
+										<float name="X" value="0"/>
+										<float name="Y" value="0."/>
+										<float name="Z" value="90."/>
+									</object>
+									<object name="Scale">
+										<float name="X" value="1."/>
+										<float name="Y" value="1."/>
+										<float name="Z" value="1."/>
+									</object>
+									<object name="Translate">
+										<float name="X" value="-78.857"/>
+										<float name="Y" value="-3.944"/>
+										<float name="Z" value="2.114"/>
+									</object>
+								</object>
+								<string name="Type" value="Port"/>
+							</object>
+							<object name="TPort_VINTL">
+								<string name="ConcreteType" value="TPort"/>
+								<float name="PortMaxValueY" value="360."/>
+								<float name="PortMaxValueZ" value="0."/>
+								<float name="PortMinValueY" value="0."/>
+								<float name="PortMinValueZ" value="0."/>
+								<string name="PortMoType" value="Rotate"/>
+								<string name="PortType" value="Vint_Fletcher"/>
+								<object name="Transform">
+									<object name="Rotate">
+										<float name="X" value="0"/>
+										<float name="Y" value="0"/>
+										<float name="Z" value="90."/>
+									</object>
+									<object name="Scale">
+										<float name="X" value="1."/>
+										<float name="Y" value="1."/>
+										<float name="Z" value="1."/>
+									</object>
+									<object name="Translate">
+										<float name="X" value="-78.857"/>
+										<float name="Y" value="-3.944"/>
+										<float name="Z" value="-2.114"/>
+									</object>
+								</object>
+								<string name="Type" value="Port"/>
+							</object>
+							<object name="TPort_KATAPULT">
+								<string name="ConcreteType" value="TPort"/>
+								<float name="PortMaxValueY" value="70."/>
+								<float name="PortMaxValueZ" value="0."/>
+								<float name="PortMinValueY" value="-70."/>
+								<float name="PortMinValueZ" value="0."/>
+								<string name="PortMoType" value="Rotate"/>
+								<string name="PortType" value="Katapulta"/>
+								<object name="Transform">
+									<object name="Rotate">
+										<float name="X" value="0."/>
+										<float name="Y" value="0."/>
+										<float name="Z" value="0."/>
+									</object>
+									<object name="Scale">
+										<float name="X" value="1."/>
+										<float name="Y" value="1."/>
+										<float name="Z" value="1."/>
+									</object>
+									<object name="Translate">
+										<float name="X" value="-48.012"/>
+										<float name="Y" value="9.852"/>
+										<float name="Z" value="0."/>
+									</object>
+								</object>
+								<string name="Type" value="Port"/>
+							</object>
+
+
+
+
+					<object name="ZPort_AAGunContr1">
+						<string name="ConcreteType" value="ZPort"/>
+						<string name="PortType" value=""/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="5.66998286e-002"/>
+								<float name="Y" value="0.245336382"/>
+								<float name="Z" value="0.118575903"/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="38.774"/>
+								<float name="Y" value="9.875"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="ZPort_Bridge">
+						<string name="ConcreteType" value="ZPort"/>
+						<string name="PortType" value="PortType"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="47.686"/>
+								<float name="Y" value="14.509"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="ZPort_FuelTank">
+						<string name="ConcreteType" value="ZPort"/>
+						<string name="PortType" value=""/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1.46660277"/>
+								<float name="Y" value="0.694199402"/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="27.833"/>
+								<float name="Y" value="-1.802"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="ZPort_Jammer_JS_A">
+						<string name="ConcreteType" value="ZPort"/>
+						<string name="PortType" value=""/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="5.66998286e-002"/>
+								<float name="Y" value="0.245336382"/>
+								<float name="Z" value="0.118575903"/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="45.621"/>
+								<float name="Y" value="9.16"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="ZPort_Jammer_US_A1">
+						<string name="ConcreteType" value="ZPort"/>
+						<string name="PortType" value=""/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="5.66998286e-002"/>
+								<float name="Y" value="0.245336382"/>
+								<float name="Z" value="0.118575903"/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-41.002"/>
+								<float name="Y" value="1.44"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="ZPort_MainGunContr">
+						<string name="ConcreteType" value="ZPort"/>
+						<string name="PortType" value=""/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="5.66998286e-002"/>
+								<float name="Y" value="0.245336382"/>
+								<float name="Z" value="0.118575903"/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="44.78"/>
+								<float name="Y" value="11.723"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="ZPort_Radio">
+						<string name="ConcreteType" value="ZPort"/>
+						<string name="PortType" value=""/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="5.66998286e-002"/>
+								<float name="Y" value="0.245336382"/>
+								<float name="Z" value="0.118575903"/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="36.66"/>
+								<float name="Y" value="14.253"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="ZPort_Sonar">
+						<string name="ConcreteType" value="ZPort"/>
+						<string name="PortType" value=""/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="39.98"/>
+								<float name="Y" value="-0.705"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="ZPort_Sonar1">
+						<string name="ConcreteType" value="ZPort"/>
+						<string name="PortType" value=""/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-26.296"/>
+								<float name="Y" value="1.177"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="ZPort_SteamTurbine_01">
+						<string name="ConcreteType" value="ZPort"/>
+						<string name="PortType" value=""/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="2.24917782"/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="7.694"/>
+								<float name="Y" value="0.533"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="ZPort_Rudder">
+						<string name="ConcreteType" value="ZPort"/>
+						<string name="PortType" value=""/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-73.359"/>
+								<float name="Y" value="-3.47"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+
+
+
+
+
+
+		</object>
+		<string name="Prefix" value="Sendai"/>
+		<float name="VisibilityRange" value="5000."/>
+	</object>
+</root>

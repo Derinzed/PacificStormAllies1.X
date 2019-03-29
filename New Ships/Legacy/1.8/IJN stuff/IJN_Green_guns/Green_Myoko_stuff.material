@@ -1,0 +1,109 @@
+material Green_Myoko_Gun_203mm
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 1 1
+			texture_unit
+			{
+				texture Green_Turret_203mm.dds
+				filtering trilinear
+			}
+		}
+		pass
+		{
+			ambient 1 1 1
+			scene_blend add
+			lighting off
+			fog_override true none
+			texture_unit
+			{
+				texture Green_Turret_203mm_spec.dds
+				filtering trilinear
+			}
+			texture_unit
+			{
+				cubic_texture shipenvmap.dds combinedUVW
+				env_map cubic_reflection
+				tex_address_mode clamp
+				colour_op_ex modulate src_texture src_current
+			}
+		}
+	}
+}
+
+material Green_Myoko_Gun_2x127mm
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 1 1
+			texture_unit
+			{
+				texture Green_Turret_127mm_Base.dds
+				filtering trilinear
+			}
+		}
+		pass
+		{
+			ambient 1 1 1
+			scene_blend add
+			lighting off
+			fog_override true none
+			texture_unit
+			{
+				texture Green_Turret_127mm_Base_spec.dds
+				filtering trilinear
+			}
+			texture_unit
+			{
+				cubic_texture shipenvmap.dds combinedUVW
+				env_map cubic_reflection
+				tex_address_mode clamp
+				colour_op_ex modulate src_texture src_current
+			}
+		}
+	}
+}
+
+material Green_Myoko_Gun_2x127mm_stvol
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 1 1
+			texture_unit
+			{
+				texture Green_Turret_127mm_Stvol.dds
+				filtering trilinear
+			}
+		}
+		pass
+		{
+			ambient 1 1 1
+			scene_blend add
+			lighting off
+			fog_override true none
+			texture_unit
+			{
+				texture Green_Turret_127mm_Stvol_spec.dds
+				filtering trilinear
+			}
+			texture_unit
+			{
+				cubic_texture shipenvmap.dds combinedUVW
+				env_map cubic_reflection
+				tex_address_mode clamp
+				colour_op_ex modulate src_texture src_current
+			}
+		}
+	}
+}
+
+
+
+
+

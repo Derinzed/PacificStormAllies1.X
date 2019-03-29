@@ -1,0 +1,1562 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<root>
+	<object name = "SteelMonstersParams">
+		<object name="Ships">
+			<object name="B64">
+				<float name="AccelRate" value="2.e-004"/>
+				<string name="Airgroup" value="Scout_Floatplane_Battleship_Division_japan"/>
+				<integer name="AirplanesCount" value="3"/>
+				<string name="AmmoLoadingTemplate" value="Ammo 50"/>
+				<boolean name="BoatsTransportationAbility" value="false"/>
+				<integer name="CabinArmor" value="150"/>
+				<boolean name="CanBeChanged" value="true"/>
+				<boolean name="CanUseTorpedos" value="true"/>
+				<string name="CatapultAirgroupDefaultUnit" value="F1M"/>
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="1200"/>
+				<float name="CriticalCareen" value="37."/>
+				<float name="CriticalDFT" value="3.5"/>
+				<float name="CriticalDifferent" value="4."/>
+				<float name="DTimeProd" value="130."/>
+				<float name="DisplacementMax" value="34447."/>
+				<float name="EPR" value="840."/>
+				<float name="FireRisk" value="1500."/>
+				<float name="Fuel" value="5200."/>
+				<integer name="HullArmorSide" value="140"/>
+				<integer name="HullArmorTop" value="100"/>
+                <float name="HLShapeCoef" value="0.5"/>
+				<float name="Iron" value="35000."/>
+				<integer name="Length" value="246"/>
+				<float name="MaxSpeed" value="34."/>
+				<integer name="MinCrew" value="800"/>
+				<float name="Money" value="15000."/>
+				<float name="NTimeProd" value="330."/>
+				<string name="Name" value="B64"/>
+				<boolean name="New" value="false"/>
+				<integer name="Nuc_Dest_Prob" value="250"/>
+				<integer name="Passengers" value="60"/>
+				<boolean name="PlanesTransportationAbility" value="false"/>
+				<float name="Range" value="14800."/>
+				<integer name="Rank" value="2"/>
+				<string name="SMU" value="B64"/>
+				<float name="Speed" value="18."/>
+				<float name="StoreCapacity" value="1500."/>
+				<boolean name="Transportable" value="false"/>
+				<float name="TurnRate" value="1.e-003"/>
+				<integer name="Type" value="1"/>
+				<float name="Vitality" value="7800."/>
+				<float name="VitalityAA" value="1500."/>
+				<float name="Weight" value="31400."/>
+				<integer name="Width" value="27"/>
+				<integer name="Year" value="43"/>
+			</object>
+		</object>
+		<object name="Engins">
+			<object name="MPP_B64">
+				<float name="Consumption" value="1.6933e-003"/>
+				<integer name="Country" value="2"/>
+				<float name="Money" value="5000."/>
+				<integer name="Power_Max" value="167674"/>
+				<integer name="RPM_Max" value="0"/>
+				<integer name="Type" value="8"/>
+				<integer name="Unreliability" value="10"/>
+				<string name="Usage" value="Ships"/>
+				<float name="Weight" value="2150."/>
+			</object>
+		</object>
+		<object name="Hit_Location">
+			<object name="A3993">
+				<string name="ConnectName" value="Tiller"/>
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Std_Rudder"/>
+				<string name="Name" value="Rudder"/>
+				<string name="TypHL" value="Rudder"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A3994">
+				<string name="ConnectName" value="Engine3"/>
+				<integer name="Country" value="2"/>
+				<float name="ER" value="150."/>
+				<string name="Hull" value="Std_Mover"/>
+				<string name="Name" value="Mover3"/>
+				<string name="TypHL" value="Mover"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A3995">
+				<string name="ConnectName" value="Engine4"/>
+				<integer name="Country" value="2"/>
+				<float name="ER" value="150."/>
+				<string name="Hull" value="Std_Mover"/>
+				<string name="Name" value="Mover4"/>
+				<string name="TypHL" value="Mover"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A3996">
+				<string name="ConnectName" value="Engine2"/>
+				<integer name="Country" value="2"/>
+				<float name="ER" value="150."/>
+				<string name="Hull" value="Std_Mover"/>
+				<string name="Name" value="Mover2"/>
+				<string name="TypHL" value="Mover"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A3997">
+				<string name="ConnectName" value="Engine1"/>
+				<integer name="Country" value="2"/>
+				<float name="ER" value="150."/>
+				<string name="Hull" value="Std_Mover"/>
+				<string name="Name" value="Mover1"/>
+				<string name="TypHL" value="Mover"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A3999">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_BattleCabine"/>
+				<string name="Name" value="BattleCabine"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4000">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Std_Probe"/>
+				<string name="Name" value="Probe_SG"/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4001">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Std_Probe"/>
+				<string name="Name" value="Probe_AA_Bow"/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4002">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Std_Probe"/>
+				<string name="Name" value="Probe_AA_Stern"/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+
+
+			<object name="A4005">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_BarbetMC"/>
+				<string name="Name" value="Barbet_2"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4006">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_BarbetMC"/>
+				<string name="Name" value="Barbet_1"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4007">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="Std_RAMP"/>
+				<string name="Name" value="Bow2_RAMP2"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4008">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="Std_RAMP"/>
+				<string name="Name" value="Bow2_RAMP1"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4009">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="Std_Bottom"/>
+				<string name="Name" value="Bow2_RBottom"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4010">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="Std_Bottom"/>
+				<string name="Name" value="Bow2_LBottom"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4011">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="Std_LAMP"/>
+				<string name="Name" value="Bow2_LAMP1"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4012">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_LLBelt"/>
+				<string name="Name" value="Bow2_LBelt_Lower"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4013">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_LLBelt"/>
+				<string name="Name" value="Bow2_LBelt_Upper"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4014">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_ADeck"/>
+				<string name="Name" value="Bow2_MiddleDeck1"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4015">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_Bbeam"/>
+				<string name="Name" value="Bow2_UpperBeam"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4016">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_UADeck"/>
+				<string name="Name" value="Bow2_UpperDeck1"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4017">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_UADeck"/>
+				<string name="Name" value="Bow2_LowerDeck1"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4018">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_AS"/>
+				<string name="Name" value="AmmoStore_2"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4019">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_AS"/>
+				<string name="Name" value="AmmoStore_1"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4020">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_RLBelt"/>
+				<string name="Name" value="Bow2_RBelt_Lower"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4021">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="Std_LAMP"/>
+				<string name="Name" value="Bow2_LAMP2"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4022">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_Bbeam"/>
+				<string name="Name" value="Bow2_LowerBeam"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4023">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_UADeck"/>
+				<string name="Name" value="Bow2_LowerDeck2"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4024">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_UADeck_Bow"/>
+				<string name="Name" value="Bow2_UpperDeck2"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4025">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_ADeck"/>
+				<string name="Name" value="Bow2_MiddleDeck2"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4026">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_RLBelt"/>
+				<string name="Name" value="Bow2_RBelt_Upper"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4027">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="Std_UpperHull"/>
+				<string name="Name" value="Bow2_ForeDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4028">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_UADeck"/>
+				<string name="Name" value="Middle1_RLowerDeck1"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4029">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="150."/>
+				<string name="Hull" value="Std_Boiler"/>
+				<string name="Name" value="Boiler4"/>
+				<string name="TypHL" value="Boiler"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4030">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_UADeck"/>
+				<string name="Name" value="Middle1_UpperDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+
+			<object name="A4032">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_UADeck"/>
+				<string name="Name" value="Middle1_RMiddleDeck1"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4033">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Std_Probe"/>
+				<string name="Name" value="Radar"/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4034">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_UADeck"/>
+				<string name="Name" value="Middle1_RLowerDeck2"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4035">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="150."/>
+				<string name="Hull" value="Std_Boiler"/>
+				<string name="Name" value="Boiler3"/>
+				<string name="TypHL" value="Boiler"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4036">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_UADeck"/>
+				<string name="Name" value="Middle1_LLowerDeck1"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4037">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="150."/>
+				<string name="Hull" value="Std_Boiler"/>
+				<string name="Name" value="Boiler1"/>
+				<string name="TypHL" value="Boiler"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4038">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_UADeck"/>
+				<string name="Name" value="Middle1_LLowerDeck2"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4039">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="150."/>
+				<string name="Hull" value="Std_Boiler"/>
+				<string name="Name" value="Boiler2"/>
+				<string name="TypHL" value="Boiler"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4040">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_UADeck"/>
+				<string name="Name" value="Middle1_LMiddleDeck1"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4041">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="B64_PMC"/>
+				<string name="Name" value="Probe_MG"/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4042">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_UADeck"/>
+				<string name="Name" value="Middle1_LMiddleDeck2"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4043">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="Std_Bottom"/>
+				<string name="Name" value="Middle1_RBottom"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4044">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="Std_Bottom"/>
+				<string name="Name" value="Middle1_LBottom"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4045">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="Std_LAMP"/>
+				<string name="Name" value="Middle1_LAMP"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4046">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="Std_RAMP"/>
+				<string name="Name" value="Middle1_RAMP"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4047">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_RBelt"/>
+				<string name="Name" value="Middle1_RBelt_Upper"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4048">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_RLBelt"/>
+				<string name="Name" value="Middle1_RBelt_Lower"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4049">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_LBelt"/>
+				<string name="Name" value="Middle1_LBelt_Upper"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4050">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_LLBelt"/>
+				<string name="Name" value="Middle1_LBelt_Lower"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4051">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_ADeck"/>
+				<string name="Name" value="Middle1_RMiddleDeck2"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4052">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_UADeck"/>
+				<string name="Name" value="Middle2_LMiddleDeck2"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4053">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_UADeck"/>
+				<string name="Name" value="Middle2_RMiddleDeck2"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4054">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_UADeck"/>
+				<string name="Name" value="Middle2_UpperDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+
+			<object name="A4056">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_UADeck"/>
+				<string name="Name" value="Middle2_RLowerDeck1"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4057">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="150."/>
+				<string name="Hull" value="Std_Boiler"/>
+				<string name="Name" value="Boiler8"/>
+				<string name="TypHL" value="Boiler"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4058">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_UADeck"/>
+				<string name="Name" value="Middle2_RLowerDeck2"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4059">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="150."/>
+				<string name="Hull" value="Std_Boiler"/>
+				<string name="Name" value="Boiler7"/>
+				<string name="TypHL" value="Boiler"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4060">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_UADeck"/>
+				<string name="Name" value="Middle2_LLowerDeck2"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4061">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="150."/>
+				<string name="Hull" value="Std_Boiler"/>
+				<string name="Name" value="Boiler6"/>
+				<string name="TypHL" value="Boiler"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4062">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_UADeck"/>
+				<string name="Name" value="Middle2_LLowerDeck1"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4063">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="150."/>
+				<string name="Hull" value="Std_Boiler"/>
+				<string name="Name" value="Boiler5"/>
+				<string name="TypHL" value="Boiler"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4064">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_LLBelt"/>
+				<string name="Name" value="Middle2_LBelt_Lower"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4065">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_UADeck"/>
+				<string name="Name" value="Middle2_RMiddleDeck1"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4066">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_UADeck"/>
+				<string name="Name" value="Middle2_LMiddleDeck1"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4067">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="Std_LAMP"/>
+				<string name="Name" value="Middle2_LAMP"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4068">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="Std_Bottom"/>
+				<string name="Name" value="Middle2_RBottom"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4069">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="Std_RAMP"/>
+				<string name="Name" value="Middle2_RAMP"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4070">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_RLBelt"/>
+				<string name="Name" value="Middle2_RBelt_Lower"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4071">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_RBelt"/>
+				<string name="Name" value="Middle2_RBelt_Upper"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4072">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_LBelt"/>
+				<string name="Name" value="Middle2_LBelt_Upper"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4073">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="Std_Bottom"/>
+				<string name="Name" value="Middle2_LBottom"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4074">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_UADeck"/>
+				<string name="Name" value="Middle3_RLowerDeck2"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4076">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_UADeck"/>
+				<string name="Name" value="Middle3_LLowerDeck1"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+
+
+			<object name="A4078">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_UADeck"/>
+				<string name="Name" value="Middle3_LLowerDeck2"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+
+
+			<object name="A4080">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_UADeck"/>
+				<string name="Name" value="Middle3_RLowerDeck1"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4082">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_UADeck"/>
+				<string name="Name" value="Middle3_RMiddleDeck1"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4083">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_UADeck"/>
+				<string name="Name" value="Middle3_RMiddleDeck2"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4084">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_UADeck"/>
+				<string name="Name" value="Middle3_UpperDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4085">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_UADeck"/>
+				<string name="Name" value="Middle3_LMiddleDeck2"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4086">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_UADeck"/>
+				<string name="Name" value="Middle3_LMiddleDeck1"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+
+			<object name="A4088">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="Std_RAMP"/>
+				<string name="Name" value="Middle3_RAMP"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4089">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="Std_LAMP"/>
+				<string name="Name" value="Middle3_LAMP"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4090">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="Std_Bottom"/>
+				<string name="Name" value="Middle3_LBottom"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4091">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="Std_Bottom"/>
+				<string name="Name" value="Middle3_RBottom"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4092">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_RBelt"/>
+				<string name="Name" value="Middle3_RBelt_Upper"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4093">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_RLBelt"/>
+				<string name="Name" value="Middle3_RBelt_Lower"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4094">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_LBelt"/>
+				<string name="Name" value="Middle3_LBelt_Upper"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4095">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_LLBelt"/>
+				<string name="Name" value="Middle3_LBelt_Lower"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4096">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="Std_EngineHull"/>
+				<string name="Name" value="Middle4_REngineCover1"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4097">
+				<string name="ConnectName" value="Boiler1;Boiler2;Boiler3;Boiler4;Boiler5;Boiler6;Boiler7;Boiler8"/>
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Std_Engine"/>
+				<string name="Name" value="Engine4"/>
+				<string name="TypHL" value="Engine"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4098">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_UADeck"/>
+				<string name="Name" value="Middle4_RMiddleDeck2"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4099">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="Std_EngineHull"/>
+				<string name="Name" value="Middle4_LEngineCover2"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4100">
+				<string name="ConnectName" value="Boiler1;Boiler2;Boiler3;Boiler4;Boiler5;Boiler6;Boiler7;Boiler8"/>
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Std_Engine"/>
+				<string name="Name" value="Engine1"/>
+				<string name="TypHL" value="Engine"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4101">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_UADeck"/>
+				<string name="Name" value="Middle4_LMiddleDeck2"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4102">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_UADeck"/>
+				<string name="Name" value="Middle4_RMiddleDeck1"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4103">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="Std_EngineHull"/>
+				<string name="Name" value="Middle4_REngineCover2"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4104">
+				<string name="ConnectName" value="Boiler1;Boiler2;Boiler3;Boiler4;Boiler5;Boiler6;Boiler7;Boiler8"/>
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Std_Engine"/>
+				<string name="Name" value="Engine2"/>
+				<string name="TypHL" value="Engine"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4105">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="Std_EngineHull"/>
+				<string name="Name" value="Middle4_LEngineCover1"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4106">
+				<string name="ConnectName" value="Boiler1;Boiler2;Boiler3;Boiler4;Boiler5;Boiler6;Boiler7;Boiler8"/>
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Std_Engine"/>
+				<string name="Name" value="Engine3"/>
+				<string name="TypHL" value="Engine"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4107">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_UADeck"/>
+				<string name="Name" value="Middle4_LMiddleDeck1"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4108">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_UADeck"/>
+				<string name="Name" value="Middle4_RLowerDeck2"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4109">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_UADeck"/>
+				<string name="Name" value="Middle4_RLowerDeck1"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+
+			<object name="A4111">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_UADeck"/>
+				<string name="Name" value="Middle4_UpperDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4112">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_UADeck"/>
+				<string name="Name" value="Middle4_LLowerDeck2"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4113">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_UADeck"/>
+				<string name="Name" value="Middle4_LLowerDeck1"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4114">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="Std_Bottom"/>
+				<string name="Name" value="Middle4_LBottom"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4115">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="Std_Bottom"/>
+				<string name="Name" value="Middle4_RBottom"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4116">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_LBelt"/>
+				<string name="Name" value="Middle4_LBelt_Upper"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4117">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_RBelt"/>
+				<string name="Name" value="Middle4_RBelt_Upper"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4118">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_RLBelt"/>
+				<string name="Name" value="Middle4_RBelt_Lower"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4119">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_LLBelt"/>
+				<string name="Name" value="Middle4_LBelt_Lower"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4120">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="Std_RAMP"/>
+				<string name="Name" value="Middle4_RAMP"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4121">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="Std_LAMP"/>
+				<string name="Name" value="Middle4_LAMP"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4122">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_BarbetMC"/>
+				<string name="Name" value="Barbet3"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4123">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="Std_Bottom"/>
+				<string name="Name" value="Stern1_LBottom"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4124">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="Std_Bottom"/>
+				<string name="Name" value="Stern1_RBottom"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4125">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_LLBelt"/>
+				<string name="Name" value="Stern1_LBelt_Upper"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4126">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_RLBelt"/>
+				<string name="Name" value="Stern1_RBelt_Upper"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4127">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_RLBelt"/>
+				<string name="Name" value="Stern1_RBelt_Lower"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4128">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_LLBelt"/>
+				<string name="Name" value="Stern1_LBelt_Lower"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4129">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_UADeck"/>
+				<string name="Name" value="Stern1_LowerDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4130">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_AS"/>
+				<string name="Name" value="AmmoStore3"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4131">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_ADeck"/>
+				<string name="Name" value="Stern1_MiddleDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4132">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_Sbeam"/>
+				<string name="Name" value="Stern1_LowerBeam"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4133">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_Sbeam"/>
+				<string name="Name" value="Stern1_UpperBeam"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4134">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="Std_RAMP"/>
+				<string name="Name" value="Stern1_RAMP1"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4135">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="Std_LAMP"/>
+				<string name="Name" value="Stern1_LAMP1"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4136">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="Std_LAMP"/>
+				<string name="Name" value="Stern1_LAMP2"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4137">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="Std_RAMP"/>
+				<string name="Name" value="Stern1_RAMP2"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4138">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_UADeck"/>
+				<string name="Name" value="Stern1_ForeDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4139">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_UADeck"/>
+				<string name="Name" value="Stern1_UpperDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4140">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="Std_Bottom"/>
+				<string name="Name" value="Bow1_Bottom"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4141">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_UADeck"/>
+				<string name="Name" value="Bow1_LowerDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4142">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Std_Probe"/>
+				<string name="Name" value="Sonar"/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4143">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_UADeck"/>
+				<string name="Name" value="Bow1_MiddleDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4144">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_UADeck"/>
+				<string name="Name" value="Stern2_LowerDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4145">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_UADeck"/>
+				<string name="Name" value="Stern2_MiddleDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4146">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_UADeck"/>
+				<string name="Name" value="Stern3_LowerDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4147">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_Tiller"/>
+				<string name="Name" value="Tiller"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4148">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_UADeck"/>
+				<string name="Name" value="Bow1_UpperDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+
+			<object name="A4150">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_UADeck_Stern"/>
+				<string name="Name" value="Stern2_UpperDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A4151">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="B64_UADeck"/>
+				<string name="Name" value="Stern3_UpperDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A9275">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="375"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="Std_Hull"/>
+				<string name="Name" value="BowUSuperstructure"/>
+				<string name="TypHL" value="Crew"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A9276">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="375"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="Std_Hull"/>
+				<string name="Name" value="BowLSuperstructure"/>
+				<string name="TypHL" value="Crew"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A9277">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="375"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="Std_Hull"/>
+				<string name="Name" value="MiddleSuperstructure"/>
+				<string name="TypHL" value="Crew"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A9278">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="375"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="Std_Hull"/>
+				<string name="Name" value="SternSuperstructure"/>
+				<string name="TypHL" value="Crew"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+			<object name="A9279">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="Std_Hull"/>
+				<string name="Name" value="SmokeStack"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="B64"/>
+			</object>
+		</object>
+		<object name="Hulls">
+			<object name="B64_ADeck">
+				<integer name="Back" value="1"/>
+				<integer name="Bottom" value="10"/>
+				<integer name="Country" value="2"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="0."/>
+				<integer name="Front" value="10"/>
+				<integer name="Left" value="10"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="10"/>
+				<integer name="Top" value="125"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="B64_AS">
+				<integer name="Back" value="60"/>
+				<integer name="Bottom" value="60"/>
+				<integer name="Country" value="2"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="0."/>
+				<integer name="Front" value="60"/>
+				<integer name="Left" value="60"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="60"/>
+				<integer name="Top" value="60"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="B64_BarbetMC">
+				<integer name="Back" value="250"/>
+				<integer name="Bottom" value="10"/>
+				<integer name="Country" value="2"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="0."/>
+				<integer name="Front" value="250"/>
+				<integer name="Left" value="250"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="250"/>
+				<integer name="Top" value="10"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="B64_BarbetSC">
+				<integer name="Back" value="150"/>
+				<integer name="Bottom" value="10"/>
+				<integer name="Country" value="2"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="0."/>
+				<integer name="Front" value="150"/>
+				<integer name="Left" value="150"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="150"/>
+				<integer name="Top" value="10"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="B64_BattleCabine">
+				<integer name="Back" value="200"/>
+				<integer name="Bottom" value="75"/>
+				<integer name="Country" value="2"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="0."/>
+				<integer name="Front" value="200"/>
+				<integer name="Left" value="200"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="200"/>
+				<integer name="Top" value="100"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="B64_Bbeam">
+				<integer name="Back" value="1"/>
+				<integer name="Bottom" value="1"/>
+				<integer name="Country" value="2"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="0."/>
+				<integer name="Front" value="190"/>
+				<integer name="Left" value="190"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="190"/>
+				<integer name="Top" value="10"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="B64_LBelt">
+				<integer name="Back" value="1"/>
+				<integer name="Bottom" value="1"/>
+				<integer name="Country" value="2"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="0."/>
+				<integer name="Front" value="1"/>
+				<integer name="Left" value="190"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="1"/>
+				<integer name="Top" value="120"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="B64_LLBelt">
+				<integer name="Back" value="1"/>
+				<integer name="Bottom" value="1"/>
+				<integer name="Country" value="2"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="0."/>
+				<integer name="Front" value="1"/>
+				<integer name="Left" value="190"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="1"/>
+				<integer name="Top" value="120"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="B65_MTShakegeban">
+				<integer name="Back" value="120"/>
+				<integer name="Bottom" value="25"/>
+				<integer name="Country" value="2"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="30."/>
+				<integer name="Front" value="0"/>
+				<integer name="Left" value="150"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="150"/>
+				<integer name="Top" value="160"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Turret"/>
+			</object>
+			<object name="B64_PMC">
+				<integer name="Back" value="80"/>
+				<integer name="Bottom" value="80"/>
+				<integer name="Country" value="2"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="0."/>
+				<integer name="Front" value="80"/>
+				<integer name="Left" value="80"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="80"/>
+				<integer name="Top" value="80"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="B64_RBelt">
+				<integer name="Back" value="1"/>
+				<integer name="Bottom" value="1"/>
+				<integer name="Country" value="2"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="0."/>
+				<integer name="Front" value="1"/>
+				<integer name="Left" value="1"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="190"/>
+				<integer name="Top" value="120"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="B64_RLBelt">
+				<integer name="Back" value="1"/>
+				<integer name="Bottom" value="1"/>
+				<integer name="Country" value="2"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="0."/>
+				<integer name="Front" value="1"/>
+				<integer name="Left" value="1"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="190"/>
+				<integer name="Top" value="120"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="B64_Sbeam">
+				<integer name="Back" value="150"/>
+				<integer name="Bottom" value="1"/>
+				<integer name="Country" value="2"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="0."/>
+				<integer name="Front" value="1"/>
+				<integer name="Left" value="190"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="190"/>
+				<integer name="Top" value="1"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="B64_Tiller">
+				<integer name="Back" value="190"/>
+				<integer name="Bottom" value="25"/>
+				<integer name="Country" value="2"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="0."/>
+				<integer name="Front" value="190"/>
+				<integer name="Left" value="150"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="150"/>
+				<integer name="Top" value="120"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="B64_UADeck">
+				<integer name="Back" value="10"/>
+				<integer name="Bottom" value="10"/>
+				<integer name="Country" value="2"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="0."/>
+				<integer name="Front" value="10"/>
+				<integer name="Left" value="10"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="10"/>
+				<integer name="Top" value="30"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="B64_UADeck_Bow">
+				<integer name="Back" value="10"/>
+				<integer name="Bottom" value="10"/>
+				<integer name="Country" value="2"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="0."/>
+				<integer name="Front" value="150"/>
+				<integer name="Left" value="10"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="10"/>
+				<integer name="Top" value="30"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="B64_UADeck_Stern">
+				<integer name="Back" value="150"/>
+				<integer name="Bottom" value="10"/>
+				<integer name="Country" value="2"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="0."/>
+				<integer name="Front" value="10"/>
+				<integer name="Left" value="10"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="10"/>
+				<integer name="Top" value="30"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+		</object>
+		<object name="ShipsNames">
+			<object name="B64">
+				<string name="1" value="B64"/>
+			</object>
+		</object>
+		<object name="UnitsByType">
+			<object name="1">
+				<object name="B64">
+					<string name="ChildTable" value="Ships"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</root>

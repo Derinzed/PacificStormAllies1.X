@@ -1,0 +1,272 @@
+material Edinburgh_mat
+{
+	technique
+	{
+		pass
+		{
+			ambient 1. 1. 1.
+			scene_blend one zero
+
+			texture_unit
+			{
+				texture Edinburgh_tex.dds
+				filtering trilinear
+			}
+		}
+
+		pass
+		{
+			ambient 1 1 1
+			scene_blend add
+			lighting off
+			fog_override true none
+			texture_unit
+			{
+				texture Edinburgh_tex_spec.dds
+				filtering trilinear
+			}
+			texture_unit
+			{
+				cubic_texture shipenvmap.dds combinedUVW
+				env_map cubic_reflection
+				tex_address_mode clamp
+				colour_op_ex modulate src_texture src_current
+			}
+		}
+	}
+}
+
+material Edinburgh_Paluba_mat
+{
+	technique
+	{
+		pass
+		{
+			ambient 1. 1. 1.
+			scene_blend one zero
+
+			texture_unit
+			{
+				texture Edinburgh_Paluba.dds
+				filtering trilinear
+			}
+		}
+
+		pass
+		{
+			ambient 1 1 1
+			scene_blend add
+			lighting off
+			fog_override true none
+			texture_unit
+			{
+				texture Edinburgh_Paluba_spec.dds
+				filtering trilinear
+			}
+			texture_unit
+			{
+				cubic_texture shipenvmap.dds combinedUVW
+				env_map cubic_reflection
+				tex_address_mode clamp
+				colour_op_ex modulate src_texture src_current
+			}
+		}
+	}
+}
+material Edinburgh_matL
+{
+	technique
+	{
+		pass
+		{
+			ambient 1. 1. 1.
+			scene_blend one zero
+
+			texture_unit
+			{
+				texture Edinburgh_texL.dds
+				filtering trilinear
+			}
+		}
+
+		pass
+		{
+			ambient 1 1 1
+			scene_blend add
+			lighting off
+			fog_override true none
+			texture_unit
+			{
+				texture Edinburgh_texL_spec.dds
+				filtering trilinear
+			}
+			texture_unit
+			{
+				cubic_texture shipenvmap.dds combinedUVW
+				env_map cubic_reflection
+				tex_address_mode clamp
+				colour_op_ex modulate src_texture src_current
+			}
+		}
+	}
+}
+
+material Edinburgh_Paluba_matL
+{
+	technique
+	{
+		pass
+		{
+			ambient 1. 1. 1.
+			scene_blend one zero
+
+			texture_unit
+			{
+				texture Edinburgh_PalubaL.dds
+				filtering trilinear
+			}
+		}
+
+		pass
+		{
+			ambient 1 1 1
+			scene_blend add
+			lighting off
+			fog_override true none
+			texture_unit
+			{
+				texture Edinburgh_PalubaL_spec.dds
+				filtering trilinear
+			}
+			texture_unit
+			{
+				cubic_texture shipenvmap.dds combinedUVW
+				env_map cubic_reflection
+				tex_address_mode clamp
+				colour_op_ex modulate src_texture src_current
+			}
+		}
+	}
+}
+
+material Edinburgh_Boats_mat
+{
+  technique
+  {
+    pass
+    {
+      ambient 1. 1. 1.
+      scene_blend one zero
+
+      texture_unit
+      {
+        texture spasbot.dds
+        filtering trilinear
+      }
+    }
+
+    pass
+    {
+      ambient 1. 1. 1.
+      scene_blend add
+      lighting off
+
+      fog_override true none
+      texture_unit
+      {
+        texture spasbot_spec.dds
+        filtering trilinear
+      }
+      texture_unit
+      {
+        cubic_texture planeenvmap.dds combinedUVW
+        env_map cubic_reflection
+        tex_address_mode clamp
+        colour_op_ex modulate src_texture src_current
+      }
+    }
+  }
+}
+ 
+material Edinburgh_Rafts_mat
+{
+  technique
+  {
+    pass
+    {
+      ambient 1. 1. 1.
+      scene_blend one zero
+
+      texture_unit
+      {
+        texture Lodka_02.dds
+        filtering trilinear
+      }
+    }
+
+    pass
+    {
+      ambient 1. 1. 1.
+      scene_blend add
+      lighting off
+
+      fog_override true none
+      texture_unit
+      {
+        texture Lodka_02_spec.dds
+        filtering trilinear
+      }
+      texture_unit
+      {
+        cubic_texture planeenvmap.dds combinedUVW
+        env_map cubic_reflection
+        tex_address_mode clamp
+        colour_op_ex modulate src_texture src_current
+      }
+    }
+  }
+} 
+
+material Edinburgh_Katapult_mat
+{
+  technique
+  {
+    pass
+    {
+      ambient 1. 1. 1.
+      scene_blend one zero
+
+      texture_unit
+      {
+        texture Fiji.dds
+        filtering trilinear
+      }
+    }
+
+    pass
+    {
+      ambient 1. 1. 1.
+      scene_blend add
+      lighting off
+
+      fog_override true none
+      texture_unit
+      {
+        texture Fiji_Spec.dds
+        filtering trilinear
+      }
+      texture_unit
+      {
+        cubic_texture planeenvmap.dds combinedUVW
+        env_map cubic_reflection
+        tex_address_mode clamp
+        colour_op_ex modulate src_texture src_current
+      }
+    }
+  }
+}
+
+
+
+
+

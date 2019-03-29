@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" standalone="yes" ?>
+<root>
+	<object name="SteelMonstersParams">
+		<object name="Ships">
+			<object name="Ranger">
+				<float name="AccelRate" value="3.e-004"/>
+				<string name="Airgroup" value="AircraftCarrier_Group_usa"/>
+				<integer name="AirplanesCount" value="90"/>
+				<string name="AmmoLoadingTemplate" value="Ammo 550, Torp_US_Mk13 200, Torp_US_Mk13_M_I 200, Torp_US_Mk13_A_SA 100, Bat_ASM2_SAR 10, Gargoyle_R 5, Gargoyle_P 5, Gargoyle_SAR 5"/>
+				<integer name="Avia" value="2"/>
+				<boolean name="BoatsTransportationAbility" value="false"/>
+				<integer name="CabinArmor" value="51"/>
+				<boolean name="CanBeChanged" value="true"/>
+				<boolean name="CanUseTorpedos" value="false"/>
+				<integer name="Country" value="1"/>
+				<integer name="Crew" value="1788"/>
+				<float name="CriticalCareen" value="37."/>
+				<float name="CriticalDFT" value="2.73"/>
+				<float name="CriticalDifferent" value="2.5"/>
+				<float name="DTimeProd" value="130."/>
+				<float name="DisplacementMax" value="17577."/>
+				<float name="EPR" value="705."/>
+				<float name="FireRisk" value="1600."/>
+				<float name="Fuel" value="2350."/>
+				<float name="HLShapeCoef" value="1.0"/>
+				<integer name="HullArmorSide" value="102"/>
+				<integer name="HullArmorTop" value="120"/>
+				<float name="Iron" value="18000."/>
+				<integer name="Length" value="234.4"/>
+				<float name="MaxSpeed" value="29.25"/>
+				<integer name="MinCrew" value="950"/>
+				<float name="Money" value="35000."/>
+				<float name="NTimeProd" value="325."/>
+				<string name="Name" value="Ranger"/>
+				<boolean name="New" value="false"/>
+				<integer name="Nuc_Dest_Prob" value="400"/>
+				<integer name="Passengers" value="100"/>
+				<boolean name="PlanesTransportationAbility" value="true"/>
+				<float name="Range" value="7000."/>
+				<integer name="Rank" value="1"/>
+				<string name="SMU" value="Ranger"/>
+				<float name="Speed" value="15."/>
+				<float name="StoreCapacity" value="3600."/>
+				<boolean name="Transportable" value="false"/>
+				<float name="TurnRate" value="1.5e-003"/>
+				<integer name="Type" value="0"/>
+				<float name="Vitality" value="4500."/>
+				<float name="VitalityAA" value="1500."/>
+				<float name="Weight" value="14575."/>
+				<integer name="Width" value="33.4"/>
+				<integer name="Year" value="39"/>
+			</object>
+		</object>
+		<object name="Engins">
+			<object name="MPP_Ranger">
+				<float name="Consumption" value="4.493e-004"/>
+				<integer name="Country" value="1"/>
+				<float name="Money" value="15000."/>
+				<integer name="Power_Max" value="53500"/>
+				<integer name="RPM_Max" value="0"/>
+				<integer name="Type" value="8"/>
+				<integer name="Unreliability" value="10"/>
+				<string name="Usage" value="Ships"/>
+				<float name="Weight" value="1700."/>
+			</object>
+		</object>
+		<object name="ShipsNames">
+			<object name = "Ranger">				
+				<string name = "1" value = "CV-4 Ranger"/>
+			</object>
+		</object>
+		<object name="UnitsByType">
+			<object name="0">
+				<object name="Ranger">
+					<string name="ChildTable" value="Ships"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</root>

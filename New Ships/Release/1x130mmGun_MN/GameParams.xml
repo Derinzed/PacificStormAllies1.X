@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" standalone="yes" ?>
+<root>
+	<object name="SteelMonstersParams">
+		<object name="Rifles">
+			<object name="Bourrasque_130mm_Stvol">
+				<integer name="Country" value="4"/>
+				<string name="Usage" value="Ships"/>
+				<boolean name="SLLauncher" value="false"/>
+				<string name="SMU_File" value="Bourrasque_Gun_130x1_Stvol"/>
+				<boolean name="New" value="true"/>
+				<float name="Weight" value="3.81"/>
+				<float name="AmmoWeight" value="34.85"/>
+				<float name="Caliber" value="130."/>
+				<float name="ROF" value="6."/>
+				<integer name="StartSpeed" value="725"/>
+				<float name="Range" value="18.7"/>
+				<float name="AARange" value="0."/>
+				<integer name="FinalSpeed" value="180"/>
+				<integer name="AmmoStorage" value="250"/>
+				<integer name="Unreliability" value="4"/>
+				<float name="Money" value="9.2"/>
+				<float name="Dispersion" value="5."/>
+				<string name="HighExp" value="Proj_B_130_F_HE"/>
+				<string name="Common" value="Proj_B_130_F_Com"/>
+				<string name="Ammo" value="Proj_B_130_F"/>
+				<string name="FireSound" value="Guns\127mm"/>
+				<boolean name="IgnoreXMLFile" value="false"/>
+			</object>
+		</object>
+		<object name="Turrets">
+			<object name="Bourrasque_1x130mm_Turret">
+				<integer name="Country" value="4"/>
+				<string name="Type" value="Gun"/>
+				<string name="SMU_File" value="Bourrasque_Gun_130x1_Turret"/>
+				<string name="Content" value="Rifles.Bourrasque_130mm_Stvol"/>
+				<boolean name="New" value="true"/>
+				<integer name="Amount" value="1"/>
+				<float name="Weight" value="12.5"/>
+				<integer name="Elevation" value="35"/>
+				<integer name="ElevationRate" value="10"/>
+				<integer name="RotationRate" value="12"/>
+				<integer name="ArmorFront" value="25"/>
+				<integer name="ArmorSide" value="25"/>
+				<integer name="ArmorTop" value="25"/>
+				<boolean name="Production" value="false"/>
+				<float name="Money" value="6.5"/>
+				<float name="Iron" value="26."/>
+				<float name="NTimeProd" value="30."/>
+				<float name="DTimeProd" value="10."/>
+				<string name="Icon" value="Artillery"/>
+				<float name="Vitality" value="350."/>
+				<string name="Building" value="Artillery"/>
+				<integer name="QualityRate" value="4"/>
+				<boolean name="IgnoreXMLFile" value="false"/>
+			</object>
+		</object>
+		<object name="Hit_Location">
+			<object name="Bourr7834">
+				<integer name="Country" value="4"/>
+				<float name="ER" value="5."/>
+				<string name="Hull" value="Std_Guns_SO"/>
+				<string name="Name" value="Turretr"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="Bourrasque_1x130mm_Turret"/>
+			</object>
+			<object name="Bourr7835">
+				<integer name="Country" value="4"/>
+				<integer name="Crew" value="1"/>
+				<float name="ER" value="3.e-002"/>
+				<string name="Hull" value="Std_Crew"/>
+				<string name="Name" value="Gunner2"/>
+				<string name="TypHL" value="Crew"/>
+				<string name="UnitName" value="Bourrasque_1x130mm_Turret"/>
+			</object>
+			<object name="Bourr7836">
+				<integer name="Country" value="4"/>
+				<integer name="Crew" value="1"/>
+				<float name="ER" value="3.e-002"/>
+				<string name="Hull" value="Std_Crew"/>
+				<string name="Name" value="Gunner1"/>
+				<string name="TypHL" value="Crew"/>
+				<string name="UnitName" value="Bourrasque_1x130mm_Turret"/>
+			</object>
+		</object>
+	</object>
+</root>

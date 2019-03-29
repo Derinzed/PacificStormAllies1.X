@@ -1,0 +1,114 @@
+material Zuki_tex
+{
+  technique
+  {
+    pass
+    {
+      ambient 1. 1. 1.
+      scene_blend one zero
+
+      texture_unit
+      {
+        texture Zuki_tex.dds
+        filtering trilinear
+      }
+    }
+
+    pass
+    {
+      ambient 1. 1. 1.
+      scene_blend add
+      lighting off
+
+      fog_override true none
+      texture_unit
+      {
+        texture Zuki_tex_spec.dds
+        filtering trilinear
+      }
+      texture_unit
+      {
+        cubic_texture planeenvmap.dds combinedUVW
+        env_map cubic_reflection
+        tex_address_mode clamp
+        colour_op_ex modulate src_texture src_current
+      }
+    }
+  }
+}
+material Zuki_tex2
+{
+  technique
+  {
+    pass
+    {
+      ambient 1. 1. 1.
+      scene_blend one zero
+
+      texture_unit
+      {
+        texture Hiryu_tex.dds
+        filtering trilinear
+      }
+    }
+
+    pass
+    {
+      ambient 1. 1. 1.
+      scene_blend add
+      lighting off
+
+      fog_override true none
+      texture_unit
+      {
+        texture Hiryu_tex_spec.dds
+        filtering trilinear
+      }
+      texture_unit
+      {
+        cubic_texture planeenvmap.dds combinedUVW
+        env_map cubic_reflection
+        tex_address_mode clamp
+        colour_op_ex modulate src_texture src_current
+      }
+    }
+  }
+}
+material Zuki_tex3
+{
+  technique
+  {
+    pass
+    {
+      ambient 1. 1. 1.
+      scene_blend one zero
+
+      texture_unit
+      {
+        texture Zuki_Deck.dds
+        filtering trilinear
+      }
+    }
+
+    pass
+    {
+      ambient 1. 1. 1.
+      scene_blend add
+      lighting off
+
+      fog_override true none
+      texture_unit
+      {
+        texture Zuki_Deck_spec.dds
+        filtering trilinear
+      }
+      texture_unit
+      {
+        cubic_texture planeenvmap.dds combinedUVW
+        env_map cubic_reflection
+        tex_address_mode clamp
+        colour_op_ex modulate src_texture src_current
+      }
+    }
+  }
+}

@@ -1,0 +1,81 @@
+material SL/Units/PDIcons_Rufe
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				texture mod_Rufe_d.png
+			}
+		}
+	}
+}
+
+
+material SL/Units/PEIcons_Rufe
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				texture mod_Rufe_e.png
+			}
+		}
+	}
+}
+
+material SL/Units/Icons_Rufe
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				texture mod_Rufe_p.png 
+			}
+		}
+	}
+}
+
+material TL/HL/Rufe
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				tex_val_size 0.703125 0.5859375 0.87890625 0.73242188
+				texture hlgui_planes_2.png
+			}
+		}
+	}
+}

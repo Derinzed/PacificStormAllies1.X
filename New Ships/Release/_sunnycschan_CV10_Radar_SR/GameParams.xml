@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" standalone="yes" ?>
+<root>
+	<object name="SteelMonstersParams">
+		<object name="Probes">
+			<object name="Pr_CV10_Radar_SR">
+				<float name="AirRange" value="6."/>
+				<float name="BearingAccuracy" value="3."/>
+				<integer name="Country" value="1"/>
+				<float name="DTimeProd" value="0."/>
+				<float name="Frequency" value="0."/>
+				<float name="Money" value="100."/>
+				<boolean name="New" value="false"/>
+				<float name="NTimeProd" value="0."/>
+				<float name="Power" value="50000."/>
+				<boolean name="Production" value="false"/>
+				<float name="RangeAccuracy" value="50."/>
+				<float name="Sensitivity" value="9.e-003"/>
+				<float name="ShipRange" value="4.e-002"/>
+				<integer name="SygnalType" value="1"/>
+				<string name="Technology" value="VHFRadar"/>
+				<string name="Type" value="Radar"/>
+				<integer name="Unreliability" value="0"/>
+				<string name="Usage" value="Ships"/>
+				<float name="Weight" value="2."/>
+			</object>
+		</object>
+		<object name="Turrets">
+			<object name="CV10_Radar_SR">
+				<integer name="Amount" value="1"/>
+				<integer name="ArmorFront" value="0"/>
+				<integer name="ArmorSide" value="0"/>
+				<integer name="ArmorTop" value="0"/>
+				<string name="Content" value="Probes.Pr_CV10_Radar_SR"/>
+				<integer name="Country" value="1"/>
+				<integer name="Elevation" value="0"/>
+				<integer name="ElevationRate" value="0"/>
+				<boolean name="IgnoreXMLFile" value="false"/>
+				<float name="Iron" value="2."/>
+				<float name="Money" value="20."/>
+				<boolean name="New" value="false"/>
+				<boolean name="Production" value="false"/>
+				<integer name="RotationRate" value="10"/>
+				<string name="SMU_File" value="CV10_Radar_SR"/>
+				<string name="Type" value="Radar"/>
+				<float name="Vitality" value="30."/>
+				<float name="Weight" value="2."/>
+			</object>
+		</object>
+		<object name="Hit_Location">
+			<object name="CV8178">
+				<integer name="Country" value="1"/>
+				<float name="ER" value="0.4"/>
+				<string name="Hull" value="Std_Radar"/>
+				<string name="Name" value="Radar"/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="CV10_Radar_SR"/>
+			</object>
+		</object>
+	</object>
+</root>

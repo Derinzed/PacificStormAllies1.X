@@ -1,0 +1,193 @@
+<?xml version="1.0" standalone="yes" ?>
+<root>
+	<object name="Zara_2x100mm_Turret">
+		<object name="Components">
+			<object name="Gun_100x2_Base">
+				<object name="DynamicData">
+					<object name="ComponentCG">
+						<float name="X" value="-0.70429492"/>
+						<float name="Y" value="1.59802103"/>
+						<float name="Z" value="-4.60028648e-004"/>
+					</object>
+					<object name="ComponentInertia">
+						<float name="X" value="0."/>
+						<float name="Y" value="0."/>
+						<float name="Z" value="0."/>
+					</object>
+					<float name="Mass" value="0.100000002"/>
+				</object>
+				<object name="LOD3">
+					<float name="Depth" value="250."/>
+					<string name="Mesh" value="Zara_2x100mm_Turret_Lod.mesh"/>
+				</object>
+				<string name="Mesh" value="Zara_2x100mm_Turret.mesh"/>
+				<object name="SubComponents">
+					<object name="DPort_Gunners">
+						<string name="ConcreteType" value="DPort"/>
+						<string name="PortHolder" value=""/>
+						<string name="PortType" value="Zara_2x100mm_Turret_Gunners"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_01">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="0."/>
+						<float name="PortMaxValueZ" value="85."/>
+						<float name="PortMinValueY" value="0."/>
+						<float name="PortMinValueZ" value="-5."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Zara_2x100mm_Turret_Stvol"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="0."/>
+								<float name="Y" value="1.802"/>
+								<float name="Z" value="0.15"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_02">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="0."/>
+						<float name="PortMaxValueZ" value="85."/>
+						<float name="PortMinValueY" value="0."/>
+						<float name="PortMinValueZ" value="-5."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Zara_2x100mm_Turret_Stvolx"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="0."/>
+								<float name="Y" value="1.802"/>
+								<float name="Z" value="-0.15"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+				</object>
+				<string name="Type" value="Mesh"/>
+				<boolean name="Visible" value="true"/>
+			</object>
+		</object>
+		<object name="Flags">
+			<string name="Type" value="cannon"/>
+			<boolean name="Updatable" value="true"/>
+		</object>
+		<object name="Ports">
+					<object name="DPort_Gunners">
+						<string name="ConcreteType" value="DPort"/>
+						<string name="PortHolder" value=""/>
+						<string name="PortType" value="Zara_2x100mm_Turret_Gunners"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_01">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="0."/>
+						<float name="PortMaxValueZ" value="85."/>
+						<float name="PortMinValueY" value="0."/>
+						<float name="PortMinValueZ" value="-5."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Zara_2x100mm_Turret_Stvol"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="0."/>
+								<float name="Y" value="1.802"/>
+								<float name="Z" value="0.15"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_02">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="0."/>
+						<float name="PortMaxValueZ" value="85."/>
+						<float name="PortMinValueY" value="0."/>
+						<float name="PortMinValueZ" value="-5."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Zara_2x100mm_Turret_Stvolx"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="0."/>
+								<float name="Y" value="1.802"/>
+								<float name="Z" value="-0.15"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+		       </object>
+		<string name="Prefix" value="Zara_2x100mm_Turret"/>
+		<float name="VisibilityRange" value="2000."/>
+	</object>
+</root>

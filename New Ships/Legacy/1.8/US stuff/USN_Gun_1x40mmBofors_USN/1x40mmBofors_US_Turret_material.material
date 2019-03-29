@@ -1,0 +1,78 @@
+
+material 1x40mmBoforsUS
+{
+  technique
+  {
+    pass
+    {
+      ambient 1. 1. 1.
+      scene_blend one zero
+
+      texture_unit
+      {
+        texture Bofors_guns.dds
+        filtering anisotropic
+      }
+    }
+
+    pass
+    {
+      ambient 1. 1. 1.
+      scene_blend add
+      lighting off
+
+      fog_override true none
+      texture_unit
+      {
+        texture Bofors_guns_spec.dds
+        filtering anisotropic
+      }
+      texture_unit
+      {
+        cubic_texture shipenvmap.dds combinedUVW
+        env_map cubic_reflection
+        tex_address_mode clamp
+        colour_op_ex modulate src_texture src_current
+      }
+    }
+  }
+}
+
+material 1x40mmBoforsUS_Dead
+{
+  technique
+  {
+    pass
+    {
+      ambient 1. 1. 1.
+      scene_blend one zero
+
+      texture_unit
+      {
+        texture Gun_2x40x2_Dead.dds
+        filtering anisotropic
+      }
+    }
+
+    pass
+    {
+      ambient 1. 1. 1.
+      scene_blend add
+      lighting off
+
+      fog_override true none
+      texture_unit
+      {
+        texture Gun_2x40x2_Dead_Spec.dds
+        filtering anisotropic
+      }
+      texture_unit
+      {
+        cubic_texture shipenvmap.dds combinedUVW
+        env_map cubic_reflection
+        tex_address_mode clamp
+        colour_op_ex modulate src_texture src_current
+      }
+    }
+  }
+}

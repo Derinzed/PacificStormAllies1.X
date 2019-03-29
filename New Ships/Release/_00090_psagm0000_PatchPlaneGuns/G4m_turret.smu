@@ -1,0 +1,141 @@
+<?xml version="1.0" standalone="yes" ?>
+<root>
+	<object name="G4m_turret">
+		<object name="Components">
+			<object name="TurretUp">
+				<object name="DynamicData">
+					<float name="Area" value="1."/>
+					<object name="ComponentCG">
+						<float name="X" value="0.149531867"/>
+						<float name="Y" value="0.333984707"/>
+						<float name="Z" value="-0.212699334"/>
+					</object>
+					<object name="ComponentInertia">
+						<float name="X" value="0."/>
+						<float name="Y" value="0."/>
+						<float name="Z" value="0."/>
+					</object>
+					<float name="DihedralAngle" value="0."/>
+					<float name="IncidenceAngle" value="0."/>
+					<float name="Mass" value="0.100000002"/>
+					<integer name="ProfileID" value="0"/>
+				</object>
+				<object name="LOD3">
+					<float name="Depth" value="250."/>
+					<string name="Mesh" value="G4m_turret_L3_TurretUp.mesh"/>
+				</object>
+				<string name="Mesh" value="G4m_turret_L2_TurretUp.mesh"/>
+				<object name="SubComponents">
+					<object name="PPort_01">
+						<string name="ConcreteType" value="PPort"/>
+						<string name="PortType" value="Jap_Gunner"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="9.01359062e-002"/>
+								<float name="Y" value="2.00786691e-002"/>
+								<float name="Z" value="-2.19528675e-002"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_01">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="0."/>
+						<float name="PortMaxValueZ" value="80."/>
+						<float name="PortMinValueY" value="0."/>
+						<float name="PortMinValueZ" value="-5."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="J_Gun_Type92"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="7.01958357e-015"/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="0.149531867"/>
+								<float name="Y" value="0.333984707"/>
+								<float name="Z" value="-0.212699334"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+				</object>
+				<string name="Type" value="Mesh"/>
+				<boolean name="Visible" value="true"/>
+			</object>
+		</object>
+		<object name="Flags">
+			<string name="Type" value="cannon"/>
+			<boolean name="Updatable" value="true"/>
+		</object>
+		<object name="Ports">
+			<object name="PPort_01">
+				<string name="ConcreteType" value="PPort"/>
+				<string name="PortType" value="Jap_Gunner"/>
+				<object name="Transform">
+					<object name="Rotate">
+						<float name="X" value="0."/>
+						<float name="Y" value="0."/>
+						<float name="Z" value="0."/>
+					</object>
+					<object name="Scale">
+						<float name="X" value="1."/>
+						<float name="Y" value="1."/>
+						<float name="Z" value="1."/>
+					</object>
+					<object name="Translate">
+						<float name="X" value="9.01359062e-002"/>
+						<float name="Y" value="2.00786691e-002"/>
+						<float name="Z" value="-2.19528675e-002"/>
+					</object>
+				</object>
+				<string name="Type" value="Port"/>
+			</object>
+			<object name="TPort_01">
+				<string name="ConcreteType" value="TPort"/>
+				<float name="PortMaxValueY" value="0."/>
+				<float name="PortMaxValueZ" value="80."/>
+				<float name="PortMinValueY" value="0."/>
+				<float name="PortMinValueZ" value="-5."/>
+				<string name="PortMoType" value="Rotate"/>
+				<string name="PortType" value="J_Gun_Type92"/>
+				<object name="Transform">
+					<object name="Rotate">
+						<float name="X" value="7.01958357e-015"/>
+						<float name="Y" value="0."/>
+						<float name="Z" value="0."/>
+					</object>
+					<object name="Scale">
+						<float name="X" value="1."/>
+						<float name="Y" value="1."/>
+						<float name="Z" value="1."/>
+					</object>
+					<object name="Translate">
+						<float name="X" value="0.149531867"/>
+						<float name="Y" value="0.333984707"/>
+						<float name="Z" value="-0.212699334"/>
+					</object>
+				</object>
+				<string name="Type" value="Port"/>
+			</object>
+		</object>
+		<string name="Prefix" value="G4m_turret"/>
+		<float name="VisibilityRange" value="700."/>
+	</object>
+</root>

@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" standalone="yes" ?>
+<root>
+	<object name="SteelMonstersParams">
+		<object name="Hit_Location">
+			<object name="RM_135mm_Gun_01">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="100"/>
+				<string name="Hull" value="Std_Guns_SO"/>
+				<string name="Name" value="Turret"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="RM_135mm_Gun"/>
+			</object>
+			<object name="RM_135mm_Gun_02">
+				<integer name="Country" value="5"/>
+				<integer name="Crew" value="1"/>
+				<float name="ER" value="0.03"/>
+				<string name="Hull" value="Std_Crew"/>
+				<string name="Name" value="Crew"/>
+				<string name="TypHL" value="Crew"/>
+				<string name="UnitName" value="RM_135mm_Gun"/>
+			</object>
+			<object name="RM_135mm_Gun_03">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="1"/>
+				<string name="Name" value="Std_AS_T1"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="Hull" value="Default"/>
+				<string name="UnitName" value="RM_135mm_Gun"/>
+			</object>
+		</object>
+		<object name="Rifles">
+			<object name="RM_135mm_Gun_Stvol">
+				<float name="AARange" value="0."/>
+				<string name="Ammo" value="Proj_135_I"/>
+				<integer name="AmmoStorage" value="400"/>
+				<float name="AmmoWeight" value="32.7"/>
+                <string name="ArmPiercing" value="Proj_135_I_AP"/>
+				<float name="Caliber" value="135."/>
+				<integer name="Country" value="5"/>
+				<float name="Dispersion" value="5."/>
+				<integer name="FinalSpeed" value="320"/>
+				<string name="FireSound" value="Guns\152mm"/>
+				<string name="HighExp" value="Proj_135_I_HE"/>
+				<boolean name="IgnoreXMLFile" value="false"/>
+				<float name="Money" value="9.2"/>
+				<boolean name="New" value="true"/>
+				<float name="ROF" value="7."/>
+				<float name="Range" value="19.6"/>
+				<boolean name="SLLauncher" value="false"/>
+				<string name="SMU_File" value="RM_135mm_Stvol"/>
+				<integer name="StartSpeed" value="825"/>
+				<integer name="Unreliability" value="0"/>
+				<string name="Usage" value="Ships"/>
+				<float name="Weight" value="6.532"/>
+			</object>
+		</object>
+		<object name="Turrets">
+			<object name="RM_135mm_Gun">
+				<integer name="Amount" value="1"/>
+				<integer name="ArmorFront" value="10"/>
+				<integer name="ArmorSide" value="10"/>
+				<integer name="ArmorTop" value="10"/>
+				<string name="Content" value="Rifles.RM_135mm_Gun_Stvol"/>
+				<integer name="Country" value="0"/>
+				<integer name="Elevation" value="45"/>
+				<integer name="ElevationRate" value="24"/>
+				<boolean name="IgnoreXMLFile" value="false"/>
+				<float name="Iron" value="27."/>
+				<float name="Money" value="6."/>
+				<boolean name="New" value="true"/>
+				<boolean name="Production" value="true"/>
+				<string name="Building" value="Artillery"/>
+				<string name="Icon" value="Artillery"/>
+				<float name="DTimeProd" value="7."/>
+				<float name="NTimeProd" value="50."/>
+				<integer name="QualityRate" value="4"/>
+				<integer name="RotationRate" value="30"/>
+				<string name="SMU_File" value="RM_135mm_Gun"/>
+				<string name="Type" value="Gun"/>
+				<float name="Vitality" value="350."/>
+				<float name="Weight" value="103.3"/>
+			</object>
+		</object>
+	</object>
+</root>

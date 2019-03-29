@@ -1,0 +1,61 @@
+material SL/Units/PDIcons_Washington
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				texture Washington_iconPD.png
+			}
+		}
+	}
+}
+
+
+material SL/Units/PEIcons_Washington
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				texture Washington_iconPE.png
+			}
+		}
+	}
+}
+
+
+material SL/Units/Icons_Washington
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				texture Washington_icon.png
+			}
+		}
+	}
+}

@@ -1,0 +1,61 @@
+material SL/Units/PDIcons_Shoki
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				texture Shoki_iconPD.png
+			}
+		}
+	}
+}
+
+
+material SL/Units/PEIcons_Shoki
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				texture Shoki_iconPE.png
+			}
+		}
+	}
+}
+
+
+material SL/Units/Icons_Shoki
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				texture Shoki_icon.png
+			}
+		}
+	}
+}

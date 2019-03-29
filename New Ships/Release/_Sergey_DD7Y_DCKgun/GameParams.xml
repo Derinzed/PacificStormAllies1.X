@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" standalone="yes" ?>
+<root>
+	<object name="SteelMonstersParams">
+		<object name="Probes">
+			<object name="Pr_RU_RangeFinder_Mk52">
+				<float name="BearingAccuracy" value="5."/>
+				<integer name="Country" value="6"/>
+				<float name="DTimeProd" value="0."/>
+				<float name="Frequency" value="0."/>
+				<float name="MaxCaliber" value="45."/>
+				<float name="MinCaliber" value="39."/>
+				<float name="Money" value="10."/>
+				<float name="NTimeProd" value="0."/>
+				<boolean name="New" value="true"/>
+				<float name="Power" value="0."/>
+				<boolean name="Production" value="false"/>
+				<float name="RangeAccuracy" value="100."/>
+				<float name="Sensitivity" value="0."/>
+				<integer name="SygnalType" value="2"/>
+				<string name="Type" value="Director"/>
+				<integer name="Unreliability" value="0"/>
+				<string name="Usage" value="Ships"/>
+				<float name="Weight" value="0.5"/>
+			</object>
+		</object>
+		<object name="Rifles">
+			<object name="RU_Bomb_Kletka_Small_4x">
+				<float name="AARange" value="0."/>
+				<string name="Ammo" value="Mark_6"/>
+				<integer name="AmmoStorage" value="20"/>
+				<float name="AmmoWeight" value="191."/>
+				<string name="Ammo" value="Mark_6"/>
+				<float name="Caliber" value="1000."/>
+				<integer name="Country" value="6"/>
+				<string name="DefaultAmmo" value="Mark_6"/>
+				<integer name="FinalSpeed" value="0"/>
+				<string name="FireSound" value="Guns\dc"/>
+				<boolean name="IgnoreXMLFile" value="false"/>
+				<float name="Money" value="0.5"/>
+				<boolean name="New" value="true"/>
+				<float name="ROF" value="10."/>
+				<float name="Range" value="5."/>
+				<boolean name="SLLauncher" value="false"/>
+				<string name="SMU_File" value="RU_Bomb_Kletka_Small_4x"/>
+				<integer name="StartSpeed" value="0"/>
+				<integer name="Unreliability" value="0"/>
+				<string name="Usage" value="Ships"/>
+				<float name="Weight" value="0.15"/>
+			</object>
+			<object name="RU_K_Gun">
+				<float name="AARange" value="0."/>
+				<string name="Ammo" value="Mark_6"/>
+				<integer name="AmmoStorage" value="20"/>
+				<float name="AmmoWeight" value="191."/>
+				<float name="Caliber" value="1000."/>
+				<integer name="Country" value="6"/>
+				<string name="DefaultAmmo" value="Mark_6"/>
+				<integer name="FinalSpeed" value="0"/>
+				<string name="FireSound" value="Guns\K-Gun"/>
+				<boolean name="IgnoreXMLFile" value="false"/>
+				<float name="Money" value="1.5"/>
+				<boolean name="New" value="true"/>
+				<float name="ROF" value="2."/>
+				<float name="Range" value="5."/>
+				<boolean name="SLLauncher" value="false"/>
+				<string name="SMU_File" value="RU_K_Gun"/>
+				<integer name="StartSpeed" value="0"/>
+				<integer name="Unreliability" value="0"/>
+				<string name="Usage" value="Ships"/>
+				<float name="Weight" value="0.5"/>
+			</object>
+		</object>
+		<object name="Turrets">
+			<object name="RU_RangeFinder_Mk52">
+				<integer name="Amount" value="1"/>
+				<integer name="ArmorFront" value="0"/>
+				<integer name="ArmorSide" value="0"/>
+				<integer name="ArmorTop" value="0"/>
+				<string name="Content" value="Probes.Pr_RU_RangeFinder_Mk52"/>
+				<integer name="Country" value="6"/>
+				<integer name="Elevation" value="0"/>
+				<integer name="ElevationRate" value="0"/>
+				<boolean name="IgnoreXMLFile" value="false"/>
+				<float name="Iron" value="0.3"/>
+				<float name="Money" value="2."/>
+				<boolean name="New" value="true"/>
+				<boolean name="Production" value="false"/>
+				<integer name="RotationRate" value="15"/>
+				<string name="SMU_File" value="RU_RangeFinder_Mk52"/>
+				<string name="Type" value="Radar"/>
+				<float name="Vitality" value="2."/>
+				<float name="Weight" value="0.5"/>
+			</object>
+		</object>
+		<object name="Hit_Location">
+			<object name="RU8200">
+				<integer name="Country" value="6"/>
+				<float name="ER" value="0.4"/>
+				<string name="Hull" value="Std_RF"/>
+				<string name="Name" value="Rangefinder"/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="RU_RangeFinder_Mk52"/>
+			</object>
+			<object name="RU8201">
+				<integer name="Country" value="6"/>
+				<integer name="Crew" value="1"/>
+				<float name="ER" value="3.e-002"/>
+				<string name="Hull" value="Std_Crew"/>
+				<string name="Name" value="Crew"/>
+				<string name="TypHL" value="Crew"/>
+				<string name="UnitName" value="RU_RangeFinder_Mk52"/>
+			</object>
+		</object>
+	</object>
+</root>

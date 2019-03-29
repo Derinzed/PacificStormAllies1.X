@@ -1,0 +1,163 @@
+<?xml version="1.0" standalone="yes" ?>
+<root>
+	<object name="SteelMonstersParams">
+		<object name="Hit_Location">
+			<object name="YA7896">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="100."/>
+				<string name="Hull" value="Std_Turret_RF"/>
+				<string name="Name" value="Rangefinder"/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="3x155mm_Yamato_turret_A"/>
+			</object>
+			<object name="YA7897">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="100."/>
+				<string name="Hull" value="Yammy_STurret"/>
+				<string name="Name" value="Turret"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="3x155mm_Yamato_turret_A"/>
+			</object>
+			<object name="YA7898">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="100."/>
+				<string name="Hull" value="Yammy_STurret_Shakegeban"/>
+				<string name="Name" value="Shakegeban"/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="3x155mm_Yamato_turret_A"/>
+			</object>
+			<object name="YB7896">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="100."/>
+				<string name="Hull" value="Std_Turret_RF"/>
+				<string name="Name" value="Rangefinder"/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="3x155mm_Yamato_turret_B"/>
+			</object>
+			<object name="YB7897">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="100."/>
+				<string name="Hull" value="Yammy_STurret"/>
+				<string name="Name" value="Turret"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="3x155mm_Yamato_turret_B"/>
+			</object>
+			<object name="YB7898">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="100."/>
+				<string name="Hull" value="Yammy_STurret_Shakegeban"/>
+				<string name="Name" value="Shakegeban"/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="3x155mm_Yamato_turret_B"/>
+			</object>
+		</object>
+		<object name="Hulls">
+			<object name="Yammy_STurret">
+				<integer name="Back" value="25"/>
+				<integer name="Bottom" value="25"/>
+				<integer name="Country" value="2"/>
+				<float name="ExplProb" value="20."/>
+				<float name="FireProb" value="10."/>
+				<integer name="Front" value="75"/>
+				<integer name="Left" value="25"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="25"/>
+				<integer name="Top" value="25"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Turret"/>
+			</object>
+			<object name="Yammy_STurret_Shakegeban">
+				<integer name="Back" value="25"/>
+				<integer name="Bottom" value="25"/>
+				<integer name="Country" value="2"/>
+				<float name="ExplProb" value="20."/>
+				<float name="FireProb" value="10."/>
+				<integer name="Front" value="0"/>
+				<integer name="Left" value="25"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="25"/>
+				<integer name="Top" value="25"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Turret"/>
+			</object>
+		</object>
+		<object name="Rifles">
+			<object name="3x155mm_Yamato_Stvol">
+				<float name="AARange" value="0."/>
+				<string name="Ammo" value="Proj_155_J"/>
+				<integer name="AmmoStorage" value="150"/>
+				<float name="AmmoWeight" value="55.87"/>
+				<string name="ArmPiercing" value="Proj_155_J_AP"/>
+				<float name="Caliber" value="155."/>
+				<string name="Common" value="Proj_155_J_Com"/>
+				<integer name="Country" value="2"/>
+				<float name="Dispersion" value="7."/>
+				<integer name="FinalSpeed" value="340"/>
+				<string name="FireSound" value="Guns\155mm"/>
+				<boolean name="IgnoreXMLFile" value="false"/>
+				<float name="Money" value="6.3"/>
+				<boolean name="New" value="false"/>
+				<float name="Range" value="27.4"/>
+				<float name="ROF" value="6."/>
+				<boolean name="SLLauncher" value="false"/>
+				<string name="SMU_File" value="3x155mm_Yamato_Stvol"/>
+				<integer name="StartSpeed" value="925"/>
+				<integer name="Unreliability" value="0"/>
+				<string name="Usage" value="Ships"/>
+				<float name="Weight" value="12.5"/>
+			</object>
+		</object>
+		<object name="Turrets">
+			<object name="3x155mm_Yamato_turret_A">
+				<integer name="Amount" value="3"/>
+				<integer name="ArmorFront" value="76"/>
+				<integer name="ArmorSide" value="25"/>
+				<integer name="ArmorTop" value="25"/>
+				<string name="Building" value="Artillery"/>
+				<string name="Content" value="Rifles.3x155mm_Yamato_Stvol"/>
+				<integer name="Country" value="2"/>
+				<float name="DTimeProd" value="5."/>
+				<integer name="Elevation" value="55"/>
+				<integer name="ElevationRate" value="10"/>
+				<string name="Icon" value="Artillery"/>
+				<boolean name="IgnoreXMLFile" value="false"/>
+				<float name="Iron" value="177."/>
+				<float name="Money" value="45."/>
+				<boolean name="New" value="false"/>
+				<float name="NTimeProd" value="25."/>
+				<boolean name="Production" value="false"/>
+				<integer name="QualityRate" value="4"/>
+				<integer name="RotationRate" value="6"/>
+				<string name="SMU_File" value="3x155mm_Yamato_turret"/>
+				<string name="Type" value="Gun"/>
+				<float name="Vitality" value="750."/>
+				<float name="Weight" value="177."/>
+			</object>
+			<object name="3x155mm_Yamato_turret_B">
+				<integer name="Amount" value="3"/>
+				<integer name="ArmorFront" value="76"/>
+				<integer name="ArmorSide" value="25"/>
+				<integer name="ArmorTop" value="25"/>
+				<string name="Building" value="Artillery"/>
+				<string name="Content" value="Rifles.3x155mm_Yamato_Stvol"/>
+				<integer name="Country" value="2"/>
+				<float name="DTimeProd" value="5."/>
+				<integer name="Elevation" value="55"/>
+				<integer name="ElevationRate" value="10"/>
+				<string name="Icon" value="Artillery"/>
+				<boolean name="IgnoreXMLFile" value="false"/>
+				<float name="Iron" value="177."/>
+				<float name="Money" value="45."/>
+				<boolean name="New" value="false"/>
+				<float name="NTimeProd" value="25."/>
+				<boolean name="Production" value="false"/>
+				<integer name="QualityRate" value="4"/>
+				<integer name="RotationRate" value="6"/>
+				<string name="SMU_File" value="3x155mm_Yamato_turret"/>
+				<string name="Type" value="Gun"/>
+				<float name="Vitality" value="750."/>
+				<float name="Weight" value="177."/>
+			</object>
+		</object>
+	</object>
+</root>

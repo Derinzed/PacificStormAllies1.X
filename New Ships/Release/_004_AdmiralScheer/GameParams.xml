@@ -1,0 +1,960 @@
+﻿<?xml version = "1.0" encoding = "UTF-8"?>
+<root>
+	<object name = "SteelMonstersParams">
+		<object name="Ships">
+			<object name="Scheer">
+				<float name="AccelRate" value="3.e-004"/>
+				<string name="Airgroup" value="Scout_ShipWater_Battleship_Battalion_germany"/>
+				<integer name="AirplanesCount" value="2"/>
+				<string name="AmmoLoadingTemplate" value="Ammo 300"/>
+				<boolean name="BoatsTransportationAbility" value="false"/>
+				<integer name="CabinArmor" value="165"/>
+				<boolean name="CanBeChanged" value="true"/>
+				<boolean name="CanUseTorpedos" value="true"/>
+				<string name="CatapultAirgroupDefaultUnit" value="Ar196"/>
+				<integer name="Country" value="5"/>
+				<integer name="Crew" value="1180"/>
+				<float name="CriticalCareen" value="37."/>
+				<float name="CriticalDFT" value="2.2"/>
+				<float name="CriticalDifferent" value="2.5"/>
+				<float name="DTimeProd" value="100."/>
+				<float name="DisplacementMax" value="16154."/>
+				<float name="EPR" value="400."/>
+				<float name="FireRisk" value="1467."/>
+				<float name="Fuel" value="3300."/>
+				<integer name="HullArmorSide" value="152"/>
+				<integer name="HullArmorTop" value="130"/>
+				<float name="HLShapeCoef" value="0.7"/>
+				<float name="Iron" value="18500."/>
+				<integer name="Length" value="186"/>
+				<float name="MaxSpeed" value="26."/>
+				<integer name="MinCrew" value="800"/>
+				<float name="Money" value="22000."/>
+				<float name="NTimeProd" value="250."/>
+				<string name="Name" value="Scheer"/>
+				<boolean name="New" value="false"/>
+				<integer name="Nuc_Dest_Prob" value="250"/>
+				<integer name="Passengers" value="50"/>
+				<boolean name="PlanesTransportationAbility" value="false"/>
+				<float name="Range" value="18650."/>
+				<integer name="Rank" value="2"/>
+				<string name="SMU" value="Scheer"/>
+				<float name="Speed" value="15."/>
+				<float name="StoreCapacity" value="800."/>
+				<boolean name="Transportable" value="false"/>
+				<float name="TurnRate" value="1.5e-003"/>
+				<integer name="Type" value="2"/>
+				<float name="Vitality" value="7000."/>
+				<float name="VitalityAA" value="1000."/>
+				<float name="Weight" value="12293."/>
+				<integer name="Width" value="21.4"/>
+				<integer name="Year" value="39"/>
+			</object>
+		</object>
+		<object name="Engins">
+			<object name="MPP_Deutchland">
+				<float name="Consumption" value="3.3e-004"/>
+				<integer name="Country" value="5"/>
+				<float name="Money" value="12000."/>
+				<integer name="Power_Max" value="44200"/>
+				<integer name="RPM_Max" value="0"/>
+				<integer name="Type" value="8"/>
+				<integer name="Unreliability" value="10"/>
+				<string name="Usage" value="Ships"/>
+				<float name="Weight" value="1300."/>
+			</object>
+		</object>
+		<object name="Hit_Location">
+			<object name="Deu161">
+				<integer name="Country" value="5"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="AdmiralScheerBelt_Left"/>
+				<string name="Name" value="Hull_Bow_Boiler_LBoard"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu162">
+				<integer name="Country" value="5"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="AdmiralScheerBelt_Right"/>
+				<string name="Name" value="Hull_Bow_Boiler_RBoard"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu163">
+				<integer name="Country" value="5"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="AdmiralScheerBelt_TopLeft"/>
+				<string name="Name" value="Hull_Bow_Boiler_LBoard_Top"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9261">
+				<integer name="Country" value="5"/>
+				<integer name="Crew" value="100"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Hull"/>
+				<string name="Name" value="Crew_Bow"/>
+				<string name="TypHL" value="Crew"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9262">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Hull"/>
+				<string name="Name" value="BowSmokeStack"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9263">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Hull"/>
+				<string name="Name" value="SternSmokeStack"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9588">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_UpperDeck"/>
+				<string name="Name" value="Bow2_UpperDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9589">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="AdmiralScheer_BowArmorDeck"/>
+				<string name="Name" value="Bow2_ArmorDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9590">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_MCAmmoStore"/>
+				<string name="Name" value="AmmoStore1"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9591">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_MCAmmoStore"/>
+				<string name="Name" value="AmmoStore2"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9592">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_LowerDeck"/>
+				<string name="Name" value="Bow2_LowerDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9593">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="AdmiralScheer_BowLBelt"/>
+				<string name="Name" value="Bow2_LBelt"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9594">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="AdmiralScheer_BowRBelt"/>
+				<string name="Name" value="Bow2_RBelt"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9595">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_HLBoard"/>
+				<string name="Name" value="Bow2_LBoard"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9596">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_HRBoard"/>
+				<string name="Name" value="Bow2_RBoard"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9597">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_HUpperDeck"/>
+				<string name="Name" value="Middle1_UpperDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9598">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="AdmiralScheer_ArmorDeck"/>
+				<string name="Name" value="Middle1_ArmorDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9599">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Probe"/>
+				<string name="Name" value="Radio"/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9600">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Probe"/>
+				<string name="Name" value="DamageControl"/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9601">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_LowerDeck"/>
+				<string name="Name" value="Middle1_LowerDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9602">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="AdmiralScheer_LBelt"/>
+				<string name="Name" value="Middle1_LBelt"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9603">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="AdmiralScheer_RBelt"/>
+				<string name="Name" value="Middle1_RBelt"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9604">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_HLBoard"/>
+				<string name="Name" value="Middle1_LBoard"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9605">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_HRBoard"/>
+				<string name="Name" value="Middle1_RBoard"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9606">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Boiler"/>
+				<string name="Name" value="Boiler1"/>
+				<string name="TypHL" value="Boiler"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9607">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Boiler"/>
+				<string name="Name" value="Boiler2"/>
+				<string name="TypHL" value="Boiler"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9608">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_HUpperDeck"/>
+				<string name="Name" value="Middle2_UpperDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9609">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="AdmiralScheer_ArmorDeck"/>
+				<string name="Name" value="Middle2_ArmorDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9610">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_LowerDeck"/>
+				<string name="Name" value="Middle2_LowerDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9611">
+				<string name="ConnectName" value="Boiler1"/>
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Engine"/>
+				<string name="Name" value="Engine1"/>
+				<string name="TypHL" value="Engine"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9612">
+				<string name="ConnectName" value="Boiler2"/>
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Engine"/>
+				<string name="Name" value="Engine2"/>
+				<string name="TypHL" value="Engine"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9613">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="AdmiralScheer_LBelt"/>
+				<string name="Name" value="Middle2_LBelt"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9614">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="AdmiralScheer_RBelt"/>
+				<string name="Name" value="Middle2_RBelt"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9615">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_HLBoard"/>
+				<string name="Name" value="Middle2_LBoard"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9616">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_HRBoard"/>
+				<string name="Name" value="Middle2_RBoard"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9617">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Boiler"/>
+				<string name="Name" value="Boiler3"/>
+				<string name="TypHL" value="Boiler"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9618">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Boiler"/>
+				<string name="Name" value="Boiler4"/>
+				<string name="TypHL" value="Boiler"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9619">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_HUpperDeck"/>
+				<string name="Name" value="Middle3_UpperDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9620">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="AdmiralScheer_ArmorDeck"/>
+				<string name="Name" value="Middle3_ArmorDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9621">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Probe"/>
+				<string name="Name" value="Radar"/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9622">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Probe"/>
+				<string name="Name" value="FireControl"/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9623">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_LowerDeck"/>
+				<string name="Name" value="Middle3_LowerDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9624">
+				<string name="ConnectName" value="Boiler3"/>
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Engine"/>
+				<string name="Name" value="Engine3"/>
+				<string name="TypHL" value="Engine"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9625">
+				<string name="ConnectName" value="Boiler4"/>
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Engine"/>
+				<string name="Name" value="Engine4"/>
+				<string name="TypHL" value="Engine"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9626">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="AdmiralScheer_LBelt"/>
+				<string name="Name" value="Middle3_LBelt"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9627">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="AdmiralScheer_RBelt"/>
+				<string name="Name" value="Middle3_RBelt"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9628">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_HLBoard"/>
+				<string name="Name" value="Middle3_LBoard"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9629">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_HRBoard"/>
+				<string name="Name" value="Middle3_RBoard"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9630">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_HUpperDeck"/>
+				<string name="Name" value="Stern1_UpperDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9631">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_LowerDeck"/>
+				<string name="Name" value="Stern1_MiddleDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9632">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="AdmiralScheer_SternArmorDeck"/>
+				<string name="Name" value="Stern1_AmmoStore_Cover"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9633">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_MCAmmoStore"/>
+				<string name="Name" value="AmmoStore3"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9634">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_LowerDeck"/>
+				<string name="Name" value="Stern1_LowerDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9635">
+				<string name="ConnectName" value="Engine1"/>
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Mover"/>
+				<string name="Name" value="Mover1"/>
+				<string name="TypHL" value="Mover"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9636">
+				<string name="ConnectName" value="Engine2"/>
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Mover"/>
+				<string name="Name" value="Mover2"/>
+				<string name="TypHL" value="Mover"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9637">
+				<string name="ConnectName" value="Engine3"/>
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Mover"/>
+				<string name="Name" value="Mover3"/>
+				<string name="TypHL" value="Mover"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9638">
+				<string name="ConnectName" value="Engine4"/>
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Mover"/>
+				<string name="Name" value="Mover4"/>
+				<string name="TypHL" value="Mover"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9639">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Rudder"/>
+				<string name="Name" value="Rudder"/>
+				<string name="TypHL" value="Rudder"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9640">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="AdmiralScheer_Barbet"/>
+				<string name="Name" value="Barbet1"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9641">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="AdmiralScheer_Barbet"/>
+				<string name="Name" value="Barbet2"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9642">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="AdmiralScheer_Barbet"/>
+				<string name="Name" value="Barbert3"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9643">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="AdmiralScheer_Barbet"/>
+				<string name="Name" value="Middle_LBarbetSG1"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9644">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="AdmiralScheer_Barbet"/>
+				<string name="Name" value="Middle_RBarbetSG1"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9645">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="AdmiralScheer_Barbet"/>
+				<string name="Name" value="Middle_LBarbetSG2"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9646">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="AdmiralScheer_Barbet"/>
+				<string name="Name" value="Middle_RBarbetSG2"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9647">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="AdmiralScheer_Barbet"/>
+				<string name="Name" value="Middle_LBarbetSG3"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9648">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="AdmiralScheer_Barbet"/>
+				<string name="Name" value="Middle_RBarbetSG3"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9649">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="AdmiralScheer_Barbet"/>
+				<string name="Name" value="Stern_BarbetSG"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9650">
+				<integer name="Country" value="5"/>
+				<integer name="Crew" value="300"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Superstructure"/>
+				<string name="Name" value="Bow_LSuperstructure"/>
+				<string name="TypHL" value="Crew"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9651">
+				<integer name="Country" value="5"/>
+				<integer name="Crew" value="300"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Superstructure"/>
+				<string name="Name" value="Bow_MSuperstructure"/>
+				<string name="TypHL" value="Crew"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9652">
+				<integer name="Country" value="5"/>
+				<integer name="Crew" value="300"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Superstructure"/>
+				<string name="Name" value="Bow_USuperstructure"/>
+				<string name="TypHL" value="Crew"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9653">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Superstructure"/>
+				<string name="Name" value="Middle_FSuperstructure"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9654">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Superstructure"/>
+				<string name="Name" value="Middle_SSuperstructure"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9655">
+				<integer name="Country" value="5"/>
+				<integer name="Crew" value="300"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Superstructure"/>
+				<string name="Name" value="Stern_Superstructure"/>
+				<string name="TypHL" value="Crew"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9656">
+				<integer name="Country" value="5"/>
+				<integer name="Crew" value="300"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_BowHUpperDeck"/>
+				<string name="Name" value="Bow1_UpperDeck"/>
+				<string name="TypHL" value="Crew"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9657">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_BowHLowerDeck"/>
+				<string name="Name" value="Bow1_LowerDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9658">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_SternHUpperDeck"/>
+				<string name="Name" value="Stern2_Deck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9659">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Superstructure"/>
+				<string name="Name" value="Tiller"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9660">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Bottom"/>
+				<string name="Name" value="Bow1_Bottom"/>
+				<string name="TypHL" value="FuelTank"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9661">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Bottom"/>
+				<string name="Name" value="Bow2_Bottom"/>
+				<string name="TypHL" value="FuelTank"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9662">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Bottom"/>
+				<string name="Name" value="Middle1_Bottom"/>
+				<string name="TypHL" value="FuelTank"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9663">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Bottom"/>
+				<string name="Name" value="Middle2_Bottom"/>
+				<string name="TypHL" value="FuelTank"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9664">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Bottom"/>
+				<string name="Name" value="Middle3_Bottom"/>
+				<string name="TypHL" value="FuelTank"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9665">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Bottom"/>
+				<string name="Name" value="Stern1_Bottom"/>
+				<string name="TypHL" value="FuelTank"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9666">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_SmokeStack"/>
+				<string name="Name" value="BowSmokeStack"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+			<object name="Deu9667">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_SmokeStack"/>
+				<string name="Name" value="SternSmokeStack"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Scheer"/>
+			</object>
+		</object>
+		<object name="Hulls">
+			<object name="AdmiralScheer_ArmorDeck">
+				<integer name="Back" value="1"/>
+				<integer name="Bottom" value="1"/>
+				<integer name="Country" value="5"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="0."/>
+				<integer name="Front" value="1"/>
+				<integer name="Left" value="1"/>
+				<string name="Material" value="Wh"/>
+				<integer name="Right" value="1"/>
+				<integer name="Top" value="45"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="AdmiralScheer_Barbet">
+				<integer name="Back" value="125"/>
+				<integer name="Bottom" value="125"/>
+				<integer name="Country" value="5"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="0."/>
+				<integer name="Front" value="125"/>
+				<integer name="Left" value="125"/>
+				<string name="Material" value="KCn/A"/>
+				<integer name="Right" value="125"/>
+				<integer name="Top" value="125"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="AdmiralScheer_BattleCabine">
+				<integer name="Back" value="50"/>
+				<integer name="Bottom" value="2"/>
+				<integer name="Country" value="5"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="5."/>
+				<integer name="Front" value="50"/>
+				<integer name="Left" value="50"/>
+				<string name="Material" value="KCn/A"/>
+				<integer name="Right" value="50"/>
+				<integer name="Top" value="150"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="AdmiralScheer_BowArmorDeck">
+				<integer name="Back" value="1"/>
+				<integer name="Bottom" value="1"/>
+				<integer name="Country" value="5"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="0."/>
+				<integer name="Front" value="127"/>
+				<integer name="Left" value="1"/>
+				<string name="Material" value="Wh"/>
+				<integer name="Right" value="1"/>
+				<integer name="Top" value="20"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="AdmiralScheer_BowLBelt">
+				<integer name="Back" value="1"/>
+				<integer name="Bottom" value="1"/>
+				<integer name="Country" value="5"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="0."/>
+				<integer name="Front" value="127"/>
+				<integer name="Left" value="80"/>
+				<string name="Material" value="KCn/A"/>
+				<integer name="Right" value="1"/>
+				<integer name="Top" value="50"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="AdmiralScheer_BowRBelt">
+				<integer name="Back" value="1"/>
+				<integer name="Bottom" value="1"/>
+				<integer name="Country" value="5"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="0."/>
+				<integer name="Front" value="127"/>
+				<integer name="Left" value="1"/>
+				<string name="Material" value="KCn/A"/>
+				<integer name="Right" value="80"/>
+				<integer name="Top" value="50"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="AdmiralScheer_LBelt">
+				<integer name="Back" value="1"/>
+				<integer name="Bottom" value="1"/>
+				<integer name="Country" value="5"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="0."/>
+				<integer name="Front" value="1"/>
+				<integer name="Left" value="80"/>
+				<string name="Material" value="KCn/A"/>
+				<integer name="Right" value="1"/>
+				<integer name="Top" value="50"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="AdmiralScheer_RBelt">
+				<integer name="Back" value="1"/>
+				<integer name="Bottom" value="1"/>
+				<integer name="Country" value="5"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="0."/>
+				<integer name="Front" value="1"/>
+				<integer name="Left" value="1"/>
+				<string name="Material" value="KCn/A"/>
+				<integer name="Right" value="80"/>
+				<integer name="Top" value="50"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="AdmiralScheer_SternArmorDeck">
+				<integer name="Back" value="102"/>
+				<integer name="Bottom" value="20"/>
+				<integer name="Country" value="5"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="0."/>
+				<integer name="Front" value="102"/>
+				<integer name="Left" value="102"/>
+				<string name="Material" value="Wh"/>
+				<integer name="Right" value="102"/>
+				<integer name="Top" value="45"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="AdmiralScheerBelt_Left">
+				<integer name="Back" value="1"/>
+				<integer name="Bottom" value="1"/>
+				<integer name="Country" value="5"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="0."/>
+				<integer name="Front" value="1"/>
+				<integer name="Left" value="80"/>
+				<string name="Material" value="KCn/A"/>
+				<integer name="Right" value="1"/>
+				<integer name="Top" value="50"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="AdmiralScheerBelt_Right">
+				<integer name="Back" value="1"/>
+				<integer name="Bottom" value="1"/>
+				<integer name="Country" value="5"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="0."/>
+				<integer name="Front" value="1"/>
+				<integer name="Left" value="1"/>
+				<string name="Material" value="KCn/A"/>
+				<integer name="Right" value="80"/>
+				<integer name="Top" value="50"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="AdmiralScheerBelt_TopLeft">
+				<integer name="Back" value="102"/>
+				<integer name="Bottom" value="20"/>
+				<integer name="Country" value="5"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="0."/>
+				<integer name="Front" value="102"/>
+				<integer name="Left" value="102"/>
+				<string name="Material" value="KCn/A"/>
+				<integer name="Right" value="102"/>
+				<integer name="Top" value="30"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+        	</object>
+		<object name="ShipsNames">
+			<object name="Scheer">
+				<string name="1" value="Admiral Scheer"/>
+			</object>
+		</object>
+		<object name="UnitsByType">
+			<object name="2">
+				<object name="Scheer">
+					<string name="ChildTable" value="Ships"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</root>

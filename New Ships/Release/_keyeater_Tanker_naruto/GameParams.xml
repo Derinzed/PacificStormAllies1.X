@@ -1,0 +1,90 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<root>
+	<object name = "SteelMonstersParams">
+		<object name="Engins">
+			<object name="MPP_T2">
+				<float name="Consumption" value="7.e-004"/>
+				<integer name="Country" value="1"/>
+				<float name="Iron" value="750."/>
+				<float name="Money" value="300."/>
+				<integer name="Power_Max" value="12000"/>
+				<integer name="RPM_Max" value="0"/>
+				<integer name="Type" value="9"/>
+				<integer name="Unreliability" value="10"/>
+				<string name="Usage" value="Ships"/>
+				<float name="Weight" value="750."/>
+			</object>
+		</object>
+		<object name="Ships">
+			<object name="naruto">
+				<float name="AccelRate" value="1.e-004"/>
+				<integer name="AirplanesCount" value="15"/>
+				<string name="AmmoLoadingTemplate" value="Ammo 150"/>
+				<integer name="BoatsCount" value="4"/>
+				<boolean name="BoatsTransportationAbility" value="true"/>
+				<integer name="CabinArmor" value="20"/>
+				<boolean name="CanBeChanged" value="true"/>
+				<boolean name="CanUseTorpedos" value="false"/>
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="250"/>
+				<float name="CriticalCareen" value="37."/>
+				<float name="CriticalDFT" value="3."/>
+				<float name="CriticalDifferent" value="3."/>
+				<float name="DTimeProd" value="25."/>
+				<float name="DisplacementMax" value="22231."/>
+				<float name="EPR" value="385."/>
+				<float name="FireRisk" value="333."/>
+				<float name="Fuel" value="4000."/>
+				<integer name="HullArmorSide" value="20"/>
+				<integer name="HullArmorTop" value="20"/>
+				<float name="Iron" value="5000."/>
+				<integer name="Length" value="160"/>
+				<float name="MaxSpeed" value="17"/>
+				<integer name="MinCrew" value="100"/>
+				<float name="Money" value="4000."/>
+				<float name="NTimeProd" value="70."/>
+				<string name="Name" value="naruto"/>
+				<boolean name="New" value="false"/>
+				<integer name="Nuc_Dest_Prob" value="700"/>
+				<integer name="Passengers" value="100"/>
+				<boolean name="PlanesTransportationAbility" value="true"/>
+				<float name="Range" value="20000."/>
+				<integer name="Rank" value="3"/>
+				<string name="SMU" value="naruto"/>
+				<float name="Speed" value="14."/>
+				<float name="StoreCapacity" value="14000."/>
+				<boolean name="Transportable" value="false"/>
+				<float name="TurnRate" value="6.e-004"/>
+				<integer name="Type" value="9"/>
+				<float name="Vitality" value="1500."/>
+				<float name="VitalityAA" value="200."/>
+				<float name="Weight" value="5875."/>
+				<integer name="Width" value="21"/>
+				<integer name="Year" value="40"/>
+			</object>
+		</object>
+		<object name="ShipsNames">
+			<object name="naruto">
+				<string name="1" value="Naruto"/>
+				<string name="2" value="Ryuei Maru"/>
+				<string name="3" value="Sabang Maru"/>	
+				<string name="4" value="Samui MV"/>	
+				<string name="5" value="Sanko Maru"/>
+				<string name="6" value="Seinan Maru"/>	
+				<string name="7" value="Taigyo Maru"/>
+				<string name="8" value="Akane Maru"/>
+				<string name="9" value="Goyo Maru"/>
+				<string name="10" value="Eiwa Maru"/>
+				<string name="11" value="Doko Maru"/>
+
+			</object>
+		</object>
+		<object name="UnitsByType">
+			<object name="9">
+				<object name="naruto">
+					<string name="ChildTable" value="Ships"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</root>

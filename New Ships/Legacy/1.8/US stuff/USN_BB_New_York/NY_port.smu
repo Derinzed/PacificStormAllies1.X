@@ -1,0 +1,56 @@
+<?xml version="1.0" standalone="yes" ?>
+<root>
+	<object name="SlotTypes">
+
+		<object name="TPort_428">
+			<boolean name="CanBeEmpty" value="true"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="MedGun"/>
+			<object name="ValidAttachments">
+				<string name="01" value="PU_Rheintochter_Turret"/>
+			</object>
+		</object>
+		<object name="ZPort_AAGunContr1">
+			<string name="Table" value="AimSystems"/>
+			<string name="Type" value="Aiming"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Mark0_AA"/>
+				<string name="02" value="Mark1_AA"/>
+				<string name="03" value="Mark1R_AA"/>
+				<string name="04" value="Mark12R_AA"/>
+			</object>
+		</object>
+		<object name="ZPort_Jammer_US_A1">
+			<string name="Table" value="Probes"/>
+			<string name="Type" value="Aiming"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Jammer_US_A"/>
+			</object>
+		</object>
+		<object name="ZPort_MainGunContr">
+			<string name="Table" value="AimSystems"/>
+			<string name="Type" value="Aiming"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Mk_7_M"/>
+				<string name="02" value="Mk_8_M"/>
+				<string name="03" value="Mk_8R_M"/>
+			</object>
+		</object>
+		<object name="ZPort_Radio">
+			<string name="Table" value="Probes"/>
+			<string name="Type" value="Aiming"/>
+			<object name="ValidAttachments">
+				<string name="01" value="TBL7"/>
+				<string name="02" value="TBS"/>
+			</object>
+		</object>
+		<object name="ZPort_SteamTurbine">
+			<boolean name="CanBeEmpty" value="false"/>
+			<string name="Table" value="Engins"/>
+			<string name="Type" value="Engine"/>
+			<object name="ValidAttachments">
+				<string name="01" value="MPP_Colorado"/>
+			</object>
+		</object>
+	</object>
+</root>

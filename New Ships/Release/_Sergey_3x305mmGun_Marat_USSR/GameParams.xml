@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" standalone="yes" ?>
+<root>
+	<object name="SteelMonstersParams">
+		<object name="Rifles">
+			<object name="BB_Mturret_Stvol">
+				<float name="AARange" value="0."/>
+				<string name="Ammo" value="Proj_305_R"/>
+				<integer name="AmmoStorage" value="100"/>
+				<float name="AmmoWeight" value="470.9"/>
+				<float name="Caliber" value="305."/>
+				<integer name="Country" value="6"/>
+				<float name="Dispersion" value="3."/>
+				<integer name="FinalSpeed" value="359"/>
+				<string name="FireSound" value="Guns\356mm"/>
+                <string name="ArmPiercing" value="Proj_305_R_AP"/>
+				<boolean name="IgnoreXMLFile" value="false"/>
+				<float name="Money" value="170."/>
+				<boolean name="New" value="true"/>
+				<float name="Range" value="34.2"/>
+				<float name="ROF" value="2.2"/>
+				<boolean name="SLLauncher" value="false"/>
+				<string name="SMU_File" value="BB_Mturret_Stvol"/>
+				<integer name="StartSpeed" value="762"/>
+				<integer name="Unreliability" value="0"/>
+				<string name="Usage" value="Ships"/>
+				<float name="Weight" value="49.9"/>
+			</object>
+		</object>
+		<object name="Turrets">
+			<object name="BB_Mturret">
+				<integer name="Amount" value="3"/>
+				<integer name="ArmorFront" value="202"/>
+				<integer name="ArmorSide" value="202"/>
+				<integer name="ArmorTop" value="202"/>
+				<string name="Building" value="Artillery"/>
+				<string name="Content" value="Rifles.BB_Mturret_Stvol"/>
+				<integer name="Country" value="6"/>
+				<float name="DTimeProd" value="12."/>
+				<integer name="Elevation" value="40"/>
+				<integer name="ElevationRate" value="6"/>
+				<string name="Icon" value="Artillery"/>
+				<boolean name="IgnoreXMLFile" value="false"/>
+				<float name="Iron" value="784."/>
+				<float name="Money" value="500."/>
+				<boolean name="New" value="true"/>
+				<float name="NTimeProd" value="120."/>
+				<boolean name="Production" value="true"/>
+				<integer name="QualityRate" value="4"/>
+				<integer name="RotationRate" value="3.2"/>
+				<string name="SMU_File" value="BB_Mturret"/>
+				<string name="Type" value="Gun"/>
+				<float name="Vitality" value="1200."/>
+				<float name="Weight" value="771.7."/>
+			</object>
+		</object>
+		<object name="Hit_Location">
+			<object name="BB_M7952">
+				<integer name="Country" value="6"/>
+				<float name="ER" value="2."/>
+				<string name="Hull" value="Std_Turret_RF"/>
+				<string name="Name" value="RRandefinder"/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="BB_Mturret"/>
+			</object>
+			<object name="BB_M7953">
+				<integer name="Country" value="6"/>
+				<float name="ER" value="2."/>
+				<string name="Hull" value="Std_Turret_RF"/>
+				<string name="Name" value="LRangefinder"/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="BB_Mturret"/>
+			</object>
+			<object name="BB_M7954">
+				<integer name="Country" value="6"/>
+				<float name="ER" value="10."/>
+				<string name="Hull" value="Iowa_MTShakegeban"/>
+				<string name="Name" value="Shakegeban"/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="BB_Mturret"/>
+			</object>
+			<object name="BB_M7955">
+				<integer name="Country" value="6"/>
+				<float name="ER" value="150."/>
+				<string name="Hull" value="Iowa_MTurret"/>
+				<string name="Name" value="Turret"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="BB_Mturret"/>
+			</object>
+		</object>
+	</object>
+</root>

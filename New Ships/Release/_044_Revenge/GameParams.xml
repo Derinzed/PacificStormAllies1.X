@@ -1,0 +1,1331 @@
+﻿<?xml version = "1.0" encoding = "UTF-8"?>
+<root>
+	<object name = "SteelMonstersParams">
+		<object name="Ships">
+			<object name="Revenge">
+				<float name="AccelRate" value="1.e-004"/>
+				<string name="Airgroup" value=""/>
+				<integer name="AirplanesCount" value="0"/>
+				<string name="AmmoLoadingTemplate" value="Ammo 300"/>
+				<boolean name="BoatsTransportationAbility" value="false"/>
+				<integer name="CabinArmor" value="533"/>
+				<boolean name="CanBeChanged" value="true"/>
+				<boolean name="CanUseTorpedos" value="false"/>
+				<string name="CatapultAirgroupDefaultUnit" value=""/>
+				<integer name="Country" value="3"/>
+				<integer name="Crew" value="1150"/>
+				<float name="CriticalCareen" value="37."/>
+				<float name="CriticalDFT" value="2.4"/>
+				<float name="CriticalDifferent" value="5."/>
+				<float name="DTimeProd" value="160."/>
+				<float name="DisplacementMax" value="31000."/>
+				<float name="EPR" value="630."/>
+				<float name="FireRisk" value="1667."/>
+				<float name="Fuel" value="3400."/>
+				<float name="HLShapeCoef" value="0.75"/>
+				<integer name="HullArmorSide" value="310"/>
+				<integer name="HullArmorTop" value="265"/>
+				<float name="Iron" value="48000."/>
+				<integer name="Length" value="190."/>
+				<float name="MaxSpeed" value="23"/>
+				<integer name="MinCrew" value="900"/>
+				<float name="Money" value="32000."/>
+				<float name="NTimeProd" value="400."/>
+				<string name="Name" value="Revenge"/>
+				<boolean name="New" value="true"/>
+				<integer name="Nuc_Dest_Prob" value="300"/>
+				<integer name="Passengers" value="70"/>
+				<boolean name="PlanesTransportationAbility" value="false"/>
+				<float name="Range" value="9000."/>
+				<integer name="Rank" value="2"/>
+				<string name="SMU" value="Revenge"/>
+				<float name="Speed" value="12."/>
+				<float name="StoreCapacity" value="3400."/>
+				<boolean name="Transportable" value="false"/>
+				<float name="TurnRate" value="1.4e-003"/>
+				<integer name="Type" value="1"/>
+				<float name="Vitality" value="8400."/>
+				<float name="VitalityAA" value="3500."/>
+				<float name="Weight" value="28000."/>
+				<integer name="Width" value="27."/>
+				<integer name="Year" value="39"/>
+			</object>
+		</object> 
+		<object name="Engins">	
+			<object name="MPP_Revenge">
+				<float name="Consumption" value="6.e-004"/>
+				<integer name="Country" value="3"/>
+				<float name="Money" value="21000."/>
+				<integer name="Power_Max" value="40000"/>
+				<integer name="RPM_Max" value="0"/>
+				<integer name="Type" value="8"/>
+				<integer name="Unreliability" value="10"/>
+				<string name="Usage" value="Ships"/>
+				<float name="Weight" value="3000."/>
+			</object>
+	    </object>
+		<object name="Hit_Location">
+			<object name="RVNG1000">
+				<string name="ConnectName" value="Tiller;"/>
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_Rudder"/>
+				<string name="Name" value="Rudder"/>
+				<string name="TypHL" value="Rudder"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG1001">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_Bottom"/>
+				<string name="Name" value="Bow1_LBottom"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG1002">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_Hull"/>
+				<string name="Name" value="Bow1_LowerDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG1003">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Revenge_AmmoStore_Type2"/>
+				<string name="Name" value="AmmoStore1_2"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG1004">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_Bottom"/>
+				<string name="Name" value="Bow1_RBottom"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG1006">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_UpperHull"/>
+				<string name="Name" value="Bow1_UpperDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG1007">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Revenge_Stern2"/>
+				<string name="Name" value="Stern2"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG1008">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Revenge_Tiller"/>
+				<string name="Name" value="Tiller"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG1014">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_Bottom"/>
+				<string name="Name" value="Bow2_RBottom"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG874">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Revenge_BattleCabin"/>
+				<string name="Name" value="BattleCabin"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG875">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_Probe"/>
+				<string name="Name" value="Probe_Radar"/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG876">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_Probe"/>
+				<string name="Name" value="Probe_Radio"/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG877">
+				<integer name="Country" value="3"/>
+				<integer name="Crew" value="1000"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_UpperHull"/>
+				<string name="Name" value="ConingBridge"/>
+				<string name="TypHL" value="Crew"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG878">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Revenge_Barbet"/>
+				<string name="Name" value="Barbet_1"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG880">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Revenge_Barbet"/>
+				<string name="Name" value="Barbet_2"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG882">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_UpperHull"/>
+				<string name="Name" value="Bow2_UpperDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG883">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_Rboard"/>
+				<string name="Name" value="Bow2_RBoard"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG884">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Revenge_Rbelt_Upper"/>
+				<string name="Name" value="Bow2_RBelt_Upper"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG885">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Revenge_Rbelt_Lower"/>
+				<string name="Name" value="Bow2_RBelt_Lower"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG886">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_RAMP"/>
+				<string name="Name" value="Bow2_RAMP"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG887">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Revenge_MiddleDeck"/>
+				<string name="Name" value="Bow2_MiddleDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG888">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_Hull"/>
+				<string name="Name" value="Bow2_LowerDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG889">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_AFuelTank"/>
+				<string name="Name" value="Bow2_FuelTank1"/>
+				<string name="TypHL" value="FuelTank"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG890">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_FuelTank"/>
+				<string name="Name" value="Bow2_FuelTank2"/>
+				<string name="TypHL" value="FuelTank"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG891">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_FuelTank"/>
+				<string name="Name" value="Bow2_FuelTank3"/>
+				<string name="TypHL" value="FuelTank"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG892">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Revenge_AmmoStore_Type2"/>
+				<string name="Name" value="AmmoStore2_2"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG893">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Revenge_AmmoStore_Type1"/>
+				<string name="Name" value="AmmoStore1_3"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG894">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_Bottom"/>
+				<string name="Name" value="Bow2_LBottom"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG895">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Revenge_Lbelt_Upper"/>
+				<string name="Name" value="Bow2_LBelt_Upper"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG896">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Revenge_LBelt_Lower"/>
+				<string name="Name" value="Bow2_LBelt_Lower"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG897">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_LAMP"/>
+				<string name="Name" value="Bow2_LAMP"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG898">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_Lboard"/>
+				<string name="Name" value="Bow2_LBoard"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG900">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_Hull"/>
+				<string name="Name" value="Middle2_LowerDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG901">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_Hull"/>
+				<string name="Name" value="Middle2_MiddleDeck1_Left"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG902">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_Boiler"/>
+				<string name="Name" value="Boiler1"/>
+				<string name="TypHL" value="Boiler"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG903">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_Hull"/>
+				<string name="Name" value="Middle2_MiddleDeck1_Middle"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG904">
+				<string name="ConnectName" value="Boiler1;Boiler2;Boiler3;Boiler4;"/>
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_Engine"/>
+				<string name="Name" value="Turbine2"/>
+				<string name="TypHL" value="Engine"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG905">
+				<string name="ConnectName" value="Boiler1;Boiler2;Boiler3;Boiler4;"/>
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_Engine"/>
+				<string name="Name" value="Turbine3"/>
+				<string name="TypHL" value="Engine"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG906">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_Hull"/>
+				<string name="Name" value="Middle2_MiddleDeck1_Right"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG907">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_Boiler"/>
+				<string name="Name" value="Boiler2"/>
+				<string name="TypHL" value="Boiler"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG908">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Revenge_MiddleDeck"/>
+				<string name="Name" value="Middle2_MiddleDeck2_Left"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG909">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Revenge_MiddleDeck"/>
+				<string name="Name" value="Middle2_MiddleDeck2_Middle"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG910">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Revenge_MiddleDeck"/>
+				<string name="Name" value="Middle2_MiddleDeck2_Right"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG911">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_UpperHull"/>
+				<string name="Name" value="Middle2_Deck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG912">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Revenge_LBelt_Lower"/>
+				<string name="Name" value="Middle2_LBelt_Lower"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG913">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_LAMP"/>
+				<string name="Name" value="Middle2_LAMP"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG914">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Revenge_Lbelt_Upper"/>
+				<string name="Name" value="Middle2_LBelt_Upper"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG915">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_Lboard"/>
+				<string name="Name" value="Middle2_LBoard"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG916">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_RAMP"/>
+				<string name="Name" value="Middle2_RAMP"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG917">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_Bottom"/>
+				<string name="Name" value="Middle2_LBottom"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG918">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Revenge_Rbelt_Lower"/>
+				<string name="Name" value="Middle2_RBelt_Lower"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG919">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Revenge_Rbelt_Upper"/>
+				<string name="Name" value="Middle2_RBelt_Upper"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG920">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_Rboard"/>
+				<string name="Name" value="Middle2_RBoard"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG921">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_Bottom"/>
+				<string name="Name" value="Middle2_RBottom"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG922">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_UpperHull"/>
+				<string name="Name" value="Middle2_UpperDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG923">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_UpperHull"/>
+				<string name="Name" value="Middle1_Deck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG924">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_LAMP"/>
+				<string name="Name" value="Middle1_LAMP"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG925">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Revenge_LBelt_Lower"/>
+				<string name="Name" value="Middle1_LBelt_Lower"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG926">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Revenge_Lbelt_Upper"/>
+				<string name="Name" value="Middle1_LBelt_Upper"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG9266">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_Hull"/>
+				<string name="Name" value="BowTower"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG9267">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_Hull"/>
+				<string name="Name" value="BowTowerCabine"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG9268">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_Hull"/>
+				<string name="Name" value="BowSmokeStack"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG9269">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_Hull"/>
+				<string name="Name" value="SternSmokeStack"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG927">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_Lboard"/>
+				<string name="Name" value="Middle1_LBoard"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG9270">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_Hull"/>
+				<string name="Name" value="SternTower"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG9271">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_Hull"/>
+				<string name="Name" value="SternTurretCabine"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG928">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_Bottom"/>
+				<string name="Name" value="Middle1_LBottom"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG929">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_Hull"/>
+				<string name="Name" value="Middle1_LowerDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG930">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_FuelTank"/>
+				<string name="Name" value="Middle1_FuelTank"/>
+				<string name="TypHL" value="FuelTank"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG931">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_Hull"/>
+				<string name="Name" value="Middle1_MiddleDeck1"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG932">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_Probe"/>
+				<string name="Name" value="Middle1_ProbeMainGun"/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG933">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Revenge_MiddleDeck"/>
+				<string name="Name" value="Middle1_MiddleDeck2"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG934">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_RAMP"/>
+				<string name="Name" value="Middle1_RAMP"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG935">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Revenge_Rbelt_Lower"/>
+				<string name="Name" value="Middle1_RBelt_Lower"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG936">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Revenge_Rbelt_Upper"/>
+				<string name="Name" value="Middle1_RBelt_Upper"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG937">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_Rboard"/>
+				<string name="Name" value="Middle1_RBoard"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG938">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_Bottom"/>
+				<string name="Name" value="Middle1_RBottom"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG939">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_UpperHull"/>
+				<string name="Name" value="Middle1_UpperDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG940">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_Hull"/>
+				<string name="Name" value="Middle3_LoweDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG941">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_Hull"/>
+				<string name="Name" value="Middle3_MiddleDeck1_left"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG942">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_Boiler"/>
+				<string name="Name" value="Boiler3"/>
+				<string name="TypHL" value="Boiler"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG943">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_Hull"/>
+				<string name="Name" value="Middle3_MiddleDeck1_Middle"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG944">
+				<string name="ConnectName" value="Boiler1;Boiler2;Boiler3;Boiler4;"/>
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_Engine"/>
+				<string name="Name" value="Turbine1"/>
+				<string name="TypHL" value="Engine"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG945">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_Hull"/>
+				<string name="Name" value="Middle3_MiddleDeck1_Right"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG946">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_Boiler"/>
+				<string name="Name" value="Boiler4"/>
+				<string name="TypHL" value="Boiler"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG947">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Revenge_MiddleDeck"/>
+				<string name="Name" value="Middle3_MiddleDeck2_Left"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG948">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Revenge_MiddleDeck"/>
+				<string name="Name" value="Middle3_MiddleDeck2_Middle"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG949">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Revenge_MiddleDeck"/>
+				<string name="Name" value="Middle3_MiddleDeck2_Right"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG950">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_UpperHull"/>
+				<string name="Name" value="Middle3_Deck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG951">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_LAMP"/>
+				<string name="Name" value="Middle3_LAMP"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG952">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Revenge_LBelt_Lower"/>
+				<string name="Name" value="Middle3_LBelt_Lower"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG953">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Revenge_Lbelt_Upper"/>
+				<string name="Name" value="Middle3_LBelt_Upper"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG954">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_Lboard"/>
+				<string name="Name" value="Middle3_LBoard"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG955">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_Bottom"/>
+				<string name="Name" value="Middle3_LBottom"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG956">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_RAMP"/>
+				<string name="Name" value="Middle3_RAMP"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG957">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Revenge_LBelt_Lower"/>
+				<string name="Name" value="Middle3_RBelt_Lower"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG958">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Revenge_Lbelt_Upper"/>
+				<string name="Name" value="Middle3_RBelt_Upper"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG960">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_Rboard"/>
+				<string name="Name" value="Middle3_RBoard"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG961">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_Bottom"/>
+				<string name="Name" value="Middle3_RBottom"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG962">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_UpperHull"/>
+				<string name="Name" value="Middle3_UpperDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG963">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Revenge_Barbet"/>
+				<string name="Name" value="Barbet_4"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG965">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Revenge_Barbet"/>
+				<string name="Name" value="Barbet_3"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG967">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_LAMP"/>
+				<string name="Name" value="Stern1_LAMP"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG968">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Revenge_LBelt_Lower"/>
+				<string name="Name" value="Stern1_LBelt_Lower"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG969">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Revenge_Lbelt_Upper"/>
+				<string name="Name" value="Stern1_LBelt_Upper"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG970">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_Boiler"/>
+				<string name="Name" value="Stern1_LBottom"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG971">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_Hull"/>
+				<string name="Name" value="Stern1_LowerDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG972">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_FuelTank"/>
+				<string name="Name" value="Stern1_FuelTank1"/>
+				<string name="TypHL" value="FuelTank"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG973">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_FuelTank"/>
+				<string name="Name" value="Stern1_Fueltank2"/>
+				<string name="TypHL" value="FuelTank"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG974">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_FuelTank"/>
+				<string name="Name" value="Stern1_Fueltank3"/>
+				<string name="TypHL" value="FuelTank"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG975">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Revenge_AmmoStore_Type2"/>
+				<string name="Name" value="AmmoStore3_2"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG976">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Revenge_AmmoStore_Type2"/>
+				<string name="Name" value="AmmStore4_2"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG977">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_RAMP"/>
+				<string name="Name" value="Stern1_RAMP"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG978">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Revenge_Rbelt_Lower"/>
+				<string name="Name" value="Stern1_RBelt_Lower"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG979">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Revenge_Rbelt_Upper"/>
+				<string name="Name" value="Stern1_RBelt_Upper"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG980">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_Bottom"/>
+				<string name="Name" value="Stern1_RBottom"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG981">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Revenge_MiddleDeck"/>
+				<string name="Name" value="Stern1_UpperDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG982">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_LAMP"/>
+				<string name="Name" value="Middle4_LAMP"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG983">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Revenge_LBelt_Lower"/>
+				<string name="Name" value="Middle4_LBelt_Lower"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG984">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Revenge_Lbelt_Upper"/>
+				<string name="Name" value="Middle4_LBelt_Upper"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG985">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_Bottom"/>
+				<string name="Name" value="Middle4_LBottom"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG986">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_Hull"/>
+				<string name="Name" value="Middle4_LowerDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG987">
+				<string name="ConnectName" value="Turbine1;Turbine2;Turbine3;"/>
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_Engine"/>
+				<string name="Name" value="Middle4_Engine2"/>
+				<string name="TypHL" value="Engine"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG988">
+				<string name="ConnectName" value="Turbine1;Turbine2;Turbine3;"/>
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_Engine"/>
+				<string name="Name" value="Middle4_Engine4"/>
+				<string name="TypHL" value="Engine"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG989">
+				<string name="ConnectName" value="Turbine1;Turbine2;Turbine3"/>
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_Engine"/>
+				<string name="Name" value="Middle4_Engine3"/>
+				<string name="TypHL" value="Engine"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG990">
+				<string name="ConnectName" value="Turbine1;Turbine2;Turbine3;"/>
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_Engine"/>
+				<string name="Name" value="Middle4_Engine1"/>
+				<string name="TypHL" value="Engine"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG991">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_RAMP"/>
+				<string name="Name" value="Middle4_RAMP"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG992">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Revenge_Rbelt_Lower"/>
+				<string name="Name" value="Middle4_RBelt_Lower"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG993">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Revenge_Rbelt_Upper"/>
+				<string name="Name" value="Middle4_RBelt_Upper"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG994">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_Bottom"/>
+				<string name="Name" value="Middle4_RBottom"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG995">
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_UpperHull"/>
+				<string name="Name" value="Middle4_UpperDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG996">
+				<string name="ConnectName" value="Middle4_Engine1"/>
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_Mover"/>
+				<string name="Name" value="Mover1"/>
+				<string name="TypHL" value="Mover"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG997">
+				<string name="ConnectName" value="Middle4_Engine2"/>
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_Mover"/>
+				<string name="Name" value="Mover2"/>
+				<string name="TypHL" value="Mover"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG998">
+				<string name="ConnectName" value="Middle4_Engine3"/>
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_Mover"/>
+				<string name="Name" value="Mover3"/>
+				<string name="TypHL" value="Mover"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+			<object name="RVNG999">
+				<string name="ConnectName" value="Middle4_Engine4"/>
+				<integer name="Country" value="3"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_Mover"/>
+				<string name="Name" value="Mover4"/>
+				<string name="TypHL" value="Mover"/>
+				<string name="UnitName" value="Revenge"/>
+			</object>
+		</object> 
+		<object name="Hulls">
+			<object name="Revenge_AmmoStore_Type1">
+				<integer name="Back" value="20"/>
+				<integer name="Bottom" value="20"/>
+				<integer name="Country" value="3"/>
+				<float name="ExplProb" value="10."/>
+				<float name="FireProb" value="20."/>
+				<integer name="Front" value="20"/>
+				<integer name="Left" value="20"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="20"/>
+				<integer name="Top" value="20"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="Revenge_AmmoStore_Type2">
+				<integer name="Back" value="220"/>
+				<integer name="Bottom" value="10"/>
+				<integer name="Country" value="3"/>
+				<float name="ExplProb" value="10."/>
+				<float name="FireProb" value="20."/>
+				<integer name="Front" value="220"/>
+				<integer name="Left" value="220"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="220"/>
+				<integer name="Top" value="110"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="Revenge_BattleCabin">
+				<integer name="Back" value="406"/>
+				<integer name="Bottom" value="10"/>
+				<integer name="Country" value="3"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="20."/>
+				<integer name="Front" value="406"/>
+				<integer name="Left" value="406"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="406"/>
+				<integer name="Top" value="200"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="Revenge_LBelt_Lower">
+				<integer name="Back" value="30"/>
+				<integer name="Bottom" value="10"/>
+				<integer name="Country" value="3"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="10."/>
+				<integer name="Front" value="30"/>
+				<integer name="Left" value="270"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="20"/>
+				<integer name="Top" value="10"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="Revenge_Lbelt_Upper">
+				<integer name="Back" value="30"/>
+				<integer name="Bottom" value="28"/>
+				<integer name="Country" value="3"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="10."/>
+				<integer name="Front" value="30"/>
+				<integer name="Left" value="343"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="10"/>
+				<integer name="Top" value="89"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="Revenge_MiddleDeck">
+				<integer name="Back" value="10"/>
+				<integer name="Bottom" value="28"/>
+				<integer name="Country" value="3"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="10."/>
+				<integer name="Front" value="10"/>
+				<integer name="Left" value="10"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="10"/>
+				<integer name="Top" value="89"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="Revenge_Rbelt_Lower">
+				<integer name="Back" value="30"/>
+				<integer name="Bottom" value="10"/>
+				<integer name="Country" value="3"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="10."/>
+				<integer name="Front" value="30"/>
+				<integer name="Left" value="10"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="270"/>
+				<integer name="Top" value="10"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="Revenge_Rbelt_Upper">
+				<integer name="Back" value="30"/>
+				<integer name="Bottom" value="28"/>
+				<integer name="Country" value="3"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="10."/>
+				<integer name="Front" value="30"/>
+				<integer name="Left" value="10"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="343"/>
+				<integer name="Top" value="89"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="Revenge_Stern2">
+				<integer name="Back" value="10"/>
+				<integer name="Bottom" value="10"/>
+				<integer name="Country" value="3"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="0."/>
+				<integer name="Front" value="300"/>
+				<integer name="Left" value="20"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="20"/>
+				<integer name="Top" value="10"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="Revenge_Tiller">
+				<integer name="Back" value="203"/>
+				<integer name="Bottom" value="10"/>
+				<integer name="Country" value="3"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="10."/>
+				<integer name="Front" value="10"/>
+				<integer name="Left" value="203"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="203"/>
+				<integer name="Top" value="158"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="Revenge_Barbet">
+				<integer name="Back" value="320"/>
+				<integer name="Bottom" value="30"/>
+				<integer name="Country" value="3"/>
+				<float name="ExplProb" value="10."/>
+				<float name="FireProb" value="40."/>
+				<integer name="Front" value="320"/>
+				<integer name="Left" value="320"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="320"/>
+				<integer name="Top" value="30"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+		</object>
+		<object name="ShipsNames">
+			<object name="Revenge">
+				<string name="1" value="Revenge"/>
+			</object>
+		</object>
+		<object name="UnitsByType">
+			<object name="1">
+				<object name="Revenge">
+					<string name="ChildTable" value="Ships"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</root>

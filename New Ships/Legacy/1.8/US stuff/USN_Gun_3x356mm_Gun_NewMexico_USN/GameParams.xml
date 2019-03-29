@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" standalone="yes" ?>
+<root>
+	<object name="SteelMonstersParams">
+		<object name="Rifles">
+			<object name="Tennessee_Main_Gun_356">
+				<float name="AARange" value="0."/>
+				<string name="Ammo" value="Proj_356_U"/>
+				<integer name="AmmoStorage" value="150"/>
+				<float name="AmmoWeight" value="680."/>
+				<string name="ArmPiercing" value="Proj_356_U_AP"/>
+				<float name="Caliber" value="356."/>
+				<integer name="Country" value="1"/>
+				<float name="Dispersion" value="4."/>
+				<integer name="FinalSpeed" value="427"/>
+				<string name="FireSound" value="Guns\356mm"/>
+				<boolean name="IgnoreXMLFile" value="false"/>
+				<float name="Money" value="150."/>
+				<boolean name="New" value="true"/>
+				<float name="ROF" value="1.75"/>
+				<float name="Range" value="32.04"/>
+				<boolean name="SLLauncher" value="false"/>
+				<string name="SMU_File" value="Tennessee_Main_Gun_356_Stvol"/>
+				<integer name="StartSpeed" value="823"/>
+				<integer name="Unreliability" value="0"/>
+				<string name="Usage" value="Ships"/>
+				<float name="Weight" value="81.437"/>
+			</object>
+		</object>
+		<object name="Turrets">
+			<object name="Tennessee_Main_Turret">
+				<integer name="Amount" value="3"/>
+				<integer name="ArmorFront" value="457"/>
+				<integer name="ArmorSide" value="229"/>
+				<integer name="ArmorTop" value="127"/>
+				<string name="Content" value="Rifles.Tennessee_Main_Gun_356"/>
+				<integer name="Country" value="1"/>
+				<integer name="Elevation" value="30"/>
+				<integer name="ElevationRate" value="9"/>
+				<boolean name="IgnoreXMLFile" value="false"/>
+				<float name="Iron" value="1000."/>
+				<float name="Money" value="1650."/>
+				<boolean name="New" value="false"/>
+				<boolean name="Production" value="false"/>
+				<integer name="RotationRate" value="2"/>
+				<string name="SMU_File" value="Tennessee_Main_Gun"/>
+				<string name="Type" value="Gun"/>
+				<float name="Vitality" value="1600."/>
+				<float name="Weight" value="958."/>
+			</object>
+		</object>
+		<object name="Hit_Location">
+			<object name="Ten3561">
+				<integer name="Country" value="1"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="Std_Turret_RF"/>
+				<string name="Name" value="RRandefinder"/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="Tennessee_Main_Turret"/>
+			</object>
+			<object name="Ten3562">
+				<integer name="Country" value="1"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="Std_Turret_RF"/>
+				<string name="Name" value="LRangefinder"/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="Tennessee_Main_Turret"/>
+			</object>
+			<object name="Ten3563">
+				<integer name="Country" value="1"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="Tennessee_MTurret"/>
+				<string name="Name" value="Shakegeban"/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="Tennessee_Main_Turret"/>
+			</object>
+			<object name="Ten3564">
+				<integer name="Country" value="1"/>
+				<float name="ER" value="450."/>
+				<string name="Hull" value="Tennessee_MTShakegeban"/>
+				<string name="Name" value="Turret"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="Tennessee_Main_Turret"/>
+			</object>
+		</object>
+		<object name="Hulls">
+			<object name="Tennessee_MTShakegeban">
+				<integer name="Back" value="203"/>
+				<integer name="Bottom" value="50"/>
+				<integer name="Country" value="1"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="30."/>
+				<integer name="Front" value="457"/>
+				<integer name="Left" value="203"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="203"/>
+				<integer name="Top" value="127"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Turret"/>
+			</object>
+			<object name="Tennessee_MTurret">
+				<integer name="Back" value="254"/>
+				<integer name="Bottom" value="50"/>
+				<integer name="Country" value="1"/>
+				<float name="ExplProb" value="20."/>
+				<float name="FireProb" value="30."/>
+				<integer name="Front" value="457"/>
+				<integer name="Left" value="254"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="254"/>
+				<integer name="Top" value="152"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Turret"/>
+			</object>
+		</object>
+	</object>
+</root>

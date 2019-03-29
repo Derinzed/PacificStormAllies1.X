@@ -1,0 +1,108 @@
+<?xml version="1.0" standalone="yes" ?>
+<root>
+	<object name="Hood_Rocket">
+		<float name="BoundingRadius" value="9."/>
+		<object name="Components">
+			<object name="Hull_Safe">
+				<object name="DynamicData">
+					<float name="Area" value="1."/>
+					<object name="ComponentCG">
+						<float name="X" value="-0.291991277"/>
+						<float name="Y" value="0."/>
+						<float name="Z" value="0."/>
+					</object>
+					<object name="ComponentInertia">
+						<float name="X" value="4.11728993e-002"/>
+						<float name="Y" value="1.024786"/>
+						<float name="Z" value="1.024786"/>
+					</object>
+					<float name="DihedralAngle" value="0."/>
+					<float name="IncidenceAngle" value="0."/>
+					<float name="Mass" value="17.5"/>
+					<integer name="ProfileID" value="0"/>
+				</object>
+				<object name="HitBubbles">
+					<object name="Hit_Bubble01">
+						<object name="Radius">
+							<float name="R" value="0.353596253"/>
+						</object>
+						<object name="Translate">
+							<float name="X" value="-4.21519531e-008"/>
+							<float name="Y" value="0."/>
+							<float name="Z" value="-4.21519531e-008"/>
+						</object>
+					</object>
+				</object>
+				<object name="LOD3">
+					<float name="Depth" value="30."/>
+					<string name="Mesh" value="M8_L3_Hull_Safe.mesh"/>
+				</object>
+				<string name="Mesh" value="M8_L2_Hull_Safe.mesh"/>
+				<object name="SubComponents">
+					<object name="EPort_Jet_01">
+						<string name="ConcreteType" value="EPort"/>
+						<string name="Handling" value="1"/>
+						<string name="PortHolder" value="L2_HullSafe"/>
+						<string name="PortType" value="JetSmallSmoke"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="180."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="0.664981346"/>
+								<float name="Y" value="0.664981346"/>
+								<float name="Z" value="0.664981346"/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-0.370448962"/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+				</object>
+				<string name="Type" value="Mesh"/>
+				<boolean name="Visible" value="true"/>
+			</object>
+		</object>
+		<object name="DynamicModel">
+			<string name="ModelName" value="DMPlaneAdvanced"/>
+		</object>
+		<object name="Flags">
+			<boolean name="Selectable" value="true"/>
+			<string name="Type" value="missile"/>
+			<boolean name="Updatable" value="true"/>
+		</object>
+		<object name="Ports">
+			<object name="EPort_Jet_01">
+				<string name="ConcreteType" value="EPort"/>
+				<string name="Handling" value="1"/>
+				<string name="PortHolder" value="L2_HullSafe"/>
+				<string name="PortType" value="JetSmallSmoke"/>
+				<object name="Transform">
+					<object name="Rotate">
+						<float name="X" value="0."/>
+						<float name="Y" value="180."/>
+						<float name="Z" value="0."/>
+					</object>
+					<object name="Scale">
+						<float name="X" value="0.664981346"/>
+						<float name="Y" value="0.664981346"/>
+						<float name="Z" value="0.664981346"/>
+					</object>
+					<object name="Translate">
+						<float name="X" value="-0.370448962"/>
+						<float name="Y" value="0."/>
+						<float name="Z" value="0."/>
+					</object>
+				</object>
+				<string name="Type" value="Port"/>
+			</object>
+		</object>
+		<string name="Prefix" value="Hood_Rocket"/>
+		<float name="VisibilityRange" value="1000."/>
+	</object>
+</root>

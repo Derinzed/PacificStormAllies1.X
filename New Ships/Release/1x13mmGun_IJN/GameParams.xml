@@ -1,0 +1,77 @@
+<?xml version="1.0" standalone="yes" ?>
+<root>
+	<object name="SteelMonstersParams">
+		<object name="Rifles">
+			<object name="1x13mm_Turret_IJN_Stvol">
+				<float name="AARange" value="3.98"/>
+				<string name="Ammo" value="Proj_13_J"/>
+				<integer name="AmmoStorage" value="2500"/>
+				<float name="AmmoWeight" value=""5.18e-005"/>
+				<string name="ArmPiercing" value="Proj_13_J_AP"/>
+				<float name="Caliber" value="13."/>
+				<integer name="Country" value="2"/>
+				<float name="Dispersion" value="10."/>
+				<integer name="FinalSpeed" value="141"/>
+				<string name="Fire" value="Proj_13_J_Fi"/>
+				<string name="FireSound" value="Guns\12.7mm"/>
+				<boolean name="IgnoreXMLFile" value="false"/>
+				<float name="Money" value="0.7"/>
+				<boolean name="New" value="false"/>
+				<float name="ROF" value="250."/>
+				<float name="Range" value="3.98"/>
+				<boolean name="SLLauncher" value="false"/>
+				<string name="SMU_File" value="1x13mm_Turret_IJN_Stvol"/>
+				<integer name="StartSpeed" value="805"/>
+				<integer name="Unreliability" value="0"/>
+				<string name="Usage" value="Ships"/>
+				<float name="Weight" value="4.2e-002"/>
+			</object>
+		</object>
+		<object name="Turrets">
+			<object name="1x13mm_Turret_IJN">
+				<integer name="Amount" value="1"/>
+				<integer name="ArmorFront" value="0"/>
+				<integer name="ArmorSide" value="0"/>
+				<integer name="ArmorTop" value="0"/>
+				<string name="Building" value="AAGun"/>
+				<string name="Content" value="Rifles.1x13mm_Turret_IJN_Stvol"/>
+				<integer name="Country" value="2"/>
+				<float name="DTimeProd" value="0.2"/>
+				<integer name="Elevation" value="85"/>
+				<integer name="ElevationRate" value="90"/>
+				<string name="Icon" value="AAGun"/>
+				<boolean name="IgnoreXMLFile" value="false"/>
+				<float name="Iron" value="0.32"/>
+				<float name="Money" value="1."/>
+				<float name="NTimeProd" value="4."/>
+				<boolean name="New" value="true"/>
+				<boolean name="Production" value="false"/>
+				<integer name="QualityRate" value="2"/>
+				<integer name="RotationRate" value="50"/>
+				<string name="SMU_File" value="1x13mm_Turret_IJN"/>
+				<string name="Type" value="Gun"/>
+				<float name="Vitality" value="4."/>
+				<float name="Weight" value="0.213"/>
+			</object>
+		</object>
+		<object name="Hit_Location">
+			<object name="13AAIJN1301">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="1"/>
+				<float name="ER" value="3.e-002"/>
+				<string name="Hull" value="Std_Crew"/>
+				<string name="Name" value="Gunner"/>
+				<string name="TypHL" value="Crew"/>
+				<string name="UnitName" value="1x13mm_Turret_IJN"/>
+			</object>
+			<object name="13AAIJN1302">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="7.e-002"/>
+				<string name="Hull" value="Std_Stvol"/>
+				<string name="Name" value="Turret"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="1x13mm_Turret_IJN"/>
+			</object>
+		</object>
+	</object>
+</root>

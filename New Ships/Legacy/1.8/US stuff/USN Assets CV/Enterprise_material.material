@@ -1,0 +1,597 @@
+material Enterprise_bridge
+{
+	technique
+	{
+		pass
+		{
+			ambient 1. 1. 1.
+			scene_blend one zero
+
+			texture_unit
+			{
+				texture Enterprise_bridge.dds
+				filtering trilinear
+			}
+		}
+
+		pass
+		{
+			ambient 1 1 1
+			scene_blend add
+			lighting off
+			fog_override true none
+			texture_unit
+			{
+				texture Enterprise_bridge_spec.dds
+				filtering trilinear
+			}
+			texture_unit
+			{
+				cubic_texture shipenvmap.dds combinedUVW
+				env_map cubic_reflection
+				tex_address_mode clamp
+				colour_op_ex modulate src_texture src_current
+			}
+		}
+	}
+}
+material Enterprise_desk
+{
+	technique
+	{
+		pass
+		{
+			ambient 1. 1. 1.
+			scene_blend one zero
+
+			texture_unit
+			{
+				texture Enterprise_desk.dds
+				filtering trilinear
+			}
+		}
+
+		pass
+		{
+			ambient 1 1 1
+			scene_blend add
+			lighting off
+			fog_override true none
+			texture_unit
+			{
+				texture Enterprise_desk_spec.dds
+				filtering trilinear
+			}
+			texture_unit
+			{
+				cubic_texture shipenvmap.dds combinedUVW
+				env_map cubic_reflection
+				tex_address_mode clamp
+				colour_op_ex modulate src_texture src_current
+			}
+		}
+	}
+}
+material Enterprise_hull
+{
+	technique
+	{
+		pass
+		{
+			ambient 1. 1. 1.
+			scene_blend one zero
+
+			texture_unit
+			{
+				texture Enterprise_hull.dds
+				filtering trilinear
+			}
+		}
+
+		pass
+		{
+			ambient 1 1 1
+			scene_blend add
+			lighting off
+			fog_override true none
+			texture_unit
+			{
+				texture Enterprise_hull_spec.dds
+				filtering trilinear
+			}
+			texture_unit
+			{
+				cubic_texture shipenvmap.dds combinedUVW
+				env_map cubic_reflection
+				tex_address_mode clamp
+				colour_op_ex modulate src_texture src_current
+			}
+		}
+	}
+}
+material Enterprise_stuff
+{
+	technique
+	{
+		pass
+		{
+			ambient 1. 1. 1.
+			scene_blend one zero
+
+			texture_unit
+			{
+				texture Enterprise_stuff.dds
+				filtering trilinear
+			}
+		}
+
+		pass
+		{
+			ambient 1 1 1
+			scene_blend add
+			lighting off
+			fog_override true none
+			texture_unit
+			{
+				texture Enterprise_stuff_spec.dds
+				filtering trilinear
+			}
+			texture_unit
+			{
+				cubic_texture shipenvmap.dds combinedUVW
+				env_map cubic_reflection
+				tex_address_mode clamp
+				colour_op_ex modulate src_texture src_current
+			}
+		}
+	}
+}
+material Enterprise_plate
+{
+	technique
+	{
+		pass
+		{
+			ambient 1. 1. 1.
+			scene_blend one zero
+
+			texture_unit
+			{
+				texture Enterprise_plate.dds
+				filtering trilinear
+			}
+		}
+
+		pass
+		{
+			ambient 1 1 1
+			scene_blend add
+			lighting off
+			fog_override true none
+			texture_unit
+			{
+				texture Enterprise_plate_spec.dds
+				filtering trilinear
+			}
+			texture_unit
+			{
+				cubic_texture shipenvmap.dds combinedUVW
+				env_map cubic_reflection
+				tex_address_mode clamp
+				colour_op_ex modulate src_texture src_current
+			}
+		}
+	}
+}
+material Enterprise_anchor
+{
+	technique
+	{
+		pass
+		{
+			ambient 1. 1. 1.
+			scene_blend one zero
+
+			texture_unit
+			{
+				texture US_anchor.dds
+				filtering trilinear
+			}
+		}
+
+		pass
+		{
+			ambient 1 1 1
+			scene_blend add
+			lighting off
+			fog_override true none
+			texture_unit
+			{
+				texture US_anchor_spec.dds
+				filtering trilinear
+			}
+			texture_unit
+			{
+				cubic_texture shipenvmap.dds combinedUVW
+				env_map cubic_reflection
+				tex_address_mode clamp
+				colour_op_ex modulate src_texture src_current
+			}
+		}
+	}
+}
+material Enterprise_grey
+{
+	technique
+	{
+		pass
+		{
+			ambient 1. 1. 1.
+			scene_blend one zero
+
+			texture_unit
+			{
+				texture Enterprise_grey.dds
+				filtering trilinear
+			}
+		}
+
+		pass
+		{
+			ambient 1 1 1
+			scene_blend add
+			lighting off
+			fog_override true none
+			texture_unit
+			{
+				texture Enterprise_grey_spec.dds
+				filtering trilinear
+			}
+			texture_unit
+			{
+				cubic_texture shipenvmap.dds combinedUVW
+				env_map cubic_reflection
+				tex_address_mode clamp
+				colour_op_ex modulate src_texture src_current
+			}
+		}
+	}
+}
+material Enterprise_dgrey
+{
+	technique
+	{
+		pass
+		{
+			ambient 1. 1. 1.
+			scene_blend one zero
+
+			texture_unit
+			{
+				texture Enterprise_dgrey.dds
+				filtering trilinear
+			}
+		}
+
+		pass
+		{
+			ambient 1 1 1
+			scene_blend add
+			lighting off
+			fog_override true none
+			texture_unit
+			{
+				texture Enterprise_grey_spec.dds
+				filtering trilinear
+			}
+			texture_unit
+			{
+				cubic_texture shipenvmap.dds combinedUVW
+				env_map cubic_reflection
+				tex_address_mode clamp
+				colour_op_ex modulate src_texture src_current
+			}
+		}
+	}
+}
+material Enterprise_boats
+{
+	technique
+	{
+		pass
+		{
+			ambient 1. 1. 1.
+			scene_blend one zero
+
+			texture_unit
+			{
+				texture US_boats.dds
+				filtering trilinear
+			}
+		}
+
+		pass
+		{
+			ambient 1 1 1
+			scene_blend add
+			lighting off
+			fog_override true none
+			texture_unit
+			{
+				texture US_boats_spec.dds
+				filtering trilinear
+			}
+			texture_unit
+			{
+				cubic_texture shipenvmap.dds combinedUVW
+				env_map cubic_reflection
+				tex_address_mode clamp
+				colour_op_ex modulate src_texture src_current
+			}
+		}
+	}
+}
+material Enterprise_mark
+{
+	technique
+	{
+		pass
+		{
+			ambient 1. 1. 1.
+			scene_blend one zero
+
+			texture_unit
+			{
+				texture Enterprise_mark.dds
+				filtering trilinear
+			}
+		}
+
+		pass
+		{
+			ambient 1 1 1
+			scene_blend add
+			lighting off
+			fog_override true none
+			texture_unit
+			{
+				texture Enterprise_mark_spec.dds
+				filtering trilinear
+			}
+			texture_unit
+			{
+				cubic_texture shipenvmap.dds combinedUVW
+				env_map cubic_reflection
+				tex_address_mode clamp
+				colour_op_ex modulate src_texture src_current
+			}
+		}
+	}
+}
+material Enterprise_stairs
+{
+	technique
+	{
+		pass
+		{
+			ambient 1. 1. 1.
+			scene_blend one zero
+
+			texture_unit
+			{
+				texture Enterprise_stuff.dds
+				filtering trilinear
+			}
+		}
+
+		pass
+		{
+			ambient 1 1 1
+			scene_blend add
+			lighting off
+			fog_override true none
+			texture_unit
+			{
+				texture Enterprise_stuff_spec.dds
+				filtering trilinear
+			}
+			texture_unit
+			{
+				cubic_texture shipenvmap.dds combinedUVW
+				env_map cubic_reflection
+				tex_address_mode clamp
+				colour_op_ex modulate src_texture src_current
+			}
+		}
+	}
+}
+material Enterprise_boxes
+{
+	technique
+	{
+		pass
+		{
+			ambient 1. 1. 1.
+			scene_blend one zero
+
+			texture_unit
+			{
+				texture US_boxes.dds
+				filtering trilinear
+			}
+		}
+
+		pass
+		{
+			ambient 1 1 1
+			scene_blend add
+			lighting off
+			fog_override true none
+			texture_unit
+			{
+				texture US_boxes_spec.dds
+				filtering trilinear
+			}
+			texture_unit
+			{
+				cubic_texture shipenvmap.dds combinedUVW
+				env_map cubic_reflection
+				tex_address_mode clamp
+				colour_op_ex modulate src_texture src_current
+			}
+		}
+	}
+}
+material Enterprise_rolls
+{
+	technique
+	{
+		pass
+		{
+			ambient 1. 1. 1.
+			scene_blend one zero
+
+			texture_unit
+			{
+				texture US_rolls.dds
+				filtering trilinear
+			}
+		}
+
+		pass
+		{
+			ambient 1 1 1
+			scene_blend add
+			lighting off
+			fog_override true none
+			texture_unit
+			{
+				texture US_rolls_spec.dds
+				filtering trilinear
+			}
+			texture_unit
+			{
+				cubic_texture shipenvmap.dds combinedUVW
+				env_map cubic_reflection
+				tex_address_mode clamp
+				colour_op_ex modulate src_texture src_current
+			}
+		}
+	}
+}
+material Enterprise_propeller
+{
+	technique
+	{
+		pass
+		{
+			ambient 1. 1. 1.
+			scene_blend one zero
+
+			texture_unit
+			{
+				texture Enterprise_hull.dds
+				filtering trilinear
+			}
+		}
+
+		pass
+		{
+			ambient 1 1 1
+			scene_blend add
+			lighting off
+			fog_override true none
+			texture_unit
+			{
+				texture Enterprise_hull_spec.dds
+				filtering trilinear
+			}
+			texture_unit
+			{
+				cubic_texture shipenvmap.dds combinedUVW
+				env_map cubic_reflection
+				tex_address_mode clamp
+				colour_op_ex modulate src_texture src_current
+			}
+		}
+	}
+}
+material Enterprise_shell
+{
+	technique
+	{
+		pass
+		{
+			ambient 1. 1. 1.
+			scene_blend one zero
+
+			texture_unit
+			{
+				texture Enterprise_stuff.dds
+				filtering trilinear
+			}
+		}
+
+		pass
+		{
+			ambient 1 1 1
+			scene_blend add
+			lighting off
+			fog_override true none
+			texture_unit
+			{
+				texture Enterprise_stuff_spec.dds
+				filtering trilinear
+			}
+			texture_unit
+			{
+				cubic_texture shipenvmap.dds combinedUVW
+				env_map cubic_reflection
+				tex_address_mode clamp
+				colour_op_ex modulate src_texture src_current
+			}
+		}
+	}
+}
+material Enterprise_rail
+{
+    technique
+    {
+        pass
+        {
+            ambient 1.0 1.0 1.0
+
+            cull_hardware none
+            cull_software none
+
+            texture_unit
+            {
+                texture US_rail.dds
+    filtering trilinear
+
+                alpha_rejection greater_equal 128
+            }
+        }
+    }
+}
+material Enterprise_ladders
+{
+    technique
+    {
+        pass
+        {
+            ambient 1.0 1.0 1.0
+
+            cull_hardware none
+            cull_software none
+
+            texture_unit
+            {
+                texture US_ladder.dds
+    filtering trilinear
+
+                alpha_rejection greater_equal 128
+            }
+        }
+    }
+}

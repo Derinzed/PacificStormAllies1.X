@@ -1,0 +1,61 @@
+material SL/Units/PDIcons_Kaga
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				texture Kaga_iconPD.png
+			}
+		}
+	}
+}
+
+
+material SL/Units/PEIcons_Kaga
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				texture Kaga_iconPE.png
+			}
+		}
+	}
+}
+
+
+material SL/Units/Icons_Kaga
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				texture Kaga_icon.png
+			}
+		}
+	}
+}

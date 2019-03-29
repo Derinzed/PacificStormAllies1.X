@@ -1,0 +1,141 @@
+material Australia_mat
+{
+  technique
+  {
+    pass
+    {
+      ambient 1. 1. 1.
+      scene_blend one zero
+
+      texture_unit
+      {
+        texture Australia_tex.dds
+        filtering trilinear
+      }
+    }
+
+    pass
+    {
+      ambient 1. 1. 1.
+      scene_blend add
+      lighting off
+
+      fog_override true none
+      texture_unit
+      {
+        texture Australia_tex_spec.dds
+        filtering trilinear
+      }
+      texture_unit
+      {
+        cubic_texture planeenvmap.dds combinedUVW
+        env_map cubic_reflection
+        tex_address_mode clamp
+        colour_op_ex modulate src_texture src_current
+      }
+    }
+  }
+}
+
+material Australia_Paluba_mat
+{
+  technique
+  {
+    pass
+    {
+      ambient 1. 1. 1.
+      scene_blend one zero
+
+      texture_unit
+      {
+        texture Australia_Paluba_tex.dds
+        filtering trilinear
+      }
+    }
+
+    pass
+    {
+      ambient 1. 1. 1.
+      scene_blend add
+      lighting off
+
+      fog_override true none
+      texture_unit
+      {
+        texture Australia_Paluba_tex_spec.dds
+        filtering trilinear
+      }
+      texture_unit
+      {
+        cubic_texture planeenvmap.dds combinedUVW
+        env_map cubic_reflection
+        tex_address_mode clamp
+        colour_op_ex modulate src_texture src_current
+      }
+    }
+  }
+}
+
+material Australia_Boats_mat
+{
+  technique
+  {
+    pass
+    {
+      ambient 1. 1. 1.
+      scene_blend one zero
+
+      texture_unit
+      {
+        texture spasbot.dds
+        filtering trilinear
+      }
+    }
+
+    pass
+    {
+      ambient 1. 1. 1.
+      scene_blend add
+      lighting off
+
+      fog_override true none
+      texture_unit
+      {
+        texture spasbot_spec.dds
+        filtering trilinear
+      }
+      texture_unit
+      {
+        cubic_texture planeenvmap.dds combinedUVW
+        env_map cubic_reflection
+        tex_address_mode clamp
+        colour_op_ex modulate src_texture src_current
+      }
+    }
+  }
+}
+material Australia_Flag
+{
+    technique
+    {
+        pass
+        {
+            ambient 1.0 1.0 1.0
+            scene_blend alpha_blend
+
+            cull_hardware none
+            cull_software none
+
+            texture_unit
+            {
+		anim_texture flag_au-navy1.png flag_au-navy2.png flag_au-navy3.png flag_au-navy4.png flag_au-navy5.png flag_au-navy6.png flag_au-navy7.png flag_au-navy8.png 0.5
+
+		filtering trilinear
+		alpha_rejection greater_equal 128
+            }
+        }
+    }
+}
+
+
+

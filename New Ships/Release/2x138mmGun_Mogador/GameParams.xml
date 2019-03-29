@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" standalone="yes" ?>
+<root>
+	<object name="SteelMonstersParams">
+		<object name="Rifles">
+			<object name="2x138mmTurret_Mogador_Stvol">
+				<float name="AARange" value="0."/>
+				<string name="Ammo" value="Proj_138_F"/>
+				<integer name="AmmoStorage" value="240"/>
+				<float name="AmmoWeight" value="40.6"/>
+				<string name="Common" value="Proj_138_F_Com"/>
+				<float name="Caliber" value="138."/>
+				<integer name="Country" value="4"/>
+				<float name="Dispersion" value="7."/>
+				<integer name="FinalSpeed" value="360"/>
+				<string name="FireSound" value="Guns\152mm"/>
+				<boolean name="IgnoreXMLFile" value="false"/>
+				<float name="Money" value="7.8"/>
+				<boolean name="New" value="false"/>
+				<float name="ROF" value="7."/>
+				<float name="Range" value="20.0"/>
+				<boolean name="SLLauncher" value="false"/>
+				<string name="SMU_File" value="2x138mmTurret_Mogador_Stvol"/>
+				<integer name="StartSpeed" value="840"/>
+				<integer name="Unreliability" value="0"/>
+				<string name="Usage" value="Ships"/>
+				<float name="Weight" value="4.21"/>
+			</object>
+		</object>
+		<object name="Turrets">
+			<object name="2x138mmTurret_Mogador">
+				<integer name="Amount" value="2"/>
+				<integer name="ArmorFront" value="25"/>
+				<integer name="ArmorSide" value="25"/>
+				<integer name="ArmorTop" value="25"/>
+				<string name="Building" value="Artillery"/>
+				<string name="Content" value="Rifles.2x138mmTurret_Mogador_Stvol"/>
+				<integer name="Country" value="4"/>
+				<integer name="Elevation" value="35"/>
+				<integer name="ElevationRate" value="14"/>
+				<boolean name="IgnoreXMLFile" value="false"/>
+				<float name="Iron" value="40."/>
+				<float name="Money" value="6.5"/>
+				<boolean name="New" value="true"/>
+				<boolean name="Production" value="true"/>
+				<string name="Building" value="Artillery"/>
+				<string name="Icon" value="Artillery"/>
+				<float name="DTimeProd" value="7."/>
+				<float name="NTimeProd" value="50."/>
+				<integer name="QualityRate" value="4"/>
+				<integer name="RotationRate" value="10"/>
+				<string name="SMU_File" value="2x138mmTurret_Mogador"/>
+				<string name="Type" value="Gun"/>
+				<float name="Vitality" value="500."/>
+				<float name="Weight" value="34.05"/>
+			</object>
+		</object>
+		<object name="Hit_Location">
+			<object name="Mog7918">
+				<integer name="Country" value="4"/>
+				<float name="ER" value="50."/>
+				<string name="Hull" value="Std_Turret_RF"/>
+				<string name="Name" value="Rangefinder"/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="2x138mmTurret_Mogador"/>
+			</object>
+			<object name="Mog7919">
+				<integer name="Country" value="4"/>
+				<float name="ER" value="10."/>
+				<string name="Hull" value="Mogador_Shakegeban"/>
+				<string name="Name" value="Shakegeban"/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="2x138mmTurret_Mogador"/>
+			</object>
+			<object name="Mog7920">
+				<integer name="Country" value="4"/>
+				<float name="ER" value="100."/>
+				<string name="Hull" value="Mogador_MTurret"/>
+				<string name="Name" value="Turret"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="2x138mmTurret_Mogador"/>
+			</object>
+		</object>
+		<object name="Hulls">
+			<object name="Mogador_MTurret">
+				<integer name="Back" value="25"/>
+				<integer name="Bottom" value="25"/>
+				<integer name="Country" value="4"/>
+				<float name="ExplProb" value="20."/>
+				<float name="FireProb" value="30."/>
+				<integer name="Front" value="25"/>
+				<integer name="Left" value="25"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="25"/>
+				<integer name="Top" value="25"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Turret"/>
+			</object>
+			<object name="Mogador_Shakegeban">
+				<integer name="Back" value="5"/>
+				<integer name="Bottom" value="5"/>
+				<integer name="Country" value="4"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="5."/>
+				<integer name="Front" value="10"/>
+				<integer name="Left" value="10"/>
+				<string name="Material" value="Steel"/>
+				<integer name="Right" value="10"/>
+				<integer name="Top" value="10"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Turret"/>
+			</object>
+		</object>
+	</object>
+</root>

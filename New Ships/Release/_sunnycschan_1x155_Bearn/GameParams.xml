@@ -1,0 +1,99 @@
+<?xml version="1.0" standalone="yes" ?>
+<root>
+	<object name="SteelMonstersParams">
+		<object name="Rifles">
+			<object name="Bearn_Gun_155x1_Stvol">
+				<float name="AARange" value="0."/>
+				<string name="Ammo" value="Proj_152_U"/>
+				<integer name="AmmoStorage" value="120"/>
+				<float name="AmmoWeight" value="47.6"/>
+				<float name="Caliber" value="152."/>
+				<string name="ArmPiercing" value="Proj_152_U_AP"/>
+				<integer name="Country" value="4"/>
+				<float name="Dispersion" value="8."/>
+				<integer name="FinalSpeed" value="310"/>
+				<string name="FireSound" value="Guns\152mm"/>
+				<boolean name="IgnoreXMLFile" value="false"/>
+				<float name="Money" value="5."/>
+				<boolean name="New" value="true"/>
+				<float name="ROF" value="9."/>
+				<float name="Range" value="27.4"/>
+				<boolean name="SLLauncher" value="false"/>
+				<string name="SMU_File" value="Bearn_Gun_155x1_Stvol"/>
+				<integer name="StartSpeed" value="855"/>
+				<integer name="Unreliability" value="0"/>
+				<string name="Usage" value="Ships"/>
+				<float name="Weight" value="5.7"/>
+			</object>
+		</object>
+		<object name="Turrets">
+			<object name="Bearn_1x155mm_Turret">
+				<integer name="Amount" value="1"/>
+				<integer name="ArmorFront" value="20"/>
+				<integer name="ArmorSide" value="20"/>
+				<integer name="ArmorTop" value="20"/>
+				<string name="Building" value="Artillery"/>
+				<string name="Content" value="Rifles.Bearn_Gun_155x1_Stvol"/>
+				<integer name="Country" value="4"/>
+				<float name="DTimeProd" value="5."/>
+				<integer name="Elevation" value="30."/>
+				<integer name="ElevationRate" value="5."/>
+				<string name="Icon" value="Artillery"/>
+				<boolean name="IgnoreXMLFile" value="false"/>
+				<float name="Iron" value="25."/>
+				<float name="Money" value="9."/>
+				<float name="NTimeProd" value="25."/>
+				<boolean name="New" value="false"/>
+				<boolean name="Production" value="true"/>
+				<integer name="QualityRate" value="4"/>
+				<integer name="RotationRate" value="6"/>
+				<string name="SMU_File" value="Bearn_1x155mm_Turret"/>
+				<string name="Type" value="Gun"/>
+				<float name="Vitality" value="380."/>
+				<float name="Weight" value="20."/>
+			</object>
+		</object>
+		<object name="Hit_Location">
+			<object name="Brn7877">
+				<integer name="Country" value="4"/>
+				<float name="ER" value="2."/>
+				<string name="Hull" value="Std_Turret_RF"/>
+				<string name="Name" value="Rangefinder"/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="Bearn_1x155mm_Turret"/>
+			</object>
+			<object name="Brn7878">
+				<integer name="Country" value="4"/>
+				<float name="ER" value="4."/>
+				<string name="Hull" value="26bis_MTurret"/>
+				<string name="Name" value="Turret"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="Bearn_1x155mm_Turret"/>
+			</object>
+			<object name="Brn7879">
+				<integer name="Country" value="4"/>
+				<float name="ER" value="6."/>
+				<string name="Hull" value="26bis_MTurret_Shakegeban"/>
+				<string name="Name" value="Shakegeban"/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="Bearn_1x155mm_Turret"/>
+			</object>
+		</object>
+		<object name="Hulls">
+			<object name="Bearn_STurret">
+  				<integer name="Back" value="20" /> 
+  				<integer name="Bottom" value="20" /> 
+  				<integer name="Country" value="4" /> 
+  				<float name="ExplProb" value="20." /> 
+  				<float name="FireProb" value="10." /> 
+  				<integer name="Front" value="20" /> 
+  				<integer name="Left" value="20" /> 
+  				<string name="Material" value="Armored" /> 
+  				<integer name="Right" value="20" /> 
+  				<integer name="Top" value="20" /> 
+  				<integer name="UnitName" value="0" /> 
+  				<string name="UnitTyp" value="Turret" /> 
+  			</object>
+  		</object>
+	</object>
+</root>

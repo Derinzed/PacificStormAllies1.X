@@ -1,0 +1,153 @@
+<?xml version="1.0" standalone="yes" ?>
+<root>
+	<object name="Torp_UK_mk_VIII**">
+		<float name="BoundingRadius" value="2.1"/>
+		<object name="Components">
+			<object name="Hull_Safe">
+				<object name="DynamicData">
+					<object name="ComponentCG">
+						<float name="X" value="-0.721788131"/>
+						<float name="Y" value="0."/>
+						<float name="Z" value="1.11022303e-016"/>
+					</object>
+					<object name="ComponentInertia">
+						<float name="X" value="0."/>
+						<float name="Y" value="0."/>
+						<float name="Z" value="0."/>
+					</object>
+					<float name="Mass" value="0.100000002"/>
+					<integer name="ProfileID" value="0"/>
+				</object>
+				<object name="HitBubbles">
+					<object name="Hit_Bubble02">
+						<object name="Radius">
+							<float name="R" value="0."/>
+						</object>
+						<object name="Translate">
+							<float name="X" value="1.75425609"/>
+							<float name="Y" value="0."/>
+							<float name="Z" value="0."/>
+						</object>
+					</object>
+					<object name="Hit_Bubble03">
+						<object name="Radius">
+							<float name="R" value="0."/>
+						</object>
+						<object name="Translate">
+							<float name="X" value="0.965641939"/>
+							<float name="Y" value="0."/>
+							<float name="Z" value="0."/>
+						</object>
+					</object>
+					<object name="Hit_Bubble04">
+						<object name="Radius">
+							<float name="R" value="0."/>
+						</object>
+						<object name="Translate">
+							<float name="X" value="0.212412686"/>
+							<float name="Y" value="0."/>
+							<float name="Z" value="0."/>
+						</object>
+					</object>
+					<object name="Hit_Bubble05">
+						<object name="Radius">
+							<float name="R" value="0."/>
+						</object>
+						<object name="Translate">
+							<float name="X" value="-0.564058928"/>
+							<float name="Y" value="0."/>
+							<float name="Z" value="0."/>
+						</object>
+					</object>
+					<object name="Hit_Bubble06">
+						<object name="Radius">
+							<float name="R" value="0."/>
+						</object>
+						<object name="Translate">
+							<float name="X" value="-1.34008667"/>
+							<float name="Y" value="0."/>
+							<float name="Z" value="0."/>
+						</object>
+					</object>
+					<object name="Hit_Bubble07">
+						<object name="Radius">
+							<float name="R" value="0."/>
+						</object>
+						<object name="Translate">
+							<float name="X" value="-2.19756014"/>
+							<float name="Y" value="0."/>
+							<float name="Z" value="0."/>
+						</object>
+					</object>
+				</object>
+				<object name="LOD3">
+					<float name="Depth" value="30."/>
+					<string name="Mesh" value="UK_Torp_Sea_L3_Hull_Safe.mesh"/>
+				</object>
+				<string name="Mesh" value="UK_Torp_Sea_L2_Hull_Safe.mesh"/>
+				<object name="SubComponents">
+					<object name="EPort_Jet_01">
+						<string name="ConcreteType" value="EPort"/>
+						<string name="Handling" value="1"/>
+						<string name="PortHolder" value="L2_Hull_Safe"/>
+						<string name="PortType" value="TorpedoStep"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="180."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1.36277535"/>
+								<float name="Y" value="1.36277535"/>
+								<float name="Z" value="1.36277535"/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-2.39878216"/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="1.11022303e-016"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+				</object>
+				<string name="Type" value="Mesh"/>
+				<boolean name="Visible" value="true"/>
+			</object>
+		</object>
+		<object name="Flags">
+			<boolean name="Selectable" value="false"/>
+			<string name="Type" value="torpedo"/>
+			<boolean name="Updatable" value="true"/>
+		</object>
+		<object name="Ports">
+			<object name="EPort_Jet_01">
+				<string name="ConcreteType" value="EPort"/>
+				<string name="Handling" value="1"/>
+				<string name="PortHolder" value="L2_Hull_Safe"/>
+				<string name="PortType" value="TorpedoStep"/>
+				<object name="Transform">
+					<object name="Rotate">
+						<float name="X" value="0."/>
+						<float name="Y" value="180."/>
+						<float name="Z" value="0."/>
+					</object>
+					<object name="Scale">
+						<float name="X" value="1.36277535"/>
+						<float name="Y" value="1.36277535"/>
+						<float name="Z" value="1.36277535"/>
+					</object>
+					<object name="Translate">
+						<float name="X" value="-2.39878216"/>
+						<float name="Y" value="0."/>
+						<float name="Z" value="1.11022303e-016"/>
+					</object>
+				</object>
+				<string name="Type" value="Port"/>
+			</object>
+		</object>
+		<string name="Prefix" value="Torp_UK_mk_VIII**"/>
+		<float name="UpdateInterval" value="2.e-002"/>
+		<float name="VisibilityRange" value="2000."/>
+	</object>
+</root>

@@ -1,0 +1,953 @@
+material Virginia_plates
+{
+	technique
+	{
+		pass
+		{
+			ambient 1. 1. 1.
+			scene_blend one zero
+
+			texture_unit
+			{
+				texture Virginia_plates.dds
+				filtering trilinear
+			}
+		}
+
+		pass
+		{
+			ambient 1 1 1
+			scene_blend add
+			lighting off
+			fog_override true none
+			texture_unit
+			{
+				texture Virginia_plates_spec.dds
+				filtering trilinear
+			}
+			texture_unit
+			{
+				cubic_texture shipenvmap.dds combinedUVW
+				env_map cubic_reflection
+				tex_address_mode clamp
+				colour_op_ex modulate src_texture src_current
+			}
+		}
+	}
+}
+material Virginia_rafts
+{
+	technique
+	{
+		pass
+		{
+			ambient 1. 1. 1.
+			scene_blend one zero
+
+			texture_unit
+			{
+				texture Virginia_rafts.dds
+				filtering trilinear
+			}
+		}
+
+		pass
+		{
+			ambient 1 1 1
+			scene_blend add
+			lighting off
+			fog_override true none
+			texture_unit
+			{
+				texture Virginia_rafts_spec.dds
+				filtering trilinear
+			}
+			texture_unit
+			{
+				cubic_texture shipenvmap.dds combinedUVW
+				env_map cubic_reflection
+				tex_address_mode clamp
+				colour_op_ex modulate src_texture src_current
+			}
+		}
+	}
+}
+material Virginia_lcircles
+{
+	technique
+	{
+		pass
+		{
+			ambient 1. 1. 1.
+			scene_blend one zero
+
+			texture_unit
+			{
+				texture Virginia_lcircles.dds
+				filtering trilinear
+			}
+		}
+
+		pass
+		{
+			ambient 1 1 1
+			scene_blend add
+			lighting off
+			fog_override true none
+			texture_unit
+			{
+				texture Virginia_lcircles_spec.dds
+				filtering trilinear
+			}
+			texture_unit
+			{
+				cubic_texture shipenvmap.dds combinedUVW
+				env_map cubic_reflection
+				tex_address_mode clamp
+				colour_op_ex modulate src_texture src_current
+			}
+		}
+	}
+}
+material Virginia_hooks
+{
+	technique
+	{
+		pass
+		{
+			ambient 1. 1. 1.
+			scene_blend one zero
+
+			texture_unit
+			{
+				texture Virginia_hooks.dds
+				filtering trilinear
+			}
+		}
+
+		pass
+		{
+			ambient 1 1 1
+			scene_blend add
+			lighting off
+			fog_override true none
+			texture_unit
+			{
+				texture Virginia_hooks_spec.dds
+				filtering trilinear
+			}
+			texture_unit
+			{
+				cubic_texture shipenvmap.dds combinedUVW
+				env_map cubic_reflection
+				tex_address_mode clamp
+				colour_op_ex modulate src_texture src_current
+			}
+		}
+	}
+}
+material Virginia_desk
+{
+	technique
+	{
+		pass
+		{
+			ambient 1. 1. 1.
+			scene_blend one zero
+
+			texture_unit
+			{
+				texture Virginia_desk.dds
+				filtering trilinear
+			}
+		}
+
+		pass
+		{
+			ambient 1 1 1
+			scene_blend add
+			lighting off
+			fog_override true none
+			texture_unit
+			{
+				texture Virginia_desk_spec.dds
+				filtering trilinear
+			}
+			texture_unit
+			{
+				cubic_texture shipenvmap.dds combinedUVW
+				env_map cubic_reflection
+				tex_address_mode clamp
+				colour_op_ex modulate src_texture src_current
+			}
+		}
+	}
+}
+material Virginia_hull1
+{
+	technique
+	{
+		pass
+		{
+			ambient 1. 1. 1.
+			scene_blend one zero
+
+			texture_unit
+			{
+				texture Virginia_hull1.dds
+				filtering trilinear
+			}
+		}
+
+		pass
+		{
+			ambient 1 1 1
+			scene_blend add
+			lighting off
+			fog_override true none
+			texture_unit
+			{
+				texture Virginia_hull1_spec.dds
+				filtering trilinear
+			}
+			texture_unit
+			{
+				cubic_texture shipenvmap.dds combinedUVW
+				env_map cubic_reflection
+				tex_address_mode clamp
+				colour_op_ex modulate src_texture src_current
+			}
+		}
+	}
+}
+material Virginia_hull2
+{
+	technique
+	{
+		pass
+		{
+			ambient 1. 1. 1.
+			scene_blend one zero
+
+			texture_unit
+			{
+				texture Virginia_hull2.dds
+				filtering trilinear
+			}
+		}
+
+		pass
+		{
+			ambient 1 1 1
+			scene_blend add
+			lighting off
+			fog_override true none
+			texture_unit
+			{
+				texture Virginia_hull2_spec.dds
+				filtering trilinear
+			}
+			texture_unit
+			{
+				cubic_texture shipenvmap.dds combinedUVW
+				env_map cubic_reflection
+				tex_address_mode clamp
+				colour_op_ex modulate src_texture src_current
+			}
+		}
+	}
+}
+material Virginia_hull3
+{
+	technique
+	{
+		pass
+		{
+			ambient 1. 1. 1.
+			scene_blend one zero
+
+			texture_unit
+			{
+				texture Virginia_hull3.dds
+				filtering trilinear
+			}
+		}
+
+		pass
+		{
+			ambient 1 1 1
+			scene_blend add
+			lighting off
+			fog_override true none
+			texture_unit
+			{
+				texture Virginia_hull3_spec.dds
+				filtering trilinear
+			}
+			texture_unit
+			{
+				cubic_texture shipenvmap.dds combinedUVW
+				env_map cubic_reflection
+				tex_address_mode clamp
+				colour_op_ex modulate src_texture src_current
+			}
+		}
+	}
+}
+
+material Virginia_bridge
+{
+	technique
+	{
+		pass
+		{
+			ambient 1. 1. 1.
+			scene_blend one zero
+
+			texture_unit
+			{
+				texture Virginia_bridge.dds
+				filtering trilinear
+			}
+		}
+
+		pass
+		{
+			ambient 1 1 1
+			scene_blend add
+			lighting off
+			fog_override true none
+			texture_unit
+			{
+				texture Virginia_bridge_spec.dds
+				filtering trilinear
+			}
+			texture_unit
+			{
+				cubic_texture shipenvmap.dds combinedUVW
+				env_map cubic_reflection
+				tex_address_mode clamp
+				colour_op_ex modulate src_texture src_current
+			}
+		}
+	}
+}
+material Virginia_shell
+{
+	technique
+	{
+		pass
+		{
+			ambient 1. 1. 1.
+			scene_blend one zero
+
+			texture_unit
+			{
+				texture Virginia_shell.dds
+				filtering trilinear
+			}
+		}
+
+		pass
+		{
+			ambient 1 1 1
+			scene_blend add
+			lighting off
+			fog_override true none
+			texture_unit
+			{
+				texture Virginia_shell_spec.dds
+				filtering trilinear
+			}
+			texture_unit
+			{
+				cubic_texture shipenvmap.dds combinedUVW
+				env_map cubic_reflection
+				tex_address_mode clamp
+				colour_op_ex modulate src_texture src_current
+			}
+		}
+	}
+}
+material Virginia_tex3
+{
+	technique
+	{
+		pass
+		{
+			ambient 1. 1. 1.
+			scene_blend one zero
+
+			texture_unit
+			{
+				texture Virginia_tex3.dds
+				filtering trilinear
+			}
+		}
+
+		pass
+		{
+			ambient 1 1 1
+			scene_blend add
+			lighting off
+			fog_override true none
+			texture_unit
+			{
+				texture Virginia_tex3_spec.dds
+				filtering trilinear
+			}
+			texture_unit
+			{
+				cubic_texture shipenvmap.dds combinedUVW
+				env_map cubic_reflection
+				tex_address_mode clamp
+				colour_op_ex modulate src_texture src_current
+			}
+		}
+	}
+}
+material Virginia_windows
+{
+	technique
+	{
+		pass
+		{
+			ambient 1. 1. 1.
+			scene_blend one zero
+
+			texture_unit
+			{
+				texture Virginia_windows.dds
+				filtering trilinear
+			}
+		}
+
+		pass
+		{
+			ambient 1 1 1
+			scene_blend add
+			lighting off
+			fog_override true none
+			texture_unit
+			{
+				texture Virginia_windows_spec.dds
+				filtering trilinear
+			}
+			texture_unit
+			{
+				cubic_texture shipenvmap.dds combinedUVW
+				env_map cubic_reflection
+				tex_address_mode clamp
+				colour_op_ex modulate src_texture src_current
+			}
+		}
+	}
+}
+material Virginia_tstack
+{
+	technique
+	{
+		pass
+		{
+			ambient 1. 1. 1.
+			scene_blend one zero
+
+			texture_unit
+			{
+				texture Virginia_tstack.dds
+				filtering trilinear
+			}
+		}
+
+		pass
+		{
+			ambient 1 1 1
+			scene_blend add
+			lighting off
+			fog_override true none
+			texture_unit
+			{
+				texture Virginia_tstack_spec.dds
+				filtering trilinear
+			}
+			texture_unit
+			{
+				cubic_texture shipenvmap.dds combinedUVW
+				env_map cubic_reflection
+				tex_address_mode clamp
+				colour_op_ex modulate src_texture src_current
+			}
+		}
+	}
+}
+material Virginia_stack
+{
+	technique
+	{
+		pass
+		{
+			ambient 1. 1. 1.
+			scene_blend one zero
+
+			texture_unit
+			{
+				texture Virginia_stack.dds
+				filtering trilinear
+			}
+		}
+
+		pass
+		{
+			ambient 1 1 1
+			scene_blend add
+			lighting off
+			fog_override true none
+			texture_unit
+			{
+				texture Virginia_stack_spec.dds
+				filtering trilinear
+			}
+			texture_unit
+			{
+				cubic_texture shipenvmap.dds combinedUVW
+				env_map cubic_reflection
+				tex_address_mode clamp
+				colour_op_ex modulate src_texture src_current
+			}
+		}
+	}
+}
+material Virginia_loaders
+{
+	technique
+	{
+		pass
+		{
+			ambient 1. 1. 1.
+			scene_blend one zero
+
+			texture_unit
+			{
+				texture Virginia_loaders.dds
+				filtering trilinear
+			}
+		}
+
+		pass
+		{
+			ambient 1 1 1
+			scene_blend add
+			lighting off
+			fog_override true none
+			texture_unit
+			{
+				texture Virginia_loaders_spec.dds
+				filtering trilinear
+			}
+			texture_unit
+			{
+				cubic_texture shipenvmap.dds combinedUVW
+				env_map cubic_reflection
+				tex_address_mode clamp
+				colour_op_ex modulate src_texture src_current
+			}
+		}
+	}
+}
+material Virginia_bloader
+{
+	technique
+	{
+		pass
+		{
+			ambient 1. 1. 1.
+			scene_blend one zero
+
+			texture_unit
+			{
+				texture Virginia_bloader.dds
+				filtering trilinear
+			}
+		}
+
+		pass
+		{
+			ambient 1 1 1
+			scene_blend add
+			lighting off
+			fog_override true none
+			texture_unit
+			{
+				texture Virginia_bloader_spec.dds
+				filtering trilinear
+			}
+			texture_unit
+			{
+				cubic_texture shipenvmap.dds combinedUVW
+				env_map cubic_reflection
+				tex_address_mode clamp
+				colour_op_ex modulate src_texture src_current
+			}
+		}
+	}
+}
+material Virginia_rolls
+{
+	technique
+	{
+		pass
+		{
+			ambient 1. 1. 1.
+			scene_blend one zero
+
+			texture_unit
+			{
+				texture Virginia_rolls.dds
+				filtering trilinear
+			}
+		}
+
+		pass
+		{
+			ambient 1 1 1
+			scene_blend add
+			lighting off
+			fog_override true none
+			texture_unit
+			{
+				texture Virginia_rolls_spec.dds
+				filtering trilinear
+			}
+			texture_unit
+			{
+				cubic_texture shipenvmap.dds combinedUVW
+				env_map cubic_reflection
+				tex_address_mode clamp
+				colour_op_ex modulate src_texture src_current
+			}
+		}
+	}
+}
+material Virginia_lboxes
+{
+	technique
+	{
+		pass
+		{
+			ambient 1. 1. 1.
+			scene_blend one zero
+
+			texture_unit
+			{
+				texture Virginia_lboxes.dds
+				filtering trilinear
+			}
+		}
+
+		pass
+		{
+			ambient 1 1 1
+			scene_blend add
+			lighting off
+			fog_override true none
+			texture_unit
+			{
+				texture Virginia_lboxes_spec.dds
+				filtering trilinear
+			}
+			texture_unit
+			{
+				cubic_texture shipenvmap.dds combinedUVW
+				env_map cubic_reflection
+				tex_address_mode clamp
+				colour_op_ex modulate src_texture src_current
+			}
+		}
+	}
+}
+material Virginia_bboxes
+{
+	technique
+	{
+		pass
+		{
+			ambient 1. 1. 1.
+			scene_blend one zero
+
+			texture_unit
+			{
+				texture Virginia_bboxes.dds
+				filtering trilinear
+			}
+		}
+
+		pass
+		{
+			ambient 1 1 1
+			scene_blend add
+			lighting off
+			fog_override true none
+			texture_unit
+			{
+				texture Virginia_bboxes_spec.dds
+				filtering trilinear
+			}
+			texture_unit
+			{
+				cubic_texture shipenvmap.dds combinedUVW
+				env_map cubic_reflection
+				tex_address_mode clamp
+				colour_op_ex modulate src_texture src_current
+			}
+		}
+	}
+}
+material Virginia_gboxes
+{
+	technique
+	{
+		pass
+		{
+			ambient 1. 1. 1.
+			scene_blend one zero
+
+			texture_unit
+			{
+				texture Virginia_gboxes.dds
+				filtering trilinear
+			}
+		}
+
+		pass
+		{
+			ambient 1 1 1
+			scene_blend add
+			lighting off
+			fog_override true none
+			texture_unit
+			{
+				texture Virginia_gboxes_spec.dds
+				filtering trilinear
+			}
+			texture_unit
+			{
+				cubic_texture shipenvmap.dds combinedUVW
+				env_map cubic_reflection
+				tex_address_mode clamp
+				colour_op_ex modulate src_texture src_current
+			}
+		}
+	}
+}
+material Virginia_nuts
+{
+	technique
+	{
+		pass
+		{
+			ambient 1. 1. 1.
+			scene_blend one zero
+
+			texture_unit
+			{
+				texture Virginia_nuts.dds
+				filtering trilinear
+			}
+		}
+
+		pass
+		{
+			ambient 1 1 1
+			scene_blend add
+			lighting off
+			fog_override true none
+			texture_unit
+			{
+				texture Virginia_nuts_spec.dds
+				filtering trilinear
+			}
+			texture_unit
+			{
+				cubic_texture shipenvmap.dds combinedUVW
+				env_map cubic_reflection
+				tex_address_mode clamp
+				colour_op_ex modulate src_texture src_current
+			}
+		}
+	}
+}
+material Virginia_chains
+{
+	technique
+	{
+		pass
+		{
+			ambient 1. 1. 1.
+			scene_blend one zero
+
+			texture_unit
+			{
+				texture Virginia_chains.dds
+				filtering trilinear
+			}
+		}
+
+		pass
+		{
+			ambient 1 1 1
+			scene_blend add
+			lighting off
+			fog_override true none
+			texture_unit
+			{
+				texture Virginia_chains_spec.dds
+				filtering trilinear
+			}
+			texture_unit
+			{
+				cubic_texture shipenvmap.dds combinedUVW
+				env_map cubic_reflection
+				tex_address_mode clamp
+				colour_op_ex modulate src_texture src_current
+			}
+		}
+	}
+}
+material Virginia_anchors
+{
+	technique
+	{
+		pass
+		{
+			ambient 1. 1. 1.
+			scene_blend one zero
+
+			texture_unit
+			{
+				texture Virginia_anchors.dds
+				filtering trilinear
+			}
+		}
+
+		pass
+		{
+			ambient 1 1 1
+			scene_blend add
+			lighting off
+			fog_override true none
+			texture_unit
+			{
+				texture Virginia_anchors_spec.dds
+				filtering trilinear
+			}
+			texture_unit
+			{
+				cubic_texture shipenvmap.dds combinedUVW
+				env_map cubic_reflection
+				tex_address_mode clamp
+				colour_op_ex modulate src_texture src_current
+			}
+		}
+	}
+}
+
+material Virginia_boats
+{
+	technique
+	{
+		pass
+		{
+			ambient 1. 1. 1.
+			scene_blend one zero
+
+			texture_unit
+			{
+				texture Virginia_boats.dds
+				filtering trilinear
+			}
+		}
+
+		pass
+		{
+			ambient 1 1 1
+			scene_blend add
+			lighting off
+			fog_override true none
+			texture_unit
+			{
+				texture Virginia_boats_spec.dds
+				filtering trilinear
+			}
+			texture_unit
+			{
+				cubic_texture shipenvmap.dds combinedUVW
+				env_map cubic_reflection
+				tex_address_mode clamp
+				colour_op_ex modulate src_texture src_current
+			}
+		}
+	}
+}
+material Virginia_ladders
+{
+    technique
+    {
+        pass
+        {
+            ambient 1.0 1.0 1.0
+
+            cull_hardware none
+            cull_software none
+
+            texture_unit
+            {
+                texture Virginia_ladders.dds
+    filtering trilinear
+
+                alpha_rejection greater_equal 128
+            }
+        }
+    }
+}
+material Virginia_net
+{
+    technique
+    {
+        pass
+        {
+            ambient 1.0 1.0 1.0
+
+            cull_hardware none
+            cull_software none
+
+            texture_unit
+            {
+                texture Virginia_net.dds
+    filtering trilinear
+
+                alpha_rejection greater_equal 128
+            }
+        }
+    }
+}
+material Virginia_rail
+{
+    technique
+    {
+        pass
+        {
+            ambient 1.0 1.0 1.0
+
+            cull_hardware none
+            cull_software none
+
+            texture_unit
+            {
+                texture Virginia_rail.dds
+    filtering trilinear
+
+                alpha_rejection greater_equal 128
+            }
+        }
+    }
+}

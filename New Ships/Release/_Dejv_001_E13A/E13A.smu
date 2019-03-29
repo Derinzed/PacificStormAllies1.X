@@ -1,0 +1,1882 @@
+<?xml version="1.0" standalone="yes" ?>
+<root>
+	<object name="E13A">
+
+		<object name="HLSubstitutions">
+			<string name="GameParams" value="E13A"/>
+			<string name="HLUIImage" value="Ar196"/>
+		</object>
+
+		<object name="MaterialSubstitutions"> 
+		      <string name="Ar196_tex" value="Mods/E13A_Tex"/>
+		      <string name="DS_Ar196_tex" value="Mods/DS_E13A_Tex"/> 
+		</object> 
+
+		<float name="BoundingRadius" value="9."/>
+		<object name="Cockpits">
+			<object name="Gun_Back">
+				<object name="CameraProperties">
+					<object name="CameraLimits">
+						<float name="Down" value="5."/>
+						<float name="Left" value="5."/>
+						<float name="Right" value="5."/>
+						<float name="Up" value="5."/>
+					</object>
+					<object name="CameraPosition">
+						<float name="X" value="-2.79867252"/>
+						<float name="Y" value="0.697"/>
+						<float name="Z" value="0.318"/>
+					</object>
+					<object name="CameraPositionAim">
+						<float name="X" value="-2.68628398"/>
+						<float name="Y" value="0.967"/>
+						<float name="Z" value="0.318"/>
+					</object>
+					<object name="CameraRotation">
+						<float name="X" value="0."/>
+						<float name="Y" value="1.42108547e-014"/>
+						<float name="Z" value="0."/>
+					</object>
+				</object>
+				<string name="ExactType" value="TopRear"/>
+				<object name="Off">
+					<string name="1" value="Hull_Safe"/>
+					<string name="2" value="Motor_Hull_Safe"/>
+					<string name="3" value="PPort_02"/>
+					<string name="4" value="PPort_01"/>
+					<string name="5" value="DPort_Gunner_Short_03"/>
+				</object>
+				<string name="StructureFile" value="E13A_BackGun_Cockpit"/>
+				<string name="SubstitutedPort" value="TPort_01"/>
+			</object>
+			<object name="Main">
+				<object name="CameraProperties">
+					<object name="CameraLimits">
+						<float name="Down" value="18."/>
+						<float name="Left" value="130."/>
+						<float name="Right" value="130."/>
+						<float name="Up" value="65."/>
+					</object>
+					<object name="CameraPosition">
+						<float name="X" value="0.228454"/>
+						<float name="Y" value="0.794462"/>
+						<float name="Z" value="4.67398e-002"/>
+					</object>
+					<object name="CameraPositionAim">
+						<float name="X" value="0.4347"/>
+						<float name="Y" value="0.794462"/>
+						<float name="Z" value="4.67398e-002"/>
+					</object>
+					<object name="CameraRotation">
+						<float name="X" value="0."/>
+						<float name="Y" value="4.26325641e-014"/>
+						<float name="Z" value="0."/>
+					</object>
+				</object>
+				<object name="Off">
+					<string name="1" value="Hull_Safe"/>
+					<string name="2" value="Motor_Hull_Safe"/>
+					<string name="3" value="PPort_01"/>
+				</object>
+				<string name="StructureFile" value="E13A_pit"/>
+				<string name="SubstitutedPort" value=""/>
+			</object>
+		</object>
+		<object name="Components">
+			<object name="Hull_Safe">
+				<object name="DynamicData">
+					<object name="ComponentCG">
+						<float name="X" value="-1.49748353"/>
+						<float name="Y" value="0.191608038"/>
+						<float name="Z" value="0."/>
+					</object>
+					<object name="ComponentInertia">
+						<float name="X" value="268.86792"/>
+						<float name="Y" value="760.073669"/>
+						<float name="Z" value="948.630493"/>
+					</object>
+					<float name="Mass" value="306.660004"/>
+					<integer name="ProfileID" value="101"/>
+				</object>
+				<object name="LOD3">
+					<float name="Depth" value="250."/>
+					<string name="Mesh" value="Ar196_L3_Hull_Safe.mesh"/>
+				</object>
+				<string name="Mesh" value="Ar196_L2_Hull_Safe.mesh"/>
+				<object name="SubComponents">
+					<object name="EPort_Cartridge_05">
+						<string name="ConcreteType" value="EPort"/>
+						<string name="Handling" value="0"/>
+						<string name="PortHolder" value="ZPort_Gun_01"/>
+						<string name="PortType" value="Cartridge"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="-90."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="0.153137592"/>
+								<float name="Y" value="0.153137592"/>
+								<float name="Z" value="0.153137592"/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-0.111035771"/>
+								<float name="Y" value="-0.191144801"/>
+								<float name="Z" value="1.758313338"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="EPort_Cartridge_06">
+						<string name="ConcreteType" value="EPort"/>
+						<string name="Handling" value="0"/>
+						<string name="PortHolder" value="ZPort_Gun_02"/>
+						<string name="PortType" value="Cartridge"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="-180."/>
+								<float name="Y" value="1.55797099e-030"/>
+								<float name="Z" value="-90."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="0.153137592"/>
+								<float name="Y" value="0.153137592"/>
+								<float name="Z" value="0.153137592"/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-1.9535696"/>
+								<float name="Y" value="-0.191144801"/>
+								<float name="Z" value="-1.745020535"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="EPort_Shot_05">
+						<string name="ConcreteType" value="EPort"/>
+						<string name="Handling" value="0"/>
+						<string name="PortHolder" value="ZPort_Gun_01"/>
+						<string name="PortType" value="Shot"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="0.289583355"/>
+								<float name="Y" value="0.289583355"/>
+								<float name="Z" value="0.289583355"/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="1.59749679"/>
+								<float name="Y" value="-0.12439443"/>
+								<float name="Z" value="1.71607684"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="EPort_Shot_06">
+						<string name="ConcreteType" value="EPort"/>
+						<string name="Handling" value="0"/>
+						<string name="PortHolder" value="ZPort_Gun_02"/>
+						<string name="PortType" value="Shot"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="7.01958357e-015"/>
+								<float name="Y" value="180."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="0.289583355"/>
+								<float name="Y" value="0.289583355"/>
+								<float name="Z" value="0.289583355"/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-2.62809277"/>
+								<float name="Y" value="0.68445124"/>
+								<float name="Z" value="-1.70926508"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="Motor_Hull_Safe">
+						<string name="Damaged" value="Ar196_L2_Motor_Hull_Dam.mesh"/>
+						<object name="DynamicData">
+							<object name="ComponentCG">
+								<float name="X" value="2.56395723"/>
+								<float name="Y" value="0.304703924"/>
+								<float name="Z" value="2.23517422e-008"/>
+							</object>
+							<object name="ComponentInertia">
+								<float name="X" value="20.6385174"/>
+								<float name="Y" value="14.9697256"/>
+								<float name="Z" value="14.7469587"/>
+							</object>
+							<float name="Mass" value="59.3300018"/>
+							<integer name="ProfileID" value="101"/>
+						</object>
+						<object name="LOD3">
+							<float name="Depth" value="250."/>
+							<string name="Mesh" value="Ar196_L3_Motor_Hull_Safe.mesh"/>
+						</object>
+						<string name="Mesh" value="Ar196_L2_Motor_Hull_Safe.mesh"/>
+						<string name="Remains" value="Ar196_L2_DamBl_Hull_Motor.mesh"/>
+						<object name="SubComponents">
+							<object name="DPort_Blade_01">
+								<string name="ConcreteType" value="DPort"/>
+								<string name="PortHolder" value=""/>
+								<string name="PortType" value="Blade_01"/>
+								<object name="Transform">
+									<object name="Rotate">
+										<float name="X" value="0."/>
+										<float name="Y" value="0."/>
+										<float name="Z" value="0."/>
+									</object>
+									<object name="Scale">
+										<float name="X" value="1."/>
+										<float name="Y" value="1."/>
+										<float name="Z" value="1."/>
+									</object>
+									<object name="Translate">
+										<float name="X" value="3.08277579"/>
+										<float name="Y" value="0.903362878"/>
+										<float name="Z" value="-4.47034836e-008"/>
+									</object>
+								</object>
+								<string name="Type" value="Port"/>
+							</object>
+							<object name="DPort_Blade_02">
+								<string name="ConcreteType" value="DPort"/>
+								<string name="PortHolder" value=""/>
+								<string name="PortType" value="Blade_01"/>
+								<object name="Transform">
+									<object name="Rotate">
+										<float name="X" value="120."/>
+										<float name="Y" value="0."/>
+										<float name="Z" value="0."/>
+									</object>
+									<object name="Scale">
+										<float name="X" value="1."/>
+										<float name="Y" value="1."/>
+										<float name="Z" value="1."/>
+									</object>
+									<object name="Translate">
+										<float name="X" value="3.08277579"/>
+										<float name="Y" value="-0.407280651"/>
+										<float name="Z" value="0.756700439"/>
+									</object>
+								</object>
+								<string name="Type" value="Port"/>
+							</object>
+							<object name="DPort_Blade_03">
+								<string name="ConcreteType" value="DPort"/>
+								<string name="PortHolder" value=""/>
+								<string name="PortType" value="Blade_01"/>
+								<object name="Transform">
+									<object name="Rotate">
+										<float name="X" value="-120."/>
+										<float name="Y" value="0."/>
+										<float name="Z" value="0."/>
+									</object>
+									<object name="Scale">
+										<float name="X" value="1."/>
+										<float name="Y" value="1."/>
+										<float name="Z" value="1."/>
+									</object>
+									<object name="Translate">
+										<float name="X" value="3.08277579"/>
+										<float name="Y" value="-0.407280729"/>
+										<float name="Z" value="-0.756700394"/>
+									</object>
+								</object>
+								<string name="Type" value="Port"/>
+							</object>
+							<object name="EPort_Vihlop_01">
+								<string name="ConcreteType" value="EPort"/>
+								<string name="Handling" value="0"/>
+								<string name="PortHolder" value="ZPort_Motor_01"/>
+								<string name="PortType" value="Vihlop"/>
+								<object name="Transform">
+									<object name="Rotate">
+										<float name="X" value="168.595729"/>
+										<float name="Y" value="30.8513687"/>
+										<float name="Z" value="-109.700462"/>
+									</object>
+									<object name="Scale">
+										<float name="X" value="0.289583355"/>
+										<float name="Y" value="0.289583355"/>
+										<float name="Z" value="0.289583355"/>
+									</object>
+									<object name="Translate">
+										<float name="X" value="1.6063175"/>
+										<float name="Y" value="-0.464630539"/>
+										<float name="Z" value="-0.362759095"/>
+									</object>
+								</object>
+								<string name="Type" value="Port"/>
+							</object>
+							<object name="EPort_Vihlop_02">
+								<string name="ConcreteType" value="EPort"/>
+								<string name="Handling" value="0"/>
+								<string name="PortHolder" value="ZPort_Motor_01"/>
+								<string name="PortType" value="Vihlop"/>
+								<object name="Transform">
+									<object name="Rotate">
+										<float name="X" value="11.2870364"/>
+										<float name="Y" value="211.320086"/>
+										<float name="Z" value="70.6907228"/>
+									</object>
+									<object name="Scale">
+										<float name="X" value="0.289583355"/>
+										<float name="Y" value="0.289583355"/>
+										<float name="Z" value="0.289583355"/>
+									</object>
+									<object name="Translate">
+										<float name="X" value="1.60301994"/>
+										<float name="Y" value="-0.464924395"/>
+										<float name="Z" value="0.372716266"/>
+									</object>
+								</object>
+								<string name="Type" value="Port"/>
+							</object>
+							<object name="Spin">
+								<object name="DynamicData">
+									<object name="ComponentCG">
+										<float name="X" value="3.0572679"/>
+										<float name="Y" value="-6.42240047e-005"/>
+										<float name="Z" value="9.23548639e-003"/>
+									</object>
+									<object name="ComponentInertia">
+										<float name="X" value="0."/>
+										<float name="Y" value="0."/>
+										<float name="Z" value="0."/>
+									</object>
+									<float name="Mass" value="0."/>
+									<integer name="ProfileID" value="0"/>
+								</object>
+								<object name="LOD3">
+									<float name="Depth" value="250."/>
+									<string name="Mesh" value="Ar196_L3_Spin.mesh"/>
+								</object>
+								<string name="Mesh" value="Ar196_L2_Spin.mesh"/>
+								<object name="SubComponents"/>
+								<string name="Type" value="Mesh"/>
+								<boolean name="Visible" value="true"/>
+							</object>
+							<object name="VPort_01">
+								<string name="ConcreteType" value="VPort"/>
+								<string name="PortType" value="DE_Disk_01"/>
+								<object name="Transform">
+									<object name="Rotate">
+										<float name="X" value="0."/>
+										<float name="Y" value="0."/>
+										<float name="Z" value="0."/>
+									</object>
+									<object name="Scale">
+										<float name="X" value="0.984726364"/>
+										<float name="Y" value="0.984726364"/>
+										<float name="Z" value="0.984726364"/>
+									</object>
+									<object name="Translate">
+										<float name="X" value="3.07846412"/>
+										<float name="Y" value="0."/>
+										<float name="Z" value="0."/>
+									</object>
+								</object>
+								<string name="Type" value="Port"/>
+							</object>
+							<object name="ZPort_Motor_01">
+								<string name="ConcreteType" value="ZPort"/>
+								<string name="PortType" value="Engine_Radial_US01"/>
+								<object name="Transform">
+									<object name="Rotate">
+										<float name="X" value="0."/>
+										<float name="Y" value="0."/>
+										<float name="Z" value="0."/>
+									</object>
+									<object name="Scale">
+										<float name="X" value="0.908928193"/>
+										<float name="Y" value="0.875251749"/>
+										<float name="Z" value="0.875251749"/>
+									</object>
+									<object name="Translate">
+										<float name="X" value="2.28544194"/>
+										<float name="Y" value="1.19361638e-002"/>
+										<float name="Z" value="-5.98794211e-003"/>
+									</object>
+								</object>
+								<string name="Type" value="Port"/>
+							</object>
+						</object>
+						<string name="Type" value="Mesh"/>
+						<boolean name="Visible" value="true"/>
+					</object>
+					<object name="PPort_01">
+						<string name="ConcreteType" value="PPort"/>
+						<string name="PortType" value="American_Pilot"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="0.472277094"/>
+								<float name="Y" value="0.224028837"/>
+								<float name="Z" value="-2.19528675e-002"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="PPort_02">
+						<string name="ConcreteType" value="PPort"/>
+						<string name="PortType" value="American_Gunner_Short"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="7.01958357e-015"/>
+								<float name="Y" value="180."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-1.70475274"/>
+								<float name="Y" value="0.296631301"/>
+								<float name="Z" value="7.9583996e-002"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_01">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="75."/>
+						<float name="PortMaxValueZ" value="75."/>
+						<float name="PortMinValueY" value="-75."/>
+						<float name="PortMinValueZ" value="-15."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="Jap_8-13_Gun_port"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="180."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-2.1625528"/>
+								<float name="Y" value="0.5029707"/>
+								<float name="Z" value="0.028140974"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="Tail_Safe">
+						<string name="Damaged" value="Ar196_L2_Tail_Dam.mesh"/>
+						<object name="DynamicData">
+							<object name="ComponentCG">
+								<float name="X" value="-3.2930403"/>
+								<float name="Y" value="1.16422145"/>
+								<float name="Z" value="8.28847146e-004"/>
+							</object>
+							<object name="ComponentInertia">
+								<float name="X" value="29.5740929"/>
+								<float name="Y" value="77.4431686"/>
+								<float name="Z" value="81.9808807"/>
+							</object>
+							<float name="Mass" value="95.2200012"/>
+							<integer name="ProfileID" value="101"/>
+						</object>
+						<object name="LOD3">
+							<float name="Depth" value="250."/>
+							<string name="Mesh" value="Ar196_L3_Tail_Safe.mesh"/>
+						</object>
+						<string name="Mesh" value="Ar196_L2_Tail_Safe.mesh"/>
+						<string name="Remains" value="Ar196_L2_DamBl_Hull_Tail.mesh"/>
+						<object name="SubComponents">
+							<object name="Fin_Safe">
+								<string name="Damaged" value="Ar196_L2_Fin_Dam.mesh"/>
+								<object name="DynamicData">
+									<object name="ComponentCG">
+										<float name="X" value="-3.00633649"/>
+										<float name="Y" value="1.34767178"/>
+										<float name="Z" value="-9.34731029e-004"/>
+									</object>
+									<object name="ComponentInertia">
+										<float name="X" value="1.41728902"/>
+										<float name="Y" value="31.6791439"/>
+										<float name="Z" value="32.8269691"/>
+									</object>
+									<float name="Mass" value="10.4300003"/>
+									<integer name="ProfileID" value="1"/>
+								</object>
+								<object name="LOD3">
+									<float name="Depth" value="250."/>
+									<string name="Mesh" value="Ar196_L3_Fin_Safe.mesh"/>
+								</object>
+								<string name="Mesh" value="Ar196_L2_Fin_Safe.mesh"/>
+								<string name="Remains" value="Ar196_L2_DamBl_Tail_Fin.mesh"/>
+								<object name="SubComponents">
+									<object name="Rud1">
+										<object name="DynamicData">
+											<object name="ComponentCG">
+												<float name="X" value="-5.4511744"/>
+												<float name="Y" value="1.34767178"/>
+												<float name="Z" value="-9.34731029e-004"/>
+											</object>
+											<object name="ComponentInertia">
+												<float name="X" value="4.18546009"/>
+												<float name="Y" value="1.02909303"/>
+												<float name="Z" value="5.18387699"/>
+											</object>
+											<float name="Mass" value="16.6299992"/>
+											<integer name="ProfileID" value="401"/>
+										</object>
+										<object name="LOD3">
+											<float name="Depth" value="250."/>
+											<string name="Mesh" value="Ar196_L3_Rud1.mesh"/>
+										</object>
+										<string name="Mesh" value="Ar196_L2_Rud1.mesh"/>
+										<object name="SPort">
+											<float name="DelayAfterTime" value="0."/>
+											<float name="DelayTime" value="0."/>
+											<float name="FullTime" value="0.4"/>
+											<string name="MovableSet" value="rudders"/>
+											<string name="OptionalTimeline" value=""/>
+											<object name="Point1">
+												<float name="X" value="-5.4511744"/>
+												<float name="Y" value="1.34767178"/>
+												<float name="Z" value="-9.34731029e-004"/>
+											</object>
+											<object name="Point2">
+												<float name="X" value="-5.41759887"/>
+												<float name="Y" value="2.12526178"/>
+												<float name="Z" value="-7.57323647e-004"/>
+											</object>
+											<float name="PortMaxValue" value="30."/>
+											<float name="PortMinValue" value="-30."/>
+											<string name="PortMoType" value="Rotate"/>
+										</object>
+										<object name="SubComponents"/>
+										<string name="Type" value="Mesh"/>
+										<boolean name="Visible" value="true"/>
+									</object>
+								</object>
+								<string name="Type" value="Mesh"/>
+								<boolean name="Visible" value="true"/>
+							</object>
+							<object name="Stab_L_Safe">
+								<string name="Damaged" value="Ar196_L2_Stab_L_Dam.mesh"/>
+								<object name="DynamicData">
+									<object name="ComponentCG">
+										<float name="X" value="-6.05815755"/>
+										<float name="Y" value="0.203181113"/>
+										<float name="Z" value="8.28847146e-004"/>
+									</object>
+									<object name="ComponentInertia">
+										<float name="X" value="5.13575983"/>
+										<float name="Y" value="6.32833576"/>
+										<float name="Z" value="1.24862599"/>
+									</object>
+									<float name="Mass" value="20.3099995"/>
+									<integer name="ProfileID" value="1"/>
+								</object>
+								<object name="LOD3">
+									<float name="Depth" value="250."/>
+									<string name="Mesh" value="Ar196_L3_Stab_L_Safe.mesh"/>
+								</object>
+								<string name="Mesh" value="Ar196_L2_Stab_L_Safe.mesh"/>
+								<string name="Remains" value="Ar196_L2_DamBl_Tail_Stab_L.mesh"/>
+								<object name="SubComponents">
+									<object name="Elev_L">
+										<object name="DynamicData">
+											<object name="ComponentCG">
+												<float name="X" value="-6.05815755"/>
+												<float name="Y" value="0.203181113"/>
+												<float name="Z" value="8.28847146e-004"/>
+											</object>
+											<object name="ComponentInertia">
+												<float name="X" value="75.9166412"/>
+												<float name="Y" value="77.6757965"/>
+												<float name="Z" value="1.98613703"/>
+											</object>
+											<float name="Mass" value="40.8400002"/>
+											<integer name="ProfileID" value="401"/>
+										</object>
+										<object name="LOD3">
+											<float name="Depth" value="250."/>
+											<string name="Mesh" value="Ar196_L3_Elev_L.mesh"/>
+										</object>
+										<string name="Mesh" value="Ar196_L2_Elev_L.mesh"/>
+										<object name="SPort">
+											<float name="DelayAfterTime" value="0."/>
+											<float name="DelayTime" value="0."/>
+											<float name="FullTime" value="0.2"/>
+											<string name="MovableSet" value="elevators"/>
+											<string name="OptionalTimeline" value=""/>
+											<object name="Point1">
+												<float name="X" value="-6.05815755"/>
+												<float name="Y" value="0.203181113"/>
+												<float name="Z" value="8.28847146e-004"/>
+											</object>
+											<object name="Point2">
+												<float name="X" value="-6.05815755"/>
+												<float name="Y" value="0.203181113"/>
+												<float name="Z" value="1.60955515"/>
+											</object>
+											<float name="PortMaxValue" value="40."/>
+											<float name="PortMinValue" value="-40."/>
+											<string name="PortMoType" value="Rotate"/>
+										</object>
+										<object name="SubComponents"/>
+										<string name="Type" value="Mesh"/>
+										<boolean name="Visible" value="true"/>
+									</object>
+								</object>
+								<string name="Type" value="Mesh"/>
+								<boolean name="Visible" value="true"/>
+							</object>
+							<object name="Stab_R_Safe">
+								<string name="Damaged" value="Ar196_L2_Stab_R_Dam.mesh"/>
+								<object name="DynamicData">
+									<object name="ComponentCG">
+										<float name="X" value="-5.97156683"/>
+										<float name="Y" value="0.131729209"/>
+										<float name="Z" value="1.19416648"/>
+									</object>
+									<object name="ComponentInertia">
+										<float name="X" value="5.13575983"/>
+										<float name="Y" value="6.32833576"/>
+										<float name="Z" value="1.24862599"/>
+									</object>
+									<float name="Mass" value="20.3099995"/>
+									<integer name="ProfileID" value="1"/>
+								</object>
+								<object name="LOD3">
+									<float name="Depth" value="250."/>
+									<string name="Mesh" value="Ar196_L3_Stab_R_Safe.mesh"/>
+								</object>
+								<string name="Mesh" value="Ar196_L2_Stab_R_Safe.mesh"/>
+								<string name="Remains" value="Ar196_L2_DamBl_Tail_Stab_R.mesh"/>
+								<object name="SubComponents"/>
+								<string name="Type" value="Mesh"/>
+								<boolean name="Visible" value="true"/>
+							</object>
+						</object>
+						<string name="Type" value="Mesh"/>
+						<boolean name="Visible" value="true"/>
+					</object>
+					<object name="Wing_In_L_Safe">
+						<object name="DynamicData">
+							<object name="ComponentCG">
+								<float name="X" value="0.234131634"/>
+								<float name="Y" value="-0.88065438"/>
+								<float name="Z" value="-2.63010629"/>
+							</object>
+							<object name="ComponentInertia">
+								<float name="X" value="36.1762161"/>
+								<float name="Y" value="79.8400879"/>
+								<float name="Z" value="48.6708832"/>
+							</object>
+							<float name="Mass" value="80.1600037"/>
+							<integer name="ProfileID" value="2"/>
+						</object>
+						<object name="LOD3">
+							<float name="Depth" value="250."/>
+							<string name="Mesh" value="Ar196_L3_Wing_In_L_Safe.mesh"/>
+						</object>
+						<string name="Mesh" value="Ar196_L2_Wing_In_L_Safe.mesh"/>
+						<object name="SubComponents">
+							<object name="Flap_L">
+								<object name="DynamicData">
+									<object name="ComponentCG">
+										<float name="X" value="-0.901450515"/>
+										<float name="Y" value="-0.50408271"/>
+										<float name="Z" value="-1.95084399"/>
+									</object>
+									<object name="ComponentInertia">
+										<float name="X" value="5.11581802"/>
+										<float name="Y" value="5.92324019"/>
+										<float name="Z" value="1.16119897"/>
+									</object>
+									<float name="Mass" value="18.1399994"/>
+									<integer name="ProfileID" value="401"/>
+								</object>
+								<object name="LOD3">
+									<float name="Depth" value="250."/>
+									<string name="Mesh" value="Ar196_L3_Flap_L.mesh"/>
+								</object>
+								<string name="Mesh" value="Ar196_L2_Flap_L.mesh"/>
+								<object name="SPort">
+									<float name="DelayAfterTime" value="0."/>
+									<float name="DelayTime" value="0."/>
+									<float name="FullTime" value="0."/>
+									<string name="MovableSet" value="flaps"/>
+									<string name="OptionalTimeline" value=""/>
+									<object name="Point1">
+										<float name="X" value="-0.901450515"/>
+										<float name="Y" value="-0.50408271"/>
+										<float name="Z" value="-1.95084399"/>
+									</object>
+									<object name="Point2">
+										<float name="X" value="-0.945538044"/>
+										<float name="Y" value="-0.576862156"/>
+										<float name="Z" value="-1.33115494"/>
+									</object>
+									<float name="PortMaxValue" value="45."/>
+									<float name="PortMinValue" value="0."/>
+									<string name="PortMoType" value="Rotate"/>
+								</object>
+								<object name="SubComponents"/>
+								<string name="Type" value="Mesh"/>
+								<boolean name="Visible" value="true"/>
+							</object>
+							<object name="Pole_Wing_In_L">
+								<object name="DynamicData">
+									<object name="ComponentCG">
+										<float name="X" value="0.234131634"/>
+										<float name="Y" value="-1.57729698"/>
+										<float name="Z" value="-0.4912076"/>
+									</object>
+									<object name="ComponentInertia">
+										<float name="X" value="0."/>
+										<float name="Y" value="0."/>
+										<float name="Z" value="0."/>
+									</object>
+									<float name="Mass" value="0."/>
+									<integer name="ProfileID" value="0"/>
+								</object>
+								<object name="LOD3">
+									<float name="Depth" value="250."/>
+									<string name="Mesh" value="Ar196_L3_Pole_Wing_In_L.mesh"/>
+								</object>
+								<string name="Mesh" value="Ar196_L2_Pole_Wing_In_L.mesh"/>
+								<object name="SubComponents">
+									<object name="Poplavok_L">
+										<object name="DynamicData">
+											<object name="ComponentCG">
+												<float name="X" value="0.234131634"/>
+												<float name="Y" value="-2.02632309"/>
+												<float name="Z" value="-1.41331925"/>
+											</object>
+											<object name="ComponentInertia">
+												<float name="X" value="44.2699242"/>
+												<float name="Y" value="1049.34802"/>
+												<float name="Z" value="1062.86987"/>
+											</object>
+											<float name="Mass" value="242.009995"/>
+											<integer name="ProfileID" value="101"/>
+										</object>
+										<object name="LOD3">
+											<float name="Depth" value="250."/>
+											<string name="Mesh" value="Ar196_L3_Poplavok_L.mesh"/>
+										</object>
+										<string name="Mesh" value="Ar196_L2_Poplavok_L.mesh"/>
+										<object name="SubComponents">
+											<object name="Rudder_Water_L">
+												<object name="DynamicData">
+													<object name="ComponentCG">
+														<float name="X" value="-3.24173832"/>
+														<float name="Y" value="-1.61605823"/>
+														<float name="Z" value="-1.40082359"/>
+													</object>
+													<object name="ComponentInertia">
+														<float name="X" value="0."/>
+														<float name="Y" value="0."/>
+														<float name="Z" value="0."/>
+													</object>
+													<float name="Mass" value="0."/>
+													<integer name="ProfileID" value="0"/>
+												</object>
+												<object name="LOD3">
+													<float name="Depth" value="250."/>
+													<string name="Mesh" value="Ar196_L3_Rudder_Water_L.mesh"/>
+												</object>
+												<string name="Mesh" value="Ar196_L2_Rudder_Water_L.mesh"/>
+												<object name="SubComponents"/>
+												<string name="Type" value="Mesh"/>
+												<boolean name="Visible" value="true"/>
+											</object>
+										</object>
+										<string name="Type" value="Mesh"/>
+										<boolean name="Visible" value="true"/>
+									</object>
+								</object>
+								<string name="Type" value="Mesh"/>
+								<boolean name="Visible" value="true"/>
+							</object>
+							<object name="Wing_Out_L_Safe">
+								<string name="Damaged" value="Ar196_L2_Wing_Out_L_Dam.mesh"/>
+								<object name="DynamicData">
+									<object name="ComponentCG">
+										<float name="X" value="-0.411762357"/>
+										<float name="Y" value="-0.143648069"/>
+										<float name="Z" value="-4.17957194"/>
+									</object>
+									<object name="ComponentInertia">
+										<float name="X" value="96.2157745"/>
+										<float name="Y" value="122.033951"/>
+										<float name="Z" value="31.1354637"/>
+									</object>
+									<float name="Mass" value="98.6999969"/>
+									<integer name="ProfileID" value="2"/>
+								</object>
+								<object name="LOD3">
+									<float name="Depth" value="250."/>
+									<string name="Mesh" value="Ar196_L3_Wing_Out_L_Safe.mesh"/>
+								</object>
+								<string name="Mesh" value="Ar196_L2_Wing_Out_L_Safe.mesh"/>
+								<string name="Remains" value="Ar196_L2_DamBl_Wing_In_Out_L.mesh"/>
+								<object name="SubComponents">
+									<object name="Ail_L">
+										<object name="DynamicData">
+											<object name="ComponentCG">
+												<float name="X" value="-0.842251956"/>
+												<float name="Y" value="-0.143648069"/>
+												<float name="Z" value="-4.04032326"/>
+											</object>
+											<object name="ComponentInertia">
+												<float name="X" value="20.4223785"/>
+												<float name="Y" value="21.8318234"/>
+												<float name="Z" value="2.72757912"/>
+											</object>
+											<float name="Mass" value="28.0799999"/>
+											<integer name="ProfileID" value="401"/>
+										</object>
+										<object name="LOD3">
+											<float name="Depth" value="250."/>
+											<string name="Mesh" value="Ar196_L3_Ail_L.mesh"/>
+										</object>
+										<string name="Mesh" value="Ar196_L2_Ail_L.mesh"/>
+										<object name="SPort">
+											<float name="DelayAfterTime" value="0."/>
+											<float name="DelayTime" value="0."/>
+											<float name="FullTime" value="0.4"/>
+											<string name="MovableSet" value="ailerons"/>
+											<string name="OptionalTimeline" value=""/>
+											<object name="Point1">
+												<float name="X" value="-0.842251956"/>
+												<float name="Y" value="-0.143648069"/>
+												<float name="Z" value="-4.04032326"/>
+											</object>
+											<object name="Point2">
+												<float name="X" value="-0.926852703"/>
+												<float name="Y" value="-0.268033087"/>
+												<float name="Z" value="-2.85398245"/>
+											</object>
+											<float name="PortMaxValue" value="30."/>
+											<float name="PortMinValue" value="-30."/>
+											<string name="PortMoType" value="Rotate"/>
+										</object>
+										<object name="SubComponents"/>
+										<string name="Type" value="Mesh"/>
+										<boolean name="Visible" value="true"/>
+									</object>
+									<object name="EPort_Vihor_01">
+										<string name="ConcreteType" value="EPort"/>
+										<string name="Handling" value="0"/>
+										<string name="PortHolder" value="L2_Wing_Out_L_Safe"/>
+										<string name="PortType" value="Vortex"/>
+										<object name="Transform">
+											<object name="Rotate">
+												<float name="X" value="7.01958357e-015"/>
+												<float name="Y" value="180."/>
+												<float name="Z" value="0."/>
+											</object>
+											<object name="Scale">
+												<float name="X" value="0.289583355"/>
+												<float name="Y" value="0.289583355"/>
+												<float name="Z" value="0.289583355"/>
+											</object>
+											<object name="Translate">
+												<float name="X" value="0.178687215"/>
+												<float name="Y" value="0.104645625"/>
+												<float name="Z" value="-6.21557808"/>
+											</object>
+										</object>
+										<string name="Type" value="Port"/>
+									</object>
+								</object>
+								<string name="Type" value="Mesh"/>
+								<boolean name="Visible" value="true"/>
+							</object>
+						</object>
+						<string name="Type" value="Mesh"/>
+						<boolean name="Visible" value="true"/>
+					</object>
+					<object name="Wing_In_R_Safe">
+						<object name="DynamicData">
+							<object name="ComponentCG">
+								<float name="X" value="0.234131813"/>
+								<float name="Y" value="-0.880654905"/>
+								<float name="Z" value="2.63016076"/>
+							</object>
+							<object name="ComponentInertia">
+								<float name="X" value="36.1762161"/>
+								<float name="Y" value="79.8400879"/>
+								<float name="Z" value="48.6708832"/>
+							</object>
+							<float name="Mass" value="80.1600037"/>
+							<integer name="ProfileID" value="2"/>
+						</object>
+						<object name="LOD3">
+							<float name="Depth" value="250."/>
+							<string name="Mesh" value="Ar196_L3_Wing_In_R_Safe.mesh"/>
+						</object>
+						<string name="Mesh" value="Ar196_L2_Wing_In_R_Safe.mesh"/>
+						<object name="SubComponents">
+							<object name="Flap_R">
+								<object name="DynamicData">
+									<object name="ComponentCG">
+										<float name="X" value="-0.901452541"/>
+										<float name="Y" value="-0.504083723"/>
+										<float name="Z" value="1.95084304"/>
+									</object>
+									<object name="ComponentInertia">
+										<float name="X" value="5.11581802"/>
+										<float name="Y" value="5.92324019"/>
+										<float name="Z" value="1.16119897"/>
+									</object>
+									<float name="Mass" value="18.1399994"/>
+									<integer name="ProfileID" value="401"/>
+								</object>
+								<object name="LOD3">
+									<float name="Depth" value="250."/>
+									<string name="Mesh" value="Ar196_L3_Flap_R.mesh"/>
+								</object>
+								<string name="Mesh" value="Ar196_L2_Flap_R.mesh"/>
+								<object name="SPort">
+									<float name="DelayAfterTime" value="0."/>
+									<float name="DelayTime" value="0."/>
+									<float name="FullTime" value="0."/>
+									<string name="MovableSet" value="flaps"/>
+									<string name="OptionalTimeline" value=""/>
+									<object name="Point1">
+										<float name="X" value="-0.901452541"/>
+										<float name="Y" value="-0.504083723"/>
+										<float name="Z" value="1.95084304"/>
+									</object>
+									<object name="Point2">
+										<float name="X" value="-0.857365131"/>
+										<float name="Y" value="-0.431304157"/>
+										<float name="Z" value="2.57053208"/>
+									</object>
+									<float name="PortMaxValue" value="45."/>
+									<float name="PortMinValue" value="0."/>
+									<string name="PortMoType" value="Rotate"/>
+								</object>
+								<object name="SubComponents"/>
+								<string name="Type" value="Mesh"/>
+								<boolean name="Visible" value="true"/>
+							</object>
+							<object name="Pole_Wing_In_R">
+								<object name="DynamicData">
+									<object name="ComponentCG">
+										<float name="X" value="0.234131813"/>
+										<float name="Y" value="-1.5772968"/>
+										<float name="Z" value="0.491265059"/>
+									</object>
+									<object name="ComponentInertia">
+										<float name="X" value="0."/>
+										<float name="Y" value="0."/>
+										<float name="Z" value="0."/>
+									</object>
+									<float name="Mass" value="0."/>
+									<integer name="ProfileID" value="0"/>
+								</object>
+								<object name="LOD3">
+									<float name="Depth" value="250."/>
+									<string name="Mesh" value="Ar196_L3_Pole_Wing_In_R.mesh"/>
+								</object>
+								<string name="Mesh" value="Ar196_L2_Pole_Wing_In_R.mesh"/>
+								<object name="SubComponents">
+									<object name="Poplavok_R">
+										<object name="DynamicData">
+											<object name="ComponentCG">
+												<float name="X" value="0.234131813"/>
+												<float name="Y" value="-2.02632309"/>
+												<float name="Z" value="1.41946187"/>
+											</object>
+											<object name="ComponentInertia">
+												<float name="X" value="44.2699242"/>
+												<float name="Y" value="1049.34802"/>
+												<float name="Z" value="1062.86987"/>
+											</object>
+											<float name="Mass" value="242.009995"/>
+											<integer name="ProfileID" value="101"/>
+										</object>
+										<object name="LOD3">
+											<float name="Depth" value="250."/>
+											<string name="Mesh" value="Ar196_L3_Poplavok_R.mesh"/>
+										</object>
+										<string name="Mesh" value="Ar196_L2_Poplavok_R.mesh"/>
+										<object name="SubComponents">
+											<object name="Rudder_Water_R">
+												<object name="DynamicData">
+													<object name="ComponentCG">
+														<float name="X" value="-3.24173784"/>
+														<float name="Y" value="-1.61605799"/>
+														<float name="Z" value="1.40094256"/>
+													</object>
+													<object name="ComponentInertia">
+														<float name="X" value="0."/>
+														<float name="Y" value="0."/>
+														<float name="Z" value="0."/>
+													</object>
+													<float name="Mass" value="0."/>
+													<integer name="ProfileID" value="0"/>
+												</object>
+												<object name="LOD3">
+													<float name="Depth" value="250."/>
+													<string name="Mesh" value="Ar196_L3_Rudder_Water_R.mesh"/>
+												</object>
+												<string name="Mesh" value="Ar196_L2_Rudder_Water_R.mesh"/>
+												<object name="SubComponents"/>
+												<string name="Type" value="Mesh"/>
+												<boolean name="Visible" value="true"/>
+											</object>
+										</object>
+										<string name="Type" value="Mesh"/>
+										<boolean name="Visible" value="true"/>
+									</object>
+								</object>
+								<string name="Type" value="Mesh"/>
+								<boolean name="Visible" value="true"/>
+							</object>
+							<object name="Wing_Out_R_Safe">
+								<string name="Damaged" value="Ar196_L2_Wing_Out_R_Dam.mesh"/>
+								<object name="DynamicData">
+									<object name="ComponentCG">
+										<float name="X" value="-0.411764383"/>
+										<float name="Y" value="-0.143649221"/>
+										<float name="Z" value="4.17957123"/>
+									</object>
+									<object name="ComponentInertia">
+										<float name="X" value="96.2157745"/>
+										<float name="Y" value="122.033951"/>
+										<float name="Z" value="31.1354637"/>
+									</object>
+									<float name="Mass" value="98.6999969"/>
+									<integer name="ProfileID" value="2"/>
+								</object>
+								<object name="LOD3">
+									<float name="Depth" value="250."/>
+									<string name="Mesh" value="Ar196_L3_Wing_Out_R_Safe.mesh"/>
+								</object>
+								<string name="Mesh" value="Ar196_L2_Wing_Out_R_Safe.mesh"/>
+								<string name="Remains" value="Ar196_L2_DamBl_Wing_In_Out_R.mesh"/>
+								<object name="SubComponents">
+									<object name="Ail_R">
+										<object name="DynamicData">
+											<object name="ComponentCG">
+												<float name="X" value="-0.842253983"/>
+												<float name="Y" value="-0.143649221"/>
+												<float name="Z" value="4.04032206"/>
+											</object>
+											<object name="ComponentInertia">
+												<float name="X" value="20.4223785"/>
+												<float name="Y" value="21.8318234"/>
+												<float name="Z" value="2.72757912"/>
+											</object>
+											<float name="Mass" value="28.0799999"/>
+											<integer name="ProfileID" value="401"/>
+										</object>
+										<object name="LOD3">
+											<float name="Depth" value="250."/>
+											<string name="Mesh" value="Ar196_L3_Ail_L1.mesh"/>
+										</object>
+										<string name="Mesh" value="Ar196_L2_Ail_R.mesh"/>
+										<object name="SPort">
+											<float name="DelayAfterTime" value="0."/>
+											<float name="DelayTime" value="0."/>
+											<float name="FullTime" value="0.4"/>
+											<string name="MovableSet" value="ailerons"/>
+											<string name="OptionalTimeline" value=""/>
+											<object name="Point1">
+												<float name="X" value="-0.842253983"/>
+												<float name="Y" value="-0.143649221"/>
+												<float name="Z" value="4.04032206"/>
+											</object>
+											<object name="Point2">
+												<float name="X" value="-0.926854849"/>
+												<float name="Y" value="-0.268034339"/>
+												<float name="Z" value="2.85398102"/>
+											</object>
+											<float name="PortMaxValue" value="30."/>
+											<float name="PortMinValue" value="-30."/>
+											<string name="PortMoType" value="Rotate"/>
+										</object>
+										<object name="SubComponents"/>
+										<string name="Type" value="Mesh"/>
+										<boolean name="Visible" value="true"/>
+									</object>
+									<object name="EPort_Vihor_02">
+										<string name="ConcreteType" value="EPort"/>
+										<string name="Handling" value="0"/>
+										<string name="PortHolder" value="L2_Wing_Out_R_Safe"/>
+										<string name="PortType" value="Vortex"/>
+										<object name="Transform">
+											<object name="Rotate">
+												<float name="X" value="7.01958357e-015"/>
+												<float name="Y" value="180."/>
+												<float name="Z" value="0."/>
+											</object>
+											<object name="Scale">
+												<float name="X" value="0.289583355"/>
+												<float name="Y" value="0.289583355"/>
+												<float name="Z" value="0.289583355"/>
+											</object>
+											<object name="Translate">
+												<float name="X" value="0.178685784"/>
+												<float name="Y" value="0.104644954"/>
+												<float name="Z" value="6.21557808"/>
+											</object>
+										</object>
+										<string name="Type" value="Port"/>
+									</object>
+								</object>
+								<string name="Type" value="Mesh"/>
+								<boolean name="Visible" value="true"/>
+							</object>
+						</object>
+						<string name="Type" value="Mesh"/>
+						<boolean name="Visible" value="true"/>
+					</object>
+					<object name="ZPort_Aim_01">
+						<string name="ConcreteType" value="ZPort"/>
+						<string name="PortType" value="Aim_Plane_Jap02"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="0.567214938"/>
+								<float name="Y" value="0.743267566"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="ZPort_Armor_01">
+						<string name="ConcreteType" value="ZPort"/>
+						<string name="PortType" value="Armor_Plane_Jap01"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="17.7507499"/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="0.677348508"/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-1.72851287e-002"/>
+								<float name="Y" value="0.346793074"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="ZPort_Gun_01">
+						<string name="ConcreteType" value="ZPort"/>
+						<string name="PortType" value="Gun8-13_US"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="0.956044833"/>
+								<float name="Y" value="0.772607741"/>
+								<float name="Z" value="0.772607741"/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="1.09789567"/>
+								<float name="Y" value="-0.122957503"/>
+								<float name="Z" value="1.72026865"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="ZPort_Gun_02">
+						<string name="ConcreteType" value="ZPort"/>
+						<string name="PortType" value="Gun8-13_US"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="0.956044833"/>
+								<float name="Y" value="0.772607741"/>
+								<float name="Z" value="0.772607741"/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="1.09789567"/>
+								<float name="Y" value="-0.122957503"/>
+								<float name="Z" value="-1.72026865"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="ZPort_JammerP_01">
+						<string name="ConcreteType" value="ZPort"/>
+						<string name="PortType" value="JammerP"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-0.424067153"/>
+								<float name="Y" value="0.210493898"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="ZPort_Protector_01">
+						<string name="ConcreteType" value="ZPort"/>
+						<string name="PortType" value="Protector_Plane_US02"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1.4090654"/>
+								<float name="Y" value="1.25415605"/>
+								<float name="Z" value="0.904630459"/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-4.34466908e-003"/>
+								<float name="Y" value="-0.320953402"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="ZPort_Radio_01">
+						<string name="ConcreteType" value="ZPort"/>
+						<string name="PortType" value="Radio_Plane_US01"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="0.658441917"/>
+								<float name="Y" value="0.658441917"/>
+								<float name="Z" value="0.658441917"/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-0.403800548"/>
+								<float name="Y" value="0.524645299"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+				</object>
+				<string name="Type" value="Mesh"/>
+				<boolean name="Visible" value="true"/>
+			</object>
+		</object>
+		<object name="DynamicModel">
+			<string name="ModelName" value="DMPlaneAdvanced"/>
+		</object>
+		<object name="Flags">
+			<boolean name="Selectable" value="true"/>
+			<string name="Type" value="Unit"/>
+			<boolean name="Updatable" value="true"/>
+		</object>
+		<object name="LOD4">
+			<float name="Depth" value="300."/>
+			<string name="Mesh" value="Ar196_L4_Hull_Safe.mesh"/>
+		</object>
+		<object name="Ports">
+			<object name="DPort_Blade_01">
+				<string name="ConcreteType" value="DPort"/>
+				<string name="PortHolder" value=""/>
+				<string name="PortType" value="Blade_01"/>
+				<object name="Transform">
+					<object name="Rotate">
+						<float name="X" value="0."/>
+						<float name="Y" value="0."/>
+						<float name="Z" value="0."/>
+					</object>
+					<object name="Scale">
+						<float name="X" value="1."/>
+						<float name="Y" value="1."/>
+						<float name="Z" value="1."/>
+					</object>
+					<object name="Translate">
+						<float name="X" value="3.08277579"/>
+						<float name="Y" value="0.903362878"/>
+						<float name="Z" value="-4.47034836e-008"/>
+					</object>
+				</object>
+				<string name="Type" value="Port"/>
+			</object>
+			<object name="DPort_Blade_02">
+				<string name="ConcreteType" value="DPort"/>
+				<string name="PortHolder" value=""/>
+				<string name="PortType" value="Blade_01"/>
+				<object name="Transform">
+					<object name="Rotate">
+						<float name="X" value="120."/>
+						<float name="Y" value="0."/>
+						<float name="Z" value="0."/>
+					</object>
+					<object name="Scale">
+						<float name="X" value="1."/>
+						<float name="Y" value="1."/>
+						<float name="Z" value="1."/>
+					</object>
+					<object name="Translate">
+						<float name="X" value="3.08277579"/>
+						<float name="Y" value="-0.407280651"/>
+						<float name="Z" value="0.756700439"/>
+					</object>
+				</object>
+				<string name="Type" value="Port"/>
+			</object>
+			<object name="DPort_Blade_03">
+				<string name="ConcreteType" value="DPort"/>
+				<string name="PortHolder" value=""/>
+				<string name="PortType" value="Blade_01"/>
+				<object name="Transform">
+					<object name="Rotate">
+						<float name="X" value="-120."/>
+						<float name="Y" value="0."/>
+						<float name="Z" value="0."/>
+					</object>
+					<object name="Scale">
+						<float name="X" value="1."/>
+						<float name="Y" value="1."/>
+						<float name="Z" value="1."/>
+					</object>
+					<object name="Translate">
+						<float name="X" value="3.08277579"/>
+						<float name="Y" value="-0.407280729"/>
+						<float name="Z" value="-0.756700394"/>
+					</object>
+				</object>
+				<string name="Type" value="Port"/>
+			</object>
+			<object name="EPort_Cartridge_05">
+				<string name="ConcreteType" value="EPort"/>
+				<string name="Handling" value="0"/>
+				<string name="PortHolder" value="ZPort_Gun_01"/>
+				<string name="PortType" value="Cartridge"/>
+				<object name="Transform">
+					<object name="Rotate">
+						<float name="X" value="0."/>
+						<float name="Y" value="0."/>
+						<float name="Z" value="-90."/>
+					</object>
+					<object name="Scale">
+						<float name="X" value="0.153137592"/>
+						<float name="Y" value="0.153137592"/>
+						<float name="Z" value="0.153137592"/>
+					</object>
+					<object name="Translate">
+						<float name="X" value="-0.111035771"/>
+						<float name="Y" value="-0.191144801"/>
+						<float name="Z" value="1.758313338"/>
+					</object>
+				</object>
+				<string name="Type" value="Port"/>
+			</object>
+			<object name="EPort_Cartridge_06">
+				<string name="ConcreteType" value="EPort"/>
+				<string name="Handling" value="0"/>
+				<string name="PortHolder" value="ZPort_Gun_02"/>
+				<string name="PortType" value="Cartridge"/>
+				<object name="Transform">
+					<object name="Rotate">
+						<float name="X" value="-180."/>
+						<float name="Y" value="1.55797099e-030"/>
+						<float name="Z" value="-90."/>
+					</object>
+					<object name="Scale">
+						<float name="X" value="0.153137592"/>
+						<float name="Y" value="0.153137592"/>
+						<float name="Z" value="0.153137592"/>
+					</object>
+					<object name="Translate">
+						<float name="X" value="-1.9535696"/>
+						<float name="Y" value="-0.191144801"/>
+						<float name="Z" value="-1.745020535"/>
+					</object>
+				</object>
+				<string name="Type" value="Port"/>
+			</object>
+			<object name="EPort_Shot_05">
+				<string name="ConcreteType" value="EPort"/>
+				<string name="Handling" value="0"/>
+				<string name="PortHolder" value="ZPort_Gun_01"/>
+				<string name="PortType" value="Shot"/>
+				<object name="Transform">
+					<object name="Rotate">
+						<float name="X" value="0."/>
+						<float name="Y" value="0."/>
+						<float name="Z" value="0."/>
+					</object>
+					<object name="Scale">
+						<float name="X" value="0.289583355"/>
+						<float name="Y" value="0.289583355"/>
+						<float name="Z" value="0.289583355"/>
+					</object>
+					<object name="Translate">
+						<float name="X" value="1.59749679"/>
+						<float name="Y" value="-0.12439443"/>
+						<float name="Z" value="1.71607684"/>
+					</object>
+				</object>
+				<string name="Type" value="Port"/>
+			</object>
+			<object name="EPort_Shot_06">
+				<string name="ConcreteType" value="EPort"/>
+				<string name="Handling" value="0"/>
+				<string name="PortHolder" value="ZPort_Gun_02"/>
+				<string name="PortType" value="Shot"/>
+				<object name="Transform">
+					<object name="Rotate">
+						<float name="X" value="7.01958357e-015"/>
+						<float name="Y" value="180."/>
+						<float name="Z" value="0."/>
+					</object>
+					<object name="Scale">
+						<float name="X" value="0.289583355"/>
+						<float name="Y" value="0.289583355"/>
+						<float name="Z" value="0.289583355"/>
+					</object>
+					<object name="Translate">
+						<float name="X" value="-2.62809277"/>
+						<float name="Y" value="0.68445124"/>
+						<float name="Z" value="-1.70926508"/>
+					</object>
+				</object>
+				<string name="Type" value="Port"/>
+			</object>
+			<object name="EPort_Vihlop_01">
+				<string name="ConcreteType" value="EPort"/>
+				<string name="Handling" value="0"/>
+				<string name="PortHolder" value="ZPort_Motor_01"/>
+				<string name="PortType" value="Vihlop"/>
+				<object name="Transform">
+					<object name="Rotate">
+						<float name="X" value="168.595729"/>
+						<float name="Y" value="30.8513687"/>
+						<float name="Z" value="-109.700462"/>
+					</object>
+					<object name="Scale">
+						<float name="X" value="0.289583355"/>
+						<float name="Y" value="0.289583355"/>
+						<float name="Z" value="0.289583355"/>
+					</object>
+					<object name="Translate">
+						<float name="X" value="1.6063175"/>
+						<float name="Y" value="-0.464630539"/>
+						<float name="Z" value="-0.362759095"/>
+					</object>
+				</object>
+				<string name="Type" value="Port"/>
+			</object>
+			<object name="EPort_Vihlop_02">
+				<string name="ConcreteType" value="EPort"/>
+				<string name="Handling" value="0"/>
+				<string name="PortHolder" value="ZPort_Motor_01"/>
+				<string name="PortType" value="Vihlop"/>
+				<object name="Transform">
+					<object name="Rotate">
+						<float name="X" value="11.2870364"/>
+						<float name="Y" value="211.320086"/>
+						<float name="Z" value="70.6907228"/>
+					</object>
+					<object name="Scale">
+						<float name="X" value="0.289583355"/>
+						<float name="Y" value="0.289583355"/>
+						<float name="Z" value="0.289583355"/>
+					</object>
+					<object name="Translate">
+						<float name="X" value="1.60301994"/>
+						<float name="Y" value="-0.464924395"/>
+						<float name="Z" value="0.372716266"/>
+					</object>
+				</object>
+				<string name="Type" value="Port"/>
+			</object>
+			<object name="EPort_Vihor_01">
+				<string name="ConcreteType" value="EPort"/>
+				<string name="Handling" value="0"/>
+				<string name="PortHolder" value="L2_Wing_Out_L_Safe"/>
+				<string name="PortType" value="Vortex"/>
+				<object name="Transform">
+					<object name="Rotate">
+						<float name="X" value="7.01958357e-015"/>
+						<float name="Y" value="180."/>
+						<float name="Z" value="0."/>
+					</object>
+					<object name="Scale">
+						<float name="X" value="0.289583355"/>
+						<float name="Y" value="0.289583355"/>
+						<float name="Z" value="0.289583355"/>
+					</object>
+					<object name="Translate">
+						<float name="X" value="0.178687215"/>
+						<float name="Y" value="0.104645625"/>
+						<float name="Z" value="-6.21557808"/>
+					</object>
+				</object>
+				<string name="Type" value="Port"/>
+			</object>
+			<object name="EPort_Vihor_02">
+				<string name="ConcreteType" value="EPort"/>
+				<string name="Handling" value="0"/>
+				<string name="PortHolder" value="L2_Wing_Out_R_Safe"/>
+				<string name="PortType" value="Vortex"/>
+				<object name="Transform">
+					<object name="Rotate">
+						<float name="X" value="7.01958357e-015"/>
+						<float name="Y" value="180."/>
+						<float name="Z" value="0."/>
+					</object>
+					<object name="Scale">
+						<float name="X" value="0.289583355"/>
+						<float name="Y" value="0.289583355"/>
+						<float name="Z" value="0.289583355"/>
+					</object>
+					<object name="Translate">
+						<float name="X" value="0.178685784"/>
+						<float name="Y" value="0.104644954"/>
+						<float name="Z" value="6.21557808"/>
+					</object>
+				</object>
+				<string name="Type" value="Port"/>
+			</object>
+			<object name="PPort_01">
+				<string name="ConcreteType" value="PPort"/>
+				<string name="PortType" value="American_Pilot"/>
+				<object name="Transform">
+					<object name="Rotate">
+						<float name="X" value="0."/>
+						<float name="Y" value="0."/>
+						<float name="Z" value="0."/>
+					</object>
+					<object name="Scale">
+						<float name="X" value="1."/>
+						<float name="Y" value="1."/>
+						<float name="Z" value="1."/>
+					</object>
+					<object name="Translate">
+						<float name="X" value="0.472277094"/>
+						<float name="Y" value="0.224028837"/>
+						<float name="Z" value="-2.19528675e-002"/>
+					</object>
+				</object>
+				<string name="Type" value="Port"/>
+			</object>
+			<object name="PPort_02">
+				<string name="ConcreteType" value="PPort"/>
+				<string name="PortType" value="American_Gunner_Short"/>
+				<object name="Transform">
+					<object name="Rotate">
+						<float name="X" value="7.01958357e-015"/>
+						<float name="Y" value="180."/>
+						<float name="Z" value="0."/>
+					</object>
+					<object name="Scale">
+						<float name="X" value="1."/>
+						<float name="Y" value="1."/>
+						<float name="Z" value="1."/>
+					</object>
+					<object name="Translate">
+						<float name="X" value="-1.70475274"/>
+						<float name="Y" value="0.296631301"/>
+						<float name="Z" value="7.9583996e-002"/>
+					</object>
+				</object>
+				<string name="Type" value="Port"/>
+			</object>
+			<object name="TPort_01">
+				<string name="ConcreteType" value="TPort"/>
+				<float name="PortMaxValueY" value="75."/>
+				<float name="PortMaxValueZ" value="75."/>
+				<float name="PortMinValueY" value="-75."/>
+				<float name="PortMinValueZ" value="-15."/>
+				<string name="PortMoType" value="Rotate"/>
+				<string name="PortType" value="Jap_8-13_Gun_port"/>
+				<object name="Transform">
+					<object name="Rotate">
+						<float name="X" value="0."/>
+						<float name="Y" value="180."/>
+						<float name="Z" value="0."/>
+					</object>
+					<object name="Scale">
+						<float name="X" value="1."/>
+						<float name="Y" value="1."/>
+						<float name="Z" value="1."/>
+					</object>
+					<object name="Translate">
+						<float name="X" value="-2.1625528"/>
+						<float name="Y" value="0.5029707"/>
+						<float name="Z" value="0.028140974"/>
+					</object>
+				</object>
+				<string name="Type" value="Port"/>
+			</object>
+			<object name="VPort_01">
+				<string name="ConcreteType" value="VPort"/>
+				<string name="PortType" value="DE_Disk_01"/>
+				<object name="Transform">
+					<object name="Rotate">
+						<float name="X" value="0."/>
+						<float name="Y" value="0."/>
+						<float name="Z" value="0."/>
+					</object>
+					<object name="Scale">
+						<float name="X" value="0.984726364"/>
+						<float name="Y" value="0.984726364"/>
+						<float name="Z" value="0.984726364"/>
+					</object>
+					<object name="Translate">
+						<float name="X" value="3.07846412"/>
+						<float name="Y" value="0."/>
+						<float name="Z" value="0."/>
+					</object>
+				</object>
+				<string name="Type" value="Port"/>
+			</object>
+			<object name="ZPort_Aim_01">
+				<string name="ConcreteType" value="ZPort"/>
+				<string name="PortType" value="Aim_Plane_Jap02"/>
+				<object name="Transform">
+					<object name="Rotate">
+						<float name="X" value="0."/>
+						<float name="Y" value="0."/>
+						<float name="Z" value="0."/>
+					</object>
+					<object name="Scale">
+						<float name="X" value="1."/>
+						<float name="Y" value="1."/>
+						<float name="Z" value="1."/>
+					</object>
+					<object name="Translate">
+						<float name="X" value="0.567214938"/>
+						<float name="Y" value="0.743267566"/>
+						<float name="Z" value="0."/>
+					</object>
+				</object>
+				<string name="Type" value="Port"/>
+			</object>
+			<object name="ZPort_Armor_01">
+				<string name="ConcreteType" value="ZPort"/>
+				<string name="PortType" value="Armor_Plane_Jap01"/>
+				<object name="Transform">
+					<object name="Rotate">
+						<float name="X" value="0."/>
+						<float name="Y" value="0."/>
+						<float name="Z" value="17.7507499"/>
+					</object>
+					<object name="Scale">
+						<float name="X" value="1."/>
+						<float name="Y" value="0.677348508"/>
+						<float name="Z" value="1."/>
+					</object>
+					<object name="Translate">
+						<float name="X" value="-1.72851287e-002"/>
+						<float name="Y" value="0.346793074"/>
+						<float name="Z" value="0."/>
+					</object>
+				</object>
+				<string name="Type" value="Port"/>
+			</object>
+			<object name="ZPort_Gun_01">
+				<string name="ConcreteType" value="ZPort"/>
+				<string name="PortType" value="Gun8-13_US"/>
+				<object name="Transform">
+					<object name="Rotate">
+						<float name="X" value="0."/>
+						<float name="Y" value="0."/>
+						<float name="Z" value="0."/>
+					</object>
+					<object name="Scale">
+						<float name="X" value="0.956044833"/>
+						<float name="Y" value="0.772607741"/>
+						<float name="Z" value="0.772607741"/>
+					</object>
+					<object name="Translate">
+						<float name="X" value="1.09789567"/>
+						<float name="Y" value="-0.122957503"/>
+						<float name="Z" value="1.72026865"/>
+					</object>
+				</object>
+				<string name="Type" value="Port"/>
+			</object>
+			<object name="ZPort_Gun_02">
+				<string name="ConcreteType" value="ZPort"/>
+				<string name="PortType" value="Gun8-13_US"/>
+				<object name="Transform">
+					<object name="Rotate">
+						<float name="X" value="0."/>
+						<float name="Y" value="0."/>
+						<float name="Z" value="0."/>
+					</object>
+					<object name="Scale">
+						<float name="X" value="0.956044833"/>
+						<float name="Y" value="0.772607741"/>
+						<float name="Z" value="0.772607741"/>
+					</object>
+					<object name="Translate">
+						<float name="X" value="1.09789567"/>
+						<float name="Y" value="-0.122957503"/>
+						<float name="Z" value="-1.72026865"/>
+					</object>
+				</object>
+				<string name="Type" value="Port"/>
+			</object>
+			<object name="ZPort_JammerP_01">
+				<string name="ConcreteType" value="ZPort"/>
+				<string name="PortType" value="JammerP"/>
+				<object name="Transform">
+					<object name="Rotate">
+						<float name="X" value="0."/>
+						<float name="Y" value="0."/>
+						<float name="Z" value="0."/>
+					</object>
+					<object name="Scale">
+						<float name="X" value="1."/>
+						<float name="Y" value="1."/>
+						<float name="Z" value="1."/>
+					</object>
+					<object name="Translate">
+						<float name="X" value="-0.424067153"/>
+						<float name="Y" value="0.210493898"/>
+						<float name="Z" value="0."/>
+					</object>
+				</object>
+				<string name="Type" value="Port"/>
+			</object>
+			<object name="ZPort_Motor_01">
+				<string name="ConcreteType" value="ZPort"/>
+				<string name="PortType" value="Engine_Radial_US01"/>
+				<object name="Transform">
+					<object name="Rotate">
+						<float name="X" value="0."/>
+						<float name="Y" value="0."/>
+						<float name="Z" value="0."/>
+					</object>
+					<object name="Scale">
+						<float name="X" value="0.908928193"/>
+						<float name="Y" value="0.875251749"/>
+						<float name="Z" value="0.875251749"/>
+					</object>
+					<object name="Translate">
+						<float name="X" value="2.28544194"/>
+						<float name="Y" value="1.19361638e-002"/>
+						<float name="Z" value="-5.98794211e-003"/>
+					</object>
+				</object>
+				<string name="Type" value="Port"/>
+			</object>
+			<object name="ZPort_Protector_01">
+				<string name="ConcreteType" value="ZPort"/>
+				<string name="PortType" value="Protector_Plane_US02"/>
+				<object name="Transform">
+					<object name="Rotate">
+						<float name="X" value="0."/>
+						<float name="Y" value="0."/>
+						<float name="Z" value="0."/>
+					</object>
+					<object name="Scale">
+						<float name="X" value="1.4090654"/>
+						<float name="Y" value="1.25415605"/>
+						<float name="Z" value="0.904630459"/>
+					</object>
+					<object name="Translate">
+						<float name="X" value="-4.34466908e-003"/>
+						<float name="Y" value="-0.320953402"/>
+						<float name="Z" value="0."/>
+					</object>
+				</object>
+				<string name="Type" value="Port"/>
+			</object>
+			<object name="ZPort_Radio_01">
+				<string name="ConcreteType" value="ZPort"/>
+				<string name="PortType" value="Radio_Plane_US01"/>
+				<object name="Transform">
+					<object name="Rotate">
+						<float name="X" value="0."/>
+						<float name="Y" value="0."/>
+						<float name="Z" value="0."/>
+					</object>
+					<object name="Scale">
+						<float name="X" value="0.658441917"/>
+						<float name="Y" value="0.658441917"/>
+						<float name="Z" value="0.658441917"/>
+					</object>
+					<object name="Translate">
+						<float name="X" value="-0.403800548"/>
+						<float name="Y" value="0.524645299"/>
+						<float name="Z" value="0."/>
+					</object>
+				</object>
+				<string name="Type" value="Port"/>
+			</object>
+		</object>
+		<string name="Prefix" value="Ar196"/>
+		<object name="Racks">
+			<string name="StructureFile" value="E13A_rack"/>
+		</object>
+		<string name="UnitClass" value="Fighter"/>
+		<object name="UnitData">
+			<object name="CM">
+				<float name="X" value="96558."/>
+				<float name="Y" value="21467."/>
+				<float name="Z" value="154418."/>
+			</object>
+			<object name="CM_">
+				<float name="X" value="-25901."/>
+				<float name="Y" value="-97139."/>
+				<float name="Z" value="-232908."/>
+			</object>
+			<float name="Mass" value="5."/>
+			<float name="Speed" value="100."/>
+		</object>
+		<string name="UnitIcon" value="JapFighter"/>
+		<float name="VisibilityRange" value="4000."/>
+	</object>
+</root>

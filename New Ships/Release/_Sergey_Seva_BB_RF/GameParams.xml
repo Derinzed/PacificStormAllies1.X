@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" standalone="yes" ?>
+<root>
+	<object name="SteelMonstersParams">
+		<object name="Probes">
+			<object name="Pr_Seva_BB_RF_MG">
+				<float name="AirRange" value="4."/>
+				<float name="BearingAccuracy" value="2."/>
+				<integer name="Country" value="6"/>
+				<float name="DTimeProd" value="0."/>
+				<float name="Frequency" value="0."/>
+				<float name="MaxCaliber" value="305."/>
+				<float name="MinCaliber" value="70."/>
+				<float name="Money" value="35."/>
+				<boolean name="New" value="true"/>
+				<float name="NTimeProd" value="0."/>
+				<float name="Power" value="20000."/>
+				<boolean name="Production" value="false"/>
+				<float name="RangeAccuracy" value="70."/>
+				<float name="Sensitivity" value="1.e-004"/>
+				<float name="ShipRange" value="16."/>
+				<integer name="SygnalType" value="1"/>
+				<string name="Type" value="Director"/>
+				<integer name="Unreliability" value="0"/>
+				<string name="Usage" value="Ships"/>
+				<float name="Weight" value="2."/>
+			</object>
+			<object name="Pr_Seva_BB_RF">
+				<float name="AirRange" value="2.5"/>
+				<float name="BearingAccuracy" value="2."/>
+				<integer name="Country" value="6"/>
+				<float name="DTimeProd" value="0."/>
+				<float name="Frequency" value="0."/>
+				<float name="MaxCaliber" value="200."/>
+				<float name="MinCaliber" value="37."/>
+				<float name="Money" value="10."/>
+				<boolean name="New" value="true"/>
+				<float name="NTimeProd" value="0."/>
+				<float name="Power" value="0."/>
+				<boolean name="Production" value="false"/>
+				<float name="RangeAccuracy" value="30."/>
+				<float name="Sensitivity" value="0."/>
+				<float name="ShipRange" value="12."/>
+				<integer name="SygnalType" value="2"/>
+				<string name="Type" value="Director"/>
+				<integer name="Unreliability" value="0"/>
+				<string name="Usage" value="Ships"/>
+				<float name="Weight" value="4."/>
+			</object>
+		</object>
+		<object name="Turrets">
+			<object name="Seva_BB_RF">
+				<integer name="Amount" value="1"/>
+				<integer name="ArmorFront" value="25"/>
+				<integer name="ArmorSide" value="25"/>
+				<integer name="ArmorTop" value="25"/>
+				<string name="Content" value="Probes.Pr_Seva_BB_RF"/>
+				<integer name="Country" value="6"/>
+				<integer name="Elevation" value="0"/>
+				<integer name="ElevationRate" value="0"/>
+				<boolean name="IgnoreXMLFile" value="false"/>
+				<float name="Iron" value="20."/>
+				<float name="Money" value="30."/>
+				<boolean name="New" value="true"/>
+				<boolean name="Production" value="false"/>
+				<integer name="RotationRate" value="15"/>
+				<string name="SMU_File" value="Seva_BB_RF"/>
+				<string name="Type" value="Radar"/>
+				<float name="Vitality" value="80."/>
+				<float name="Weight" value="20."/>
+			</object>
+			<object name="Seva_BB_RF_MG">
+				<integer name="Amount" value="1"/>
+				<integer name="ArmorFront" value="25"/>
+				<integer name="ArmorSide" value="25"/>
+				<integer name="ArmorTop" value="25"/>
+				<string name="Content" value="Probes.Pr_Seva_BB_RF_MG"/>
+				<integer name="Country" value="6"/>
+				<integer name="Elevation" value="0"/>
+				<integer name="ElevationRate" value="0"/>
+				<boolean name="IgnoreXMLFile" value="false"/>
+				<float name="Iron" value="22."/>
+				<float name="Money" value="1.5"/>
+				<boolean name="New" value="true"/>
+				<boolean name="Production" value="false"/>
+				<integer name="RotationRate" value="15"/>
+				<string name="SMU_File" value="Seva_BB_RF_MG"/>
+				<string name="Type" value="Radar"/>
+				<float name="Vitality" value="80."/>
+				<float name="Weight" value="22."/>
+			</object>
+		</object>
+		<object name="Hit_Location">
+			<object name="Seva_BB8111">
+				<integer name="Country" value="6"/>
+				<float name="ER" value="0.5"/>
+				<string name="Hull" value="Std_RF"/>
+				<string name="Name" value="Rangefinder"/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="Seva_BB_RF"/>
+			</object>
+			<object name="Seva_BB8179">
+				<integer name="Country" value="6"/>
+				<float name="ER" value="0.3"/>
+				<string name="Hull" value="Std_RF"/>
+				<string name="Name" value="Rangefinder3"/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="Seva_BB_RF_MG"/>
+			</object>
+			<object name="Seva_BB8180">
+				<integer name="Country" value="6"/>
+				<float name="ER" value="0.3"/>
+				<string name="Hull" value="Std_RF"/>
+				<string name="Name" value="Rangefinder2"/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="Seva_BB_RF_MG"/>
+			</object>
+			<object name="Seva_BB8181">
+				<integer name="Country" value="6"/>
+				<float name="ER" value="0.3"/>
+				<string name="Hull" value="Std_RF"/>
+				<string name="Name" value="Rangefinder1"/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="Seva_BB_RF_MG"/>
+			</object>
+			<object name="Seva_BB8182">
+				<integer name="Country" value="6"/>
+				<float name="ER" value="4."/>
+				<string name="Hull" value="Std_Guns"/>
+				<string name="Name" value="KDP_Bow"/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="Seva_BB_RF_MG"/>
+			</object>
+			<object name="Seva_BB8183">
+				<integer name="Country" value="6"/>
+				<float name="ER" value="0.5"/>
+				<string name="Hull" value="Std_Guns"/>
+				<string name="Name" value="KDP"/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="Seva_BB_RF_MG"/>
+			</object>
+		</object>
+	</object>
+</root>

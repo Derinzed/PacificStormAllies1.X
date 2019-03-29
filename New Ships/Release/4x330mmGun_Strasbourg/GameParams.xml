@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" standalone="yes" ?>
+<root>
+	<object name="SteelMonstersParams">
+		<object name="Rifles">
+			<object name="Strasbourg_330mm_Stvol">
+				<float name="AARange" value="0."/>
+				<string name="Ammo" value="Proj_330_F"/>
+				<integer name="AmmoStorage" value="110"/>
+				<float name="AmmoWeight" value="560."/>
+				<string name="ArmPiercing" value="Proj_330_F_AP"/>
+				<float name="Caliber" value="330."/>
+				<string name="HighExp" value="Proj_330_F_HE"/>
+				<integer name="Country" value="4"/>
+				<float name="Dispersion" value="2."/>
+				<integer name="FinalSpeed" value="535"/>
+				<string name="FireSound" value="Guns\356mm"/>
+				<boolean name="IgnoreXMLFile" value="false"/>
+				<float name="Money" value="140."/>
+				<boolean name="New" value="false"/>
+				<float name="ROF" value="2."/>
+				<float name="Range" value="41.7"/>
+				<boolean name="SLLauncher" value="false"/>
+				<string name="SMU_File" value="Strasbourg_330mm_Stvol"/>
+				<integer name="StartSpeed" value="885"/>
+				<integer name="Unreliability" value="0"/>
+				<string name="Usage" value="Ships"/>
+				<float name="Weight" value="70.535"/>
+			</object>
+		</object>
+		<object name="Turrets">
+			<object name="Strasbourg_4x330mm_Turret_1V">
+				<integer name="Amount" value="4"/>
+				<integer name="ArmorFront" value="360"/>
+				<integer name="ArmorSide" value="270"/>
+				<integer name="ArmorTop" value="150"/>
+				<string name="Building" value="Artillery"/>
+				<string name="Content" value="Rifles.Strasbourg_330mm_Stvol"/>
+				<integer name="Country" value="4"/>
+				<integer name="Elevation" value="35"/>
+				<integer name="ElevationRate" value="6"/>
+				<boolean name="IgnoreXMLFile" value="false"/>
+				<float name="Iron" value="750."/>
+				<float name="Money" value="40."/>
+				<boolean name="New" value="false"/>
+				<boolean name="Production" value="false"/>
+				<integer name="RotationRate" value="5"/>
+				<string name="SMU_File" value="Strasbourg_4x330mm_Turret_1V"/>
+				<string name="Type" value="Gun"/>
+				<float name="Vitality" value="1400."/>
+				<float name="Weight" value="1473."/>
+			</object>
+			<object name="Strasbourg_4x330mm_Turret_2V">
+				<integer name="Amount" value="4"/>
+				<integer name="ArmorFront" value="360"/>
+				<integer name="ArmorSide" value="270"/>
+				<integer name="ArmorTop" value="150"/>
+				<string name="Building" value="Artillery"/>
+				<string name="Content" value="Rifles.Strasbourg_330mm_Stvol"/>
+				<integer name="Country" value="4"/>
+				<integer name="Elevation" value="35"/>
+				<integer name="ElevationRate" value="6"/>
+				<boolean name="IgnoreXMLFile" value="false"/>
+				<float name="Iron" value="750."/>
+				<float name="Money" value="40."/>
+				<boolean name="New" value="false"/>
+				<boolean name="Production" value="false"/>
+				<integer name="RotationRate" value="5"/>
+				<string name="SMU_File" value="Strasbourg_4x330mm_Turret_2V"/>
+				<string name="Type" value="Gun"/>
+				<float name="Vitality" value="1400."/>
+				<float name="Weight" value="1473."/>
+			</object>
+		</object>
+		<object name="Hit_Location">
+			<object name="Str7818">
+				<integer name="Country" value="4"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_Turret_RF"/>
+				<string name="Name" value="RRAngefinder"/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="Strasbourg_4x330mm_Turret_1V"/>
+			</object>
+			<object name="Str7819">
+				<integer name="Country" value="4"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_Turret_RF"/>
+				<string name="Name" value="LRangefinder"/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="Strasbourg_4x330mm_Turret_1V"/>
+			</object>
+			<object name="Str7820">
+				<integer name="Country" value="4"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Strasbourg_MTurretx4"/>
+				<string name="Name" value="Turret"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="Strasbourg_4x330mm_Turret_1V"/>
+			</object>
+			<object name="Str7821">
+				<integer name="Country" value="4"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Strasbourg_MTShakegebanx4"/>
+				<string name="Name" value="Shakegeban"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Strasbourg_4x330mm_Turret_1V"/>
+			</object>
+			<object name="Str2V7818">
+				<integer name="Country" value="4"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_Turret_RF"/>
+				<string name="Name" value="RRAngefinder"/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="Strasbourg_4x330mm_Turret_2V"/>
+			</object>
+			<object name="Str2V7819">
+				<integer name="Country" value="4"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_Turret_RF"/>
+				<string name="Name" value="LRangefinder"/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="Strasbourg_4x330mm_Turret_2V"/>
+			</object>
+			<object name="Str2V7820">
+				<integer name="Country" value="4"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Strasbourg_MTurretx4"/>
+				<string name="Name" value="Turret"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="Strasbourg_4x330mm_Turret_2V"/>
+			</object>
+			<object name="Str2V7821">
+				<integer name="Country" value="4"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Strasbourg_MTShakegebanx4"/>
+				<string name="Name" value="Shakegeban"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Strasbourg_4x330mm_Turret_2V"/>
+			</object>
+		</object>
+		<object name="Hulls">
+			<object name="Strasbourg_MTurretx4">
+				<integer name="Back" value="330"/>
+				<integer name="Bottom" value="250"/>
+				<integer name="Country" value="4"/>
+				<float name="ExplProb" value="10."/>
+				<float name="FireProb" value="20."/>
+				<integer name="Front" value="360"/>
+				<integer name="Left" value="310"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="310"/>
+				<integer name="Top" value="170"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Turret"/>
+			</object>
+			<object name="Strasbourg_MTShakegebanx4">
+				<integer name="Back" value="200"/>
+				<integer name="Bottom" value="100"/>
+				<integer name="Country" value="4"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="10."/>
+				<integer name="Front" value="360"/>
+				<integer name="Left" value="310"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="310"/>
+				<integer name="Top" value="170"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Turret"/>
+			</object>
+		</object>
+	</object>
+</root>

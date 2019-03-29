@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" standalone="yes" ?>
+<root>
+	<object name="Scharnhorst_Katapult">
+		<object name="Airstrip_Points">
+			<object name="LandingEntry">
+				<object name="Translate">
+					<float name="X" value="0."/>
+					<float name="Y" value="4.16399607"/>
+					<float name="Z" value="0."/>
+				</object>
+			</object>
+			<object name="LandingStop">
+				<object name="Translate">
+					<float name="X" value="0."/>
+					<float name="Y" value="6.66399607"/>
+					<float name="Z" value="0."/>
+				</object>
+			</object>
+			<object name="TakeOffExit">
+				<object name="Translate">
+					<float name="X" value="3.48878182"/>
+					<float name="Y" value="4.16399607"/>
+					<float name="Z" value="0."/>
+				</object>
+			</object>
+		</object>
+		<object name="Components">
+			<object name="Katapulta">
+				<object name="DynamicData">
+					<object name="ComponentCG">
+						<float name="X" value="0.512706409"/>
+						<float name="Y" value="2.33199804"/>
+						<float name="Z" value="0."/>
+					</object>
+					<object name="ComponentInertia">
+						<float name="X" value="0."/>
+						<float name="Y" value="0."/>
+						<float name="Z" value="0."/>
+					</object>
+					<float name="Mass" value="0.100000002"/>
+					<integer name="ProfileID" value="0"/>
+				</object>
+				<string name="Mesh" value="Scharnhorst_Katapult.mesh"/>
+				<object name="SubComponents">
+					<object name="Dummy_start">
+						<string name="Mesh" value="Dorsetshire_Katapulta_Dummy_start.mesh"/>
+						<object name="SPort">
+							<float name="DelayAfterTime" value="0."/>
+							<float name="DelayTime" value="0."/>
+							<float name="FullTime" value="1."/>
+							<string name="MovableSet" value="takeoff"/>
+							<string name="OptionalTimeline" value=""/>
+							<object name="Point1">
+								<float name="X" value="0."/>
+								<float name="Y" value="4.16399607"/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Point2">
+								<float name="X" value="3.48878182"/>
+								<float name="Y" value="4.16399607"/>
+								<float name="Z" value="0."/>
+							</object>
+							<float name="PortMaxValue" value="1."/>
+							<float name="PortMinValue" value="0."/>
+							<string name="PortMoType" value="Slide"/>
+						</object>
+						<string name="Type" value="Mesh"/>
+						<boolean name="Visible" value="true"/>
+					</object>
+				</object>
+				<string name="Type" value="Mesh"/>
+				<boolean name="Visible" value="true"/>
+			</object>
+		</object>
+		<object name="Flags">
+			<string name="Nation" value="jap"/>
+			<string name="Type" value="catapulta"/>
+			<boolean name="Updatable" value="true"/>
+		</object>
+		<boolean name="OverridePlaneLODs" value="true"/>
+		<string name="PlaneAttachNodeName" value="Dummy_start"/>
+		<object name="Ports"/>
+		<string name="Prefix" value="Scharnhorst_Katapult"/>
+		<boolean name="ShowPlaneAlways" value="true"/>
+		<string name="TakeoffMoovableSet" value="takeoff"/>
+	</object>
+</root>

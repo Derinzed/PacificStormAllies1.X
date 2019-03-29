@@ -1,0 +1,137 @@
+<?xml version="1.0" standalone="yes" ?>
+<root>
+	<object name="Krym_Katapulta">
+		<object name="Airstrip_Points">
+			<object name="LandingEntry">
+				<object name="Translate">
+					<float name="X" value="-6.217"/>
+					<float name="Y" value="1.573"/>
+					<float name="Z" value="0."/>
+				</object>
+			</object>
+			<object name="LandingStop">
+				<object name="Translate">
+					<float name="X" value="-6.217"/>
+					<float name="Y" value="1.573"/>
+					<float name="Z" value="0."/>
+				</object>
+			</object>
+			<object name="TakeOffExit">
+				<object name="Translate">
+					<float name="X" value="11.336"/>
+					<float name="Y" value="1.573"/>
+					<float name="Z" value="0."/>
+				</object>
+			</object>
+		</object>
+		<object name="Components">
+			<object name="Katapulta">
+				<object name="DynamicData">
+					<float name="Area" value="1."/>
+					<object name="ComponentCG">
+						<float name="X" value="0.264919281"/>
+						<float name="Y" value="1.91408795"/>
+						<float name="Z" value="0."/>
+					</object>
+					<object name="ComponentInertia">
+						<float name="X" value="0."/>
+						<float name="Y" value="0."/>
+						<float name="Z" value="0."/>
+					</object>
+					<float name="DihedralAngle" value="0."/>
+					<float name="IncidenceAngle" value="0."/>
+					<float name="Mass" value="0.100000002"/>
+					<integer name="ProfileID" value="0"/>
+				</object>
+				<string name="Mesh" value="Katapulta_Katapulta.mesh"/>
+				<object name="SubComponents">
+					<object name="Dport_01">
+						<string name="ConcreteType" value="DPort"/>
+						<string name="PortHolder" value=""/>
+						<string name="PortType" value="Pole_K"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="90."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="14."/>
+								<float name="Y" value="14."/>
+								<float name="Z" value="2.7"/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="0."/>
+								<float name="Y" value="-1.1"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="Dummy_start">
+						<string name="Mesh" value="Katapulta_Dummy_start.mesh"/>
+						<object name="SPort">
+							<float name="DelayAfterTime" value="0."/>
+							<float name="DelayTime" value="0."/>
+							<float name="FullTime" value="1."/>
+							<string name="MovableSet" value="takeoff"/>
+							<string name="OptionalTimeline" value="0.0; 1.0-p2"/>
+							<object name="Point1">
+								<float name="X" value="-1.60309375"/>
+								<float name="Y" value="2.65502423"/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Point2">
+								<float name="X" value="6.79381251"/>
+								<float name="Y" value="2.81004846"/>
+								<float name="Z" value="0."/>
+							</object>
+							<float name="PortMaxValue" value="30."/>
+							<float name="PortMinValue" value="0."/>
+							<string name="PortMoType" value="Slide"/>
+						</object>
+						<string name="Type" value="Mesh"/>
+						<boolean name="Visible" value="true"/>
+					</object>
+				</object>
+				<string name="Type" value="Mesh"/>
+				<boolean name="Visible" value="true"/>
+			</object>
+		</object>
+		<object name="Flags">
+			<string name="Nation" value="jap"/>
+			<string name="Type" value="catapulta"/>
+			<boolean name="Updatable" value="true"/>
+		</object>
+		<boolean name="OverridePlaneLODs" value="true"/>
+		<string name="PlaneAttachNodeName" value="Dummy_start"/>
+		<object name="Ports">
+			<object name="DPort_01">
+				<string name="ConcreteType" value="DPort"/>
+				<string name="PortHolder" value=""/>
+				<string name="PortType" value="Pole_K"/>
+				<object name="Transform">
+					<object name="Rotate">
+						<float name="X" value="90."/>
+						<float name="Y" value="0."/>
+						<float name="Z" value="0."/>
+					</object>
+					<object name="Scale">
+						<float name="X" value="14."/>
+						<float name="Y" value="14."/>
+						<float name="Z" value="2.7"/>
+					</object>
+					<object name="Translate">
+						<float name="X" value="0."/>
+						<float name="Y" value="-1.1"/>
+						<float name="Z" value="0."/>
+					</object>
+				</object>
+				<string name="Type" value="Port"/>
+			</object>
+		</object>
+		<string name="Prefix" value="Krym_Katapulta"/>
+		<boolean name="ShowPlaneAlways" value="true"/>
+		<string name="TakeoffMoovableSet" value="takeoff"/>
+	</object>
+</root>

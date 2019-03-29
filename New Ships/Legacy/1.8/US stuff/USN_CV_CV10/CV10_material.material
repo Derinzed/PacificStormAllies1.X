@@ -1,0 +1,272 @@
+material CV10_blue
+{
+	technique
+	{
+		pass
+		{
+			ambient 1. 1. 1.
+			scene_blend one zero
+
+			texture_unit
+			{
+				texture CV10_blue.dds
+				filtering trilinear
+			}
+		}
+
+		pass
+		{
+			ambient 1 1 1
+			scene_blend add
+			lighting off
+
+			fog_override true none
+			texture_unit
+			{
+				texture CV10_blue_spec.dds
+				filtering trilinear
+			}
+			texture_unit
+			{
+				cubic_texture shipenvmap.dds combinedUVW
+				env_map cubic_reflection
+				tex_address_mode clamp
+				colour_op_ex modulate src_texture src_current
+			}
+		}
+	}
+}
+
+material CV10_Lblue
+{
+	technique
+	{
+		pass
+		{
+			ambient 1. 1. 1.
+			scene_blend one zero
+
+			texture_unit
+			{
+				texture CV10_Lblue.dds
+				filtering trilinear
+			}
+		}
+
+		pass
+		{
+			ambient 1 1 1
+			scene_blend add
+			lighting off
+
+			fog_override true none
+			texture_unit
+			{
+				texture CV10_Lblue_spec.dds
+				filtering trilinear
+			}
+			texture_unit
+			{
+				cubic_texture shipenvmap.dds combinedUVW
+				env_map cubic_reflection
+				tex_address_mode clamp
+				colour_op_ex modulate src_texture src_current
+			}
+		}
+	}
+}
+
+material CV10_Dblue
+{
+	technique
+	{
+		pass
+		{
+			ambient 1. 1. 1.
+			scene_blend one zero
+
+			texture_unit
+			{
+				texture CV10_Dblue.dds
+				filtering trilinear
+			}
+		}
+
+		pass
+		{
+			ambient 1 1 1
+			scene_blend add
+			lighting off
+
+			fog_override true none
+			texture_unit
+			{
+				texture CV10_Dblue_spec.dds
+				filtering trilinear
+			}
+			texture_unit
+			{
+				cubic_texture shipenvmap.dds combinedUVW
+				env_map cubic_reflection
+				tex_address_mode clamp
+				colour_op_ex modulate src_texture src_current
+			}
+		}
+	}
+}
+
+material CV10_grey
+{
+	technique
+	{
+		pass
+		{
+			ambient 1. 1. 1.
+			scene_blend one zero
+
+			texture_unit
+			{
+				texture CV10_grey.dds
+				filtering trilinear
+			}
+		}
+
+		pass
+		{
+			ambient 1 1 1
+			scene_blend add
+			lighting off
+
+			fog_override true none
+			texture_unit
+			{
+				texture CV10_grey_spec.dds
+				filtering trilinear
+			}
+			texture_unit
+			{
+				cubic_texture shipenvmap.dds combinedUVW
+				env_map cubic_reflection
+				tex_address_mode clamp
+				colour_op_ex modulate src_texture src_current
+			}
+		}
+	}
+}
+
+material CV10_dark
+{
+	technique
+	{
+		pass
+		{
+			ambient 1. 1. 1.
+			scene_blend one zero
+
+			texture_unit
+			{
+				texture CV10_dark.dds
+				filtering trilinear
+			}
+		}
+
+		pass
+		{
+			ambient 1 1 1
+			scene_blend add
+			lighting off
+
+			fog_override true none
+			texture_unit
+			{
+				texture CV10_dark_spec.dds
+				filtering trilinear
+			}
+			texture_unit
+			{
+				cubic_texture shipenvmap.dds combinedUVW
+				env_map cubic_reflection
+				tex_address_mode clamp
+				colour_op_ex modulate src_texture src_current
+			}
+		}
+	}
+}
+
+material CV10_desk
+{
+	technique
+	{
+		pass
+		{
+			ambient 1. 1. 1.
+			scene_blend one zero
+
+			texture_unit
+			{
+				texture CV10_desk.dds
+				filtering trilinear
+			}
+		}
+
+		pass
+		{
+			ambient 1 1 1
+			scene_blend add
+			lighting off
+
+			fog_override true none
+			texture_unit
+			{
+				texture CV10_desk_spec.dds
+				filtering trilinear
+			}
+			texture_unit
+			{
+				cubic_texture shipenvmap.dds combinedUVW
+				env_map cubic_reflection
+				tex_address_mode clamp
+				colour_op_ex modulate src_texture src_current
+			}
+		}
+	}
+}
+
+material CV10_red
+{
+	technique
+	{
+		pass
+		{
+			ambient 1. 1. 1.
+			scene_blend one zero
+
+			texture_unit
+			{
+				texture CV10_red.dds
+				filtering trilinear
+			}
+		}
+
+		pass
+		{
+			ambient 1 1 1
+			scene_blend add
+			lighting off
+
+			fog_override true none
+			texture_unit
+			{
+				texture CV10_red_spec.dds
+				filtering trilinear
+			}
+			texture_unit
+			{
+				cubic_texture shipenvmap.dds combinedUVW
+				env_map cubic_reflection
+				tex_address_mode clamp
+				colour_op_ex modulate src_texture src_current
+			}
+		}
+	}
+}

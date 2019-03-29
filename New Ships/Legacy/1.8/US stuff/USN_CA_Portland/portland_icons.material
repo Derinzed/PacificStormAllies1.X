@@ -1,0 +1,59 @@
+material SL/Units/PDIcons_portland
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				texture portland_iconPD.png
+			}
+		}
+	}
+}
+
+material SL/Units/PEIcons_portland
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				texture portland_iconPE.png
+			}
+		}
+	}
+}
+
+material SL/Units/Icons_portland
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				texture portland_icon.png
+			}
+		}
+	}
+}

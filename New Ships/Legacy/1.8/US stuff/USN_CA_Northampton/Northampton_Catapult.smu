@@ -1,0 +1,85 @@
+<?xml version="1.0" standalone="yes" ?>
+<root>
+	<object name="Northampton_Catapult">
+		<object name="Airstrip_Points">
+			<object name="LandingEntry">
+				<object name="Translate">
+					<float name="X" value="0."/>
+					<float name="Y" value="8.6"/>
+					<float name="Z" value="0."/>
+				</object>
+			</object>
+			<object name="LandingStop">
+				<object name="Translate">
+					<float name="X" value="-5.62"/>
+					<float name="Y" value="8.6"/>
+					<float name="Z" value="0."/>
+				</object>
+			</object>
+			<object name="TakeOffExit">
+				<object name="Translate">
+					<float name="X" value="16.295"/>
+					<float name="Y" value="8.6"/>
+					<float name="Z" value="0."/>
+				</object>
+			</object>
+		</object>
+		<object name="Components">
+			<object name="Katapulta">
+				<object name="DynamicData">
+					<object name="ComponentCG">
+						<float name="X" value="2.34294605"/>
+						<float name="Y" value="1.35075188"/>
+						<float name="Z" value="4.76837158e-007"/>
+					</object>
+					<object name="ComponentInertia">
+						<float name="X" value="0."/>
+						<float name="Y" value="0."/>
+						<float name="Z" value="0."/>
+					</object>
+					<float name="Mass" value="0.100000002"/>
+				</object>
+				<string name="Mesh" value="Northampton_Catapult_mesh.mesh"/>
+				<object name="SubComponents">
+					<object name="Dummy_start">
+						<string name="Mesh" value="Katapulta_Dummy_start.mesh"/>
+						<object name="SPort">
+							<float name="DelayAfterTime" value="0."/>
+							<float name="DelayTime" value="0."/>
+							<float name="FullTime" value="1."/>
+							<string name="MovableSet" value="takeoff"/>
+							<string name="OptionalTimeline" value="0.0; 1.0-p2"/>
+							<object name="Point1">
+								<float name="X" value="-5.62"/>
+								<float name="Y" value="8.6"/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Point2">
+								<float name="X" value="16.295"/>
+								<float name="Y" value="8.6"/>
+								<float name="Z" value="0."/>
+							</object>
+							<float name="PortMaxValue" value="30."/>
+							<float name="PortMinValue" value="0."/>
+							<string name="PortMoType" value="Slide"/>
+						</object>
+						<string name="Type" value="Mesh"/>
+						<boolean name="Visible" value="true"/>
+					</object>
+				</object>
+				<string name="Type" value="Mesh"/>
+				<boolean name="Visible" value="true"/>
+			</object>
+		</object>
+		<object name="Flags">
+			<string name="Type" value="catapulta"/>
+			<boolean name="Updatable" value="true"/>
+		</object>
+		<boolean name="OverridePlaneLODs" value="true"/>
+		<string name="PlaneAttachNodeName" value="Dummy_start"/>
+		<object name="Ports"/>
+		<string name="Prefix" value="Northampton_Catapult"/>
+		<boolean name="ShowPlaneAlways" value="true"/>
+		<string name="TakeoffMoovableSet" value="takeoff"/>
+	</object>
+</root>

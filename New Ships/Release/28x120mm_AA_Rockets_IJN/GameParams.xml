@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" standalone="yes" ?>
+<root>
+	<object name="SteelMonstersParams">
+		<object name="Ammos">
+			<object name="Proj_AA_120_J_HE">
+				<string name="AmmoType" value="Projectile"/>
+				<float name="Caliber" value="120."/>
+				<integer name="Country" value="2"/>
+				<float name="DamageRadius" value="8."/>
+				<float name="EPR" value="0."/>
+				<float name="MaxHeight" value="0."/>
+				<integer name="MaxSpeed" value="0"/>
+				<string name="Mesh_or_SMU" value="bomb_shell"/>
+				<boolean name="New" value="true"/>
+				<boolean name="Production" value="false"/>
+				<float name="Range" value="0."/>
+				<boolean name="SLMissile" value="false"/>
+				<integer name="StartSpeed" value="0"/>
+				<boolean name="TorpedoForShip" value="false"/>
+				<integer name="Unreliability" value="2"/>
+				<string name="WarHeadTyp" value="HE"/>
+				<float name="Weight" value="1.25e-002"/>
+				<float name="WeightExplosive" value="1.2e-003"/>
+			</object>
+		</object>
+		<object name="Rifles">
+			<object name="Japan_AARocket_127x28_Stvol">
+				<float name="AARange" value="1.5"/>
+				<string name="Ammo" value="Proj_AA_120_J"/>
+				<integer name="AmmoStorage" value="56"/>
+				<float name="AmmoWeight" value="12.5"/>
+				<float name="Caliber" value="120."/>
+				<integer name="Country" value="2"/>
+				<float name="Dispersion" value="16."/>
+				<integer name="FinalSpeed" value="189"/>
+				<string name="FireSound" value="Guns\MissileDrop"/>
+				<string name="HighExp" value="Proj_AA_120_J_HE"/>
+				<boolean name="IgnoreXMLFile" value="false"/>
+				<float name="Money" value="1.5"/>
+				<boolean name="New" value="false"/>
+				<float name="Range" value="4.8"/>
+				<float name="ROF" value="0.5"/>
+				<boolean name="SLLauncher" value="false"/>
+				<string name="SMU_File" value="Japan_AARocket_127x28_Stvol"/>
+				<integer name="StartSpeed" value="200"/>
+				<integer name="Unreliability" value="0"/>
+				<string name="Usage" value="Ships"/>
+				<float name="Weight" value="0.115"/>
+			</object>
+			<object name="Japan_AARocket_127x28_Stvolx">
+				<float name="AARange" value="1.5"/>
+				<string name="Ammo" value="Proj_AA_120_J"/>
+				<integer name="AmmoStorage" value="56"/>
+				<float name="AmmoWeight" value="12.5"/>
+				<float name="Caliber" value="120."/>
+				<integer name="Country" value="2"/>
+				<float name="Dispersion" value="16."/>
+				<integer name="FinalSpeed" value="189"/>
+				<string name="FireSound" value="Guns\MissileDrop"/>
+				<string name="HighExp" value="Proj_AA_120_J_HE"/>
+				<boolean name="IgnoreXMLFile" value="false"/>
+				<float name="Money" value="1.5"/>
+				<boolean name="New" value="false"/>
+				<float name="Range" value="4.8"/>
+				<float name="ROF" value="0.5"/>
+				<boolean name="SLLauncher" value="false"/>
+				<string name="SMU_File" value="Dummy_Gun_Stvol"/>
+				<integer name="StartSpeed" value="200"/>
+				<integer name="Unreliability" value="0"/>
+				<string name="Usage" value="Ships"/>
+				<float name="Weight" value="0.115"/>
+			</object>						
+		</object>
+		<object name="Turrets">
+			<object name="Japan_AARocket_127x28_Turret">
+				<integer name="Amount" value="28"/>
+				<integer name="ArmorFront" value="20"/>
+				<integer name="ArmorSide" value="20"/>
+				<integer name="ArmorTop" value="20"/>
+				<string name="Content" value="Rifles.Japan_AARocket_127x28_Stvol"/>
+				<integer name="Country" value="2"/>
+				<integer name="Elevation" value="80"/>
+				<integer name="ElevationRate" value="18"/>
+				<boolean name="IgnoreXMLFile" value="false"/>
+				<float name="Iron" value="8.5e-002"/>
+				<float name="Money" value="2.5"/>
+				<boolean name="New" value="true"/>
+				<boolean name="Production" value="false"/>
+				<integer name="RotationRate" value="45"/>
+				<string name="SMU_File" value="Japan_AARocket_127x28_Turret"/>
+				<string name="Type" value="Gun"/>
+				<float name="Vitality" value="5."/>
+				<float name="Weight" value="8.5e-002"/>
+			</object>
+		</object>
+		<object name="Hit_Location">
+			<object name="JR7813">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="10."/>
+				<string name="Hull" value="Japan_Rockets"/>
+				<string name="Name" value="Turret"/>
+				<float name="Param_1" value="0.25"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="Japan_AARocket_127x28_Turret"/>
+			</object>
+		</object>
+		<object name="Hulls">
+		<object name="Japan_Rockets">
+				<integer name="Back" value="20"/>
+				<integer name="Bottom" value="20"/>
+				<integer name="Country" value="2"/>
+				<float name="ExplProb" value="80."/>
+				<float name="FireProb" value="90."/>
+				<integer name="Front" value="20"/>
+				<integer name="Left" value="20"/>
+				<string name="Material" value="Steel"/>
+				<integer name="Right" value="20"/>
+				<integer name="Top" value="20"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Turret"/>
+			</object>
+		</object>
+	</object>
+</root>

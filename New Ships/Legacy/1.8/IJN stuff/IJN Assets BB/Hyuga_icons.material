@@ -1,0 +1,63 @@
+material SL/Units/PDIcons_Hyuga
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				texture Hyuga_iconPD.png
+			}
+		}
+	}
+}
+
+
+material SL/Units/PEIcons_Hyuga
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				texture Hyuga_iconPE.png
+			}
+		}
+	}
+}
+
+
+material SL/Units/Icons_Hyuga
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				texture Hyuga_icon.png
+			}
+		}
+	}
+}
+
+

@@ -1,0 +1,842 @@
+<?xml version="1.0" standalone="yes" ?>
+<root>
+	<object name="SteelMonstersParams">
+		<object name="Ships">
+			<object name="Essex">
+				<float name="AccelRate" value="3.e-004"/>
+				<string name="Airgroup" value="AircraftCarrier_Group_usa"/>
+				<integer name="AirplanesCount" value="100"/>
+				<string name="AmmoLoadingTemplate" value="Ammo 550, Torp_US_Mk13 72, Torp_US_Mk13_M_I 72, Torp_US_Mk13_A_SA 72, Bat_ASM2_SAR 72, Gargoyle_R 5, Gargoyle_P 5, Gargoyle_SAR 5, HVAR_GP 576"/>
+				<integer name="Avia" value="2"/>
+				<boolean name="BoatsTransportationAbility" value="false"/>
+				<integer name="CabinArmor" value="51"/>
+				<boolean name="CanBeChanged" value="true"/>
+				<boolean name="CanUseTorpedos" value="false"/>
+				<integer name="Country" value="1"/>
+				<integer name="Crew" value="2900"/>
+				<float name="CriticalCareen" value="37."/>
+				<float name="CriticalDFT" value="2.73"/>
+				<float name="CriticalDifferent" value="2.5"/>
+				<float name="DTimeProd" value="130."/>
+				<float name="DisplacementMax" value="27200."/>
+				<float name="EPR" value="705."/>
+				<float name="FireRisk" value="1600."/>
+				<float name="Fuel" value="6330."/>
+				<float name="HLShapeCoef" value="1.55"/>
+				<integer name="HullArmorSide" value="102"/>
+				<integer name="HullArmorTop" value="120"/>
+				<float name="Iron" value="27200."/>
+				<integer name="Length" value="266"/>
+				<float name="MaxSpeed" value="33."/>
+				<integer name="MinCrew" value="1395"/>
+				<float name="Money" value="35000."/>
+				<float name="NTimeProd" value="325."/>
+				<string name="Name" value="Essex"/>
+				<boolean name="New" value="false"/>
+				<integer name="Nuc_Dest_Prob" value="400"/>
+				<integer name="Passengers" value="100"/>
+				<boolean name="PlanesTransportationAbility" value="true"/>
+				<float name="Range" value="27800."/>
+				<integer name="Rank" value="1"/>
+				<string name="SMU" value="Essex"/>
+				<float name="Speed" value="15."/>
+				<float name="StoreCapacity" value="1600."/>
+				<boolean name="Transportable" value="false"/>
+				<float name="TurnRate" value="1.5e-003"/>
+				<integer name="Type" value="0"/>
+				<float name="Vitality" value="4500."/>
+				<float name="VitalityAA" value="1500."/>
+				<float name="Weight" value="27200."/>
+				<integer name="Width" value="45"/>
+				<integer name="Year" value="40"/>
+			</object>					 
+		</object>
+		<object name="Hit_Location">
+			<object name = "Essex_771">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Middle1_LBoiler"/>
+				<string name = "TypHL" value = "Boiler"/>
+				<string name = "Hull" value = "Std_Boiler"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_772">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Middle1_RBoiler"/>
+				<string name = "TypHL" value = "Boiler"/>
+				<string name = "Hull" value = "Std_Boiler"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_785">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Mover2"/>
+				<string name = "TypHL" value = "Mover"/>
+				<string name = "Hull" value = "Std_Mover"/>
+				<string name = "ConnectName" value = "Middle2_REngine"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_794">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Stern_UpperDeck"/>
+				<string name = "TypHL" value = "Hull"/>
+				<string name = "Hull" value = "Std_UpperHull"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_795">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Mover4"/>
+				<string name = "TypHL" value = "Mover"/>
+				<string name = "Hull" value = "Std_Mover"/>
+				<string name = "ConnectName" value = "Middle4_REngine"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_796">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Mover3"/>
+				<string name = "TypHL" value = "Mover"/>
+				<string name = "Hull" value = "Std_Mover"/>
+				<string name = "ConnectName" value = "Middle4_LEngine"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_797">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Mover1"/>
+				<string name = "TypHL" value = "Mover"/>
+				<string name = "Hull" value = "Std_Mover"/>
+				<string name = "ConnectName" value = "Middle2_LEngine"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_822">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Middle1_MiddleDeck"/>
+				<string name = "TypHL" value = "Hull"/>
+				<string name = "Hull" value = "Essex_Hungur"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_825">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Middle2_RAMP"/>
+				<string name = "TypHL" value = "Hull"/>
+				<string name = "Hull" value = "Std_RAMP"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_826">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Middle2_LBelt"/>
+				<string name = "TypHL" value = "Hull"/>
+				<string name = "Hull" value = "Essex_LBelt"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_827">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Middle2_RBelt"/>
+				<string name = "TypHL" value = "Hull"/>
+				<string name = "Hull" value = "Essex_RBelt"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_828">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Middle1_2_Hungur"/>
+				<string name = "TypHL" value = "Hull"/>
+				<string name = "Hull" value = "Std_Hull"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_829">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Middle1_LBelt"/>
+				<string name = "TypHL" value = "Hull"/>
+				<string name = "Hull" value = "Essex_LBelt"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_830">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Middle1_LAMP"/>
+				<string name = "TypHL" value = "Hull"/>
+				<string name = "Hull" value = "Std_LAMP"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_831">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Middle1_RBottom"/>
+				<string name = "TypHL" value = "Hull"/>
+				<string name = "Hull" value = "Std_Hull"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_832">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Middle1_RAMP"/>
+				<string name = "TypHL" value = "Hull"/>
+				<string name = "Hull" value = "Std_RAMP"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_833">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Middle1_RBelt"/>
+				<string name = "TypHL" value = "Hull"/>
+				<string name = "Hull" value = "Essex_RBelt"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_835">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Middle3_RBottom"/>
+				<string name = "TypHL" value = "Hull"/>
+				<string name = "Hull" value = "Std_Hull"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_836">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Bow2_LowerDeck"/>
+				<string name = "TypHL" value = "Hull"/>
+				<string name = "Hull" value = "Std_Hull"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_837">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Middle2_LAMP"/>
+				<string name = "TypHL" value = "Hull"/>
+				<string name = "Hull" value = "Std_LAMP"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_838">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Bow2_MiddleDeck"/>
+				<string name = "TypHL" value = "Hull"/>
+				<string name = "Hull" value = "Essex_Hungur"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_839">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "DamageControl"/>
+				<string name = "TypHL" value = "Probe"/>
+				<string name = "Hull" value = "Std_Probe"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_840">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Bow_AmmoStore"/>
+				<string name = "TypHL" value = "AmmoStore"/>
+				<string name = "Hull" value = "Std_AS_T1"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_841">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Bow2_LBelt"/>
+				<string name = "TypHL" value = "Hull"/>
+				<string name = "Hull" value = "Essex_LBelt"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_842">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Bow2_RBelt"/>
+				<string name = "TypHL" value = "Hull"/>
+				<string name = "Hull" value = "Essex_RBelt"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_843">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Bow2_Hungur"/>
+				<string name = "TypHL" value = "Hull"/>
+				<string name = "Hull" value = "Std_Hull"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_845">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Stern_Elevator"/>
+				<string name = "TypHL" value = "Hull"/>
+				<string name = "Hull" value = "Std_Hull"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_846">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Middle3_LBottom"/>
+				<string name = "TypHL" value = "Hull"/>
+				<string name = "Hull" value = "Std_Hull"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_847">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Middle3_RAMP"/>
+				<string name = "TypHL" value = "Hull"/>
+				<string name = "Hull" value = "Std_RAMP"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_848">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Bow_Elevator"/>
+				<string name = "TypHL" value = "Hull"/>
+				<string name = "Hull" value = "Std_Hull"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_849">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "ConingBridge"/>
+				<string name = "TypHL" value = "Crew"/>
+				<string name = "Hull" value = "Std_Hull"/>
+				<integer name = "Crew" value = "1550"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_850">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Bow2_LBottom"/>
+				<string name = "TypHL" value = "Hull"/>
+				<string name = "Hull" value = "Std_Hull"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_851">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Bow1_FlightDeck"/>
+				<string name = "TypHL" value = "Hull"/>
+				<string name = "Hull" value = "Std_UpperHull"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_852">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Bow2_FlightDeck"/>
+				<string name = "TypHL" value = "Hull"/>
+				<string name = "Hull" value = "Std_UpperHull"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_853">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Middle1_2_FlightDeck"/>
+				<string name = "TypHL" value = "Hull"/>
+				<string name = "Hull" value = "Std_UpperHull"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_854">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Middle3_4_FlightDeck"/>
+				<string name = "TypHL" value = "Hull"/>
+				<string name = "Hull" value = "Std_UpperHull"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_855">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Stern_FlightDeck"/>
+				<string name = "TypHL" value = "Hull"/>
+				<string name = "Hull" value = "Std_UpperHull"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_856">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "BattleCabin"/>
+				<string name = "TypHL" value = "Hull"/>
+				<string name = "Hull" value = "Std_UpperHull"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_857">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Radio"/>
+				<string name = "TypHL" value = "Probe"/>
+				<string name = "Hull" value = "Std_Probe"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_858">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Radar"/>
+				<string name = "TypHL" value = "Probe"/>
+				<string name = "Hull" value = "Std_Probe"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_859">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Probe_AAGun"/>
+				<string name = "TypHL" value = "Probe"/>
+				<string name = "Hull" value = "Std_Probe"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_860">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Middle2_RBottom"/>
+				<string name = "TypHL" value = "Hull"/>
+				<string name = "Hull" value = "Std_Hull"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_861">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "OperationalControl"/>
+				<string name = "TypHL" value = "Crew"/>
+				<string name = "Hull" value = "Std_Probe"/>
+				<integer name = "Crew" value = "1550"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_862">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Rudder"/>
+				<string name = "TypHL" value = "Rudder"/>
+				<string name = "Hull" value = "Std_Rudder"/>
+				<string name = "ConnectName" value = "Tiller"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_863">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Bow_Hungur"/>
+				<string name = "TypHL" value = "Hull"/>
+				<string name = "Hull" value = "Std_Hull"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_865">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Middle2_EnginesCover"/>
+				<string name = "TypHL" value = "Hull"/>
+				<string name = "Hull" value = "Std_EngineHull"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_866">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Middle2_REngine"/>
+				<string name = "TypHL" value = "Engine"/>
+				<string name = "Hull" value = "Std_Engine"/>
+				<string name = "ConnectName" value = "Middle1_RBoiler"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_867">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Middle2_LEngine"/>
+				<string name = "TypHL" value = "Engine"/>
+				<string name = "Hull" value = "Std_Engine"/>
+				<string name = "ConnectName" value = "Middle1_LBoiler"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_868">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Middle2_MiddleDeck"/>
+				<string name = "TypHL" value = "Hull"/>
+				<string name = "Hull" value = "Essex_Hungur"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_869">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Middle1_BoilersCover"/>
+				<string name = "TypHL" value = "Hull"/>
+				<string name = "Hull" value = "Std_BoilerHull"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_870">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Middle1_LBoiler"/>
+				<string name = "TypHL" value = "Boiler"/>
+				<string name = "Hull" value = "Std_Boiler"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_871">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Middle1_RBoiler"/>
+				<string name = "TypHL" value = "Boiler"/>
+				<string name = "Hull" value = "Std_Boiler"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_872">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Middle1_LBottom"/>
+				<string name = "TypHL" value = "Hull"/>
+				<string name = "Hull" value = "Std_Hull"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_873">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Bow2_FuelTank"/>
+				<string name = "TypHL" value = "FuelTank"/>
+				<string name = "Hull" value = "Std_FuelTank"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_1919">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Middle4_LAMP"/>
+				<string name = "TypHL" value = "Hull"/>
+				<string name = "Hull" value = "Std_LAMP"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_1920">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Middle3_LAMP"/>
+				<string name = "TypHL" value = "Hull"/>
+				<string name = "Hull" value = "Std_LAMP"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_1921">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Middle4_LBelt"/>
+				<string name = "TypHL" value = "Hull"/>
+				<string name = "Hull" value = "Essex_LBelt"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_1922">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Middle3_LBelt"/>
+				<string name = "TypHL" value = "Hull"/>
+				<string name = "Hull" value = "Essex_LBelt"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_1923">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Middle4_MiddleDeck"/>
+				<string name = "TypHL" value = "Hull"/>
+				<string name = "Hull" value = "Invalid_Hull"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_1924">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Middle3_MiddleDeck"/>
+				<string name = "TypHL" value = "Hull"/>
+				<string name = "Hull" value = "Essex_Hungur"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_1925">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Middle3_RBelt"/>
+				<string name = "TypHL" value = "Hull"/>
+				<string name = "Hull" value = "Essex_RBelt"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_1926">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Middle4_RBelt"/>
+				<string name = "TypHL" value = "Hull"/>
+				<string name = "Hull" value = "Essex_RBelt"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_1927">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Middle3_BoilerCover"/>
+				<string name = "TypHL" value = "Hull"/>
+				<string name = "Hull" value = "Std_BoilerHull"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_1928">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Middle3_RBoiler"/>
+				<string name = "TypHL" value = "Boiler"/>
+				<string name = "Hull" value = "Std_Boiler"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_1929">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Middle3_LBoiler"/>
+				<string name = "TypHL" value = "Boiler"/>
+				<string name = "Hull" value = "Std_Boiler"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_1930">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Middle4_EnginesCover"/>
+				<string name = "TypHL" value = "Hull"/>
+				<string name = "Hull" value = "Std_EngineHull"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_1931">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Middle4_REngine"/>
+				<string name = "TypHL" value = "Engine"/>
+				<string name = "Hull" value = "Std_Engine"/>
+				<string name = "ConnectName" value = "Middle3_RBoiler"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_1932">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Middle4_LEngine"/>
+				<string name = "TypHL" value = "Engine"/>
+				<string name = "Hull" value = "Std_Engine"/>
+				<string name = "ConnectName" value = "Middle3_LBoiler"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_1933">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Middle4_RAMP"/>
+				<string name = "TypHL" value = "Hull"/>
+				<string name = "Hull" value = "Std_RAMP"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_1934">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Middle4_RBottom"/>
+				<string name = "TypHL" value = "Hull"/>
+				<string name = "Hull" value = "Std_Hull"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_1935">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Middle4_LBottom"/>
+				<string name = "TypHL" value = "Hull"/>
+				<string name = "Hull" value = "Std_Hull"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_1936">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Middle3_4_Hungur"/>
+				<string name = "TypHL" value = "Hull"/>
+				<string name = "Hull" value = "Std_Hull"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_1937">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Bow1_LBottom"/>
+				<string name = "TypHL" value = "Hull"/>
+				<string name = "Hull" value = "Std_Hull"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_1938">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Bow1_RBottom"/>
+				<string name = "TypHL" value = "Hull"/>
+				<string name = "Hull" value = "Std_Hull"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_1939">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Bow2_RBottom"/>
+				<string name = "TypHL" value = "Hull"/>
+				<string name = "Hull" value = "Std_Hull"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_1940">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Middle2_LBottom"/>
+				<string name = "TypHL" value = "Hull"/>
+				<string name = "Hull" value = "Std_Hull"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_1941">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Bow1_LLowerDeck"/>
+				<string name = "TypHL" value = "Hull"/>
+				<string name = "Hull" value = "Std_Hull"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_1942">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Bow1_RLowerDeck"/>
+				<string name = "TypHL" value = "Hull"/>
+				<string name = "Hull" value = "Std_Hull"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_1943">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Stern_LowerDeck"/>
+				<string name = "TypHL" value = "Hull"/>
+				<string name = "Hull" value = "Std_Hull"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_1944">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Bow2_RAMP"/>
+				<string name = "TypHL" value = "Hull"/>
+				<string name = "Hull" value = "Std_RAMP"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_1945">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Bow2_LAMP"/>
+				<string name = "TypHL" value = "Hull"/>
+				<string name = "Hull" value = "Std_LAMP"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_1946">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Stern_MiddleDeck"/>
+				<string name = "TypHL" value = "Hull"/>
+				<string name = "Hull" value = "Invalid_Hull"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_1947">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Stern_AmmoStore"/>
+				<string name = "TypHL" value = "AmmoStore"/>
+				<string name = "Hull" value = "Std_AS_T1"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_1948">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Stern_AFuelTank"/>
+				<string name = "TypHL" value = "FuelTank"/>
+				<string name = "Hull" value = "Std_AFuelTank"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_1949">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Bow1_MiddleDeck"/>
+				<string name = "TypHL" value = "Hull"/>
+				<string name = "Hull" value = "Essex_Hungur"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_1950">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Bow_AFuelTank"/>
+				<string name = "TypHL" value = "FuelTank"/>
+				<string name = "Hull" value = "Std_AFuelTank"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_1951">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Bow1_UpperDeck"/>
+				<string name = "TypHL" value = "Hull"/>
+				<string name = "Hull" value = "Std_UpperHull"/>
+				<float name = "ER" value = "400"/>
+			</object>
+			<object name = "Essex_1952">
+				<string name = "UnitName" value = "Essex"/>
+				<integer name = "Country" value = "1"/>
+				<string name = "Name" value = "Stern_Hungur"/>
+				<string name = "TypHL" value = "Hull"/>
+				<string name = "Hull" value = "Std_Hull"/>
+				<float name = "ER" value = "400"/>
+			</object>
+		</object>
+		<object name="Hulls">
+			<object name = "Essex_Hungur">
+				<string name = "UnitTyp" value = "Ship"/>
+				<integer name = "UnitName" value = "157"/>
+				<integer name = "Country" value = "1"/>
+				<integer name = "Top" value = "64"/>
+				<integer name = "Bottom" value = "37"/>
+				<integer name = "Left" value = "1"/>
+				<integer name = "Right" value = "1"/>
+				<integer name = "Front" value = "1"/>
+				<integer name = "Back" value = "1"/>
+				<float name = "ExplProb" value = "0"/>
+				<float name = "FireProb" value = "20"/>
+				<string name = "Material" value = "Armored"/>
+			</object>
+			<object name = "Essex_LBelt">
+				<string name = "UnitTyp" value = "Ship"/>
+				<integer name = "UnitName" value = "157"/>
+				<integer name = "Country" value = "1"/>
+				<integer name = "Top" value = "1"/>
+				<integer name = "Bottom" value = "1"/>
+				<integer name = "Left" value = "100"/>
+				<integer name = "Right" value = "1"/>
+				<integer name = "Front" value = "1"/>
+				<integer name = "Back" value = "1"/>
+				<float name = "ExplProb" value = "0"/>
+				<float name = "FireProb" value = "0"/>
+				<string name = "Material" value = "Armored"/>
+			</object>
+			<object name = "Essex_RBelt">
+				<string name = "UnitTyp" value = "Ship"/>
+				<integer name = "UnitName" value = "157"/>
+				<integer name = "Country" value = "1"/>
+				<integer name = "Top" value = "1"/>
+				<integer name = "Bottom" value = "1"/>
+				<integer name = "Left" value = "1"/>
+				<integer name = "Right" value = "100"/>
+				<integer name = "Front" value = "1"/>
+				<integer name = "Back" value = "1"/>
+				<float name = "ExplProb" value = "0"/>
+				<float name = "FireProb" value = "0"/>
+				<string name = "Material" value = "Armored"/>
+			</object>		
+		</object>
+		<object name="Essex">
+				<string name="1" value="CV-9_Essex"/>
+				<string name="10" value="CV-18_Wasp"/>
+				<string name="11" value="CV-19_Hancock"/>
+				<string name="12" value="CV-20_Bennington"/>
+				<string name="13" value="CV-21_Boxer"/>
+				<string name="14" value="CV-31_Bon_Homme_Richard"/>
+				<string name="15" value="CV-36_Antietam"/>
+				<string name="16" value="CV-38_Shangri_La"/>
+				<string name="17" value="CV-39_Lake_Champlain"/>
+				<string name="2" value="CV-10_Yorktown"/>
+				<string name="3" value="CV-11_Intrepid"/>
+				<string name="4" value="CV-12_Hornet"/>
+				<string name="5" value="CV-13_Franklin"/>
+				<string name="6" value="CV-14_Ticonderoga"/>
+				<string name="7" value="CV-15_Randolph"/>
+				<string name="8" value="CV-16_Lexington"/>
+				<string name="9" value="CV-17_Bunker_Hill"/>
+			</object>
+		<object name="UnitsByType">
+			<object name="0">
+				<object name="Essex">
+					<string name="ChildTable" value="Ships"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</root>

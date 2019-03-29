@@ -1,0 +1,108 @@
+<?xml version="1.0" standalone="yes" ?>
+<root>
+	<object name="SteelMonstersParams">
+		<object name="Hit_Location">
+			<object name="NORTMG1">
+				<integer name="Country" value="1"/>
+				<float name="ER" value="50."/>
+				<string name="Hull" value="Std_Turret_RF"/>
+				<string name="Name" value="Rangefinder"/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="Northampton_203mm_Turret"/>
+			</object>
+			<object name="NORTMG2">
+				<integer name="Country" value="1"/>
+				<float name="ER" value="100."/>
+				<string name="Hull" value="Northampton_MTShakegeban"/>
+				<string name="Name" value="Shakegeban"/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="Northampton_203mm_Turret"/>
+			</object>
+			<object name="NORTMG3">
+				<integer name="Country" value="1"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Northampton_MTurret"/>
+				<string name="Name" value="Turret"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="Northampton_203mm_Turret"/>
+			</object>
+		</object>
+		<object name="Hulls">
+			<object name="Northampton_MTShakegeban">
+				<integer name="Back" value="19"/>
+				<integer name="Bottom" value="19"/>
+				<integer name="Country" value="1"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="10."/>
+				<integer name="Front" value="0"/>
+				<integer name="Left" value="19"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="19"/>
+				<integer name="Top" value="19"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Turret"/>
+			</object>
+			<object name="Northampton_MTurret">
+				<integer name="Back" value="19"/>
+				<integer name="Bottom" value="19"/>
+				<integer name="Country" value="1"/>
+				<float name="ExplProb" value="15."/>
+				<float name="FireProb" value="20."/>
+				<integer name="Front" value="64"/>
+				<integer name="Left" value="38"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="38"/>
+				<integer name="Top" value="19"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Turret"/>
+			</object>
+		</object>
+		<object name="Rifles">
+			<object name="Northampton_203mm_Gun">
+				<float name="AARange" value="0."/>
+				<string name="Ammo" value="Proj_N_203_U"/>
+				<integer name="AmmoStorage" value="280"/>
+				<float name="AmmoWeight" value="118."/>
+				<string name="ArmPiercing" value="Proj_N_203_U_AP"/>
+				<float name="Caliber" value="203."/>
+				<integer name="Country" value="1"/>
+				<float name="Dispersion" value="8."/>
+				<integer name="FinalSpeed" value="374"/>
+				<string name="FireSound" value="Guns\203mm"/>
+				<boolean name="IgnoreXMLFile" value="false"/>
+				<float name="Money" value="30."/>
+				<boolean name="New" value="false"/>
+				<float name="ROF" value="3.5"/>
+				<float name="Range" value="29.131"/>
+				<boolean name="SLLauncher" value="false"/>
+				<string name="SMU_File" value="Northampton_Turret_3x203_Stvol"/>
+				<integer name="StartSpeed" value="853"/>
+				<integer name="Unreliability" value="0"/>
+				<string name="Usage" value="Ships"/>
+				<float name="Weight" value="30.00"/>
+			</object>
+		</object>
+		<object name="Turrets">
+			<object name="Northampton_203mm_Turret">
+				<integer name="Amount" value="3"/>
+				<integer name="ArmorFront" value="64"/>
+				<integer name="ArmorSide" value="38"/>
+				<integer name="ArmorTop" value="19"/>
+				<string name="Content" value="Rifles.Northampton_203mm_Gun"/>
+				<integer name="Country" value="1"/>
+				<integer name="Elevation" value="41"/>
+				<integer name="ElevationRate" value="6"/>
+				<boolean name="IgnoreXMLFile" value="false"/>
+				<float name="Iron" value="300."/>
+				<float name="Money" value="250."/>
+				<boolean name="New" value="true"/>
+				<boolean name="Production" value="false"/>
+				<integer name="RotationRate" value="3.5"/>
+				<string name="SMU_File" value="Northampton_Turret_3x203"/>
+				<string name="Type" value="Gun"/>
+				<float name="Vitality" value="750."/>
+				<float name="Weight" value="294."/>
+			</object>
+		</object>
+	</object>
+</root>

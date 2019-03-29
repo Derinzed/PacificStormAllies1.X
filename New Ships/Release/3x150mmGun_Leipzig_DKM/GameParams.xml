@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" standalone="yes" ?>
+<root>
+	<object name="SteelMonstersParams">
+		<object name="Rifles">
+			<object name="150_Main_Gun_Leipzig">
+				<integer name="Country" value="5"/>
+				<string name="Usage" value="Ships"/>
+				<boolean name="SLLauncher" value="false"/>
+				<string name="SMU_File" value="150x3_Main_Gun_Leipzig_Stvol"/>
+				<boolean name="New" value="true"/>
+				<float name="Weight" value="11.97"/>
+				<float name="AmmoWeight" value="45.5"/>
+				<float name="Caliber" value="150."/>
+				<float name="ROF" value="12."/>
+				<integer name="StartSpeed" value="960"/>
+				<float name="Range" value="25.7"/>
+				<float name="AARange" value="0"/>
+				<integer name="FinalSpeed" value="300"/>
+				<integer name="AmmoStorage" value="150"/>
+				<integer name="Unreliability" value="0"/>
+				<float name="Money" value="9.2"/>
+				<float name="Dispersion" value="5."/>
+				<string name="HighExp" value="Proj_150_G_HE"/>
+				<string name="ArmPiercing" value="Proj_150_G_AP"/>
+				<string name="Ammo" value="Proj_150_G"/>
+				<string name="FireSound" value="Guns\152mm"/>
+				<boolean name="IgnoreXMLFile" value="false"/>
+			</object>
+		</object>
+		<object name="Turrets">
+			<object name="Main_Turret_150_Leipzig_Anton">
+				<integer name="Amount" value="3"/>
+				<integer name="ArmorFront" value="80"/>
+				<integer name="ArmorSide" value="20"/>
+				<integer name="ArmorTop" value="20"/>
+				<string name="Building" value="Artillery"/>
+				<string name="Content" value="Rifles.150_Main_Gun_Leipzig"/>
+				<integer name="Country" value="5"/>
+				<integer name="Elevation" value="40"/>
+				<integer name="ElevationRate" value="12"/>
+				<boolean name="IgnoreXMLFile" value="false"/>
+				<float name="Iron" value="26."/>
+				<float name="Money" value="6.5"/>
+				<boolean name="New" value="true"/>
+				<boolean name="Production" value="false"/>
+				<integer name="RotationRate" value="6"/>
+				<string name="SMU_File" value="150x3_Main_Gun_Leipzig_Anton"/>
+				<string name="Type" value="Gun"/>
+				<float name="Vitality" value="600."/>
+				<float name="Weight" value="147.15"/>
+			</object>
+			<object name="Main_Turret_150_Leipzig_Cesar">
+				<integer name="Amount" value="3"/>
+				<integer name="ArmorFront" value="80"/>
+				<integer name="ArmorSide" value="20"/>
+				<integer name="ArmorTop" value="20"/>
+				<string name="Building" value="Artillery"/>
+				<string name="Content" value="Rifles.150_Main_Gun_Leipzig"/>
+				<integer name="Country" value="5"/>
+				<integer name="Elevation" value="40"/>
+				<integer name="ElevationRate" value="12"/>
+				<boolean name="IgnoreXMLFile" value="false"/>
+				<float name="Iron" value="26."/>
+				<float name="Money" value="6.5"/>
+				<boolean name="New" value="true"/>
+				<boolean name="Production" value="false"/>
+				<integer name="RotationRate" value="6"/>
+				<string name="SMU_File" value="150x3_Main_Gun_Leipzig_Cesar"/>
+				<string name="Type" value="Gun"/>
+				<float name="Vitality" value="600."/>
+				<float name="Weight" value="147.15"/>
+			</object>
+			<object name="Main_Turret_150_Leipzig_Dora">
+				<integer name="Amount" value="3"/>
+				<integer name="ArmorFront" value="80"/>
+				<integer name="ArmorSide" value="20"/>
+				<integer name="ArmorTop" value="20"/>
+				<string name="Building" value="Artillery"/>
+				<string name="Content" value="Rifles.150_Main_Gun_Leipzig"/>
+				<integer name="Country" value="5"/>
+				<integer name="Elevation" value="40"/>
+				<integer name="ElevationRate" value="12"/>
+				<boolean name="IgnoreXMLFile" value="false"/>
+				<float name="Iron" value="26."/>
+				<float name="Money" value="6.5"/>
+				<boolean name="New" value="true"/>
+				<boolean name="Production" value="false"/>
+				<integer name="RotationRate" value="6"/>
+				<string name="SMU_File" value="150x3_Main_Gun_Leipzig_Dora"/>
+				<string name="Type" value="Gun"/>
+				<float name="Vitality" value="600."/>
+				<float name="Weight" value="147.15"/>
+			</object>
+		</object>
+		<object name="Hit_Location">
+			<object name="LeiA7828">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="30."/>
+				<string name="Hull" value="KClass_MTurret"/>
+				<string name="Name" value="Leipzig_152mm_Turret"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="Main_Turret_150_Leipzig_Anton"/>
+			</object>
+			<object name="LeiC7828">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="30."/>
+				<string name="Hull" value="KClass_MTurret"/>
+				<string name="Name" value="Leipzig_152mm_Turret"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="Main_Turret_150_Leipzig_Cesar"/>
+			</object>
+			<object name="LeiD7828">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="30."/>
+				<string name="Hull" value="KClass_MTurret"/>
+				<string name="Name" value="Leipzig_152mm_Turret"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="Main_Turret_150_Leipzig_Dora"/>
+			</object>
+		</object>
+		<object name="Hulls">
+			<object name="Leipzig_MTurret">
+				<integer name="Back" value="35"/>
+				<integer name="Bottom" value="50"/>
+				<integer name="Country" value="5"/>
+				<float name="ExplProb" value="20."/>
+				<float name="FireProb" value="20."/>
+				<integer name="Front" value="80"/>
+				<integer name="Left" value="25"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="25"/>
+				<integer name="Top" value="25"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Turret"/>
+			</object>
+		</object>
+	</object>
+</root>

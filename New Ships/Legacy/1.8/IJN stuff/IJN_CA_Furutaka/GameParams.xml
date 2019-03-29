@@ -1,0 +1,912 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<root>
+	<object name = "SteelMonstersParams">
+		<object name="Ships">
+			<object name="Furutaka">
+				<float name="AccelRate" value="3.e-004"/>
+				<string name="Airgroup" value="Scout_ShipWater_Division_CA_japan"/>
+				<integer name="AirplanesCount" value="2"/>
+				<string name="AmmoLoadingTemplate" value="Ammo 130"/>
+				<boolean name="BoatsTransportationAbility" value="false"/>
+				<integer name="CabinArmor" value="32"/>
+				<boolean name="CanBeChanged" value="true"/>
+				<boolean name="CanUseTorpedos" value="true"/>
+				<string name="CatapultAirgroupDefaultUnit" value="F1M"/>
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="639"/>
+				<float name="CriticalCareen" value="34."/>
+				<float name="CriticalDFT" value="1.9"/>
+				<float name="CriticalDifferent" value="2.2"/>
+				<float name="DTimeProd" value="110."/>
+				<float name="DisplacementMax" value="9692."/>
+				<float name="EPR" value="310."/>
+				<float name="FireRisk" value="1333."/>
+				<float name="Fuel" value="1850."/>
+				<integer name="HullArmorSide" value="76"/>
+				<integer name="HullArmorTop" value="35"/>
+				<float name="Iron" value="11000."/>
+				<integer name="Length" value="185.16"/>
+				<float name="MaxSpeed" value="34.5"/>
+				<integer name="MinCrew" value="250"/>
+				<float name="Money" value="3750."/>
+				<float name="NTimeProd" value="270."/>
+				<string name="Name" value="Furutaka"/>
+				<boolean name="New" value="false"/>
+				<integer name="Nuc_Dest_Prob" value="400"/>
+				<integer name="Passengers" value="1"/>
+				<boolean name="PlanesTransportationAbility" value="false"/>
+				<float name="Range" value="9600."/>
+				<integer name="Rank" value="2"/>
+				<string name="SMU" value="Furutaka"/>
+				<float name="Speed" value="14."/>
+				<float name="StoreCapacity" value="400."/>
+				<boolean name="Transportable" value="false"/>
+				<float name="TurnRate" value="1.5e-003"/>
+				<integer name="Type" value="2"/>
+				<float name="Vitality" value="5300."/>
+				<float name="VitalityAA" value="1000."/>
+				<float name="Weight" value="7213."/>
+				<integer name="Width" value="16.5"/>
+				<integer name="Year" value="39"/>
+			</object>
+		</object>
+		<object name="Engins">
+			<object name="MPP_Furutaka">
+				<float name="Consumption" value="1.75e-004"/>
+				<integer name="Country" value="2"/>
+				<float name="Money" value="5000."/>
+				<integer name="Power_Max" value="102000"/>
+				<integer name="RPM_Max" value="0"/>
+				<integer name="Type" value="8"/>
+				<integer name="Unreliability" value="10"/>
+				<string name="Usage" value="Ships"/>
+				<float name="Weight" value="1150."/>
+			</object>
+		</object>
+		<object name="Hit_Location">
+			<object name="Fur9264">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Std_Hull"/>
+				<string name="Name" value="SternSmokeStack"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9265">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Std_Hull"/>
+				<string name="Name" value="BowSmokeStacks"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9708">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="200"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Std_BowHLowerDeck"/>
+				<string name="Name" value="Bow_LSuperstructure"/>
+				<string name="TypHL" value="Crew"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9709">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="200"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Std_BowHLowerDeck"/>
+				<string name="Name" value="Bow_MSuperstructure"/>
+				<string name="TypHL" value="Crew"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9710">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="200"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Furutaka_BattleCabine"/>
+				<string name="Name" value="Bow_TSuperstructure"/>
+				<string name="TypHL" value="Crew"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9711">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="200"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Std_HUpperDeck"/>
+				<string name="Name" value="Stern_USuperstructure"/>
+				<string name="TypHL" value="Crew"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9712">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="200"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Std_SternHLowerDeck"/>
+				<string name="Name" value="Stern_LSuperstructure"/>
+				<string name="TypHL" value="Crew"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9713">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="200"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Std_SternHUpperDeck"/>
+				<string name="Name" value="Bow_USuperstructure"/>
+				<string name="TypHL" value="Crew"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9714">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Furutaka_Barbet"/>
+				<string name="Name" value="Barbet1"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9715">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Furutaka_Barbet"/>
+				<string name="Name" value="Barbet2"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9716">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Furutaka_Barbet"/>
+				<string name="Name" value="Barbet3"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9717">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Furutaka_Barbet"/>
+				<string name="Name" value="Barbet4"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9718">
+				<string name="ConnectName" value="Engine1"/>
+				<integer name="Country" value="2"/>
+				<float name="ER" value="10."/>
+				<string name="Hull" value="Std_Mover"/>
+				<string name="Name" value="Mover1"/>
+				<string name="TypHL" value="Mover"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9719">
+				<string name="ConnectName" value="Engine2"/>
+				<integer name="Country" value="2"/>
+				<float name="ER" value="10."/>
+				<string name="Hull" value="Std_Mover"/>
+				<string name="Name" value="Mover2"/>
+				<string name="TypHL" value="Mover"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9720">
+				<string name="ConnectName" value="Engine3"/>
+				<integer name="Country" value="2"/>
+				<float name="ER" value="10."/>
+				<string name="Hull" value="Std_Mover"/>
+				<string name="Name" value="Mover3"/>
+				<string name="TypHL" value="Mover"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9721">
+				<string name="ConnectName" value="Engine4"/>
+				<integer name="Country" value="2"/>
+				<float name="ER" value="10."/>
+				<string name="Hull" value="Std_Mover"/>
+				<string name="Name" value="Mover4"/>
+				<string name="TypHL" value="Mover"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9722">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="10."/>
+				<string name="Hull" value="Std_Rudder"/>
+				<string name="Name" value="Rudder"/>
+				<string name="TypHL" value="Rudder"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9723">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Std_SmokeStack"/>
+				<string name="Name" value="Stern_SmokeStack"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9724">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Std_BowHUpperDeck"/>
+				<string name="Name" value="Bow1_UpperDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9725">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Std_BowHLowerDeck"/>
+				<string name="Name" value="Bow1_LowerDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9726">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Std_Bottom"/>
+				<string name="Name" value="Bow1_Bottom"/>
+				<string name="TypHL" value="FuelTank"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9727">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Std_HUpperDeck"/>
+				<string name="Name" value="Bow2_UpperDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9728">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Furutaka_ArmorDeck"/>
+				<string name="Name" value="Bow2_ArmorDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9729">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Std_MCAmmoStore"/>
+				<string name="Name" value="AmmoStore1"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9730">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Std_MCAmmoStore"/>
+				<string name="Name" value="AmmoStore2"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9731">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Furutaka_Bow_LBelt"/>
+				<string name="Name" value="Bow2_LBelt"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9732">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Furutaka_Bow_RBelt"/>
+				<string name="Name" value="Bow2_RBelt"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9733">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Std_LowerDeck"/>
+				<string name="Name" value="Bow2_LowerDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9734">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Std_HLBoard"/>
+				<string name="Name" value="Bow2_LBoard"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9735">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Std_HRBoard"/>
+				<string name="Name" value="Bow2_RBoard"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9736">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Std_Bottom"/>
+				<string name="Name" value="Bow2_Bottom"/>
+				<string name="TypHL" value="FuelTank"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9737">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Std_HUpperDeck"/>
+				<string name="Name" value="Middle1_UpperDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9738">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Furutaka_ArmorDeck"/>
+				<string name="Name" value="Middle1_ArmorDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9739">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Std_Probe"/>
+				<string name="Name" value="Radar"/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9740">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Std_Probe"/>
+				<string name="Name" value="DamageControl"/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9741">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Furutaka_LBelt"/>
+				<string name="Name" value="Middle1_LBelt"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9742">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Furutaka_RBelt"/>
+				<string name="Name" value="Middle1_RBelt"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9743">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Std_LowerDeck"/>
+				<string name="Name" value="Middle1_LowerDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9744">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Std_HLBoard"/>
+				<string name="Name" value="Middle1_LBoard"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9745">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Std_HRBoard"/>
+				<string name="Name" value="Middle1_RBoard"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9746">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Std_Bottom"/>
+				<string name="Name" value="Middle1_Bottom"/>
+				<string name="TypHL" value="FuelTank"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9747">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Std_HUpperDeck"/>
+				<string name="Name" value="Middle2_UpperDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9748">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Furutaka_ArmorDeck"/>
+				<string name="Name" value="Middle2_ArmorDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9749">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Furutaka_ArmorDeck"/>
+				<string name="Name" value="Middle2_BLowerDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9750">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Std_Boiler"/>
+				<string name="Name" value="Boiler1"/>
+				<string name="TypHL" value="Boiler"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9751">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Std_Boiler"/>
+				<string name="Name" value="Boiler2"/>
+				<string name="TypHL" value="Boiler"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9752">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Std_LowerDeck"/>
+				<string name="Name" value="Middle2_ELowerDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9753">
+				<string name="ConnectName" value="Boiler1"/>
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Std_Engine"/>
+				<string name="Name" value="Engine1"/>
+				<string name="TypHL" value="Engine"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9754">
+				<string name="ConnectName" value="Boiler2"/>
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Std_Engine"/>
+				<string name="Name" value="Engine2"/>
+				<string name="TypHL" value="Engine"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9755">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Furutaka_LBelt"/>
+				<string name="Name" value="Middle2_LBelt"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9756">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Furutaka_RBelt"/>
+				<string name="Name" value="Middle2_RBelt"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9757">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Std_HLBoard"/>
+				<string name="Name" value="Middle2_LBoard"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9758">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Std_HRBoard"/>
+				<string name="Name" value="Middle2_RBoard"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9759">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Std_Bottom"/>
+				<string name="Name" value="Middle2_Bottom"/>
+				<string name="TypHL" value="FuelTank"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9760">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Std_HUpperDeck"/>
+				<string name="Name" value="Middle3_UpperDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9761">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Furutaka_ArmorDeck"/>
+				<string name="Name" value="Middle3_ArmorDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9762">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Furutaka_ArmorDeck"/>
+				<string name="Name" value="Middle3_BLowerDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9763">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Std_Boiler"/>
+				<string name="Name" value="Boiler4"/>
+				<string name="TypHL" value="Boiler"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9764">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Std_Boiler"/>
+				<string name="Name" value="Boiler3"/>
+				<string name="TypHL" value="Boiler"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9765">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Std_LowerDeck"/>
+				<string name="Name" value="Middle3_ELowerDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9766">
+				<string name="ConnectName" value="Boiler3"/>
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Std_Engine"/>
+				<string name="Name" value="Engine3"/>
+				<string name="TypHL" value="Engine"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9767">
+				<string name="ConnectName" value="Boiler4"/>
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Std_Engine"/>
+				<string name="Name" value="Engine4"/>
+				<string name="TypHL" value="Engine"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9768">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Furutaka_LBelt"/>
+				<string name="Name" value="Middle3_LBelt"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9769">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Furutaka_RBelt"/>
+				<string name="Name" value="Middle3_RBelt"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9770">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Std_HLBoard"/>
+				<string name="Name" value="Middle3_LBoard"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9771">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Std_HRBoard"/>
+				<string name="Name" value="Middle3_RBoard"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9772">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Std_Bottom"/>
+				<string name="Name" value="Middle3_Bottom"/>
+				<string name="TypHL" value="FuelTank"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9773">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Std_HUpperDeck"/>
+				<string name="Name" value="Middle4_UpperDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9774">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Furutaka_ArmorDeck"/>
+				<string name="Name" value="Middle4_ArmorDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9775">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Std_Probe"/>
+				<string name="Name" value="Radio"/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9776">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Std_Probe"/>
+				<string name="Name" value="FireControl"/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9777">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Furutaka_LBelt"/>
+				<string name="Name" value="Middle4_LBelt"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9778">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Furutaka_RBelt"/>
+				<string name="Name" value="Middle4_RBelt"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9779">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Std_LowerDeck"/>
+				<string name="Name" value="Middle4_LowerDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9780">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Std_HLBoard"/>
+				<string name="Name" value="Middle4_LBoard"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9781">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Std_HRBoard"/>
+				<string name="Name" value="Middle4_RBoard"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9782">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Std_Bottom"/>
+				<string name="Name" value="Middle4_Bottom"/>
+				<string name="TypHL" value="FuelTank"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9783">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Std_HUpperDeck"/>
+				<string name="Name" value="Stern1_UpperDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9784">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Furutaka_Stern_ArmorCover"/>
+				<string name="Name" value="SternArmorCover"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9785">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Std_MCAmmoStore"/>
+				<string name="Name" value="AmmoStore3"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9786">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Std_MCAmmoStore"/>
+				<string name="Name" value="AmmoStore4"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9787">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Std_LowerDeck"/>
+				<string name="Name" value="Stern1_LowerDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9788">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Std_Bottom"/>
+				<string name="Name" value="Stern1_Bottom"/>
+				<string name="TypHL" value="FuelTank"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9789">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Std_SternHUpperDeck"/>
+				<string name="Name" value="Stern2_Deck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9790">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Std_LowerDeck"/>
+				<string name="Name" value="Tiller"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+			<object name="Fur9791">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="250."/>
+				<string name="Hull" value="Std_SmokeStack"/>
+				<string name="Name" value="Bow_SmokeStack"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Furutaka"/>
+			</object>
+		</object>
+		<object name="Hulls">
+			<object name="Furutaka_ArmorDeck">
+				<integer name="Back" value="2"/>
+				<integer name="Bottom" value="2"/>
+				<integer name="Country" value="2"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="5."/>
+				<integer name="Front" value="2"/>
+				<integer name="Left" value="2"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="2"/>
+				<integer name="Top" value="35"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="Furutaka_Barbet">
+				<integer name="Back" value="25"/>
+				<integer name="Bottom" value="0"/>
+				<integer name="Country" value="2"/>
+				<float name="ExplProb" value="20."/>
+				<float name="FireProb" value="30."/>
+				<integer name="Front" value="25"/>
+				<integer name="Left" value="25"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="25"/>
+				<integer name="Top" value="0"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="Furutaka_BattleCabine">
+				<integer name="Back" value="30"/>
+				<integer name="Bottom" value="2"/>
+				<integer name="Country" value="2"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="15."/>
+				<integer name="Front" value="30"/>
+				<integer name="Left" value="30"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="30"/>
+				<integer name="Top" value="25"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="Furutaka_Bow_ArmorDeck">
+				<integer name="Back" value="2"/>
+				<integer name="Bottom" value="2"/>
+				<integer name="Country" value="2"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="10."/>
+				<integer name="Front" value="52"/>
+				<integer name="Left" value="2"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="2"/>
+				<integer name="Top" value="32"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="Furutaka_Bow_LBelt">
+				<integer name="Back" value="2"/>
+				<integer name="Bottom" value="2"/>
+				<integer name="Country" value="2"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="5."/>
+				<integer name="Front" value="52"/>
+				<integer name="Left" value="52"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="2"/>
+				<integer name="Top" value="25"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="Furutaka_Bow_RBelt">
+				<integer name="Back" value="2"/>
+				<integer name="Bottom" value="2"/>
+				<integer name="Country" value="2"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="5."/>
+				<integer name="Front" value="52"/>
+				<integer name="Left" value="2"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="52"/>
+				<integer name="Top" value="25"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="Furutaka_LBelt">
+				<integer name="Back" value="2"/>
+				<integer name="Bottom" value="2"/>
+				<integer name="Country" value="2"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="5."/>
+				<integer name="Front" value="2"/>
+				<integer name="Left" value="76"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="2"/>
+				<integer name="Top" value="35"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="Furutaka_RBelt">
+				<integer name="Back" value="2"/>
+				<integer name="Bottom" value="2"/>
+				<integer name="Country" value="2"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="5."/>
+				<integer name="Front" value="2"/>
+				<integer name="Left" value="2"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="76"/>
+				<integer name="Top" value="35"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="Furutaka_Stern_ArmorCover">
+				<integer name="Back" value="51"/>
+				<integer name="Bottom" value="20"/>
+				<integer name="Country" value="2"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="10."/>
+				<integer name="Front" value="51"/>
+				<integer name="Left" value="51"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="51"/>
+				<integer name="Top" value="35"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+		</object>
+		<object name="ShipsNames">
+			<object name="Furutaka">
+				<string name="1" value="Furutaka1"/>
+				<string name="2" value="Furutaka2"/>
+			</object>
+		</object>
+		<object name="UnitsByType">
+			<object name="2">
+				<object name="Furutaka">
+					<string name="ChildTable" value="Ships"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</root>

@@ -1,0 +1,853 @@
+﻿<?xml version = "1.0" encoding = "UTF-8"?>
+<root>
+	<object name = "SteelMonstersParams">
+		<object name="Ships">
+			<object name="Aquila">
+				<float name="AccelRate" value="3.e-004"/>
+				<string name="Airgroup" value="AircraftCarrier_Group_germany"/>
+				<integer name="AirplanesCount" value="66"/>
+				<string name="AmmoLoadingTemplate" value="Ammo 500, De_WGr21_GP 120, torp_DE_F5b_M_I 100, torp_DE_F5b 100, torp_DE_F5b_A_SA 100, De_BV_246_Com_SR 48, De_BV_246_Com_ST 48, De_BV_246_Frag_SR 48, De_BV_246_Frag_ST 48, DE_Fritz_X_AP_P 48, DE_Fritz_X_AP_R 48, DE_Fritz_X_HE_P 48, DE_Fritz_X_HE_R 48, De_Hs_293_P 48, De_Hs_293_R 48, De_Hs_293_ST 48, De_X4M_P 48, De_X4M_R 48, De_X4_P 48, De_X4_R 48"/>
+				<integer name="Avia" value="2"/>
+				<boolean name="BoatsTransportationAbility" value="false"/>
+				<integer name="CabinArmor" value="52"/>
+				<boolean name="CanBeChanged" value="true"/>
+				<boolean name="CanUseTorpedos" value="false"/>
+				<integer name="Country" value="5"/>
+				<integer name="Crew" value="1420"/>
+				<float name="CriticalCareen" value="33."/>
+				<float name="CriticalDFT" value="2.9"/>
+				<float name="CriticalDifferent" value="2.4"/>
+				<float name="DTimeProd" value="140."/>
+				<float name="DisplacementMax" value="28200."/>
+				<float name="EPR" value="640."/>
+				<float name="FireRisk" value="2667."/>
+				<float name="Fuel" value="3660."/>
+				<float name="HLShapeCoef" value="0.9"/>
+				<integer name="HullArmorSide" value="152"/>
+				<integer name="HullArmorTop" value="76"/>
+				<float name="Iron" value="35000."/>
+				<integer name="Length" value="235.5"/>
+				<float name="MaxSpeed" value="30."/>
+				<integer name="MinCrew" value="900"/>
+				<float name="Money" value="22600."/>
+				<float name="NTimeProd" value="350."/>
+				<string name="Name" value="Aquila"/>
+				<boolean name="New" value="true"/>
+				<integer name="Nuc_Dest_Prob" value="500"/>
+				<integer name="Passengers" value="100"/>
+				<boolean name="PlanesTransportationAbility" value="true"/>
+				<float name="Range" value="10200."/>
+				<integer name="Rank" value="1"/>
+				<string name="SMU" value="Aquila"/>
+				<float name="Speed" value="20."/>
+				<float name="StoreCapacity" value="3600."/>
+				<boolean name="Transportable" value="false"/>
+				<float name="TurnRate" value="1.5e-003"/>
+				<integer name="Type" value="0"/>
+				<float name="Vitality" value="5000."/>
+				<float name="VitalityAA" value="1200."/>
+				<float name="Weight" value="23900."/>
+				<integer name="Width" value="31"/>
+				<integer name="Year" value="39"/>
+			</object>
+		</object>
+		<object name="Engins">
+			<object name="MPP_Aquila">
+				<float name="Consumption" value="6.e-004"/>
+				<integer name="Country" value="5"/>
+				<float name="Money" value="6500."/>
+				<integer name="Power_Max" value="151000"/>
+				<integer name="RPM_Max" value="0"/>
+				<integer name="Type" value="8"/>
+				<integer name="Unreliability" value="10"/>
+				<string name="Usage" value="Ships"/>
+				<float name="Weight" value="2100."/>
+			</object>
+		</object> 
+		<object name="Hit_Location">
+			<object name="Aq5289">
+				<string name="ConnectName" value="Engine1"/>
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Std_AFuelTank"/>
+				<string name="Name" value="Mover1"/>
+				<string name="TypHL" value="Mover"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5290">
+				<string name="ConnectName" value="Engine2"/>
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Std_Mover"/>
+				<string name="Name" value="Mover2"/>
+				<string name="TypHL" value="Mover"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5291">
+				<string name="ConnectName" value="Engine3"/>
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Std_Mover"/>
+				<string name="Name" value="Mover3"/>
+				<string name="TypHL" value="Mover"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5292">
+				<string name="ConnectName" value="Tiller;"/>
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Std_Rudder"/>
+				<string name="Name" value="Rudder"/>
+				<string name="TypHL" value="Rudder"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5293">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Aq_Hungur"/>
+				<string name="Name" value="Middle1_MiddleDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5294">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Aq_FlightDeck"/>
+				<string name="Name" value="Bow1_FlightDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5295">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Aq_FlightDeck"/>
+				<string name="Name" value="Stern2_FlightDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5296">
+				<integer name="Country" value="5"/>
+				<integer name="Crew" value="420"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Std_Hull"/>
+				<string name="Name" value="Bow_Superstructure"/>
+				<string name="TypHL" value="Crew"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5297">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Std_Probe"/>
+				<string name="Name" value="Radar"/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5298">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Std_Probe"/>
+				<string name="Name" value="Radio"/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5299">
+				<integer name="Country" value="5"/>
+				<integer name="Crew" value="420"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Std_Probe"/>
+				<string name="Name" value="OperationControl"/>
+				<string name="TypHL" value="Crew"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5300">
+				<integer name="Country" value="5"/>
+				<integer name="Crew" value="420"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Std_UpperHull"/>
+				<string name="Name" value="BattleCabine"/>
+				<string name="TypHL" value="Crew"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5301">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Std_Probe"/>
+				<string name="Name" value="Stern_Probe_AA"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5302">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Aq_FlightDeck"/>
+				<string name="Name" value="Elevator_Bow"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5303">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Aq_FlightDeck"/>
+				<string name="Name" value="Elevator_Stern"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5304">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Aq_FlightDeck"/>
+				<string name="Name" value="Bow2_FlightDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5305">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Std_Hull"/>
+				<string name="Name" value="Bow2_LowerDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5306">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Std_AFuelTank"/>
+				<string name="Name" value="Bow2_FuelTank2"/>
+				<string name="TypHL" value="FuelTank"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5307">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Std_FuelTank"/>
+				<string name="Name" value="Bow_FuelTank"/>
+				<string name="TypHL" value="FuelTank"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5308">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Std_FuelTank"/>
+				<string name="Name" value="Bow2_FuelTank1"/>
+				<string name="TypHL" value="FuelTank"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5309">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Std_RAMP"/>
+				<string name="Name" value="Bow2_RAMP"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5310">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Std_LAMP"/>
+				<string name="Name" value="Bow2_LAMP"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5311">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Aq_Hungur"/>
+				<string name="Name" value="Bow2_MiddleDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5312">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Std_AS_T1"/>
+				<string name="Name" value="AmmoStore_Bow"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5313">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Std_Bottom"/>
+				<string name="Name" value="Bow2_RBottom"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5314">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Std_Bottom"/>
+				<string name="Name" value="Bow2_LBottom"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5315">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Std_BoilerHull"/>
+				<string name="Name" value="Middle1_LowerDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5316">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Std_Boiler"/>
+				<string name="Name" value="Boiler3"/>
+				<string name="TypHL" value="Boiler"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5317">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Std_Boiler"/>
+				<string name="Name" value="Boiler2"/>
+				<string name="TypHL" value="Boiler"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5318">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Std_Boiler"/>
+				<string name="Name" value="Boiler1"/>
+				<string name="TypHL" value="Boiler"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5319">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Aq_FlightDeck"/>
+				<string name="Name" value="Middle1_FlightDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5320">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Aq_LBelt"/>
+				<string name="Name" value="Middle1_LBelt"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5321">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Std_Rboard"/>
+				<string name="Name" value="Middle1_RBoard"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5322">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Std_Lboard"/>
+				<string name="Name" value="Middle1_LBoard"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5323">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Aq_RBelt"/>
+				<string name="Name" value="Middle1_RBelt"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5324">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Std_LAMP"/>
+				<string name="Name" value="Middle1_LAMP"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5325">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Std_RAMP"/>
+				<string name="Name" value="Middle1_RAMP"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5326">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Std_Bottom"/>
+				<string name="Name" value="Middle1_RBottom"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5327">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Std_Bottom"/>
+				<string name="Name" value="Middle1_LBottom"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5328">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Std_BoilerHull"/>
+				<string name="Name" value="Middle2_LowerDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5329">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Std_Boiler"/>
+				<string name="Name" value="Boiler5"/>
+				<string name="TypHL" value="Boiler"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5330">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Std_Boiler"/>
+				<string name="Name" value="Boiler4"/>
+				<string name="TypHL" value="Boiler"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5331">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Std_Boiler"/>
+				<string name="Name" value="Boiler6"/>
+				<string name="TypHL" value="Boiler"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5332">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Aq_Hungur"/>
+				<string name="Name" value="Middle2_MiddleDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5333">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Std_AS_T1"/>
+				<string name="Name" value="AmmoStore_Middle"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5334">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Aq_FlightDeck"/>
+				<string name="Name" value="Middle2_FlightDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5335">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Std_RAMP"/>
+				<string name="Name" value="Middle2_RAMP"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5336">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Std_Rboard"/>
+				<string name="Name" value="Middle2_RBoard"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5337">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Aq_RBelt"/>
+				<string name="Name" value="Middle2_RBelt"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5338">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Std_LAMP"/>
+				<string name="Name" value="Middle2_LAMP"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5339">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Aq_LBelt"/>
+				<string name="Name" value="Middle2_LBelt"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5340">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Std_Lboard"/>
+				<string name="Name" value="Middle2_LBoard"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5341">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Std_Bottom"/>
+				<string name="Name" value="Middle2_LBottom"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5342">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Std_Bottom"/>
+				<string name="Name" value="Middle2_RBottom"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5343">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Std_EngineHull"/>
+				<string name="Name" value="Middle3_LowerDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5344">
+				<string name="ConnectName" value="Boiler1;Boiler2;Boiler3;Boiler4;Boiler5;Boiler6"/>
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Std_Engine"/>
+				<string name="Name" value="Engine2"/>
+				<string name="TypHL" value="Engine"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5345">
+				<string name="ConnectName" value="Boiler1;Boiler2;Boiler3;Boiler4;Boiler5;Boiler6"/>
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Std_Engine"/>
+				<string name="Name" value="Engine1"/>
+				<string name="TypHL" value="Engine"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5346">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Aq_Hungur"/>
+				<string name="Name" value="Middle3_MiddleDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5347">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Aq_FlightDeck"/>
+				<string name="Name" value="Middle3_FlightDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5348">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Std_Rboard"/>
+				<string name="Name" value="Middle3_RBoard"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5349">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Aq_RBelt"/>
+				<string name="Name" value="Middle3_RBelt"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5350">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Std_RAMP"/>
+				<string name="Name" value="Middle3_RAMP"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5351">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Std_LAMP"/>
+				<string name="Name" value="Middle3_LAMP"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5352">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Aq_LBelt"/>
+				<string name="Name" value="Middle3_LBelt"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5353">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Std_Lboard"/>
+				<string name="Name" value="Middle3_LBoard"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5354">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Std_Bottom"/>
+				<string name="Name" value="Middle3_RBottom"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5355">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Std_Bottom"/>
+				<string name="Name" value="Middle3_LBottom"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5356">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Aq_FlightDeck"/>
+				<string name="Name" value="Stern1_FlightDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5357">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Aq_Hungur"/>
+				<string name="Name" value="Stern1_MiddleDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5358">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Std_AS_T1"/>
+				<string name="Name" value="AmmoStore_Stern"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5359">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Std_EngineHull"/>
+				<string name="Name" value="Stern1_LowerDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5360">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Std_FuelTank"/>
+				<string name="Name" value="Stern1_FuelTank"/>
+				<string name="TypHL" value="FuelTank"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5361">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Std_AFuelTank"/>
+				<string name="Name" value="Stern1_AFuelTank"/>
+				<string name="TypHL" value="FuelTank"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5362">
+				<string name="ConnectName" value="Boiler1;Boiler2;Boiler3;Boiler4;Boiler5;Boiler6"/>
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Std_Engine"/>
+				<string name="Name" value="Engine3"/>
+				<string name="TypHL" value="Engine"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5363">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Std_RAMP"/>
+				<string name="Name" value="Stern1_RAMP"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5364">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Std_LAMP"/>
+				<string name="Name" value="Stern1_LAMP"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5365">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Std_Bottom"/>
+				<string name="Name" value="Stern1_Bottom"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5366">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Std_Rudder"/>
+				<string name="Name" value="SmokeStack"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5367">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Std_Probe"/>
+				<string name="Name" value="Bow_Probe_AA"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5368">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Std_UpperHull"/>
+				<string name="Name" value="Stern_Superstructure"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5369">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Std_Bottom"/>
+				<string name="Name" value="Bow1_Bottom"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5370">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Std_Hull"/>
+				<string name="Name" value="Bow1_LowerDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5371">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Std_Hull"/>
+				<string name="Name" value="Stern2_LowerDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5372">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Aq_Tiller"/>
+				<string name="Name" value="Tiller"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5373">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Std_Hull"/>
+				<string name="Name" value="Bow1_MiddleDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+			<object name="Aq5374">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Std_Hull"/>
+				<string name="Name" value="Stern2_MiddleDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Aquila"/>
+			</object>
+		</object>
+		<object name="Hulls">
+			<object name="Aq_FlightDeck">
+				<integer name="Back" value="10"/>
+				<integer name="Bottom" value="10"/>
+				<integer name="Country" value="5"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="0."/>
+				<integer name="Front" value="10"/>
+				<integer name="Left" value="10"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="10"/>
+				<integer name="Top" value="76"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="Aq_Hungur">
+				<integer name="Back" value="10"/>
+				<integer name="Bottom" value="2"/>
+				<integer name="Country" value="5"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="30."/>
+				<integer name="Front" value="10"/>
+				<integer name="Left" value="114"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="114"/>
+				<integer name="Top" value="76"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="Aq_LBelt">
+				<integer name="Back" value="2"/>
+				<integer name="Bottom" value="2"/>
+				<integer name="Country" value="5"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="0."/>
+				<integer name="Front" value="2"/>
+				<integer name="Left" value="114"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="2"/>
+				<integer name="Top" value="2"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="Aq_RBelt">
+				<integer name="Back" value="2"/>
+				<integer name="Bottom" value="2"/>
+				<integer name="Country" value="5"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="0."/>
+				<integer name="Front" value="2"/>
+				<integer name="Left" value="2"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="114"/>
+				<integer name="Top" value="2"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="Aq_Tiller">
+				<integer name="Back" value="114"/>
+				<integer name="Bottom" value="76"/>
+				<integer name="Country" value="5"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="0."/>
+				<integer name="Front" value="76"/>
+				<integer name="Left" value="114"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="144"/>
+				<integer name="Top" value="76"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+		</object>
+		<object name="ShipsNames">
+			<object name="Aquila">
+				<string name="1" value="Aquila1"/>
+				<string name="2" value="Aquila2"/>
+			</object>
+		</object>
+		<object name="UnitsByType">
+			<object name="0">
+				<object name="Aquila">
+					<string name="ChildTable" value="Ships"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</root>

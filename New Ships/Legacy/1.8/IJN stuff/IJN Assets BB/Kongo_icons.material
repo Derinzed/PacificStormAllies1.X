@@ -1,0 +1,63 @@
+material SL/Units/PDIcons_Kongo
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				texture Kongo_iconPD.png
+			}
+		}
+	}
+}
+
+
+material SL/Units/PEIcons_Kongo
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				texture Kongo_iconPE.png
+			}
+		}
+	}
+}
+
+
+material SL/Units/Icons_Kongo
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				texture Kongo_icon.png
+			}
+		}
+	}
+}
+
+

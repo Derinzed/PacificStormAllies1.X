@@ -1,0 +1,43 @@
+material Taiho2_glass
+{
+  technique
+  {
+    pass
+    {
+      ambient 1. 1. 1.
+      scene_blend alpha_blend
+      cull_hardware none
+      cull_software none
+      depth_write off
+//      depth_check off
+
+      texture_unit
+      {
+        texture Taiho2_glass.dds
+        tex_address_mode clamp
+      }
+    }
+    pass
+    {
+      ambient 1. 1. 1.
+      scene_blend add
+      lighting off
+      depth_write off
+      depth_check on
+
+      texture_unit
+      {
+        texture Taiho2_glass_spec.dds
+      }
+      texture_unit
+      {
+        cubic_texture planeenvmap_alum.dds combinedUVW
+        env_map cubic_reflection
+        tex_address_mode clamp
+        colour_op_ex modulate src_texture src_current
+      }
+    }
+
+  }
+}
+

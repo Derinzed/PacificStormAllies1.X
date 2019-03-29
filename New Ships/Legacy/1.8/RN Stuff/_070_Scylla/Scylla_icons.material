@@ -1,0 +1,63 @@
+material SL/Units/PDIcons_Scylla
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				texture Scylla_iconPD.png
+			}
+		}
+	}
+}
+
+
+material SL/Units/PEIcons_Scylla
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				texture Scylla_iconPE.png
+			}
+		}
+	}
+}
+
+
+material SL/Units/Icons_Scylla
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				texture Scylla_icon.png
+			}
+		}
+	}
+}
+
+

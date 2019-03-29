@@ -1,0 +1,82 @@
+<?xml version="1.0" standalone="yes" ?>
+<root>
+	<object name="SteelMonstersParams">
+		<object name="Rifles">
+			<object name="Shimushu_Gun_120x1_Stvol">
+				<float name="AARange" value="10."/>
+				<string name="Ammo" value="Proj_120_J"/>
+				<integer name="AmmoStorage" value="200"/>
+				<float name="AmmoWeight" value="20.3"/>
+				<float name="Caliber" value="120."/>
+				<integer name="Country" value="2"/>
+				<float name="Dispersion" value="10."/>
+				<integer name="FinalSpeed" value="175"/>
+				<string name="FireSound" value="Guns\127mm"/>
+				<string name="Frag" value="Proj_120_J_Fr"/>
+				<string name="Common" value="Proj_120_J_Com"/>
+				<boolean name="IgnoreXMLFile" value="false"/>
+				<float name="Money" value="1.5"/>
+				<boolean name="New" value="true"/>
+				<float name="ROF" value="8."/>
+				<float name="Range" value="16."/>
+				<boolean name="SLLauncher" value="false"/>
+				<string name="SMU_File" value="Shimushu_Gun_120x1_Stvol"/>
+				<integer name="StartSpeed" value="825"/>
+				<integer name="Unreliability" value="0"/>
+				<string name="Usage" value="Ships"/>
+				<float name="Weight" value="2.9"/>
+			</object>
+		</object>
+		<object name="Turrets">
+			<object name="Shimushu_120mm_Turret">
+				<integer name="Amount" value="1"/>
+				<integer name="ArmorFront" value="20"/>
+				<integer name="ArmorSide" value="20"/>
+				<integer name="ArmorTop" value="20"/>
+				<string name="Content" value="Rifles.Shimushu_Gun_120x1_Stvol"/>
+				<integer name="Country" value="2"/>
+				<integer name="Elevation" value="33"/>
+				<integer name="ElevationRate" value="6.5"/>
+				<boolean name="IgnoreXMLFile" value="false"/>
+				<float name="Iron" value="11."/>
+				<float name="Money" value="3.5"/>
+				<float name="NTimeProd" value="13."/>
+				<boolean name="New" value="true"/>
+				<boolean name="Production" value="false"/>
+				<integer name="RotationRate" value="10"/>
+				<string name="SMU_File" value="Shimushu_120mm"/>
+				<string name="Type" value="Gun"/>
+				<float name="Vitality" value="200."/>
+				<float name="Weight" value="9.8"/>
+			</object>
+		</object>
+		<object name="Hit_Location">
+			<object name="Shim1201">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="5."/>
+				<string name="Hull" value="Std_Guns_SO"/>
+				<string name="Name" value="Turret"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="Shimushu_120mm_Turret"/>
+			</object>
+			<object name="Shim1202">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="1"/>
+				<float name="ER" value="3.e-002"/>
+				<string name="Hull" value="Std_Crew"/>
+				<string name="Name" value="Gunner2"/>
+				<string name="TypHL" value="Crew"/>
+				<string name="UnitName" value="Shimushu_120mm_Turret"/>
+			</object>
+			<object name="Shim1203">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="1"/>
+				<float name="ER" value="3.e-002"/>
+				<string name="Hull" value="Std_Crew"/>
+				<string name="Name" value="Gunner1"/>
+				<string name="TypHL" value="Crew"/>
+				<string name="UnitName" value="Shimushu_120mm_Turret"/>
+			</object>
+		</object>
+	</object>
+</root>

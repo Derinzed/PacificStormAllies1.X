@@ -1,0 +1,1779 @@
+﻿<?xml version = "1.0" encoding = "UTF-8"?>
+<root>
+	<object name = "SteelMonstersParams">
+		<object name="Ships">
+			<object name="Takao">
+				<float name="AccelRate" value="3.e-004"/>
+				<string name="Airgroup" value="Scout_ShipWater_Battleship_Battalion_japan"/>
+				<integer name="AirplanesCount" value="3"/>
+				<string name="AmmoLoadingTemplate" value="Ammo 120"/>
+				<boolean name="BoatsTransportationAbility" value="false"/>
+				<integer name="CabinArmor" value="100"/>
+				<boolean name="CanBeChanged" value="true"/>
+				<boolean name="CanUseTorpedos" value="true"/>
+				<string name="CatapultAirgroupDefaultUnit" value="F1M"/>
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="773"/>
+				<float name="CriticalCareen" value="37."/>
+				<float name="CriticalDFT" value="0.7"/>
+				<float name="CriticalDifferent" value="2.5"/>
+				<float name="DisplacementMax" value="15738."/>
+				<float name="DTimeProd" value="120."/>
+				<float name="EPR" value="310."/>
+				<float name="FireRisk" value="1333."/>
+				<float name="Fuel" value="2571."/>
+				<float name="HLShapeCoef" value="0.55"/>
+				<integer name="HullArmorSide" value="100"/>
+				<integer name="HullArmorTop" value="75"/>
+				<float name="Iron" value="11200."/>
+				<integer name="Length" value="203.76"/>
+				<float name="MaxSpeed" value="35.5"/>
+				<integer name="MinCrew" value="382"/>
+				<float name="Money" value="20000."/>
+				<string name="Name" value="Takao"/>
+				<boolean name="New" value="true"/>
+				<float name="NTimeProd" value="300."/>
+				<integer name="Nuc_Dest_Prob" value="400"/>
+				<integer name="Passengers" value="50"/>
+				<boolean name="PlanesTransportationAbility" value="false"/>
+				<float name="Range" value="13821.47"/>
+				<integer name="Rank" value="2"/>
+				<string name="SMU" value="Takao"/>
+				<float name="Speed" value="14."/>
+				<float name="StoreCapacity" value="450."/>
+				<boolean name="Transportable" value="false"/>
+				<float name="TurnRate" value="1.5e-003"/>
+				<integer name="Type" value="2"/>
+				<float name="Vitality" value="7000."/>
+				<float name="VitalityAA" value="1200."/>
+				<float name="Weight" value="10007."/>
+				<integer name="Width" value="18.03"/>
+				<integer name="Year" value="39"/>
+			</object>
+		</object>
+		<object name="Engins">
+			<object name="MPP_Takao">
+				<float name="Consumption" value="3.8156e-004"/>
+				<integer name="Country" value="2"/>
+				<float name="Money" value="7600."/>
+				<integer name="Power_Max" value="135000"/>
+				<integer name="RPM_Max" value="0"/>
+				<integer name="Type" value="8"/>
+				<integer name="Unreliability" value="10"/>
+				<string name="Usage" value="Ships"/>
+				<float name="Weight" value="2440."/>
+			</object>
+		</object>
+		<object name="Hit_Location">
+			<object name="T401">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_SternCabin"/>
+				<string name="Name" value="SternCabin"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T402">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_BowCabin"/>
+				<string name="Name" value="BowCabin"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T403">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="400"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_AAProbe"/>
+				<string name="Name" value="Probe_AA_Stern"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Crew"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T404">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_TProbe"/>
+				<string name="Name" value="Probe_Torpedo"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T405">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_BowCabin"/>
+				<string name="Name" value="ConningBridge"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T406">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_BattleCabin"/>
+				<string name="Name" value="BattleCabin"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T407">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_AAProbe"/>
+				<string name="Name" value="Probe_AA_Bow"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T408">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_Probe"/>
+				<string name="Name" value="Probe_Radio"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T409">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_Probe"/>
+				<string name="Name" value="Probe_Radar"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T410">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_Bow_Bottom"/>
+				<string name="Name" value="Bow1_Bottom"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T411">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_Bow_Deck"/>
+				<string name="Name" value="Bow1_Deck"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T412">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_MG_LBelt_Upper"/>
+				<string name="Name" value="Bow2_LBelt_Upper"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T413">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_MG_LowerDeck"/>
+				<string name="Name" value="Bow2_LowerDeck"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T414">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_MG_LBelt_Lower"/>
+				<string name="Name" value="Bow2_LBelt_Lower"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T415">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_RBoard"/>
+				<string name="Name" value="Bow2_RBoard"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T416">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_MG_RBelt_Upper"/>
+				<string name="Name" value="Bow2_RBelt_Upper"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T417">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_MG_RBelt_Lower"/>
+				<string name="Name" value="Bow2_RBelt_Lower"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T418">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_LBoard"/>
+				<string name="Name" value="Bow2_LBoard"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T419">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_MG_UpperDeck"/>
+				<string name="Name" value="Bow2_UpperDeck"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T420">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_BarbetType2"/>
+				<string name="Name" value="Bow2_Barbet3"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T421">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_BarbetType1"/>
+				<string name="Name" value="Bow2_Barbet2"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T422">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_BarbetType1"/>
+				<string name="Name" value="Bow2_Barbet1"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T424">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_MGProbe"/>
+				<string name="Name" value="Probe_MG"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T425">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_KO_Std"/>
+				<string name="Name" value="Middle1_RBoiler2_Cover"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T426">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_KO_Small"/>
+				<string name="Name" value="Middle1_SBoiler_Cover"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T427">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_KO_Std"/>
+				<string name="Name" value="Middle1_LBoiler1_Cover"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T428">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_KO_Std"/>
+				<string name="Name" value="Middle1_LBoiler2_Cover"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T429">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_KO_Std"/>
+				<string name="Name" value="Middle1_RBoiler1_Cover"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T430">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_MO_RBelt_Lower"/>
+				<string name="Name" value="Middle1_RBelt_Lower"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T431">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_MO_RBelt_Upper"/>
+				<string name="Name" value="Middle1_RBelt_Upper"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T432">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_RBoard"/>
+				<string name="Name" value="Middle1_RBoard"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T433">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_MO_LBelt_Lower"/>
+				<string name="Name" value="Middle1_LBelt_Lower"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T434">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_MO_LBelt_Upper"/>
+				<string name="Name" value="Middle1_LBelt_Upper"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T435">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_LBoard"/>
+				<string name="Name" value="Middle1_LBoard"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T436">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_MO_MiddleDeck"/>
+				<string name="Name" value="Middle1_MiddleDeck"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T437">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_MO_UpperDeck"/>
+				<string name="Name" value="Middle1_UpperDeck"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T438">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_LAMP"/>
+				<string name="Name" value="Middle1_LAMP"/>
+				<float name="Param_1" value="275."/>
+				<string name="TypHL" value="FuelTank"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T439">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_RAMP"/>
+				<string name="Name" value="Middle1_RAMP"/>
+				<float name="Param_1" value="275."/>
+				<string name="TypHL" value="FuelTank"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T441">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Boiler"/>
+				<string name="Name" value="Middle1_RBoiler2"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Boiler"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T442">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Boiler"/>
+				<string name="Name" value="Middle1_SBoiler2"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Boiler"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T443">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Boiler"/>
+				<string name="Name" value="Middle1_SBoiler1"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Boiler"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T444">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Boiler"/>
+				<string name="Name" value="Middle1_LBoiler1"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Boiler"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T445">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Boiler"/>
+				<string name="Name" value="Middle1_LBoiler2"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Boiler"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T446">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Boiler"/>
+				<string name="Name" value="Middle1_RBoiler1"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Boiler"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T447">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_MO_LBelt_Upper"/>
+				<string name="Name" value="Middle2_LBelt_Upper"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T448">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_MO_LBelt_Lower"/>
+				<string name="Name" value="Middle2_LBelt_Lower"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T449">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_LBoard"/>
+				<string name="Name" value="Middle2_LBoard"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T450">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_KO_Std"/>
+				<string name="Name" value="Middle2_LBoiler1_Cover"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T451">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_KO_Std"/>
+				<string name="Name" value="Middle2_RBoiler1_Cover"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T452">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_KO_Std"/>
+				<string name="Name" value="Middle2_LBoiler2_Cover"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T453">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_KO_Std"/>
+				<string name="Name" value="Middle2_RBoiler2_Cover"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T454">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_MO_RBelt_Lower"/>
+				<string name="Name" value="Middle2_RBelt_Lower"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T455">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_MO_RBelt_Upper"/>
+				<string name="Name" value="Middle2_RBelt_Upper"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T456">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_MO_MiddleDeck"/>
+				<string name="Name" value="Middle2_MiddleDeck"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T457">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_RBoard"/>
+				<string name="Name" value="Middle2_RBoard"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T458">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_MO_UpperDeck"/>
+				<string name="Name" value="Middle2_UpperDeck"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T459">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_LAMP"/>
+				<string name="Name" value="Middle2_LAMP"/>
+				<float name="Param_1" value="275."/>
+				<string name="TypHL" value="FuelTank"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T460">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_RAMP"/>
+				<string name="Name" value="Middle2_RAMP"/>
+				<float name="Param_1" value="275."/>
+				<string name="TypHL" value="FuelTank"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T461">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Boiler"/>
+				<string name="Name" value="Middle2_LBoiler1"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Boiler"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T462">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Boiler"/>
+				<string name="Name" value="Middle2_RBoiler1"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Boiler"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T463">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Boiler"/>
+				<string name="Name" value="Middle2_LBoiler2"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Boiler"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T464">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Boiler"/>
+				<string name="Name" value="Middle2_RBoiler2"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Boiler"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T465">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_AAAmmoStore"/>
+				<string name="Name" value="AmmoStore_RSG"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T466">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_AAAmmoStore"/>
+				<string name="Name" value="AmmoStore_LSG"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T467">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_EO"/>
+				<string name="Name" value="Middle3_LEngine_Cover"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T468">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_MO_LBelt_Lower"/>
+				<string name="Name" value="Middle3_LBelt_Lower"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T469">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_MO_LBelt_Upper"/>
+				<string name="Name" value="Middle3_LBelt_Upper"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T470">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_LBoard"/>
+				<string name="Name" value="Middle3_LBoard"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T471">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_EO"/>
+				<string name="Name" value="Middle3_REngine_Cover"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T472">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_MO_MiddleDeck"/>
+				<string name="Name" value="Middle3_MiddleDeck"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T473">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_MO_RBelt_Lower"/>
+				<string name="Name" value="Middle3_RBelt_Lower"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T474">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_MO_RBelt_Upper"/>
+				<string name="Name" value="Middle3_RBelt_Upper"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T475">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_RBoard"/>
+				<string name="Name" value="Middle3_RBoard"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T476">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_MO_UpperDeck"/>
+				<string name="Name" value="Middle3_UpperDeck"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T477">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_RAMP"/>
+				<string name="Name" value="Middle3_RAMP"/>
+				<float name="Param_1" value="275."/>
+				<string name="TypHL" value="FuelTank"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T478">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_LAMP"/>
+				<string name="Name" value="Middle3_LAMP"/>
+				<float name="Param_1" value="275."/>
+				<string name="TypHL" value="FuelTank"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T479">
+				<string name="ConnectName" value="Middle1_SBoiler1;Middle1_LBoiler1;Middle1_LBoiler2;Middle2_LBoiler1;Middle2_LBoiler2"/>
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Engine"/>
+				<string name="Name" value="Middle3_LEngine"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Engine"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T480">
+				<string name="ConnectName" value="Middle1_SBoiler2;Middle1_RBoiler1;Middle1_RBoiler2;Middle2_RBoiler1;Middle2_RBoiler2"/>
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Engine"/>
+				<string name="Name" value="Middle3_REngine"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Engine"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T481">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_TorpedoAmmoStore"/>
+				<string name="Name" value="AmmoStore_Torpedo2"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T482">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_TorpedoAmmoStore"/>
+				<string name="Name" value="AmmoStore_Torpedo1"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T483">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_RBoard"/>
+				<string name="Name" value="Middle4_RBoard"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T484">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_LBoard"/>
+				<string name="Name" value="Middle4_LBoard"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T485">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_MO_MiddleDeck"/>
+				<string name="Name" value="Middle4_MiddleDeck"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T486">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_MO_LBelt_Upper"/>
+				<string name="Name" value="Middle4_LBelt_Upper"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T487">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_MO_LBelt_Lower"/>
+				<string name="Name" value="Middle4_LBelt_Lower"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T488">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_EO"/>
+				<string name="Name" value="Middle4_LEngine_Cover"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T489">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_MO_RBelt_Lower"/>
+				<string name="Name" value="Middle4_RBelt_Lower"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T490">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_MO_RBelt_Upper"/>
+				<string name="Name" value="Middle4_RBelt_Upper"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T491">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_EO"/>
+				<string name="Name" value="Middle4_REngine_Cover"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T492">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_MO_UpperDeck"/>
+				<string name="Name" value="Middle4_UpperDeck"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T493">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_RAMP"/>
+				<string name="Name" value="Middle4_RAMP"/>
+				<float name="Param_1" value="275."/>
+				<string name="TypHL" value="FuelTank"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T494">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_LAMP"/>
+				<string name="Name" value="Middle4_LAMP"/>
+				<float name="Param_1" value="275."/>
+				<string name="TypHL" value="FuelTank"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T495">
+				<string name="ConnectName" value="Middle1_SBoiler1;Middle1_LBoiler1;Middle1_LBoiler2;Middle2_LBoiler1;Middle2_LBoiler2"/>
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Engine"/>
+				<string name="Name" value="Middle4_LEngine"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Engine"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T496">
+				<string name="ConnectName" value="Middle1_SBoiler2;Middle1_RBoiler1;Middle1_RBoiler2;Middle2_RBoiler1;Middle2_RBoiler2"/>
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Engine"/>
+				<string name="Name" value="Middle4_REngine"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Engine"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T497">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_TorpedoAmmoStore"/>
+				<string name="Name" value="AmmoStore_Torpedo4"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T498">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_TorpedoAmmoStore"/>
+				<string name="Name" value="AmmoStore_Torpedo3"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T499">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_MG_LowerDeck"/>
+				<string name="Name" value="Stern1_LowerDeck"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T500">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_MG_LBelt_Upper"/>
+				<string name="Name" value="Stern1_LBelt_Upper"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T501">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_MG_LBelt_Lower"/>
+				<string name="Name" value="Stern1_LBelt_Lower"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T502">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_LBoard"/>
+				<string name="Name" value="Stern1_LBoard"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T503">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_MG_RBelt_Upper"/>
+				<string name="Name" value="Stern1_RBelt_Upper"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T504">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_MG_RBelt_Lower"/>
+				<string name="Name" value="Stern1_RBelt_Lower"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T505">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_MG_UpperDeck"/>
+				<string name="Name" value="Stern1_UpperDeck"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T506">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_RBoard"/>
+				<string name="Name" value="Stern1_RBoard"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T507">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_BarbetType1"/>
+				<string name="Name" value="Stern1_Barbet5"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T508">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_BarbetType2"/>
+				<string name="Name" value="Stern1_Barbet4"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T510">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_Stern_Bottom"/>
+				<string name="Name" value="Stern2_Bottom"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T511">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_Stern_Deck"/>
+				<string name="Name" value="Stern2_Deck"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T512">
+				<string name="ConnectName" value="Middle3_REngine"/>
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Default"/>
+				<string name="Name" value="Mover2"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Mover"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T513">
+				<string name="ConnectName" value="Tiller;"/>
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Default"/>
+				<string name="Name" value="Rudder1"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Rudder"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T514">
+				<string name="ConnectName" value="Tiller;"/>
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Default"/>
+				<string name="Name" value="Rudder2"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Rudder"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T515">
+				<string name="ConnectName" value="Middle4_REngine"/>
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Default"/>
+				<string name="Name" value="Mover4"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Mover"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T516">
+				<string name="ConnectName" value="Middle3_LEngine"/>
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Default"/>
+				<string name="Name" value="Mover1"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Mover"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T517">
+				<string name="ConnectName" value="Middle4_LEngine"/>
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Default"/>
+				<string name="Name" value="Mover3"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Mover"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T518">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Takao_Tiller"/>
+				<string name="Name" value="Tiller"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>			
+			<object name="T9255">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="500"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Hull"/>
+				<string name="Name" value="BowSuperstructure"/>
+				<string name="TypHL" value="Crew"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T9256">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Hull"/>
+				<string name="Name" value="BowSmokeStack"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+			<object name="T9257">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Hull"/>
+				<string name="Name" value="SternSmokeStack"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Takao"/>
+			</object>
+		</object>
+		<object name="Hulls">
+			<object name="Takao_AAAmmoStore">
+				<integer name="Back" value="140"/>
+				<integer name="Bottom" value="140"/>
+				<integer name="Country" value="2"/>
+				<float name="ExplProb" value="10."/>
+				<float name="FireProb" value="20."/>
+				<integer name="Front" value="140"/>
+				<integer name="Left" value="140"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="140"/>
+				<integer name="Top" value="140"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="Takao_AAProbe">
+				<integer name="Back" value="20"/>
+				<integer name="Bottom" value="20"/>
+				<integer name="Country" value="2"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="10."/>
+				<integer name="Front" value="20"/>
+				<integer name="Left" value="20"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="20"/>
+				<integer name="Top" value="15"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="Takao_BarbetType1">
+				<integer name="Back" value="102"/>
+				<integer name="Bottom" value="0"/>
+				<integer name="Country" value="2"/>
+				<float name="ExplProb" value="20."/>
+				<float name="FireProb" value="30."/>
+				<integer name="Front" value="102"/>
+				<integer name="Left" value="102"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="102"/>
+				<integer name="Top" value="50"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="Takao_BarbetType2">
+				<integer name="Back" value="102"/>
+				<integer name="Bottom" value="0"/>
+				<integer name="Country" value="2"/>
+				<float name="ExplProb" value="20."/>
+				<float name="FireProb" value="30."/>
+				<integer name="Front" value="102"/>
+				<integer name="Left" value="102"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="102"/>
+				<integer name="Top" value="50"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="Takao_BattleCabin">
+				<integer name="Back" value="100"/>
+				<integer name="Bottom" value="10"/>
+				<integer name="Country" value="2"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="10."/>
+				<integer name="Front" value="100"/>
+				<integer name="Left" value="100"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="100"/>
+				<integer name="Top" value="50"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="Takao_BowCabin">
+				<integer name="Back" value="10"/>
+				<integer name="Bottom" value="10"/>
+				<integer name="Country" value="2"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="0."/>
+				<integer name="Front" value="10"/>
+				<integer name="Left" value="10"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="10"/>
+				<integer name="Top" value="10"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="Takao_Bow_Bottom">
+				<integer name="Back" value="0"/>
+				<integer name="Bottom" value="10"/>
+				<integer name="Country" value="2"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="2."/>
+				<integer name="Front" value="15"/>
+				<integer name="Left" value="20"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="20"/>
+				<integer name="Top" value="0"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="Takao_Bow_Deck">
+				<integer name="Back" value="0"/>
+				<integer name="Bottom" value="10"/>
+				<integer name="Country" value="2"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="7."/>
+				<integer name="Front" value="20"/>
+				<integer name="Left" value="30"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="30"/>
+				<integer name="Top" value="32"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="Takao_EO">
+				<integer name="Back" value="10"/>
+				<integer name="Bottom" value="10"/>
+				<integer name="Country" value="2"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="10."/>
+				<integer name="Front" value="10"/>
+				<integer name="Left" value="10"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="10"/>
+				<integer name="Top" value="10"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="Takao_KO_Small">
+				<integer name="Back" value="10"/>
+				<integer name="Bottom" value="10"/>
+				<integer name="Country" value="2"/>
+				<float name="ExplProb" value="30."/>
+				<float name="FireProb" value="30."/>
+				<integer name="Front" value="10"/>
+				<integer name="Left" value="10"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="10"/>
+				<integer name="Top" value="10"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="Takao_KO_Std">
+				<integer name="Back" value="10"/>
+				<integer name="Bottom" value="10"/>
+				<integer name="Country" value="2"/>
+				<float name="ExplProb" value="10."/>
+				<float name="FireProb" value="40."/>
+				<integer name="Front" value="10"/>
+				<integer name="Left" value="10"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="10"/>
+				<integer name="Top" value="10"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="Takao_LAMP">
+				<integer name="Back" value="30"/>
+				<integer name="Bottom" value="10"/>
+				<integer name="Country" value="2"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="0."/>
+				<integer name="Front" value="30"/>
+				<integer name="Left" value="30"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="30"/>
+				<integer name="Top" value="10"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="Takao_LBoard">
+				<integer name="Back" value="0"/>
+				<integer name="Bottom" value="10"/>
+				<integer name="Country" value="2"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="10."/>
+				<integer name="Front" value="15"/>
+				<integer name="Left" value="20"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="0"/>
+				<integer name="Top" value="32"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="Takao_MAmmoStore">
+				<integer name="Back" value="140"/>
+				<integer name="Bottom" value="140"/>
+				<integer name="Country" value="2"/>
+				<float name="ExplProb" value="10."/>
+				<float name="FireProb" value="20."/>
+				<integer name="Front" value="140"/>
+				<integer name="Left" value="140"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="140"/>
+				<integer name="Top" value="140"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="Takao_MGProbe">
+				<integer name="Back" value="20"/>
+				<integer name="Bottom" value="20"/>
+				<integer name="Country" value="2"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="5."/>
+				<integer name="Front" value="20"/>
+				<integer name="Left" value="20"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="20"/>
+				<integer name="Top" value="20"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="Takao_MG_LBelt_Lower">
+				<integer name="Back" value="70"/>
+				<integer name="Bottom" value="10"/>
+				<integer name="Country" value="2"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="20."/>
+				<integer name="Front" value="70"/>
+				<integer name="Left" value="76"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="76"/>
+				<integer name="Top" value="0"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="Takao_MG_LBelt_Upper">
+				<integer name="Back" value="70"/>
+				<integer name="Bottom" value="10"/>
+				<integer name="Country" value="2"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="30."/>
+				<integer name="Front" value="70"/>
+				<integer name="Left" value="102"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="102"/>
+				<integer name="Top" value="50"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="Takao_MG_LowerDeck">
+				<integer name="Back" value="70"/>
+				<integer name="Bottom" value="10"/>
+				<integer name="Country" value="2"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="30."/>
+				<integer name="Front" value="70"/>
+				<integer name="Left" value="5"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="5"/>
+				<integer name="Top" value="50"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="Takao_MG_RBelt_Lower">
+				<integer name="Back" value="70"/>
+				<integer name="Bottom" value="10"/>
+				<integer name="Country" value="2"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="20."/>
+				<integer name="Front" value="70"/>
+				<integer name="Left" value="76"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="76"/>
+				<integer name="Top" value="0"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="Takao_MG_RBelt_Upper">
+				<integer name="Back" value="70"/>
+				<integer name="Bottom" value="10"/>
+				<integer name="Country" value="2"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="30."/>
+				<integer name="Front" value="70"/>
+				<integer name="Left" value="102"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="102"/>
+				<integer name="Top" value="50"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="Takao_MG_UpperDeck">
+				<integer name="Back" value="10"/>
+				<integer name="Bottom" value="10"/>
+				<integer name="Country" value="2"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="20."/>
+				<integer name="Front" value="10"/>
+				<integer name="Left" value="10"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="10"/>
+				<integer name="Top" value="60"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="Takao_MO_LBelt_Lower">
+				<integer name="Back" value="10"/>
+				<integer name="Bottom" value="10"/>
+				<integer name="Country" value="2"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="5."/>
+				<integer name="Front" value="10"/>
+				<integer name="Left" value="51"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="51"/>
+				<integer name="Top" value="5"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="Takao_MO_LBelt_Upper">
+				<integer name="Back" value="10"/>
+				<integer name="Bottom" value="5"/>
+				<integer name="Country" value="2"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="10."/>
+				<integer name="Front" value="10"/>
+				<integer name="Left" value="102"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="102"/>
+				<integer name="Top" value="70"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="Takao_MO_MiddleDeck">
+				<integer name="Back" value="10"/>
+				<integer name="Bottom" value="5"/>
+				<integer name="Country" value="2"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="30."/>
+				<integer name="Front" value="10"/>
+				<integer name="Left" value="10"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="10"/>
+				<integer name="Top" value="60"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="Takao_MO_RBelt_Lower">
+				<integer name="Back" value="10"/>
+				<integer name="Bottom" value="5"/>
+				<integer name="Country" value="2"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="5."/>
+				<integer name="Front" value="10"/>
+				<integer name="Left" value="51"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="51"/>
+				<integer name="Top" value="5"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="Takao_MO_RBelt_Upper">
+				<integer name="Back" value="10"/>
+				<integer name="Bottom" value="10"/>
+				<integer name="Country" value="2"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="10."/>
+				<integer name="Front" value="10"/>
+				<integer name="Left" value="102"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="102"/>
+				<integer name="Top" value="70"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="Takao_MO_UpperDeck">
+				<integer name="Back" value="10"/>
+				<integer name="Bottom" value="10"/>
+				<integer name="Country" value="2"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="15."/>
+				<integer name="Front" value="10"/>
+				<integer name="Left" value="10"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="10"/>
+				<integer name="Top" value="32"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="Takao_Plane">
+				<integer name="Back" value="5"/>
+				<integer name="Bottom" value="5"/>
+				<integer name="Country" value="2"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="30."/>
+				<integer name="Front" value="5"/>
+				<integer name="Left" value="5"/>
+				<string name="Material" value="Dural"/>
+				<integer name="Right" value="5"/>
+				<integer name="Top" value="5"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="Takao_Probe">
+				<integer name="Back" value="10"/>
+				<integer name="Bottom" value="10"/>
+				<integer name="Country" value="2"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="5."/>
+				<integer name="Front" value="10"/>
+				<integer name="Left" value="10"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="10"/>
+				<integer name="Top" value="10"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="Takao_RAMP">
+				<integer name="Back" value="30"/>
+				<integer name="Bottom" value="10"/>
+				<integer name="Country" value="2"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="0."/>
+				<integer name="Front" value="30"/>
+				<integer name="Left" value="30"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="30"/>
+				<integer name="Top" value="10"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="Takao_RBoard">
+				<integer name="Back" value="0"/>
+				<integer name="Bottom" value="10"/>
+				<integer name="Country" value="2"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="10."/>
+				<integer name="Front" value="15"/>
+				<integer name="Left" value="0"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="20"/>
+				<integer name="Top" value="20"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="Takao_SternCabin">
+				<integer name="Back" value="10"/>
+				<integer name="Bottom" value="10"/>
+				<integer name="Country" value="2"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="10."/>
+				<integer name="Front" value="10"/>
+				<integer name="Left" value="10"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="10"/>
+				<integer name="Top" value="10"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="Takao_Stern_Bottom">
+				<integer name="Back" value="30"/>
+				<integer name="Bottom" value="10"/>
+				<integer name="Country" value="2"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="15."/>
+				<integer name="Front" value="10"/>
+				<integer name="Left" value="30"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="30"/>
+				<integer name="Top" value="5"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="Takao_Stern_Deck">
+				<integer name="Back" value="30"/>
+				<integer name="Bottom" value="30"/>
+				<integer name="Country" value="2"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="20."/>
+				<integer name="Front" value="30"/>
+				<integer name="Left" value="50"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="50"/>
+				<integer name="Top" value="50"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="Takao_TProbe">
+				<integer name="Back" value="20"/>
+				<integer name="Bottom" value="20"/>
+				<integer name="Country" value="2"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="10."/>
+				<integer name="Front" value="20"/>
+				<integer name="Left" value="20"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="20"/>
+				<integer name="Top" value="15"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="Takao_Tiller">
+				<integer name="Back" value="40"/>
+				<integer name="Bottom" value="10"/>
+				<integer name="Country" value="2"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="10."/>
+				<integer name="Front" value="40"/>
+				<integer name="Left" value="100"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="100"/>
+				<integer name="Top" value="35"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+			<object name="Takao_TorpedoAmmoStore">
+				<integer name="Back" value="140"/>
+				<integer name="Bottom" value="140"/>
+				<integer name="Country" value="2"/>
+				<float name="ExplProb" value="5."/>
+				<float name="FireProb" value="10."/>
+				<integer name="Front" value="140"/>
+				<integer name="Left" value="140"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="140"/>
+				<integer name="Top" value="140"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Ship"/>
+			</object>
+		</object>
+		<object name="ShipsNames">
+			<object name="Takao">
+				<string name="1" value="Takao1"/>
+				<string name="2" value="Takao2"/>
+				<string name="3" value="Takao3"/>
+				<string name="4" value="Takao4"/>
+			</object>
+		</object>
+		<object name="UnitsByType">
+			<object name="2">
+				<object name="Takao">
+					<string name="ChildTable" value="Ships"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</root>

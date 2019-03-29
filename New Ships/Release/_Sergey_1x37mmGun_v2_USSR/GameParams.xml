@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" standalone="yes" ?>
+<root>
+	<object name="SteelMonstersParams">
+		<object name="Rifles">
+			<object name="USSR_Gun_37x1_AA">
+				<float name="AARange" value="5."/>
+				<string name="Ammo" value="Proj_37_R"/>
+				<integer name="AmmoStorage" value="2000"/>
+				<float name="AmmoWeight" value="1.5"/>
+				<string name="ArmPiercing" value="Proj_37_R_AP"/>
+				<float name="Caliber" value="37."/>
+				<integer name="Country" value="6"/>
+				<float name="Dispersion" value="8."/>
+				<integer name="FinalSpeed" value="100"/>
+				<string name="FireSound" value="Guns\40mm"/>
+				<string name="HighExp" value="Proj_37_R_HE"/>
+				<boolean name="IgnoreXMLFile" value="false"/>
+				<float name="Money" value="1."/>
+				<boolean name="New" value="true"/>
+				<float name="Range" value="8.4"/>
+				<float name="ROF" value="145."/>
+				<boolean name="SLLauncher" value="false"/>
+				<string name="SMU_File" value="USSR_37x1_AA_Stvol"/>
+				<integer name="StartSpeed" value="880"/>
+				<integer name="Unreliability" value="0"/>
+				<string name="Usage" value="Ships"/>
+				<float name="Weight" value="0.126"/>
+			</object>
+		</object>
+		<object name="Turrets">
+			<object name="USSR_37x1_AA">
+				<integer name="Amount" value="1"/>
+				<integer name="ArmorFront" value="0"/>
+				<integer name="ArmorSide" value="0"/>
+				<integer name="ArmorTop" value="0"/>
+				<string name="Content" value="Rifles.USSR_Gun_37x1_AA"/>
+				<integer name="Country" value="6"/>
+				<integer name="Elevation" value="85"/>
+				<integer name="ElevationRate" value="15"/>
+				<boolean name="IgnoreXMLFile" value="false"/>
+				<float name="Iron" value="1.35"/>
+				<float name="Money" value="3."/>
+				<boolean name="New" value="true"/>
+				<boolean name="Production" value="false"/>
+				<integer name="RotationRate" value="20"/>
+				<string name="SMU_File" value="USSR_37x1_AA"/>
+				<string name="Type" value="Gun"/>
+				<float name="Vitality" value="10."/>
+				<float name="Weight" value="1.35"/>
+			</object>
+		</object>
+		<object name="Hit_Location">
+			<object name="USSR_AA7966">
+				<integer name="Country" value="6"/>
+				<float name="ER" value="0.5"/>
+				<string name="Hull" value="37_Turret"/>
+				<string name="Name" value="Turret"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="USSR_37x1_AA"/>
+			</object>
+			<object name="USSR_AA7967">
+				<integer name="Country" value="6"/>
+				<integer name="Crew" value="1"/>
+				<float name="ER" value="3.e-002"/>
+				<string name="Hull" value="Std_Crew"/>
+				<string name="Name" value="Gunner2_2"/>
+				<string name="TypHL" value="Crew"/>
+				<string name="UnitName" value="USSR_37x1_AA"/>
+			</object>
+			<object name="USSR_AA7968">
+				<integer name="Country" value="6"/>
+				<integer name="Crew" value="1"/>
+				<float name="ER" value="3.e-002"/>
+				<string name="Hull" value="Std_Crew"/>
+				<string name="Name" value="Gunner1_2"/>
+				<string name="TypHL" value="Crew"/>
+				<string name="UnitName" value="USSR_37x1_AA"/>
+			</object>
+			<object name="USSR_AA7970">
+				<integer name="Country" value="6"/>
+				<integer name="Crew" value="1"/>
+				<float name="ER" value="3.e-002"/>
+				<string name="Hull" value="Std_Crew"/>
+				<string name="Name" value="Gunner1_1"/>
+				<string name="TypHL" value="Crew"/>
+				<string name="UnitName" value="USSR_37x1_AA"/>
+			</object>
+			<object name="USSR_AA7971">
+				<integer name="Country" value="6"/>
+				<float name="ER" value="0.5"/>
+				<string name="Hull" value="37_Stvol"/>
+				<string name="Name" value="Gun1"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="USSR_37x1_AA"/>
+			</object>
+		</object>
+		<object name="Hulls">
+			<object name="37_Turret">
+				<integer name="Back" value="10"/>
+				<integer name="Bottom" value="5"/>
+				<integer name="Country" value="0"/>
+				<float name="ExplProb" value="5."/>
+				<float name="FireProb" value="0."/>
+				<integer name="Front" value="20"/>
+				<integer name="Left" value="20"/>
+				<string name="Material" value="Steel"/>
+				<integer name="Right" value="20"/>
+				<integer name="Top" value="0"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Any"/>
+			</object>
+			<object name="37_Stvol">
+				<integer name="Back" value="0"/>
+				<integer name="Bottom" value="5"/>
+				<integer name="Country" value="0"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="0."/>
+				<integer name="Front" value="5"/>
+				<integer name="Left" value="5"/>
+				<string name="Material" value="Steel"/>
+				<integer name="Right" value="5"/>
+				<integer name="Top" value="0"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Any"/>
+			</object>
+		</object>
+	</object>
+</root>

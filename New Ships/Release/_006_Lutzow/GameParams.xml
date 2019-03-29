@@ -1,0 +1,830 @@
+﻿<?xml version = "1.0" encoding = "UTF-8"?>
+<root>
+	<object name = "SteelMonstersParams">
+		<object name="Ships">
+			<object name="Lutzow">
+				<float name="AccelRate" value="3.e-004"/>
+				<string name="Airgroup" value="Scout_ShipWater_Battleship_Battalion_germany"/>
+				<integer name="AirplanesCount" value="2"/>
+				<string name="AmmoLoadingTemplate" value="Ammo 300"/>
+				<boolean name="BoatsTransportationAbility" value="false"/>
+				<integer name="CabinArmor" value="165"/>
+				<boolean name="CanBeChanged" value="true"/>
+				<boolean name="CanUseTorpedos" value="true"/>
+				<string name="CatapultAirgroupDefaultUnit" value="Ar196"/>
+				<integer name="Country" value="5"/>
+				<integer name="Crew" value="1180"/>
+				<float name="CriticalCareen" value="37."/>
+				<float name="CriticalDFT" value="2.2"/>
+				<float name="CriticalDifferent" value="2.5"/>
+				<float name="DTimeProd" value="100."/>
+				<float name="DisplacementMax" value="15443."/>
+				<float name="EPR" value="400."/>
+				<float name="FireRisk" value="1467."/>
+				<float name="Fuel" value="3300."/>
+				<integer name="HullArmorSide" value="152"/>
+				<integer name="HullArmorTop" value="130"/>
+				<float name="HLShapeCoef" value="0.8"/>
+				<float name="Iron" value="18500."/>
+				<integer name="Length" value="186"/>
+				<float name="MaxSpeed" value="26."/>
+				<integer name="MinCrew" value="800"/>
+				<float name="Money" value="22000."/>
+				<float name="NTimeProd" value="250."/>
+				<string name="Name" value="Lutzow"/>
+				<boolean name="New" value="false"/>
+				<integer name="Nuc_Dest_Prob" value="250"/>
+				<integer name="Passengers" value="50"/>
+				<boolean name="PlanesTransportationAbility" value="false"/>
+				<float name="Range" value="18650."/>
+				<integer name="Rank" value="2"/>
+				<string name="SMU" value="Lutzow"/>
+				<float name="Speed" value="15."/>
+				<float name="StoreCapacity" value="800."/>
+				<boolean name="Transportable" value="false"/>
+				<float name="TurnRate" value="1.5e-003"/>
+				<integer name="Type" value="2"/>
+				<float name="Vitality" value="7000."/>
+				<float name="VitalityAA" value="1000."/>
+				<float name="Weight" value="11887."/>
+				<integer name="Width" value="20.7"/>
+				<integer name="Year" value="39"/>
+			</object>
+		</object> 
+		<object name="Probes">
+			<object name="Pr_Lutzow_Rangefinder4mTypeSL_8V">
+				<float name="ShipRange" value="8.e-002"/>
+				<float name="BearingAccuracy" value="5."/>
+				<integer name="Country" value="5"/>
+				<float name="DTimeProd" value="0."/>
+				<float name="Frequency" value="0."/>
+				<float name="MaxCaliber" value="600."/>
+				<float name="MinCaliber" value="200."/>
+				<float name="Money" value="5."/>
+				<float name="NTimeProd" value="0."/>
+				<boolean name="New" value="true"/>
+				<float name="Power" value="0."/>
+				<boolean name="Production" value="false"/>
+				<float name="RangeAccuracy" value="50."/>
+				<float name="Sensitivity" value="0."/>
+				<integer name="SygnalType" value="2"/>
+				<string name="Type" value="Director"/>
+				<integer name="Unreliability" value="0"/>
+				<string name="Usage" value="Ships"/>
+				<float name="Weight" value="0.6"/>
+			</object>
+		</object>
+		<object name="Turrets">
+			<object name="Lutzow_Rangefinder4mTypeSL_8V">
+				<integer name="Amount" value="1"/>
+				<integer name="ArmorFront" value="0"/>
+				<integer name="ArmorSide" value="0"/>
+				<integer name="ArmorTop" value="0"/>
+				<string name="Content" value="Probes.Pr_Lutzow_Rangefinder4mTypeSL_8V"/>
+				<integer name="Country" value="5"/>
+				<integer name="Elevation" value="0"/>
+				<integer name="ElevationRate" value="0"/>
+				<boolean name="IgnoreXMLFile" value="false"/>
+				<float name="Iron" value="0.3"/>
+				<float name="Money" value="10."/>
+				<boolean name="New" value="true"/>
+				<boolean name="Production" value="false"/>
+				<integer name="RotationRate" value="15"/>
+				<string name="SMU_File" value="Lutzow_Rangefinder4mTypeSL_8V"/>
+				<string name="Type" value="Radar"/>
+				<float name="Vitality" value="30."/>
+				<float name="Weight" value="0.5"/>
+			</object>
+		</object>
+		<object name="Hit_Location">
+			<object name="Lu8095">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="10."/>
+				<string name="Hull" value="Std_RF"/>
+				<string name="Name" value="Rangefinder"/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="Lutzow_Rangefinder4mTypeSL_8V"/>
+			</object>
+			<object name="Lut161">
+				<integer name="Country" value="5"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="AdmiralScheerBelt_Left"/>
+				<string name="Name" value="Hull_Bow_Boiler_LBoard"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut162">
+				<integer name="Country" value="5"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="AdmiralScheerBelt_Right"/>
+				<string name="Name" value="Hull_Bow_Boiler_RBoard"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut163">
+				<integer name="Country" value="5"/>
+				<integer name="Crew" value="0"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="AdmiralScheerBelt_TopLeft"/>
+				<string name="Name" value="Hull_Bow_Boiler_LBoard_Top"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9261">
+				<integer name="Country" value="5"/>
+				<integer name="Crew" value="100"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Hull"/>
+				<string name="Name" value="Crew_Bow"/>
+				<string name="TypHL" value="Crew"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9262">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Hull"/>
+				<string name="Name" value="BowSmokeStack"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9263">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Hull"/>
+				<string name="Name" value="SternSmokeStack"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9588">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_UpperDeck"/>
+				<string name="Name" value="Bow2_UpperDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9589">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="AdmiralScheer_BowArmorDeck"/>
+				<string name="Name" value="Bow2_ArmorDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9590">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_MCAmmoStore"/>
+				<string name="Name" value="AmmoStore1"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9591">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_MCAmmoStore"/>
+				<string name="Name" value="AmmoStore2"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9592">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_LowerDeck"/>
+				<string name="Name" value="Bow2_LowerDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9593">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="AdmiralScheer_BowLBelt"/>
+				<string name="Name" value="Bow2_LBelt"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9594">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="AdmiralScheer_BowRBelt"/>
+				<string name="Name" value="Bow2_RBelt"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9595">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_HLBoard"/>
+				<string name="Name" value="Bow2_LBoard"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9596">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_HRBoard"/>
+				<string name="Name" value="Bow2_RBoard"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9597">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_HUpperDeck"/>
+				<string name="Name" value="Middle1_UpperDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9598">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="AdmiralScheer_ArmorDeck"/>
+				<string name="Name" value="Middle1_ArmorDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9599">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Probe"/>
+				<string name="Name" value="Radio"/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9600">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Probe"/>
+				<string name="Name" value="DamageControl"/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9601">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_LowerDeck"/>
+				<string name="Name" value="Middle1_LowerDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9602">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="AdmiralScheer_LBelt"/>
+				<string name="Name" value="Middle1_LBelt"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9603">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="AdmiralScheer_RBelt"/>
+				<string name="Name" value="Middle1_RBelt"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9604">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_HLBoard"/>
+				<string name="Name" value="Middle1_LBoard"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9605">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_HRBoard"/>
+				<string name="Name" value="Middle1_RBoard"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9606">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Boiler"/>
+				<string name="Name" value="Boiler1"/>
+				<string name="TypHL" value="Boiler"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9607">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Boiler"/>
+				<string name="Name" value="Boiler2"/>
+				<string name="TypHL" value="Boiler"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9608">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_HUpperDeck"/>
+				<string name="Name" value="Middle2_UpperDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9609">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="AdmiralScheer_ArmorDeck"/>
+				<string name="Name" value="Middle2_ArmorDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9610">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_LowerDeck"/>
+				<string name="Name" value="Middle2_LowerDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9611">
+				<string name="ConnectName" value="Boiler1"/>
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Engine"/>
+				<string name="Name" value="Engine1"/>
+				<string name="TypHL" value="Engine"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9612">
+				<string name="ConnectName" value="Boiler2"/>
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Engine"/>
+				<string name="Name" value="Engine2"/>
+				<string name="TypHL" value="Engine"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9613">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="AdmiralScheer_LBelt"/>
+				<string name="Name" value="Middle2_LBelt"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9614">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="AdmiralScheer_RBelt"/>
+				<string name="Name" value="Middle2_RBelt"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9615">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_HLBoard"/>
+				<string name="Name" value="Middle2_LBoard"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9616">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_HRBoard"/>
+				<string name="Name" value="Middle2_RBoard"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9617">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Boiler"/>
+				<string name="Name" value="Boiler3"/>
+				<string name="TypHL" value="Boiler"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9618">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Boiler"/>
+				<string name="Name" value="Boiler4"/>
+				<string name="TypHL" value="Boiler"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9619">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_HUpperDeck"/>
+				<string name="Name" value="Middle3_UpperDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9620">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="AdmiralScheer_ArmorDeck"/>
+				<string name="Name" value="Middle3_ArmorDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9621">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Probe"/>
+				<string name="Name" value="Radar"/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9622">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Probe"/>
+				<string name="Name" value="FireControl"/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9623">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_LowerDeck"/>
+				<string name="Name" value="Middle3_LowerDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9624">
+				<string name="ConnectName" value="Boiler3"/>
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Engine"/>
+				<string name="Name" value="Engine3"/>
+				<string name="TypHL" value="Engine"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9625">
+				<string name="ConnectName" value="Boiler4"/>
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Engine"/>
+				<string name="Name" value="Engine4"/>
+				<string name="TypHL" value="Engine"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9626">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="AdmiralScheer_LBelt"/>
+				<string name="Name" value="Middle3_LBelt"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9627">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="AdmiralScheer_RBelt"/>
+				<string name="Name" value="Middle3_RBelt"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9628">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_HLBoard"/>
+				<string name="Name" value="Middle3_LBoard"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9629">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_HRBoard"/>
+				<string name="Name" value="Middle3_RBoard"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9630">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_HUpperDeck"/>
+				<string name="Name" value="Stern1_UpperDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9631">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_LowerDeck"/>
+				<string name="Name" value="Stern1_MiddleDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9632">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="AdmiralScheer_SternArmorDeck"/>
+				<string name="Name" value="Stern1_AmmoStore_Cover"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9633">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_MCAmmoStore"/>
+				<string name="Name" value="AmmoStore3"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9634">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_LowerDeck"/>
+				<string name="Name" value="Stern1_LowerDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9635">
+				<string name="ConnectName" value="Engine1"/>
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Mover"/>
+				<string name="Name" value="Mover1"/>
+				<string name="TypHL" value="Mover"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9636">
+				<string name="ConnectName" value="Engine2"/>
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Mover"/>
+				<string name="Name" value="Mover2"/>
+				<string name="TypHL" value="Mover"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9637">
+				<string name="ConnectName" value="Engine3"/>
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Mover"/>
+				<string name="Name" value="Mover3"/>
+				<string name="TypHL" value="Mover"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9638">
+				<string name="ConnectName" value="Engine4"/>
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Mover"/>
+				<string name="Name" value="Mover4"/>
+				<string name="TypHL" value="Mover"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9639">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Rudder"/>
+				<string name="Name" value="Rudder"/>
+				<string name="TypHL" value="Rudder"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9640">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="AdmiralScheer_Barbet"/>
+				<string name="Name" value="Barbet1"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9641">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="AdmiralScheer_Barbet"/>
+				<string name="Name" value="Barbet2"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9642">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="AdmiralScheer_Barbet"/>
+				<string name="Name" value="Barbert3"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9643">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="AdmiralScheer_Barbet"/>
+				<string name="Name" value="Middle_LBarbetSG1"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9644">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="AdmiralScheer_Barbet"/>
+				<string name="Name" value="Middle_RBarbetSG1"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9645">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="AdmiralScheer_Barbet"/>
+				<string name="Name" value="Middle_LBarbetSG2"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9646">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="AdmiralScheer_Barbet"/>
+				<string name="Name" value="Middle_RBarbetSG2"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9647">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="AdmiralScheer_Barbet"/>
+				<string name="Name" value="Middle_LBarbetSG3"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9648">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="AdmiralScheer_Barbet"/>
+				<string name="Name" value="Middle_RBarbetSG3"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9649">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="AdmiralScheer_Barbet"/>
+				<string name="Name" value="Stern_BarbetSG"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9650">
+				<integer name="Country" value="5"/>
+				<integer name="Crew" value="300"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Superstructure"/>
+				<string name="Name" value="Bow_LSuperstructure"/>
+				<string name="TypHL" value="Crew"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9651">
+				<integer name="Country" value="5"/>
+				<integer name="Crew" value="300"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Superstructure"/>
+				<string name="Name" value="Bow_MSuperstructure"/>
+				<string name="TypHL" value="Crew"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9652">
+				<integer name="Country" value="5"/>
+				<integer name="Crew" value="300"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Superstructure"/>
+				<string name="Name" value="Bow_USuperstructure"/>
+				<string name="TypHL" value="Crew"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9653">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Superstructure"/>
+				<string name="Name" value="Middle_FSuperstructure"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9654">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Superstructure"/>
+				<string name="Name" value="Middle_SSuperstructure"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9655">
+				<integer name="Country" value="5"/>
+				<integer name="Crew" value="300"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Superstructure"/>
+				<string name="Name" value="Stern_Superstructure"/>
+				<string name="TypHL" value="Crew"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9656">
+				<integer name="Country" value="5"/>
+				<integer name="Crew" value="300"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_BowHUpperDeck"/>
+				<string name="Name" value="Bow1_UpperDeck"/>
+				<string name="TypHL" value="Crew"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9657">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_BowHLowerDeck"/>
+				<string name="Name" value="Bow1_LowerDeck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9658">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_SternHUpperDeck"/>
+				<string name="Name" value="Stern2_Deck"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9659">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Superstructure"/>
+				<string name="Name" value="Tiller"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9660">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Bottom"/>
+				<string name="Name" value="Bow1_Bottom"/>
+				<string name="TypHL" value="FuelTank"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9661">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Bottom"/>
+				<string name="Name" value="Bow2_Bottom"/>
+				<string name="TypHL" value="FuelTank"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9662">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Bottom"/>
+				<string name="Name" value="Middle1_Bottom"/>
+				<string name="TypHL" value="FuelTank"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9663">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Bottom"/>
+				<string name="Name" value="Middle2_Bottom"/>
+				<string name="TypHL" value="FuelTank"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9664">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Bottom"/>
+				<string name="Name" value="Middle3_Bottom"/>
+				<string name="TypHL" value="FuelTank"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9665">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_Bottom"/>
+				<string name="Name" value="Stern1_Bottom"/>
+				<string name="TypHL" value="FuelTank"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9666">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_SmokeStack"/>
+				<string name="Name" value="BowSmokeStack"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+			<object name="Lut9667">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="300."/>
+				<string name="Hull" value="Std_SmokeStack"/>
+				<string name="Name" value="SternSmokeStack"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Lutzow"/>
+			</object>
+		</object>
+		<object name="ShipsNames">
+			<object name="Lutzow">
+				<string name="1" value="Lutzow"/>
+			</object>
+		</object>
+		<object name="UnitsByType">
+			<object name="2">
+				<object name="Lutzow">
+					<string name="ChildTable" value="Ships"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</root>

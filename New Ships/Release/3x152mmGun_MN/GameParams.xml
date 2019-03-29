@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" standalone="yes" ?>
+<root>
+	<object name="SteelMonstersParams">
+		<object name="Rifles">
+			<object name="3x152_Main_Gun_Richelieu_Stvol">
+				<integer name="Country" value="4"/>
+				<string name="Usage" value="Ships"/>
+				<boolean name="SLLauncher" value="false"/>
+				<string name="SMU_File" value="3x152_Main_Gun_Richelieu_Stvol"/>
+				<boolean name="New" value="true"/>
+				<float name="Weight" value="7.657"/>
+				<float name="AmmoWeight" value="58.8"/>
+				<float name="Caliber" value="152."/>
+				<float name="ROF" value="6."/>
+				<integer name="StartSpeed" value="870"/>
+				<float name="Range" value="22.96"/>
+				<float name="AARange" value="14."/>
+				<integer name="FinalSpeed" value="380"/>
+				<integer name="AmmoStorage" value="400"/>
+				<integer name="Unreliability" value="0"/>
+				<float name="Money" value="9.2"/>
+				<float name="Dispersion" value="2."/>
+				<string name="HighExp" value="Proj_152_F_HE"/>
+				<string name="ArmPiercing" value="Proj_152_F_AP"/>
+				<string name="Ammo" value="Proj_152_F"/>
+				<string name="FireSound" value="Guns\152mm"/>
+				<boolean name="IgnoreXMLFile" value="false"/>
+			</object>
+		</object>
+		<object name="Turrets">
+			<object name="3x152_Main_Gun_Richelieu_1V">
+				<integer name="Amount" value="3"/>
+				<integer name="ArmorFront" value="60"/>
+				<integer name="ArmorSide" value="45"/>
+				<integer name="ArmorTop" value="25"/>
+				<string name="Building" value="Artillery"/>
+				<string name="Content" value="Rifles.3x152_Main_Gun_Richelieu_Stvol"/>
+				<integer name="Country" value="5"/>
+				<integer name="Elevation" value="75"/>
+				<integer name="ElevationRate" value="8"/>
+				<boolean name="IgnoreXMLFile" value="false"/>
+				<float name="Iron" value="26."/>
+				<float name="Money" value="6.5"/>
+				<boolean name="New" value="true"/>
+				<boolean name="Production" value="false"/>
+				<integer name="RotationRate" value="12"/>
+				<string name="SMU_File" value="3x152_Main_Gun_Richelieu_1V"/>
+				<string name="Type" value="Gun"/>
+				<float name="Vitality" value="600."/>
+				<float name="Weight" value="224.4"/>
+			</object> 
+			<object name="3x152_Main_Gun_Richelieu_2V">
+				<integer name="Amount" value="3"/>
+				<integer name="ArmorFront" value="60"/>
+				<integer name="ArmorSide" value="45"/>
+				<integer name="ArmorTop" value="25"/>
+				<string name="Building" value="Artillery"/>
+				<string name="Content" value="Rifles.3x152_Main_Gun_Richelieu_Stvol"/>
+				<integer name="Country" value="5"/>
+				<integer name="Elevation" value="75"/>
+				<integer name="ElevationRate" value="8"/>
+				<boolean name="IgnoreXMLFile" value="false"/>
+				<float name="Iron" value="26."/>
+				<float name="Money" value="6.5"/>
+				<boolean name="New" value="true"/>
+				<boolean name="Production" value="false"/>
+				<integer name="RotationRate" value="12"/>
+				<string name="SMU_File" value="3x152_Main_Gun_Richelieu_2V"/>
+				<string name="Type" value="Gun"/>
+				<float name="Vitality" value="600."/>
+				<float name="Weight" value="224.4"/>
+			</object>
+		</object>
+		<object name="Hit_Location">
+			<object name="Rich7828">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="100."/>
+				<string name="Hull" value="Richelieu_MTurret"/>
+				<string name="Name" value="Richelieu_152mm_Turret"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="3x152_Main_Gun_Richelieu_1V"/>
+			</object> 
+			<object name="Rich2v7828">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="100."/>
+				<string name="Hull" value="Richelieu_MTurret"/>
+				<string name="Name" value="Richelieu_152mm_Turret"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="3x152_Main_Gun_Richelieu_2V"/>
+			</object>
+		</object>
+		<object name="Hulls">
+			<object name="Richelieu_MTurret">
+				<integer name="Back" value="30"/>
+				<integer name="Bottom" value="50"/>
+				<integer name="Country" value="5"/>
+				<float name="ExplProb" value="20."/>
+				<float name="FireProb" value="20."/>
+				<integer name="Front" value="90"/>
+				<integer name="Left" value="50"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="50"/>
+				<integer name="Top" value="35"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Turret"/>
+			</object>
+		</object>
+	</object>
+</root>

@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" standalone="yes" ?>
+<root>
+	<object name="SteelMonstersParams">
+		<object name="Rifles">
+			<object name="150mm_Zeppelin_gun">
+				<float name="AARange" value="0."/>
+				<string name="Ammo" value="Proj_150_G"/>
+				<integer name="AmmoStorage" value="350"/>
+				<float name="AmmoWeight" value="45.3"/>
+				<float name="Caliber" value="150."/>
+				<integer name="Country" value="5"/>
+				<float name="Dispersion" value="8."/>
+				<integer name="FinalSpeed" value="350"/>
+				<string name="FireSound" value="Guns\152mm"/>
+				<string name="HighExp" value="Proj_150_G_HE"/>
+				<boolean name="IgnoreXMLFile" value="false"/>
+				<float name="Money" value="9.2"/>
+				<boolean name="New" value="true"/>
+				<float name="ROF" value="8."/>
+				<float name="Range" value="23.5"/>
+				<boolean name="SLLauncher" value="false"/>
+				<string name="SMU_File" value="Zeppelin_SK1_150mm_Stvol"/>
+				<integer name="StartSpeed" value="835"/>
+				<integer name="Unreliability" value="0"/>
+				<string name="Usage" value="Ships"/>
+				<float name="Weight" value="8.5"/>
+			</object>
+		</object>
+		<object name="Turrets">
+			<object name="Zeppelin_SK1_150mm_Turret">
+				<integer name="Amount" value="2"/>
+				<integer name="ArmorFront" value="20"/>
+				<integer name="ArmorSide" value="20"/>
+				<integer name="ArmorTop" value="20"/>
+				<string name="Building" value="Artillery"/>
+				<string name="Content" value="Rifles.150mm_Zeppelin_gun"/>
+				<integer name="Country" value="5"/>
+				<float name="DTimeProd" value="10."/>
+				<integer name="Elevation" value="20"/>
+				<integer name="ElevationRate" value="10"/>
+				<string name="Icon" value="Artillery"/>
+				<boolean name="IgnoreXMLFile" value="false"/>
+				<float name="Iron" value="26."/>
+				<float name="Money" value="6.5"/>
+				<float name="NTimeProd" value="30."/>
+				<boolean name="New" value="true"/>
+				<boolean name="Production" value="false"/>
+				<integer name="QualityRate" value="4"/>
+				<integer name="RotationRate" value="9"/>
+				<string name="SMU_File" value="Zeppelin_SK1_150mm_Turret"/>
+				<string name="Type" value="Gun"/>
+				<float name="Vitality" value="400."/>
+				<float name="Weight" value="19.54"/>
+			</object>
+		</object>
+		<object name="Hit_Location">
+			<object name="Zepp7863">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="30."/>
+				<string name="Hull" value="Zeppelin_STurret"/>
+				<string name="Name" value="Turret"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="Zeppelin_SK1_150mm_Turret"/>
+			</object>
+		</object>
+		<object name="Hulls">
+			<object name="Zeppelin_STurret">
+				<integer name="Back" value="20"/>
+				<integer name="Bottom" value="20"/>
+				<integer name="Country" value="5"/>
+				<float name="ExplProb" value="20."/>
+				<float name="FireProb" value="10."/>
+				<integer name="Front" value="20"/>
+				<integer name="Left" value="20"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="20"/>
+				<integer name="Top" value="20"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Turret"/>
+			</object>
+		</object>
+	</object>
+</root>

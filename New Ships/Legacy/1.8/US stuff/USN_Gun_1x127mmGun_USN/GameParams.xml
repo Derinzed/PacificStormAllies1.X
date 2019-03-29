@@ -1,0 +1,85 @@
+<?xml version="1.0" standalone="yes" ?>
+<root>
+	<object name="SteelMonstersParams">
+		<object name="Rifles">
+			<object name="Northampton_Gun_127x1_Stvol">
+				<float name="AARange" value="11.3"/>
+				<string name="Ammo" value="Proj_127_U"/>
+				<integer name="AmmoStorage" value="200"/>
+				<float name="AmmoWeight" value="24.45"/>
+				<float name="Caliber" value="127."/>
+				<integer name="Country" value="1"/>
+				<float name="Dispersion" value="10."/>
+				<integer name="FinalSpeed" value="122"/>
+				<string name="FireSound" value="Guns\127mm"/>
+				<string name="HighExp" value="Proj_127_U_HE"/>
+				<boolean name="IgnoreXMLFile" value="false"/>
+				<float name="Money" value="1.5"/>
+				<boolean name="New" value="true"/>
+				<float name="ROF" value="18."/>
+				<float name="Range" value="13.3"/>
+				<boolean name="SLLauncher" value="false"/>
+				<string name="SMU_File" value="Northampton_Gun_127x1_Stvol"/>
+				<integer name="StartSpeed" value="657"/>
+				<integer name="Unreliability" value="0"/>
+				<string name="Usage" value="Ships"/>
+				<float name="Weight" value="1."/>
+			</object>
+		</object>
+		<object name="Turrets">
+			<object name="Northampton_127mm_Turret">
+				<integer name="Amount" value="1"/>
+				<integer name="ArmorFront" value="20"/>
+				<integer name="ArmorSide" value="20"/>
+				<integer name="ArmorTop" value="20"/>
+				<string name="Building" value="Artillery"/>
+				<string name="Content" value="Rifles.Northampton_Gun_127x1_Stvol"/>
+				<integer name="Country" value="1"/>
+				<float name="DTimeProd" value="2.5"/>
+				<integer name="Elevation" value="85"/>
+				<integer name="ElevationRate" value="30"/>
+				<string name="Icon" value="Artillery"/>
+				<boolean name="IgnoreXMLFile" value="false"/>
+				<float name="Iron" value="11."/>
+				<float name="Money" value="5."/>
+				<float name="NTimeProd" value="13."/>
+				<boolean name="New" value="false"/>
+				<boolean name="Production" value="false"/>
+				<integer name="QualityRate" value="3"/>
+				<integer name="RotationRate" value="20"/>
+				<string name="SMU_File" value="Northampton_127mm_Base"/>
+				<string name="Type" value="Gun"/>
+				<float name="Vitality" value="250."/>
+				<float name="Weight" value="10.6"/>
+			</object>
+		</object>
+		<object name="Hit_Location">
+			<object name="Tachi1271">
+				<integer name="Country" value="2"/>
+				<float name="ER" value="2."/>
+				<string name="Hull" value="Std_Guns_SO"/>
+				<string name="Name" value="Turret"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="Northampton_127mm_Turret"/>
+			</object>
+			<object name="Tachi1272">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="1"/>
+				<float name="ER" value="3.e-002"/>
+				<string name="Hull" value="Std_Crew"/>
+				<string name="Name" value="Gunner2"/>
+				<string name="TypHL" value="Crew"/>
+				<string name="UnitName" value="Northampton_127mm_Turret"/>
+			</object>
+			<object name="Tachi1273">
+				<integer name="Country" value="2"/>
+				<integer name="Crew" value="1"/>
+				<float name="ER" value="3.e-002"/>
+				<string name="Hull" value="Std_Crew"/>
+				<string name="Name" value="Gunner1"/>
+				<string name="TypHL" value="Crew"/>
+				<string name="UnitName" value="Northampton_127mm_Turret"/>
+			</object>
+		</object>
+	</object>
+</root>

@@ -1,0 +1,35 @@
+material Tirpitz_FLAK4_20mm_MG_C38Quad
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 1 1
+			texture_unit
+			{
+				texture Tirpitz_FLAK4_20mm_MG_C38Quad.dds
+				filtering anisotropic
+			}
+		}
+		pass
+		{
+			ambient 1 1 1
+			scene_blend add
+			lighting off
+			fog_override true none
+			texture_unit
+			{
+				texture Tirpitz_FLAK4_20mm_MG_C38Quad_Spec.dds
+				filtering anisotropic
+			}
+			texture_unit
+			{
+				cubic_texture shipenvmap.dds combinedUVW
+				env_map cubic_reflection
+				tex_address_mode clamp
+				colour_op_ex modulate src_texture src_current
+			}
+		}
+	}
+}
+

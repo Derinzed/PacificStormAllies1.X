@@ -1,0 +1,63 @@
+material SL/Units/PDIcons_Maya
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				texture Maya_iconPD.png
+			}
+		}
+	}
+}
+
+
+material SL/Units/PEIcons_Maya
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				texture Maya_iconPE.png
+			}
+		}
+	}
+}
+
+
+material SL/Units/Icons_Maya
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				texture Maya_icon.png
+			}
+		}
+	}
+}
+
+

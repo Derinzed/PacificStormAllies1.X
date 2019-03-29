@@ -1,0 +1,60 @@
+<?xml version="1.0" standalone="yes" ?>
+<root>
+	<object name="bomb_G_NU2000">
+		<float name="BoundingRadius" value="1.5"/>
+		<object name="Components">
+			<object name="G_NU2000">
+				<object name="DynamicData">
+					<float name="Area" value="1."/>
+					<object name="ComponentCG">
+						<float name="X" value="0."/>
+						<float name="Y" value="0."/>
+						<float name="Z" value="0."/>
+					</object>
+					<object name="ComponentInertia">
+						<float name="X" value="0."/>
+						<float name="Y" value="0."/>
+						<float name="Z" value="0."/>
+					</object>
+					<float name="DihedralAngle" value="0."/>
+					<float name="IncidenceAngle" value="0."/>
+					<float name="Mass" value="0.100000002"/>
+					<integer name="ProfileID" value="0"/>
+				</object>
+				<object name="HitBubbles">
+					<object name="Hit_Bubble01">
+						<object name="Radius">
+							<float name="R" value="1.81037521"/>
+						</object>
+						<object name="Translate">
+							<float name="X" value="0."/>
+							<float name="Y" value="0."/>
+							<float name="Z" value="0."/>
+						</object>
+					</object>
+				</object>
+				<object name="LOD3">
+					<float name="Depth" value="100."/>
+					<string name="Mesh" value="bomb_US_NU2000_bomb_US_NU2000_L3.mesh"/>
+				</object>
+				<string name="Mesh" value="bomb_US_NU2000_bomb_US_NU2000.mesh"/>
+				<object name="SubComponents"/>
+				<string name="Type" value="Mesh"/>
+				<boolean name="Visible" value="true"/>
+			</object>
+		</object>
+		<object name="Flags">
+			<boolean name="Selectable" value="false"/>
+			<string name="Type" value="bomb"/>
+			<boolean name="Updatable" value="true"/>
+		</object>
+		<object name="LOD4">
+			<float name="Depth" value="250."/>
+			<string name="Mesh" value="bomb_US_NU2000_bomb_US_NU2000_L4.mesh"/>
+		</object>
+		<object name="Ports"/>
+		<string name="Prefix" value="bomb_G_NU2000"/>
+		<float name="UpdateInterval" value="2.e-002"/>
+		<float name="VisibilityRange" value="1000."/>
+	</object>
+</root>

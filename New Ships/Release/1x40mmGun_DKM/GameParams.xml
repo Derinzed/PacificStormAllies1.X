@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" standalone="yes" ?>
+<root>
+	<object name="SteelMonstersParams">
+		<object name="Hit_Location">
+			<object name="G7963">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="10."/>
+				<string name="Hull" value="Std_Stvol"/>
+				<string name="Name" value="Turret"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="1x40mm_Bofors_Turret"/>
+			</object>
+			<object name="G7964">
+				<integer name="Country" value="5"/>
+				<integer name="Crew" value="1"/>
+				<float name="ER" value="3.e-002"/>
+				<string name="Hull" value="Std_Crew"/>
+				<string name="Name" value="Gunner2"/>
+				<string name="TypHL" value="Crew"/>
+				<string name="UnitName" value="1x40mm_Bofors_Turret"/>
+			</object>
+			<object name="G7965">
+				<integer name="Country" value="5"/>
+				<integer name="Crew" value="1"/>
+				<float name="ER" value="3.e-002"/>
+				<string name="Hull" value="Std_Crew"/>
+				<string name="Name" value="Gunner1"/>
+				<string name="TypHL" value="Crew"/>
+				<string name="UnitName" value="1x40mm_Bofors_Turret"/>
+			</object>
+		</object>
+		<object name="Rifles">
+			<object name="1x40mm_Bofors_Stvol">
+				<float name="AARange" value="6.2"/>
+				<string name="Ammo" value="Proj_20_G"/>
+				<integer name="AmmoStorage" value="2000"/>
+				<float name="AmmoWeight" value="0.955"/>
+				<string name="ArmPiercing" value="Proj_20_G_AP"/>
+				<float name="Caliber" value="20."/>
+				<integer name="Country" value="5"/>
+				<float name="Dispersion" value="12."/>
+				<integer name="FinalSpeed" value="284"/>
+				<string name="FireSound" value="Guns\40mm"/>
+				<string name="HighExp" value="Proj_20_G_HE"/>
+				<boolean name="IgnoreXMLFile" value="false"/>
+				<float name="Money" value="1."/>
+				<boolean name="New" value="false"/>
+				<float name="Range" value="9.6"/>
+				<float name="ROF" value="120."/>
+				<boolean name="SLLauncher" value="false"/>
+				<string name="SMU_File" value="1x40mm_Bofors_Stvol"/>
+				<integer name="StartSpeed" value="854"/>
+				<integer name="Unreliability" value="0"/>
+				<string name="Usage" value="Ships"/>
+				<float name="Weight" value="0.522"/>
+			</object>
+		</object>
+		<object name="Turrets">
+			<object name="1x40mm_Bofors_Turret">
+				<integer name="Amount" value="1"/>
+				<integer name="ArmorFront" value="5"/>
+				<integer name="ArmorSide" value="0"/>
+				<integer name="ArmorTop" value="0"/>
+				<string name="Building" value="AAGun"/>
+				<string name="Content" value="Rifles.1x40mm_Bofors_Stvol"/>
+				<integer name="Country" value="5"/>
+				<float name="DTimeProd" value="5."/>
+				<integer name="Elevation" value="90"/>
+				<integer name="ElevationRate" value="24"/>
+				<string name="Icon" value="AAGun"/>
+				<boolean name="IgnoreXMLFile" value="false"/>
+				<float name="Iron" value="4.445"/>
+				<float name="Money" value="4."/>
+				<boolean name="New" value="false"/>
+				<float name="NTimeProd" value="15."/>
+				<boolean name="Production" value="false"/>
+				<integer name="QualityRate" value="2"/>
+				<integer name="RotationRate" value="26"/>
+				<string name="SMU_File" value="1x40mm_Bofors_Turret"/>
+				<string name="Type" value="Gun"/>
+				<float name="Vitality" value="7."/>
+				<float name="Weight" value="4.445"/>
+			</object>
+		</object>
+	</object>
+</root>

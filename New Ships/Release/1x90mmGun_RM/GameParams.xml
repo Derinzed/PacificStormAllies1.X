@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" standalone="yes" ?>
+<root>
+	<object name="SteelMonstersParams">
+		<object name="Rifles">
+			<object name="Littorio_90mm_Stvol">
+				<float name="AARange" value="10.8"/>
+				<string name="Ammo" value="Proj_90_I"/>
+				<integer name="AmmoStorage" value="250"/>
+				<float name="AmmoWeight" value="10."/>
+				<float name="Caliber" value="90."/>
+				<string name="Common" value="Proj_90_I_Com"/>
+				<integer name="Country" value="5"/>
+				<float name="Dispersion" value="9."/>
+				<integer name="FinalSpeed" value="210"/>
+				<string name="FireSound" value="Guns\100mm"/>
+				<boolean name="IgnoreXMLFile" value="false"/>
+				<float name="Money" value="4.5"/>
+				<boolean name="New" value="false"/>
+				<float name="ROF" value="12."/>
+				<float name="Range" value="13."/>
+				<boolean name="SLLauncher" value="false"/>
+				<string name="SMU_File" value="Littorio_90mm_Stvol"/>
+				<integer name="StartSpeed" value="860"/>
+				<integer name="Unreliability" value="0"/>
+				<string name="Usage" value="Ships"/>
+				<float name="Weight" value="1.8"/>
+			</object>
+		</object>
+		<object name="Turrets">
+			<object name="Littorio_90mm_Turret">
+				<integer name="Amount" value="1"/>
+				<integer name="ArmorFront" value="25"/>
+				<integer name="ArmorSide" value="25"/>
+				<integer name="ArmorTop" value="25"/>
+				<string name="Content" value="Rifles.Littorio_90mm_Stvol"/>
+				<integer name="Country" value="5"/>
+				<integer name="Elevation" value="75"/>
+				<integer name="ElevationRate" value="15"/>
+				<boolean name="IgnoreXMLFile" value="false"/>
+				<float name="Iron" value="33."/>
+				<float name="Money" value="30."/>
+				<boolean name="New" value="false"/>
+				<boolean name="Production" value="false"/>
+				<integer name="RotationRate" value="30"/>
+				<string name="SMU_File" value="Littorio_90mm_Turret"/>
+				<string name="Type" value="Gun"/>
+				<float name="Vitality" value="300."/>
+				<float name="Weight" value="18.77"/>
+			</object>
+		</object>
+		<object name="Hit_Location">
+			<object name="Litt90mm75">
+				<integer name="Country" value="1"/>
+				<integer name="Crew" value="6"/>
+				<float name="ER" value="50."/>
+				<string name="Hull" value="Turret127mk1"/>
+				<string name="Name" value="Hull_Turret127mk1"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="Littorio_90mm_Turret"/>
+			</object>
+			<object name="Litt90mm101">
+				<integer name="Country" value="1"/>
+				<integer name="Crew" value="6"/>
+				<float name="ER" value="3.e-002"/>
+				<string name="Hull" value="Default"/>
+				<string name="Name" value="Crew"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="Crew"/>
+				<string name="UnitName" value="Littorio_90mm_Turret"/>
+			</object>
+			<object name="Litt90mm102">
+				<integer name="Country" value="1"/>
+				<integer name="Crew" value="6"/>
+				<float name="ER" value="1."/>
+				<string name="Hull" value="Default"/>
+				<string name="Name" value="AmmoStore"/>
+				<float name="Param_1" value="0."/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="Littorio_90mm_Turret"/>
+			</object>
+		</object>
+	</object>
+</root>

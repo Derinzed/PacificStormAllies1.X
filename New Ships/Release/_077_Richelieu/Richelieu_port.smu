@@ -1,0 +1,816 @@
+﻿<?xml version="1.0" standalone="yes" ?>
+<root>
+	<object name="SlotTypes">
+		<object name="TPort_MainGunA">
+			<boolean name="CanBeEmpty" value="false"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="BigGun"/>
+			<object name="ValidAttachments">
+				<string name="01" value="4x380mm_Richelieu_Turret_2V"/>
+			</object>
+		</object>
+		<object name="TPort_MainGunB">
+			<boolean name="CanBeEmpty" value="false"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="BigGun"/>
+			<object name="ValidAttachments">
+				<string name="01" value="4x380mm_Richelieu_Turret_1VF"/>
+			</object>
+		</object>
+		<object name="TPort_152mmBR">
+			<boolean name="CanBeEmpty" value="false"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="MedGun"/>
+			<object name="ValidAttachments">
+				<string name="01" value="3x152_Main_Gun_Richelieu_2V"/>
+			</object>
+		</object>
+		<object name="TPort_152mmBL">
+			<boolean name="CanBeEmpty" value="false"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="MedGun"/>
+			<object name="ValidAttachments">
+				<string name="01" value="3x152_Main_Gun_Richelieu_2V"/>
+			</object>
+		</object>
+		<object name="TPort_152mmM">
+			<boolean name="CanBeEmpty" value="false"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="MedGun"/>
+			<object name="ValidAttachments">
+				<string name="01" value="3x152_Main_Gun_Richelieu_1V"/>
+			</object>
+		</object>
+		<object name="TPort_100mm1R">
+			<boolean name="CanBeEmpty" value="false"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="MedGun"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Richelieu_2x100mm_Turret"/>
+			</object>
+		</object>
+		<object name="TPort_100mm1L">
+			<boolean name="CanBeEmpty" value="false"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="MedGun"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Richelieu_2x100mm_Turret"/>
+			</object>
+		</object> 
+		<object name="TPort_100mm2R">
+			<boolean name="CanBeEmpty" value="false"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="MedGun"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Richelieu_2x100mm_Turret"/>
+			</object>
+		</object>
+		<object name="TPort_100mm2L">
+			<boolean name="CanBeEmpty" value="false"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="MedGun"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Richelieu_2x100mm_Turret"/>
+			</object>
+		</object>
+		<object name="TPort_100mm3R">
+			<boolean name="CanBeEmpty" value="false"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="MedGun"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Richelieu_2x100mm_Turret"/>
+			</object>
+		</object>
+		<object name="TPort_100mm3L">
+			<boolean name="CanBeEmpty" value="false"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="MedGun"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Richelieu_2x100mm_Turret"/>
+			</object>
+		</object>
+
+		<object name="TPort_AA40mm1R">
+			<boolean name="CanBeEmpty" value="true"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="LitlGun"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Turret_40x1"/>
+				<string name="02" value="US_Turret_40x2"/>
+				<string name="03" value="Turret_2x40x2"/>
+			</object>
+		</object>
+		<object name="TPort_AA40mm1L">
+			<boolean name="CanBeEmpty" value="true"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="LitlGun"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Turret_40x1"/>
+				<string name="02" value="US_Turret_40x2"/>
+				<string name="03" value="Turret_2x40x2"/>
+			</object>
+		</object>
+		<object name="TPort_AA40mm2R">
+			<boolean name="CanBeEmpty" value="true"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="LitlGun"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Turret_40x1"/>
+				<string name="02" value="US_Turret_40x2"/>
+				<string name="03" value="Turret_2x40x2"/>
+			</object>
+		</object>
+		<object name="TPort_AA40mm2L">
+			<boolean name="CanBeEmpty" value="true"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="LitlGun"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Turret_40x1"/>
+				<string name="02" value="US_Turret_40x2"/>
+				<string name="03" value="Turret_2x40x2"/>
+			</object>
+		</object>
+		<object name="TPort_AA40mm3R">
+			<boolean name="CanBeEmpty" value="true"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="LitlGun"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Turret_40x1"/>
+				<string name="02" value="US_Turret_40x2"/>
+				<string name="03" value="Turret_2x40x2"/>
+			</object>
+		</object>
+		<object name="TPort_AA40mm3L">
+			<boolean name="CanBeEmpty" value="true"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="LitlGun"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Turret_40x1"/>
+				<string name="02" value="US_Turret_40x2"/>
+				<string name="03" value="Turret_2x40x2"/>
+			</object>
+		</object>
+		<object name="TPort_AA40mm4R">
+			<boolean name="CanBeEmpty" value="true"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="LitlGun"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Turret_40x1"/>
+				<string name="02" value="US_Turret_40x2"/>
+				<string name="03" value="Turret_2x40x2"/>
+			</object>
+		</object>
+		<object name="TPort_AA40mm4L">
+			<boolean name="CanBeEmpty" value="true"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="LitlGun"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Turret_40x1"/>
+				<string name="02" value="US_Turret_40x2"/>
+				<string name="03" value="Turret_2x40x2"/>
+			</object>
+		</object>
+		<object name="TPort_AA40mm5R">
+			<boolean name="CanBeEmpty" value="true"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="LitlGun"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Turret_40x1"/>
+				<string name="02" value="US_Turret_40x2"/>
+				<string name="03" value="Turret_2x40x2"/>
+			</object>
+		</object>
+		<object name="TPort_AA40mm5L">
+			<boolean name="CanBeEmpty" value="true"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="LitlGun"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Turret_40x1"/>
+				<string name="02" value="US_Turret_40x2"/>
+				<string name="03" value="Turret_2x40x2"/>
+			</object>
+		</object>
+		<object name="TPort_AA40mm6R">
+			<boolean name="CanBeEmpty" value="true"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="LitlGun"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Turret_40x1"/>
+				<string name="02" value="US_Turret_40x2"/>
+				<string name="03" value="Turret_2x40x2"/>
+			</object>
+		</object>
+		<object name="TPort_AA40mm6L">
+			<boolean name="CanBeEmpty" value="true"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="LitlGun"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Turret_40x1"/>
+				<string name="02" value="US_Turret_40x2"/>
+				<string name="03" value="Turret_2x40x2"/>
+			</object>
+		</object> 
+		<object name="TPort_AA40mm7R">
+			<boolean name="CanBeEmpty" value="true"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="LitlGun"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Turret_40x1"/>
+				<string name="02" value="US_Turret_40x2"/>
+				<string name="03" value="Turret_2x40x2"/>
+			</object>
+		</object>
+		<object name="TPort_AA40mm7L">
+			<boolean name="CanBeEmpty" value="true"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="LitlGun"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Turret_40x1"/>
+				<string name="02" value="US_Turret_40x2"/>
+				<string name="03" value="Turret_2x40x2"/>
+			</object>
+		</object>
+
+		<object name="TPort_ProjBR">
+			<boolean name="CanBeEmpty" value="false"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="Probe"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Bismark_Projector_Turret"/>
+			</object>
+		</object>
+		<object name="TPort_ProjBL">
+			<boolean name="CanBeEmpty" value="false"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="Probe"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Bismark_Projector_Turret"/>
+			</object>
+		</object>
+		<object name="TPort_AA20mm00">
+			<boolean name="CanBeEmpty" value="true"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="LitlGun"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Turret_20x1_USA"/>
+			</object>
+		</object>
+		<object name="TPort_AA20mm01">
+			<boolean name="CanBeEmpty" value="true"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="LitlGun"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Turret_20x1_USA"/>
+			</object>
+		</object>
+		<object name="TPort_AA20mm02">
+			<boolean name="CanBeEmpty" value="true"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="LitlGun"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Turret_20x1_USA"/>
+			</object>
+		</object>
+		<object name="TPort_AA20mm03">
+			<boolean name="CanBeEmpty" value="true"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="LitlGun"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Turret_20x1_USA"/>
+			</object>
+		</object>
+		<object name="TPort_AA20mm04">
+			<boolean name="CanBeEmpty" value="true"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="LitlGun"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Turret_20x1_USA"/>
+			</object>
+		</object>
+		<object name="TPort_AA20mm05">
+			<boolean name="CanBeEmpty" value="true"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="LitlGun"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Turret_20x1_USA"/>
+			</object>
+		</object>
+		<object name="TPort_AA20mm06">
+			<boolean name="CanBeEmpty" value="true"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="LitlGun"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Turret_20x1_USA"/>
+			</object>
+		</object>
+		<object name="TPort_AA20mm07">
+			<boolean name="CanBeEmpty" value="true"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="LitlGun"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Turret_20x1_USA"/>
+			</object>
+		</object>
+		<object name="TPort_AA20mm08">
+			<boolean name="CanBeEmpty" value="true"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="LitlGun"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Turret_20x1_USA"/>
+			</object>
+		</object>
+		<object name="TPort_AA20mm09">
+			<boolean name="CanBeEmpty" value="true"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="LitlGun"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Turret_20x1_USA"/>
+			</object>
+		</object>
+		<object name="TPort_AA20mm10">
+			<boolean name="CanBeEmpty" value="true"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="LitlGun"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Turret_20x1_USA"/>
+			</object>
+		</object>
+		<object name="TPort_AA20mm11">
+			<boolean name="CanBeEmpty" value="true"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="LitlGun"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Turret_20x1_USA"/>
+			</object>
+		</object>
+		<object name="TPort_AA20mm12">
+			<boolean name="CanBeEmpty" value="true"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="LitlGun"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Turret_20x1_USA"/>
+			</object>
+		</object>
+		<object name="TPort_AA20mm13">
+			<boolean name="CanBeEmpty" value="true"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="LitlGun"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Turret_20x1_USA"/>
+			</object>
+		</object>
+		<object name="TPort_AA20mm14">
+			<boolean name="CanBeEmpty" value="true"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="LitlGun"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Turret_20x1_USA"/>
+			</object>
+		</object>
+		<object name="TPort_AA20mm15">
+			<boolean name="CanBeEmpty" value="true"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="LitlGun"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Turret_20x1_USA"/>
+			</object>
+		</object>
+		<object name="TPort_AA20mm16">
+			<boolean name="CanBeEmpty" value="true"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="LitlGun"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Turret_20x1_USA"/>
+			</object>
+		</object>
+		<object name="TPort_AA20mm17">
+			<boolean name="CanBeEmpty" value="true"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="LitlGun"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Turret_20x1_USA"/>
+			</object>
+		</object>
+		<object name="TPort_AA20mm18">
+			<boolean name="CanBeEmpty" value="true"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="LitlGun"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Turret_20x1_USA"/>
+			</object>
+		</object>
+		<object name="TPort_AA20mm19">
+			<boolean name="CanBeEmpty" value="true"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="LitlGun"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Turret_20x1_USA"/>
+			</object>
+		</object>
+		<object name="TPort_AA20mm20">
+			<boolean name="CanBeEmpty" value="true"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="LitlGun"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Turret_20x1_USA"/>
+			</object>
+		</object>
+		<object name="TPort_AA20mm21">
+			<boolean name="CanBeEmpty" value="true"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="LitlGun"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Turret_20x1_USA"/>
+			</object>
+		</object>
+		<object name="TPort_AA20mm22">
+			<boolean name="CanBeEmpty" value="true"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="LitlGun"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Turret_20x1_USA"/>
+			</object>
+		</object>
+		<object name="TPort_AA20mm23">
+			<boolean name="CanBeEmpty" value="true"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="LitlGun"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Turret_20x1_USA"/>
+			</object>
+		</object>
+		<object name="TPort_AA20mm24">
+			<boolean name="CanBeEmpty" value="true"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="LitlGun"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Turret_20x1_USA"/>
+			</object>
+		</object>
+		<object name="TPort_AA20mm25">
+			<boolean name="CanBeEmpty" value="true"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="LitlGun"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Turret_20x1_USA"/>
+			</object>
+		</object>
+		<object name="TPort_AA20mm26">
+			<boolean name="CanBeEmpty" value="true"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="LitlGun"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Turret_20x1_USA"/>
+			</object>
+		</object>
+		<object name="TPort_AA20mm27">
+			<boolean name="CanBeEmpty" value="true"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="LitlGun"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Turret_20x1_USA"/>
+			</object>
+		</object>
+		<object name="TPort_AA20mm28">
+			<boolean name="CanBeEmpty" value="true"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="LitlGun"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Turret_20x1_USA"/>
+			</object>
+		</object>
+		<object name="TPort_AA20mm29">
+			<boolean name="CanBeEmpty" value="true"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="LitlGun"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Turret_20x1_USA"/>
+			</object>
+		</object>
+		<object name="TPort_AA20mm30">
+			<boolean name="CanBeEmpty" value="true"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="LitlGun"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Turret_20x1_USA"/>
+			</object>
+		</object>
+		<object name="TPort_AA20mm31">
+			<boolean name="CanBeEmpty" value="true"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="LitlGun"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Turret_20x1_USA"/>
+			</object>
+		</object>
+		<object name="TPort_AA20mm32">
+			<boolean name="CanBeEmpty" value="true"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="LitlGun"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Turret_20x1_USA"/>
+			</object>
+		</object>
+		<object name="TPort_AA20mm33">
+			<boolean name="CanBeEmpty" value="true"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="LitlGun"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Turret_20x1_USA"/>
+			</object>
+		</object>
+		<object name="TPort_AA20mm34">
+			<boolean name="CanBeEmpty" value="true"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="LitlGun"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Turret_20x1_USA"/>
+			</object>
+		</object>
+		<object name="TPort_AA20mm35">
+			<boolean name="CanBeEmpty" value="true"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="LitlGun"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Turret_20x1_USA"/>
+			</object>
+		</object>
+		<object name="TPort_AA20mm36">
+			<boolean name="CanBeEmpty" value="true"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="LitlGun"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Turret_20x1_USA"/>
+			</object>
+		</object>
+		<object name="TPort_AA20mm37">
+			<boolean name="CanBeEmpty" value="true"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="LitlGun"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Turret_20x1_USA"/>
+			</object>
+		</object>
+		<object name="TPort_AA20mm38">
+			<boolean name="CanBeEmpty" value="true"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="LitlGun"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Turret_20x1_USA"/>
+			</object>
+		</object>
+		<object name="TPort_AA20mm39">
+			<boolean name="CanBeEmpty" value="true"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="LitlGun"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Turret_20x1_USA"/>
+			</object>
+		</object>
+		<object name="TPort_AA20mm40">
+			<boolean name="CanBeEmpty" value="true"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="LitlGun"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Turret_20x1_USA"/>
+			</object>
+		</object>
+		<object name="TPort_AA20mm41">
+			<boolean name="CanBeEmpty" value="true"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="LitlGun"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Turret_20x1_USA"/>
+			</object>
+		</object>
+		<object name="TPort_AA20mm42">
+			<boolean name="CanBeEmpty" value="true"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="LitlGun"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Turret_20x1_USA"/>
+			</object>
+		</object>
+		<object name="TPort_AA20mm43">
+			<boolean name="CanBeEmpty" value="true"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="LitlGun"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Turret_20x1_USA"/>
+			</object>
+		</object>
+		<object name="TPort_AA20mm44">
+			<boolean name="CanBeEmpty" value="true"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="LitlGun"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Turret_20x1_USA"/>
+			</object>
+		</object>
+
+		<object name="TPort_RF01FR">
+			<boolean name="CanBeEmpty" value="false"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="Aiming"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Strasbourg_RangefinderTypeSL"/>
+			</object>
+		</object>
+		<object name="TPort_RF02FL">
+			<boolean name="CanBeEmpty" value="false"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="Aiming"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Strasbourg_RangefinderTypeSL"/>
+			</object>
+		</object>
+		<object name="TPort_RF3mFR">
+			<boolean name="CanBeEmpty" value="false"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="Aiming"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Strasbourg_Rangefinder3m"/>
+			</object>
+		</object>
+		<object name="TPort_RF3mFL">
+			<boolean name="CanBeEmpty" value="false"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="Aiming"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Strasbourg_Rangefinder3m"/>
+			</object>
+		</object>
+		<object name="TPort_RF3mBR">
+			<boolean name="CanBeEmpty" value="false"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="Aiming"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Strasbourg_Rangefinder3m"/>
+			</object>
+		</object>
+		<object name="TPort_RF3mBL">
+			<boolean name="CanBeEmpty" value="false"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="Aiming"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Strasbourg_Rangefinder3m"/>
+			</object>
+		</object>
+		<object name="TPort_RF4mF">
+			<boolean name="CanBeEmpty" value="false"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="Aiming"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Strasbourg_Rangefinder4m"/>
+			</object>
+		</object>
+		<object name="TPort_RF4mB">
+			<boolean name="CanBeEmpty" value="false"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="Aiming"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Strasbourg_Rangefinder4m"/>
+			</object>
+		</object>
+		<object name="TPort_RF4mR">
+			<boolean name="CanBeEmpty" value="false"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="Aiming"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Strasbourg_Rangefinder4m"/>
+			</object>
+		</object>
+		<object name="TPort_RF4mL">
+			<boolean name="CanBeEmpty" value="false"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="Aiming"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Strasbourg_Rangefinder4m"/>
+			</object>
+		</object>
+		<object name="TPort_RFSFR">
+			<boolean name="CanBeEmpty" value="false"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="Aiming"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Strasbourg_RangefinderSmall"/>
+			</object>
+		</object>
+		<object name="TPort_RFSFL">
+			<boolean name="CanBeEmpty" value="false"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="Aiming"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Strasbourg_RangefinderSmall"/>
+			</object>
+		</object>
+		<object name="TPort_RFSBR">
+			<boolean name="CanBeEmpty" value="false"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="Aiming"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Strasbourg_RangefinderSmall"/>
+			</object>
+		</object>
+		<object name="TPort_RFSBL">
+			<boolean name="CanBeEmpty" value="false"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="Aiming"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Strasbourg_RangefinderSmall"/>
+			</object>
+		</object>
+		<object name="TPort_RADAR1">
+			<boolean name="CanBeEmpty" value="false"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="Probe"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Strasbourg_Radar1"/>
+			</object>
+		</object>
+		<object name="TPort_RADAR2">
+			<boolean name="CanBeEmpty" value="false"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="Probe"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Strasbourg_Radar2"/>				
+			</object>
+		</object>
+		<object name="TPort_RADAR3">
+			<boolean name="CanBeEmpty" value="false"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="Probe"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Strasbourg_Radar3"/>
+			</object>
+		</object>
+		<object name="TPort_RADAR4">
+			<boolean name="CanBeEmpty" value="false"/>
+			<string name="Table" value="Turrets"/>
+			<string name="Type" value="Probe"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Strasbourg_Radar3"/>
+			</object>
+		</object>
+		<object name="ZPort_AAGunContr1">
+			<string name="Table" value="AimSystems"/>
+			<string name="Type" value="Aiming"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Mark0_AA"/>
+				<string name="02" value="Mark1_AA"/>
+				<string name="03" value="Mark1R_AA"/>
+				<string name="04" value="Mark12R_AA"/>
+			</object>
+		</object>
+		<object name="ZPort_Bridge">
+			<string name="Table" value="AimSystems"/>
+			<string name="Type" value="Aiming"/>
+			<object name="ValidAttachments"/>
+		</object>
+		<object name="ZPort_FuelTank">
+			<string name="Table" value="Construc"/>
+			<string name="Type" value="Struc"/>
+			<object name="ValidAttachments"/>
+		</object>
+		<object name="ZPort_Jammer_US_A1">
+			<string name="Table" value="Probes"/>
+			<string name="Type" value="Aiming"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Jammer_US_A"/>
+			</object>
+		</object>
+		<object name="ZPort_MainGunContr">
+			<string name="Table" value="AimSystems"/>
+			<string name="Type" value="Aiming"/>
+			<object name="ValidAttachments">
+				<string name="01" value="Mk_7_M"/>
+				<string name="02" value="Mk_8_M"/>
+				<string name="03" value="Mk_8R_M"/>
+			</object>
+		</object>
+		<object name="ZPort_Radio">
+			<string name="Table" value="Probes"/>
+			<string name="Type" value="Aiming"/>
+			<object name="ValidAttachments">
+				<string name="01" value="TBL7"/>
+				<string name="02" value="TBS"/>
+			</object>
+		</object>
+		<object name="ZPort_Sonar">
+			<string name="Table" value="Probes"/>
+			<string name="Type" value="Aiming"/>
+			<object name="ValidAttachments">
+				<string name="01" value="SearchLight_U"/>
+				<string name="02" value="Sword_Type_147_U"/>
+			</object>
+		</object>
+		<object name="ZPort_SteamTurbine_01">
+			<boolean name="CanBeEmpty" value="false"/>
+			<string name="Table" value="Engins"/>
+			<string name="Type" value="Engine"/>
+			<object name="ValidAttachments">
+				<string name="01" value="MPP_Richelieu"/>
+			</object>
+		</object>
+	</object>
+</root>

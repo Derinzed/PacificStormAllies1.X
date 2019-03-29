@@ -1,0 +1,61 @@
+<?xml version="1.0" standalone="yes" ?>
+<root>
+	<object name="SteelMonstersParams">
+		<object name="Formations">
+			<object name="Destroyer_Division_germany">
+				<string name="FishType" value="Destroyer"/>
+				<integer name="HierarchyLevel" value="1"/>
+				<string name="ID_for_text" value="Destroyer_Division"/>
+				<boolean name="IsTransporter" value="false"/>
+				<string name="Symbol" value="SL/DestroyerSymbol"/>
+				<string name="Type" value="Division"/>
+			</object>
+			<object name="HeavyBomber_Division_usa">
+				<string name="FishType" value="Bomber"/>
+				<integer name="HierarchyLevel" value="2"/>
+				<string name="ID_for_text" value="HeavyBomber_Fleet"/>
+				<boolean name="IsTransporter" value="false"/>
+				<string name="Kind" value="Avia"/>
+				<string name="Role" value="Bomber"/>
+				<string name="Type" value="CorpsX"/>
+			</object>
+			<object name="HeavyBomber_Battalion_germany">
+				<string name="FishType" value="Bomber"/>
+				<integer name="HierarchyLevel" value="2"/>
+				<string name="ID_for_text" value="MediumBomber_Fleet"/>
+				<boolean name="IsTransporter" value="false"/>
+				<string name="Kind" value="Avia"/>
+				<string name="Role" value="Bomber"/>
+				<string name="Type" value="CorpsX"/>
+			</object>
+		</object>
+		<object name="FormationsContents">
+			<object name="Destroyer_Division_germany">
+				<object name="Destroyer_Battalioo_germany">
+					<string name="ChildTable" value="Formations"/>
+					<integer name="Count" value="2"/>
+				</object>
+			</object>
+			<object name="HeavyBomber_Division_usa">
+				<object name="Fighter_Divisiom_P51_usa">
+					<string name="ChildTable" value="Formations"/>
+					<integer name="Count" value="4"/>
+				</object>
+				<object name="HeavyBomber_Divisiom_usa">
+					<string name="ChildTable" value="Formations"/>
+					<integer name="Count" value="4"/>
+				</object>
+			</object>
+			<object name="HeavyBomber_Battalion_germany">
+				<object name="Fighter_Divisiom_germany">
+					<string name="ChildTable" value="Formations"/>
+					<integer name="Count" value="4"/>
+				</object>
+				<object name="MediumBomber_Divisiom_germany">
+					<string name="ChildTable" value="Formations"/>
+					<integer name="Count" value="4"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</root>

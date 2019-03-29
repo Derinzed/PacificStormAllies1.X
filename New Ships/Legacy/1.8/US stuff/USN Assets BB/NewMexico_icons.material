@@ -1,0 +1,62 @@
+material SL/Units/PDIcons_NewMexico
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				tex_val_size 0.875 0.625 1. 0.75 
+				texture UnitIcons_PD1.png
+			}
+		}
+	}
+}
+
+material SL/Units/PEIcons_NewMexico
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				tex_val_size 0.875 0.625 1. 0.75 
+				texture UnitIcons_PE1.png
+			}
+		}
+	}
+}
+
+material SL/Units/Icons_NewMexico
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				tex_val_size 0.4296875 0.8203125 0.64453125 0.875 
+				texture UnitIcons_Ships.png
+			}
+		}
+	}
+}

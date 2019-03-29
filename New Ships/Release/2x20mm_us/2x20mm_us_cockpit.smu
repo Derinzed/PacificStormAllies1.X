@@ -1,0 +1,115 @@
+<?xml version="1.0" standalone="yes" ?>
+<root>
+	<object name="2x20mm_us_cockpit">
+		<object name="EPort_01">
+			<string name="PortType" value="Shoot"/>
+			<object name="Rotate">
+				<float name="X" value="0."/>
+				<float name="Y" value="0."/>
+				<float name="Z" value="0."/>
+			</object>
+			<object name="Scale">
+				<float name="X" value="1."/>
+				<float name="Y" value="1."/>
+				<float name="Z" value="1."/>
+			</object>
+			<object name="Translate">
+				<float name="X" value="1.549"/>
+				<float name="Y" value="1.084"/>
+				<float name="Z" value="0.06"/>
+			</object>
+		</object>
+		<object name="EPort_02">
+			<string name="PortType" value="Shoot"/>
+			<object name="Rotate">
+				<float name="X" value="0."/>
+				<float name="Y" value="0."/>
+				<float name="Z" value="0."/>
+			</object>
+			<object name="Scale">
+				<float name="X" value="1."/>
+				<float name="Y" value="1."/>
+				<float name="Z" value="1."/>
+			</object>
+			<object name="Translate">
+				<float name="X" value="1.549"/>
+				<float name="Y" value="1.084"/>
+				<float name="Z" value="-0.06"/>
+			</object>
+		</object>
+		
+		<object name="Barrel">
+			<string name="Mesh" value="J1_2x20mm_us_barrel.mesh"/>
+			<object name="Rotate">
+				<float name="X" value="0."/>
+				<float name="Y" value="0."/>
+				<float name="Z" value="0."/>
+			</object>
+			<object name="SPort1">
+				<float name="DelayTime" value="0."/>
+				<float name="FullTime" value="1."/>
+				<string name="MovableSet" value="UpDown"/>
+				<object name="Point1">
+					<float name="X" value="-0.359"/>
+					<float name="Y" value="1.096"/>
+					<float name="Z" value="0.062"/>
+				</object>
+				<object name="Point2">
+					<float name="X" value="-0.359"/>
+					<float name="Y" value="1.096"/>
+					<float name="Z" value="0.062"/>
+				</object>
+				<float name="PortMaxValue" value="70."/>
+				<float name="PortMinValue" value="5."/>
+				<string name="PortMoType" value="Rotate"/>
+			</object>
+			<object name="Scale">
+				<float name="X" value="1."/>
+				<float name="Y" value="1."/>
+				<float name="Z" value="1."/>
+			</object>
+			<object name="Translate">
+				<float name="X" value="-0.359"/>
+				<float name="Y" value="1.096"/>
+				<float name="Z" value="0.062"/>
+			</object>
+		</object>
+		
+		<object name="Base">
+			<string name="Mesh" value="J1_2x20mm_us.mesh"/>
+			<object name="Rotate">
+				<float name="X" value="0."/>
+				<float name="Y" value="0."/>
+				<float name="Z" value="0."/>
+			</object>
+			<object name="SPort1">
+				<float name="DelayTime" value="0."/>
+				<float name="FullTime" value="1."/>
+				<string name="MovableSet" value="LeftRight"/>
+				<object name="Point1">
+					<float name="X" value="-0.359"/>
+					<float name="Y" value="0."/>
+					<float name="Z" value="0."/>
+				</object>
+				<object name="Point2">
+					<float name="X" value="-0.359"/>
+					<float name="Y" value="0."/>
+					<float name="Z" value="0."/>
+				</object>
+				<float name="PortMaxValue" value="0."/>
+				<float name="PortMinValue" value="0."/>
+				<string name="PortMoType" value="Rotate"/>
+			</object>
+			<object name="Scale">
+				<float name="X" value="1."/>
+				<float name="Y" value="1."/>
+				<float name="Z" value="1."/>
+			</object>
+			<object name="Translate">
+				<float name="X" value="0."/>
+				<float name="Y" value="0."/>
+				<float name="Z" value="0."/>
+			</object>
+		</object>
+	</object>
+</root>

@@ -1,0 +1,184 @@
+<?xml version="1.0" standalone="yes" ?>
+<root>
+	<object name="88mm_45_SK_C35_Turret">
+		<object name="Components">
+			<object name="88mm_45_SK_C35_Base">
+				<object name="DynamicData">
+					<float name="Area" value="1."/>
+					<object name="ComponentCG">
+						<float name="X" value="-0.578381538"/>
+						<float name="Y" value="1.70372009"/>
+						<float name="Z" value="4.66156006e-003"/>
+					</object>
+					<object name="ComponentInertia">
+						<float name="X" value="0."/>
+						<float name="Y" value="0."/>
+						<float name="Z" value="0."/>
+					</object>
+					<float name="DihedralAngle" value="0."/>
+					<float name="IncidenceAngle" value="0."/>
+					<float name="Mass" value="0.100000002"/>
+					<integer name="ProfileID" value="0"/>
+				</object>
+				<string name="Mesh" value="Northampton_127mm_mesh.mesh"/>
+				<object name="SubComponents">
+					<object name="DPort_US_Erlicon_Man">
+						<string name="ConcreteType" value="DPort"/>
+						<string name="PortHolder" value=""/>
+						<string name="PortType" value="US_Erlicon_Man"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-1."/>
+								<float name="Y" value="1.2852"/>
+								<float name="Z" value="0.98"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="DPort_US_Erlicon_Man1">
+						<string name="ConcreteType" value="DPort"/>
+						<string name="PortHolder" value=""/>
+						<string name="PortType" value="US_Erlicon_Man"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="1."/>
+								<float name="Y" value="1."/>
+								<float name="Z" value="1."/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="-1."/>
+								<float name="Y" value="1.2852"/>
+								<float name="Z" value="-0.93"/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+					<object name="TPort_01">
+						<string name="ConcreteType" value="TPort"/>
+						<float name="PortMaxValueY" value="0."/>
+						<float name="PortMaxValueZ" value="30."/>
+						<float name="PortMinValueY" value="0."/>
+						<float name="PortMinValueZ" value="-10."/>
+						<string name="PortMoType" value="Rotate"/>
+						<string name="PortType" value="88mm_45_SK_C35_Stvol"/>
+						<object name="Transform">
+							<object name="Rotate">
+								<float name="X" value="0."/>
+								<float name="Y" value="0."/>
+								<float name="Z" value="0."/>
+							</object>
+							<object name="Scale">
+								<float name="X" value="0.86"/>
+								<float name="Y" value="1.25"/>
+								<float name="Z" value="1.25"/>
+							</object>
+							<object name="Translate">
+								<float name="X" value="0.2"/>
+								<float name="Y" value="1.6"/>
+								<float name="Z" value="0."/>
+							</object>
+						</object>
+						<string name="Type" value="Port"/>
+					</object>
+				</object>
+				<string name="Type" value="Mesh"/>
+				<boolean name="Visible" value="true"/>
+			</object>
+		</object>
+		<object name="Flags">
+			<string name="Type" value="cannon"/>
+			<boolean name="Updatable" value="true"/>
+		</object>
+		<object name="Ports">
+			<object name="DPort_US_Erlicon_Man">
+				<string name="ConcreteType" value="DPort"/>
+				<string name="PortHolder" value=""/>
+				<string name="PortType" value="US_Erlicon_Man"/>
+				<object name="Transform">
+					<object name="Rotate">
+						<float name="X" value="0."/>
+						<float name="Y" value="0."/>
+						<float name="Z" value="0."/>
+					</object>
+					<object name="Scale">
+						<float name="X" value="1."/>
+						<float name="Y" value="1."/>
+						<float name="Z" value="1."/>
+					</object>
+					<object name="Translate">
+						<float name="X" value="-1."/>
+						<float name="Y" value="1.2852"/>
+						<float name="Z" value="0.98"/>
+					</object>
+				</object>
+				<string name="Type" value="Port"/>
+			</object>
+			<object name="DPort_US_Erlicon_Man1">
+				<string name="ConcreteType" value="DPort"/>
+				<string name="PortHolder" value=""/>
+				<string name="PortType" value="US_Erlicon_Man"/>
+				<object name="Transform">
+					<object name="Rotate">
+						<float name="X" value="0."/>
+						<float name="Y" value="0."/>
+						<float name="Z" value="0."/>
+					</object>
+					<object name="Scale">
+						<float name="X" value="1."/>
+						<float name="Y" value="1."/>
+						<float name="Z" value="1."/>
+					</object>
+					<object name="Translate">
+						<float name="X" value="-1."/>
+						<float name="Y" value="1.2852"/>
+						<float name="Z" value="-0.93"/>
+					</object>
+				</object>
+				<string name="Type" value="Port"/>
+			</object>
+			<object name="TPort_01">
+				<string name="ConcreteType" value="TPort"/>
+				<float name="PortMaxValueY" value="0."/>
+				<float name="PortMaxValueZ" value="30."/>
+				<float name="PortMinValueY" value="0."/>
+				<float name="PortMinValueZ" value="-10."/>
+				<string name="PortMoType" value="Rotate"/>
+				<string name="PortType" value="88mm_45_SK_C35_Stvol"/>
+				<object name="Transform">
+					<object name="Rotate">
+						<float name="X" value="0."/>
+						<float name="Y" value="0."/>
+						<float name="Z" value="0."/>
+					</object>
+					<object name="Scale">
+						<float name="X" value="0.86"/>
+						<float name="Y" value="1.25"/>
+						<float name="Z" value="1.25"/>
+					</object>
+					<object name="Translate">
+						<float name="X" value="0.2"/>
+						<float name="Y" value="1.6"/>
+						<float name="Z" value="0."/>
+					</object>
+				</object>
+				<string name="Type" value="Port"/>
+			</object>
+		</object>
+		<string name="Prefix" value="88mm_45_SK_C35_Turret"/>
+	</object>
+</root>

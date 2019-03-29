@@ -1,0 +1,66 @@
+material SL/Units/PDIcons_Edinburgh
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				tex_val_size 0.625 0.375 0.75 0.5 
+				texture UnitIcons_PD1.png
+			}
+		}
+	}
+}
+
+
+material SL/Units/PEIcons_Edinburgh
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				tex_val_size 0.625 0.375 0.75 0.5 
+				texture UnitIcons_PE1.png
+			}
+		}
+	}
+}
+
+
+material SL/Units/Icons_Edinburgh
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				tex_val_size 0. 0.65625 0.21484375 0.7109375 
+				texture UnitIcons_Ships.png
+			}
+		}
+	}
+}
+
+

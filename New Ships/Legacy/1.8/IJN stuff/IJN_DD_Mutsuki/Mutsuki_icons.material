@@ -1,0 +1,63 @@
+material SL/Units/PDIcons_Mutsuki
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				texture Mutsuki_iconPD.png
+			}
+		}
+	}
+}
+
+
+material SL/Units/PEIcons_Mutsuki
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				texture Mutsuki_iconPE.png
+			}
+		}
+	}
+}
+
+
+material SL/Units/Icons_Mutsuki
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				texture Mutsuki_icon.png
+			}
+		}
+	}
+}
+
+

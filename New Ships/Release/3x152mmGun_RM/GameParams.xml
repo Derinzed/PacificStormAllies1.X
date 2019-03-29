@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" standalone="yes" ?>
+<root>
+	<object name="SteelMonstersParams">
+		<object name="Rifles">
+			<object name="Littorio_3x152mm_Stvol">
+				<integer name="Country" value="5"/>
+				<string name="Usage" value="Ships"/>
+				<boolean name="SLLauncher" value="false"/>
+				<string name="SMU_File" value="Littorio_3x152mm_Stvol"/>
+				<boolean name="New" value="true"/>
+				<float name="Weight" value="8.9"/>
+				<float name="AmmoWeight" value="50."/>
+				<float name="Caliber" value="152."/>
+				<float name="ROF" value="5."/>
+				<integer name="StartSpeed" value="910"/>
+				<float name="Range" value="25.74"/>
+				<float name="AARange" value="0"/>
+				<integer name="FinalSpeed" value="320"/>
+				<integer name="AmmoStorage" value="400"/>
+				<integer name="Unreliability" value="0"/>
+				<float name="Money" value="9.2"/>
+				<float name="Dispersion" value="6."/>
+				<string name="HighExp" value="Proj_152_I_HE"/>
+				<string name="ArmPiercing" value="Proj_152_I_AP"/>
+				<string name="Ammo" value="Proj_152_I"/>
+				<string name="FireSound" value="Guns\152mm"/>
+				<boolean name="IgnoreXMLFile" value="false"/>
+			</object>
+		</object>
+		<object name="Turrets">
+			<object name="Littorio_3x152mm_Turret">
+				<integer name="Amount" value="3"/>
+				<integer name="ArmorFront" value="25"/>
+				<integer name="ArmorSide" value="25"/>
+				<integer name="ArmorTop" value="25"/>
+				<string name="Building" value="Artillery"/>
+				<string name="Content" value="Rifles.Littorio_3x152mm_Stvol"/>
+				<integer name="Country" value="5"/>
+				<integer name="Elevation" value="45"/>
+				<integer name="ElevationRate" value="12"/>
+				<boolean name="IgnoreXMLFile" value="false"/>
+				<float name="Iron" value="26."/>
+				<float name="Money" value="6.5"/>
+				<boolean name="New" value="true"/>
+				<boolean name="Production" value="false"/>
+				<integer name="RotationRate" value="6"/>
+				<string name="SMU_File" value="Littorio_3x152mm_Turret"/>
+				<string name="Type" value="Gun"/>
+				<float name="Vitality" value="600."/>
+				<float name="Weight" value="133.3"/>
+			</object>
+			<object name="Littorio_3x152mm_TurretA">
+				<integer name="Amount" value="3"/>
+				<integer name="ArmorFront" value="25"/>
+				<integer name="ArmorSide" value="25"/>
+				<integer name="ArmorTop" value="25"/>
+				<string name="Building" value="Artillery"/>
+				<string name="Content" value="Rifles.Littorio_3x152mm_Stvol"/>
+				<integer name="Country" value="5"/>
+				<integer name="Elevation" value="45"/>
+				<integer name="ElevationRate" value="12"/>
+				<boolean name="IgnoreXMLFile" value="false"/>
+				<float name="Iron" value="26."/>
+				<float name="Money" value="6.5"/>
+				<boolean name="New" value="true"/>
+				<boolean name="Production" value="false"/>
+				<integer name="RotationRate" value="6"/>
+				<string name="SMU_File" value="Littorio_3x152mm_Turret"/>
+				<string name="Type" value="Gun"/>
+				<float name="Vitality" value="600."/>
+				<float name="Weight" value="133.3"/>
+			</object>
+			<object name="Littorio_3x152mm_TurretY">
+				<integer name="Amount" value="3"/>
+				<integer name="ArmorFront" value="25"/>
+				<integer name="ArmorSide" value="25"/>
+				<integer name="ArmorTop" value="25"/>
+				<string name="Building" value="Artillery"/>
+				<string name="Content" value="Rifles.Littorio_3x152mm_Stvol"/>
+				<integer name="Country" value="5"/>
+				<integer name="Elevation" value="45"/>
+				<integer name="ElevationRate" value="12"/>
+				<boolean name="IgnoreXMLFile" value="false"/>
+				<float name="Iron" value="26."/>
+				<float name="Money" value="6.5"/>
+				<boolean name="New" value="true"/>
+				<boolean name="Production" value="false"/>
+				<integer name="RotationRate" value="6"/>
+				<string name="SMU_File" value="Littorio_3x152mm_Turret"/>
+				<string name="Type" value="Gun"/>
+				<float name="Vitality" value="600."/>
+				<float name="Weight" value="133.3"/>
+			</object>
+		</object>
+		<object name="Hit_Location">
+			<object name="Litt7828">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="100."/>
+				<string name="Hull" value="Littorio_MTurret"/>
+				<string name="Name" value="Littorio_152mm_Turret"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="Littorio_3x152mm_Turret"/>
+			</object>
+			<object name="LittA7828">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="100."/>
+				<string name="Hull" value="Littorio_MTurret"/>
+				<string name="Name" value="Littorio_152mm_Turret"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="Littorio_3x152mm_TurretA"/>
+			</object>
+			<object name="LittY7828">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="100."/>
+				<string name="Hull" value="Littorio_MTurret"/>
+				<string name="Name" value="Littorio_152mm_Turret"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="Littorio_3x152mm_TurretY"/>
+			</object>
+		</object>
+		<object name="Hulls">
+			<object name="Littorio_MTurret">
+				<integer name="Back" value="130"/>
+				<integer name="Bottom" value="80"/>
+				<integer name="Country" value="5"/>
+				<float name="ExplProb" value="10."/>
+				<float name="FireProb" value="20."/>
+				<integer name="Front" value="150"/>
+				<integer name="Left" value="130"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="130"/>
+				<integer name="Top" value="75"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Turret"/>
+			</object>
+		</object>
+	</object>
+</root>

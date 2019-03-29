@@ -1,0 +1,62 @@
+material SL/Units/PDIcons_soryu
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				tex_val_size 0.25 0.125 0.375 0.25 
+				texture UnitIcons_PD1.png
+			}
+		}
+	}
+}
+
+
+material SL/Units/PEIcons_soryu
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				texture soryu_iconPE.png
+			}
+		}
+	}
+}
+
+
+material SL/Units/Icons_soryu
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				texture soryu_icon.png
+			}
+		}
+	}
+}

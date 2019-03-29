@@ -1,0 +1,383 @@
+material Green_Myoko_Director_1var
+{
+    technique
+    {
+        pass
+        {
+            ambient 1.0 1.0 1.0
+            cull_hardware none
+            cull_software none
+            texture_unit
+            {
+                texture Green_Myoko_Director_1Var.dds
+				filtering trilinear
+            }
+        }
+       pass
+       {
+         ambient 1. 1. 1.
+         scene_blend add
+         lighting off
+
+         fog_override true none
+         texture_unit
+           {
+               texture Green_Myoko_Director_1Var_spec.dds
+				filtering trilinear
+           }
+         texture_unit
+            {
+                cubic_texture shipenvmap.dds combinedUVW
+                env_map cubic_reflection
+                tex_address_mode clamp
+                colour_op_ex modulate src_texture src_current
+            }
+        }
+    }
+}
+
+material Green_Myoko_Director_2Var
+{
+    technique
+    {
+        pass
+        {
+            ambient 1.0 1.0 1.0
+            cull_hardware none
+            cull_software none
+            texture_unit
+            {
+                texture Green_Myoko_Director_2Var.dds
+				filtering trilinear
+            }
+        }
+       pass
+       {
+         ambient 1. 1. 1.
+         scene_blend add
+         lighting off
+
+         fog_override true none
+         texture_unit
+           {
+               texture Green_Myoko_Director_2Var_spec.dds
+				filtering trilinear
+           }
+         texture_unit
+            {
+                cubic_texture shipenvmap.dds combinedUVW
+                env_map cubic_reflection
+                tex_address_mode clamp
+                colour_op_ex modulate src_texture src_current
+            }
+        }
+    }
+}
+
+material Green_Myoko_Director_3Var
+{
+    technique
+    {
+        pass
+        {
+            ambient 1.0 1.0 1.0
+            cull_hardware none
+            cull_software none
+            texture_unit
+            {
+                texture Green_Myoko_Director_3Var.dds
+				filtering trilinear
+            }
+        }
+       pass
+       {
+         ambient 1. 1. 1.
+         scene_blend add
+         lighting off
+
+         fog_override true none
+         texture_unit
+           {
+               texture Green_Myoko_Director_3Var_spec.dds
+				filtering trilinear
+           }
+         texture_unit
+            {
+                cubic_texture shipenvmap.dds combinedUVW
+                env_map cubic_reflection
+                tex_address_mode clamp
+                colour_op_ex modulate src_texture src_current
+            }
+        }
+    }
+}
+
+material Green_Myoko_Optical_MG
+{
+    technique
+    {
+        pass
+        {
+            ambient 1.0 1.0 1.0
+            cull_hardware none
+            cull_software none
+            texture_unit
+            {
+                texture Green_Myoko_Optical_MG.dds
+				filtering trilinear
+            }
+        }
+       pass
+       {
+         ambient 1. 1. 1.
+         scene_blend add
+         lighting off
+
+         fog_override true none
+         texture_unit
+           {
+               texture Green_Myoko_Optical_MG_spec.dds
+				filtering trilinear
+           }
+         texture_unit
+            {
+                cubic_texture shipenvmap.dds combinedUVW
+                env_map cubic_reflection
+                tex_address_mode clamp
+                colour_op_ex modulate src_texture src_current
+            }
+        }
+    }
+}
+
+material Green_Myoko_Optical_RF_1Var
+{
+    technique
+    {
+        pass
+        {
+            ambient 1.0 1.0 1.0
+            cull_hardware none
+            cull_software none
+            texture_unit
+            {
+                texture Green_Myoko_Optical_RF_1Var.dds
+				filtering trilinear
+            }
+        }
+       pass
+       {
+         ambient 1. 1. 1.
+         scene_blend add
+         lighting off
+
+         fog_override true none
+         texture_unit
+           {
+               texture Green_Myoko_Optical_RF_1Var_spec.dds
+				filtering trilinear
+           }
+         texture_unit
+            {
+                cubic_texture shipenvmap.dds combinedUVW
+                env_map cubic_reflection
+                tex_address_mode clamp
+                colour_op_ex modulate src_texture src_current
+            }
+        }
+    }
+}
+
+material Green_Myoko_Optical_RF_2Var
+{
+    technique
+    {
+        pass
+        {
+            ambient 1.0 1.0 1.0
+            cull_hardware none
+            cull_software none
+            texture_unit
+            {
+                texture Green_Myoko_Optical_RF_2Var.dds
+				filtering trilinear
+            }
+        }
+       pass
+       {
+         ambient 1. 1. 1.
+         scene_blend add
+         lighting off
+
+         fog_override true none
+         texture_unit
+           {
+               texture Green_Myoko_Optical_RF_2Var_spec.dds
+				filtering trilinear
+           }
+         texture_unit
+            {
+                cubic_texture shipenvmap.dds combinedUVW
+                env_map cubic_reflection
+                tex_address_mode clamp
+                colour_op_ex modulate src_texture src_current
+            }
+        }
+    }
+}
+
+
+material Green_Typ95_mat
+{
+    technique
+    {
+        pass
+        {
+            ambient 1.0 1.0 1.0
+            cull_hardware none
+            cull_software none
+            texture_unit
+            {
+                texture Green_J_Pushka1.dds
+				filtering trilinear
+            }
+        }
+       pass
+       {
+         ambient 1. 1. 1.
+         scene_blend add
+         lighting off
+
+         fog_override true none
+         texture_unit
+           {
+               texture Green_J_Pushka1_spec.dds
+				filtering trilinear
+           }
+         texture_unit
+            {
+                cubic_texture shipenvmap.dds combinedUVW
+                env_map cubic_reflection
+                tex_address_mode clamp
+                colour_op_ex modulate src_texture src_current
+            }
+        }
+    }
+} 
+
+material Green_MogamiRF_mat
+{
+    technique
+    {
+        pass
+        {
+            ambient 1.0 1.0 1.0
+            cull_hardware none
+            cull_software none
+            texture_unit
+            {
+                texture Green_J_Korus_up_07.dds
+				filtering trilinear
+            }
+        }
+       pass
+       {
+         ambient 1. 1. 1.
+         scene_blend add
+         lighting off
+
+         fog_override true none
+         texture_unit
+           {
+               texture Green_J_Korus_up_07.dds
+				filtering trilinear
+           }
+         texture_unit
+            {
+                cubic_texture shipenvmap.dds combinedUVW
+                env_map cubic_reflection
+                tex_address_mode clamp
+                colour_op_ex modulate src_texture src_current
+            }
+        }
+    }
+}
+
+material Green_J_Nadstroika5_1Material
+{
+    technique
+    {
+        pass
+        {
+            ambient 1.0 1.0 1.0
+
+            texture_unit
+            {
+                texture Green_J_Nadstroika5.dds
+    filtering trilinear
+            }
+        }
+       pass
+       {
+         ambient 1. 1. 1.
+         scene_blend add
+         lighting off
+
+         fog_override true none
+         texture_unit
+           {
+               texture Green_SP_J_Nadstroika5.dds
+    filtering trilinear
+           }
+         texture_unit
+            {
+                cubic_texture shipenvmap.dds combinedUVW
+                env_map cubic_reflection
+                tex_address_mode clamp
+                colour_op_ex modulate src_texture src_current
+            }
+        }
+    }
+}
+
+material Green_DSA_Lokator_02_2
+{
+    technique
+    {
+        pass
+        {
+              ambient 1.0 1.0 1.0
+  scene_blend alpha_blend
+  cull_hardware none
+  cull_software none
+  //depth_write off
+
+            texture_unit
+            {
+                texture Green_Lokator_02.dds
+    filtering trilinear
+            }
+        }
+       pass
+       {
+         ambient 1. 1. 1.
+         scene_blend add
+         lighting off
+
+         fog_override true none
+         texture_unit
+           {
+               texture Green_SP_Lokator_02.dds
+    filtering trilinear
+           }
+         texture_unit
+            {
+                cubic_texture shipenvmap.dds combinedUVW
+                env_map cubic_reflection
+                tex_address_mode clamp
+                colour_op_ex modulate src_texture src_current
+            }
+        }
+    }
+}
+

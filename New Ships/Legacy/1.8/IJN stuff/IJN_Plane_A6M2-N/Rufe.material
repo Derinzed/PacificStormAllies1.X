@@ -1,0 +1,161 @@
+material Rufe_Tex
+{
+    technique
+    {
+        pass
+        {
+            ambient 1. 1. 1.
+            scene_blend one zero
+
+            texture_unit
+            {
+                texture Rufe_map.dds
+                filtering trilinear
+            }
+        }
+
+        pass
+        {
+            ambient 1. 1. 1.
+            scene_blend add
+            lighting off
+
+            texture_unit
+            {
+                texture A6M_spec.dds
+                filtering trilinear
+            }
+            texture_unit
+            {
+                cubic_texture planeenvmap.dds combinedUVW
+                env_map cubic_reflection
+                tex_address_mode clamp
+                colour_op_ex modulate src_texture src_current
+            }
+            fog_override true none
+        }
+    }
+}
+
+material DS_Rufe_Tex
+{
+    technique
+    {
+        pass
+        {
+            ambient 1. 1. 1.
+            scene_blend one zero
+            cull_software none
+            cull_hardware none
+
+            texture_unit
+            {
+                texture Rufe_map.dds
+                filtering trilinear
+            }
+        }
+
+        pass
+        {
+            ambient 1. 1. 1.
+            scene_blend add
+            lighting off
+
+            texture_unit
+            {
+                texture A6M_spec.dds
+                filtering trilinear
+            }
+            texture_unit
+            {
+                cubic_texture planeenvmap.dds combinedUVW
+                env_map cubic_reflection
+                tex_address_mode clamp
+                colour_op_ex modulate src_texture src_current
+            }
+            fog_override true none
+        }
+    }
+}
+
+material rufeadd
+{
+	technique
+	{
+		pass
+		{
+			ambient 1. 1. 1.
+			scene_blend one zero
+			cull_software none
+			cull_hardware none
+
+			texture_unit
+			{
+				texture rufe_add.dds
+				filtering trilinear
+			}
+		}
+
+		pass
+		{
+			ambient 1. 1. 1.
+			scene_blend add
+			lighting off
+
+			texture_unit
+			{
+				texture F1M_spec.dds
+				filtering trilinear
+			}
+			texture_unit
+			{
+		                cubic_texture planeenvmap.dds combinedUVW
+		                env_map cubic_reflection
+		                tex_address_mode clamp
+		                colour_op_ex modulate src_texture src_current
+		              }
+		fog_override true none
+		}
+	}
+}
+
+material DS_rufeadd
+{
+	technique
+	{
+		pass
+		{
+			ambient 1. 1. 1.
+			scene_blend one zero
+			cull_software none
+			cull_hardware none
+
+			texture_unit
+			{
+				texture rufe_add.dds
+				filtering trilinear
+			}
+		}
+
+		pass
+		{
+			ambient 1. 1. 1.
+			scene_blend add
+			lighting off
+
+			texture_unit
+			{
+				texture F1M_spec.dds
+				filtering trilinear
+			}
+			texture_unit
+			{
+		                cubic_texture planeenvmap.dds combinedUVW
+		                env_map cubic_reflection
+		                tex_address_mode clamp
+		                colour_op_ex modulate src_texture src_current
+		              }
+		fog_override true none
+		}
+	}
+}

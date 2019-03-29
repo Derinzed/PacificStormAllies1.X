@@ -1,0 +1,57 @@
+material SL/Units/PDIcons_Independence
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				tex_val_size 0.75 0.5 0.875 0.625 
+				texture UnitIcons_PD1.png
+			}
+		}
+	}
+}
+material SL/Units/PDIcons_JapUboat
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				tex_val_size 0. 0.25 0.125 0.375 
+				texture UnitIcons_PD1.png
+			}
+		}
+	}
+}
+material SL/Units/PDIcons_clemson
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_check off
+			scene_blend alpha_blend
+			texture_unit
+			{
+				filtering none
+				tex_address_mode clamp
+				tex_val_size 0.5 0.625 0.625 0.75 
+				texture UnitIcons_PD1.png
+			}
+		}
+	}
+}

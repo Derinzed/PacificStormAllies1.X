@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" standalone="yes" ?>
+<root>
+	<object name="SteelMonstersParams">
+		<object name="Rifles">
+			<object name="Gun_76x2_USSR_Stvol">
+				<float name="AARange" value="5.8"/>
+				<string name="Ammo" value="Proj_76_R"/>
+				<integer name="AmmoStorage" value="400"/>
+				<float name="AmmoWeight" value="6.95"/>
+				<float name="Caliber" value="76."/>
+				<string name="Common" value="Proj_76_R_Com"/>
+				<integer name="Country" value="6"/>
+				<float name="Dispersion" value="8."/>
+				<integer name="FinalSpeed" value="139"/>
+				<string name="FireSound" value="Guns\80mm"/>
+				<string name="Frag" value="Proj_76_R_Fr"/>
+				<boolean name="IgnoreXMLFile" value="false"/>
+				<float name="Money" value="1."/>
+				<boolean name="New" value="true"/>
+				<float name="Range" value="8.9"/>
+				<float name="ROF" value="11."/>
+				<boolean name="SLLauncher" value="false"/>
+				<string name="SMU_File" value="Gun_76x2_USSR_Stvol"/>
+				<integer name="StartSpeed" value="813"/>
+				<integer name="Unreliability" value="0"/>
+				<string name="Usage" value="Ships"/>
+				<float name="Weight" value="1.243"/>
+			</object>
+		</object>
+		<object name="Turrets">
+			<object name="Turret_76x2_USSR">
+				<integer name="Amount" value="2"/>
+				<integer name="ArmorFront" value="25"/>
+				<integer name="ArmorSide" value="25"/>
+				<integer name="ArmorTop" value="25"/>
+				<string name="Building" value="AAGun"/>
+				<string name="Content" value="Rifles.Gun_76x2_USSR_Stvol"/>
+				<integer name="Country" value="6"/>
+				<float name="DTimeProd" value="5."/>
+				<integer name="Elevation" value="85"/>
+				<integer name="ElevationRate" value="10"/>
+				<string name="Icon" value="AAGun"/>
+				<boolean name="IgnoreXMLFile" value="false"/>
+				<float name="Iron" value="12."/>
+				<float name="Money" value="4."/>
+				<boolean name="New" value="true"/>
+				<float name="NTimeProd" value="15."/>
+				<boolean name="Production" value="false"/>
+				<integer name="QualityRate" value="2"/>
+				<integer name="RotationRate" value="18"/>
+				<string name="SMU_File" value="Turret_76x2_USSR"/>
+				<string name="Type" value="Gun"/>
+				<float name="Vitality" value="7."/>
+				<float name="Weight" value="12."/>
+			</object>
+		</object>
+		<object name="Hit_Location">
+			<object name="USSR27882">
+				<integer name="Country" value="6"/>
+				<integer name="Crew" value="1"/>
+				<float name="ER" value="3.e-002"/>
+				<string name="Hull" value="Std_Crew"/>
+				<string name="Name" value="Gunner1"/>
+				<string name="TypHL" value="Crew"/>
+				<string name="UnitName" value="Turret_76x2_USSR"/>
+			</object>
+			<object name="USSR27883">
+				<integer name="Country" value="6"/>
+				<integer name="Crew" value="1"/>
+				<float name="ER" value="3.e-002"/>
+				<string name="Hull" value="Std_Crew"/>
+				<string name="Name" value="Gunner2"/>
+				<string name="TypHL" value="Crew"/>
+				<string name="UnitName" value="Turret_76x2_USSR"/>
+			</object>
+			<object name="USSR27884">
+				<integer name="Country" value="6"/>
+				<float name="ER" value="5."/>
+				<string name="Hull" value="Std_Guns_SO"/>
+				<string name="Name" value="Turret"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="Turret_76x2_USSR"/>
+			</object>
+		</object>
+	</object>
+</root>

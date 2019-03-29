@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" standalone="yes" ?>
+<root>
+	<object name="SteelMonstersParams">
+		<object name="Rifles">
+			<object name="4x380mm_Richelieu_Stvol">
+				<float name="AARange" value="0."/>
+				<string name="Ammo" value="Proj_380_F"/>
+				<integer name="AmmoStorage" value="104"/>
+				<float name="AmmoWeight" value="885."/>
+				<string name="ArmPiercing" value="Proj_380_F_AP"/>
+				<float name="Caliber" value="380."/>
+				<string name="HighExp" value="Proj_380_F_HE"/>
+				<integer name="Country" value="4"/>
+				<float name="Dispersion" value="2."/>
+				<integer name="FinalSpeed" value="544"/>
+				<string name="FireSound" value="Guns\380mm"/>
+				<boolean name="IgnoreXMLFile" value="false"/>
+				<float name="Money" value="140."/>
+				<boolean name="New" value="false"/>
+				<float name="ROF" value="2."/>
+				<float name="Range" value="41.7"/>
+				<boolean name="SLLauncher" value="false"/>
+				<string name="SMU_File" value="4x380mm_Richelieu_Stvol"/>
+				<integer name="StartSpeed" value="800"/>
+				<integer name="Unreliability" value="0"/>
+				<string name="Usage" value="Ships"/>
+				<float name="Weight" value="94.130"/>
+			</object>
+		</object>
+		<object name="Turrets">
+			<object name="4x380mm_Richelieu_Turret_1VF">
+				<integer name="Amount" value="4"/>
+				<integer name="ArmorFront" value="430"/>
+				<integer name="ArmorSide" value="270"/>
+				<integer name="ArmorTop" value="195"/>
+				<string name="Building" value="Artillery"/>
+				<string name="Content" value="Rifles.4x380mm_Richelieu_Stvol"/>
+				<integer name="Country" value="4"/>
+				<integer name="Elevation" value="35"/>
+				<integer name="ElevationRate" value="5.5"/>
+				<boolean name="IgnoreXMLFile" value="false"/>
+				<float name="Iron" value="750."/>
+				<float name="Money" value="40."/>
+				<boolean name="New" value="false"/>
+				<boolean name="Production" value="false"/>
+				<integer name="RotationRate" value="5"/>
+				<string name="SMU_File" value="4x380mm_Richelieu_Turret_1VF"/>
+				<string name="Type" value="Gun"/>
+				<float name="Vitality" value="1800."/>
+				<float name="Weight" value="2274."/>
+			</object>
+			<object name="4x380mm_Richelieu_Turret_2V">
+				<integer name="Amount" value="4"/>
+				<integer name="ArmorFront" value="430"/>
+				<integer name="ArmorSide" value="270"/>
+				<integer name="ArmorTop" value="195"/>
+				<string name="Building" value="Artillery"/>
+				<string name="Content" value="Rifles.4x380mm_Richelieu_Stvol"/>
+				<integer name="Country" value="4"/>
+				<integer name="Elevation" value="35"/>
+				<integer name="ElevationRate" value="5.5"/>
+				<boolean name="IgnoreXMLFile" value="false"/>
+				<float name="Iron" value="750."/>
+				<float name="Money" value="40."/>
+				<boolean name="New" value="false"/>
+				<boolean name="Production" value="false"/>
+				<integer name="RotationRate" value="5"/>
+				<string name="SMU_File" value="4x380mm_Richelieu_Turret_2V"/>
+				<string name="Type" value="Gun"/>
+				<float name="Vitality" value="1800."/>
+				<float name="Weight" value="2274."/>
+			</object>
+		</object>
+		<object name="Hit_Location">
+			<object name="Rich7818">
+				<integer name="Country" value="4"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_Turret_RF"/>
+				<string name="Name" value="RRAngefinder"/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="4x380mm_Richelieu_Turret_1VF"/>
+			</object>
+			<object name="Rich7819">
+				<integer name="Country" value="4"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_Turret_RF"/>
+				<string name="Name" value="LRangefinder"/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="4x380mm_Richelieu_Turret_1VF"/>
+			</object>
+			<object name="Rich7820">
+				<integer name="Country" value="4"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Richelieu_MTurretx4"/>
+				<string name="Name" value="Turret"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="4x380mm_Richelieu_Turret_1VF"/>
+			</object>
+			<object name="Rich7821">
+				<integer name="Country" value="4"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Richelieu_MTShakegebanx4"/>
+				<string name="Name" value="Shakegeban"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="4x380mm_Richelieu_Turret_1VF"/>
+			</object>
+			<object name="Rich2V7818">
+				<integer name="Country" value="4"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_Turret_RF"/>
+				<string name="Name" value="RRAngefinder"/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="4x380mm_Richelieu_Turret_2V"/>
+			</object>
+			<object name="Rich2V7819">
+				<integer name="Country" value="4"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Std_Turret_RF"/>
+				<string name="Name" value="LRangefinder"/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="4x380mm_Richelieu_Turret_2V"/>
+			</object>
+			<object name="Rich2V7820">
+				<integer name="Country" value="4"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Richelieu_MTurretx4"/>
+				<string name="Name" value="Turret"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="4x380mm_Richelieu_Turret_2V"/>
+			</object>
+			<object name="Rich2V7821">
+				<integer name="Country" value="4"/>
+				<float name="ER" value="500."/>
+				<string name="Hull" value="Richelieu_MTShakegebanx4"/>
+				<string name="Name" value="Shakegeban"/>
+				<string name="TypHL" value="Hull"/>
+				<string name="UnitName" value="4x380mm_Richelieu_Turret_2V"/>
+			</object>
+		</object>
+		<object name="Hulls">
+			<object name="Richelieu_MTurretx4">
+				<integer name="Back" value="330"/>
+				<integer name="Bottom" value="250"/>
+				<integer name="Country" value="4"/>
+				<float name="ExplProb" value="10."/>
+				<float name="FireProb" value="20."/>
+				<integer name="Front" value="430"/>
+				<integer name="Left" value="270"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="270"/>
+				<integer name="Top" value="195"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Turret"/>
+			</object>
+			<object name="Richelieu_MTShakegebanx4">
+				<integer name="Back" value="200"/>
+				<integer name="Bottom" value="100"/>
+				<integer name="Country" value="4"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="10."/>
+				<integer name="Front" value="360"/>
+				<integer name="Left" value="310"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="310"/>
+				<integer name="Top" value="170"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Turret"/>
+			</object>
+		</object>
+	</object>
+</root>

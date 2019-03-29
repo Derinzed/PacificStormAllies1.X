@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" standalone="yes" ?>
+<root>
+	<object name="SteelMonstersParams">
+		<object name="Rifles">
+			<object name="Littorio_3x381mm_Stvol">
+				<integer name="Country" value="5"/>
+				<string name="Usage" value="Ships"/>
+				<boolean name="SLLauncher" value="false"/>
+				<string name="SMU_File" value="Littorio_3x381mm_Stvol"/>
+				<boolean name="New" value="true"/>
+				<float name="Weight" value="109.9"/>
+				<float name="AmmoWeight" value="885."/>
+				<float name="Caliber" value="381."/>
+				<float name="ROF" value="1.3"/>
+				<integer name="StartSpeed" value="850"/>
+				<float name="Range" value="44.64"/>
+				<float name="AARange" value="0"/>
+				<integer name="FinalSpeed" value="563"/>
+				<integer name="AmmoStorage" value="74"/>
+				<integer name="Unreliability" value="0"/>
+				<float name="Money" value="9.2"/>
+				<float name="Dispersion" value="9."/>
+				<string name="HighExp" value="Proj_381_I_HE"/>
+				<string name="ArmPiercing" value="Proj_381_I_AP"/>
+				<string name="Ammo" value="Proj_381_I"/>
+				<string name="FireSound" value="Guns\380mm"/>
+				<boolean name="IgnoreXMLFile" value="false"/>
+			</object>
+		</object>
+		<object name="Turrets">
+			<object name="Littorio_3x381mm_TurretA">
+				<integer name="Country" value="5"/>
+				<string name="Type" value="Gun"/>
+				<string name="SMU_File" value="Littorio_3x381mm_Turret"/>
+				<string name="Content" value="Rifles.Littorio_3x381mm_Stvol"/>
+				<boolean name="New" value="true"/>
+				<integer name="Amount" value="3"/>
+				<float name="Weight" value="1570."/>
+				<integer name="Elevation" value="36"/>
+				<integer name="ElevationRate" value="6"/>
+				<integer name="RotationRate" value="6"/>
+				<integer name="ArmorFront" value="360"/>
+				<integer name="ArmorSide" value="220"/>
+				<integer name="ArmorTop" value="170"/>
+				<boolean name="Production" value="false"/>
+				<float name="Money" value="6.5"/>
+				<float name="Iron" value="26."/>
+				<float name="NTimeProd" value="25."/>
+				<float name="DTimeProd" value="5."/>
+				<string name="Icon" value="Artillery"/>
+				<float name="Vitality" value="1750."/>
+				<string name="Building" value="Artillery"/>
+				<integer name="QualityRate" value="6"/>
+				<boolean name="IgnoreXMLFile" value="false"/>
+			</object>
+			<object name="Littorio_3x381mm_TurretB">
+				<integer name="Country" value="5"/>
+				<string name="Type" value="Gun"/>
+				<string name="SMU_File" value="Littorio_3x381mm_Turret"/>
+				<string name="Content" value="Rifles.Littorio_3x381mm_Stvol"/>
+				<boolean name="New" value="true"/>
+				<integer name="Amount" value="3"/>
+				<float name="Weight" value="1570."/>
+				<integer name="Elevation" value="36"/>
+				<integer name="ElevationRate" value="6"/>
+				<integer name="RotationRate" value="6"/>
+				<integer name="ArmorFront" value="360"/>
+				<integer name="ArmorSide" value="220"/>
+				<integer name="ArmorTop" value="170"/>
+				<boolean name="Production" value="false"/>
+				<float name="Money" value="6.5"/>
+				<float name="Iron" value="26."/>
+				<float name="NTimeProd" value="25."/>
+				<float name="DTimeProd" value="5."/>
+				<string name="Icon" value="Artillery"/>
+				<float name="Vitality" value="1750."/>
+				<string name="Building" value="Artillery"/>
+				<integer name="QualityRate" value="6"/>
+				<boolean name="IgnoreXMLFile" value="false"/>
+			</object>
+			<object name="Littorio_3x381mm_TurretX">
+				<integer name="Country" value="5"/>
+				<string name="Type" value="Gun"/>
+				<string name="SMU_File" value="Littorio_3x381mm_Turret"/>
+				<string name="Content" value="Rifles.Littorio_3x381mm_Stvol"/>
+				<boolean name="New" value="true"/>
+				<integer name="Amount" value="3"/>
+				<float name="Weight" value="1570."/>
+				<integer name="Elevation" value="36"/>
+				<integer name="ElevationRate" value="6"/>
+				<integer name="RotationRate" value="6"/>
+				<integer name="ArmorFront" value="360"/>
+				<integer name="ArmorSide" value="220"/>
+				<integer name="ArmorTop" value="170"/>
+				<boolean name="Production" value="false"/>
+				<float name="Money" value="6.5"/>
+				<float name="Iron" value="26."/>
+				<float name="NTimeProd" value="25."/>
+				<float name="DTimeProd" value="5."/>
+				<string name="Icon" value="Artillery"/>
+				<float name="Vitality" value="1750."/>
+				<string name="Building" value="Artillery"/>
+				<integer name="QualityRate" value="6"/>
+				<boolean name="IgnoreXMLFile" value="false"/>
+			</object>
+		</object>
+		<object name="Hit_Location">
+			<object name="LittA1">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Littorio_MTurretV1"/>
+				<string name="Name" value="Turret"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="Littorio_3x381mm_TurretA"/>
+			</object>
+			<object name="LittA2">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Littorio_MTurretV1_Shakegeban"/>
+				<string name="Name" value="Shakegeban"/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="Littorio_3x381mm_TurretA"/>
+			</object>
+			<object name="LittA3">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Littorio_Turret_RF"/>
+				<string name="Name" value="LRangefinder"/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="Littorio_3x381mm_TurretA"/>
+			</object>
+			<object name="LittA4">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Littorio_Turret_RF"/>
+				<string name="Name" value="RRangefinder"/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="Littorio_3x381mm_TurretA"/>
+			</object>
+			<object name="LittB1">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Littorio_MTurretV1"/>
+				<string name="Name" value="Turret"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="Littorio_3x381mm_TurretB"/>
+			</object>
+			<object name="LittB2">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Littorio_MTurretV1_Shakegeban"/>
+				<string name="Name" value="Shakegeban"/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="Littorio_3x381mm_TurretB"/>
+			</object>
+			<object name="LittB3">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Littorio_Turret_RF"/>
+				<string name="Name" value="LRangefinder"/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="Littorio_3x381mm_TurretB"/>
+			</object>
+			<object name="LittB4">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Littorio_Turret_RF"/>
+				<string name="Name" value="RRangefinder"/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="Littorio_3x381mm_TurretB"/>
+			</object>
+			<object name="LittX1">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Littorio_MTurretV1"/>
+				<string name="Name" value="Turret"/>
+				<string name="TypHL" value="AmmoStore"/>
+				<string name="UnitName" value="Littorio_3x381mm_TurretX"/>
+			</object>
+			<object name="LittX2">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Littorio_MTurretV1_Shakegeban"/>
+				<string name="Name" value="Shakegeban"/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="Littorio_3x381mm_TurretX"/>
+			</object>
+			<object name="LittX3">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Littorio_Turret_RF"/>
+				<string name="Name" value="LRangefinder"/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="Littorio_3x381mm_TurretX"/>
+			</object>
+			<object name="LittX4">
+				<integer name="Country" value="5"/>
+				<float name="ER" value="400."/>
+				<string name="Hull" value="Littorio_Turret_RF"/>
+				<string name="Name" value="RRangefinder"/>
+				<string name="TypHL" value="Probe"/>
+				<string name="UnitName" value="Littorio_3x381mm_TurretX"/>
+			</object>
+		</object>
+		<object name="Hulls">
+			<object name="Littorio_MTurretV1">
+				<integer name="Back" value="290"/>
+				<integer name="Bottom" value="100"/>
+				<integer name="Country" value="5"/>
+				<float name="ExplProb" value="5."/>
+				<float name="FireProb" value="10."/>
+				<integer name="Front" value="290"/>
+				<integer name="Left" value="210"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="210"/>
+				<integer name="Top" value="100"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Turret"/>
+			</object>
+			<object name="Littorio_MTurretV1_Shakegeban">
+				<integer name="Back" value="290"/>
+				<integer name="Bottom" value="100"/>
+				<integer name="Country" value="5"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="10."/>
+				<integer name="Front" value="290"/>
+				<integer name="Left" value="210"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="210"/>
+				<integer name="Top" value="100"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Turret"/>
+			</object>
+			<object name="Littorio_Turret_RF">
+				<integer name="Country" value="5"/>
+				<integer name="Back" value="100"/>
+				<integer name="Bottom" value="100"/>
+				<float name="ExplProb" value="0."/>
+				<float name="FireProb" value="10."/>
+				<integer name="Front" value="100"/>
+				<integer name="Left" value="100"/>
+				<string name="Material" value="Armored"/>
+				<integer name="Right" value="100"/>
+				<integer name="Top" value="100"/>
+				<integer name="UnitName" value="0"/>
+				<string name="UnitTyp" value="Turret"/>
+			</object>
+		</object>
+	</object>
+</root>
