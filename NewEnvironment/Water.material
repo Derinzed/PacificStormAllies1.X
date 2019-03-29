@@ -1,0 +1,1074 @@
+
+material Water/Wave
+{
+  technique
+  {
+    pass
+    {
+            ambient .3 .3 .3
+	  diffuse 0 0 0
+	  specular 1 1 1 1 
+      scene_blend one zero
+      lighting off
+      scene_blend add
+      depth_write off
+      fog_override true
+
+      texture_unit
+      {
+        texture wave.tga
+        tex_address_mode clamp
+	colour_op_ex modulate src_texture src_diffuse 
+	alpha_op_ex modulate src_texture src_diffuse      
+      }
+    }
+  }
+}
+
+
+material Water/Plume
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      scene_blend add
+      depth_write off
+      fog_override true
+
+      texture_unit
+      {
+        texture waterpl.tga
+        tex_address_mode clamp
+	colour_op_ex modulate src_texture src_diffuse 
+	alpha_op_ex modulate src_texture src_diffuse      
+      }
+    }
+  }
+}
+
+material Water/Steam
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      scene_blend add
+      depth_write off
+      fog_override true
+
+      texture_unit
+      {
+        texture drop.tga
+        tex_address_mode clamp
+	colour_op_ex modulate src_texture src_diffuse 
+	alpha_op_ex modulate src_texture src_diffuse      
+      }
+    }
+  }
+}
+
+material Water/BigCircle
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      scene_blend add
+      depth_write off
+      fog_override true
+
+      texture_unit
+      {
+        texture water_ripples.tga
+        tex_address_mode clamp
+	colour_op_ex modulate src_texture src_diffuse 
+	alpha_op_ex modulate src_texture src_diffuse      
+      }
+    }
+  }
+}
+
+material Water/Track
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      scene_blend alpha_blend
+      depth_write off
+      fog_override true
+
+      texture_unit
+      {
+        texture water_splash.tga
+        tex_address_mode clamp
+	colour_op_ex modulate src_texture src_diffuse 
+	alpha_op_ex modulate src_texture src_diffuse      
+      }
+    }
+  }
+}
+
+material Water/Column
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      scene_blend alpha_blend
+      depth_write off
+      fog_override true
+
+      texture_unit
+      {
+        texture water_splash.tga
+        tex_address_mode clamp
+//	colour_op_ex modulate src_texture src_diffuse 
+//	alpha_op_ex modulate src_texture src_diffuse      
+      }
+    }
+  }
+}
+
+material Water/Balls
+{
+  technique
+  {
+    pass
+    {
+      scene_blend alpha_blend
+      texture_unit
+      {
+        texture building_smoke3.tga
+      }
+    }
+  }
+}
+
+material Water/Balls2
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      scene_blend alpha_blend
+      depth_write off
+      fog_override true
+
+      texture_unit
+      {
+        texture waterBall.tga
+        tex_address_mode clamp
+	colour_op_ex modulate src_texture src_diffuse 
+	alpha_op_ex modulate src_texture src_diffuse      
+      }
+    }
+  }
+}
+
+material Water/Splash
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      scene_blend alpha_blend
+      depth_write off
+      fog_override true
+
+      texture_unit
+      {
+        texture waterplume.tga
+        tex_address_mode clamp
+	colour_op_ex modulate src_texture src_diffuse 
+	alpha_op_ex modulate src_texture src_diffuse      
+      }
+    }
+  }
+}
+
+material Water/Splash2
+{
+  technique
+  {
+    pass
+    {
+      scene_blend alpha_blend
+      texture_unit
+      {
+        texture water_splash4.tga
+      }
+    }
+  }
+}
+
+
+/////////////////////////////////////////
+material Water/PTColumn
+{
+  technique
+  {
+    pass
+    {
+      scene_blend add
+      texture_unit
+      {
+        texture ptcolumn2.tga
+       }
+    }
+  }
+}
+
+material Water/PTCircle
+{
+  technique
+  {
+    pass
+    {
+      scene_blend add
+      texture_unit
+      {
+        texture ptcircle.tga
+      }
+    }
+  }
+}
+
+
+/////////////////////////////////////
+material Water/GorFlare
+{
+  technique
+  {
+    pass
+    {
+      scene_blend add
+      texture_unit
+      {
+       	texture water_flare.tga
+      }
+    }
+  }
+}
+
+material Water/TorpedoExplosion
+{
+  technique
+  {
+    pass
+    {
+      scene_blend alpha_blend
+      texture_unit
+      {
+        texture ptcolumn3.tga
+       }
+    }
+  }
+}
+
+/////////////////////////////////
+material Water/ColumnMini1
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      scene_blend alpha_blend
+      depth_write off
+      fog_override true
+      culling off
+
+      texture_unit
+      {
+        texture water_column_mini1.tga
+        tex_address_mode clamp
+//	colour_op_ex modulate src_texture src_diffuse 
+//	alpha_op_ex modulate src_texture src_diffuse              
+      }
+    }
+  }
+}
+
+material Water/ColumnMini2
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      scene_blend alpha_blend
+      depth_write off
+      fog_override true
+      culling off
+
+      texture_unit
+      {
+        texture water_column_mini2.tga
+        tex_address_mode clamp
+//	colour_op_ex modulate src_texture src_diffuse 
+//	alpha_op_ex modulate src_texture src_diffuse              
+      }
+    }
+  }
+}
+material Water/ColumnMini3
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      scene_blend alpha_blend
+      depth_write off
+      fog_override true
+      culling off
+
+      texture_unit
+      {
+        texture water_column_mini3.tga
+        tex_address_mode clamp
+//	colour_op_ex modulate src_texture src_diffuse 
+//	alpha_op_ex modulate src_texture src_diffuse              
+      }
+    }
+  }
+}
+
+material Water/SplashMini1
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      scene_blend alpha_blend
+      depth_write off
+      fog_override true
+
+      texture_unit
+      {
+        texture water_splash_mini1.tga
+        tex_address_mode clamp
+	colour_op_ex modulate src_texture src_diffuse 
+	alpha_op_ex modulate src_texture src_diffuse              
+      }
+    }
+  }
+}
+
+material Water/SplashMini2
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      scene_blend alpha_blend
+      depth_write off
+      fog_override true
+
+      texture_unit
+      {
+        texture water_splash_mini2.tga
+        tex_address_mode clamp
+	colour_op_ex modulate src_texture src_diffuse 
+	alpha_op_ex modulate src_texture src_diffuse              
+      }
+    }
+  }
+}
+
+material Water/SplashMini3
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      scene_blend alpha_blend
+      depth_write off
+      fog_override true
+
+      texture_unit
+      {
+        texture water_splash_mini3.tga
+        tex_address_mode clamp
+	colour_op_ex modulate src_texture src_diffuse 
+	alpha_op_ex modulate src_texture src_diffuse              
+      }
+    }
+  }
+}
+
+material Water/BigCircleMini1
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      scene_blend add
+      depth_write off
+      fog_override true
+
+      texture_unit
+      {
+        texture water_circle_mini1.tga
+        tex_address_mode clamp
+	colour_op_ex modulate src_texture src_diffuse 
+	alpha_op_ex modulate src_texture src_diffuse      
+      }
+    }
+  }
+}
+
+material Water/BigCircleMini2
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      scene_blend add
+      depth_write off
+      fog_override true
+
+      texture_unit
+      {
+        texture water_circle_mini2.tga
+        tex_address_mode clamp
+	colour_op_ex modulate src_texture src_diffuse 
+	alpha_op_ex modulate src_texture src_diffuse      
+      }
+    }
+  }
+}
+
+material Water/BigCircleMini3
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      scene_blend add
+      depth_write off
+      fog_override true
+
+      texture_unit
+      {
+        texture water_circle_mini3.tga
+        tex_address_mode clamp
+	colour_op_ex modulate src_texture src_diffuse 
+	alpha_op_ex modulate src_texture src_diffuse      
+      }
+    }
+  }
+}
+
+material Water/TrackMini1
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      scene_blend alpha_blend
+      depth_write off
+      fog_override true
+
+      texture_unit
+      {
+        texture water_track_mini1.tga
+        tex_address_mode clamp
+	colour_op_ex modulate src_texture src_diffuse 
+	alpha_op_ex modulate src_texture src_diffuse      
+      }
+    }
+  }
+}
+
+material Water/TrackMini2
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      scene_blend alpha_blend
+      depth_write off
+      fog_override true
+
+      texture_unit
+      {
+        texture water_track_mini2.tga
+        tex_address_mode clamp
+	colour_op_ex modulate src_texture src_diffuse 
+	alpha_op_ex modulate src_texture src_diffuse      
+      }
+    }
+  }
+}
+
+material Water/TrackMini3
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      scene_blend alpha_blend
+      depth_write off
+      fog_override true
+
+      texture_unit
+      {
+        texture water_track_mini3.tga
+        tex_address_mode clamp
+	colour_op_ex modulate src_texture src_diffuse 
+	alpha_op_ex modulate src_texture src_diffuse      
+      }
+    }
+  }
+}
+
+////////////////////////////
+
+material Water/ColumnMidi1
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      scene_blend alpha_blend
+      depth_write off
+      fog_override true
+
+      texture_unit
+      {
+        texture water_column_midi1.tga
+        tex_address_mode clamp
+//	colour_op_ex modulate src_texture src_diffuse 
+//	alpha_op_ex modulate src_texture src_diffuse      
+      }
+    }
+  }
+}
+
+material Water/ColumnMidi2
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      scene_blend alpha_blend
+      depth_write off
+      fog_override true
+
+      texture_unit
+      {
+        texture water_column_midi2.tga
+        tex_address_mode clamp
+//	colour_op_ex modulate src_texture src_diffuse 
+//	alpha_op_ex modulate src_texture src_diffuse      
+      }
+    }
+  }
+}
+
+material Water/ColumnMidi3
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      scene_blend alpha_blend
+      depth_write off
+      fog_override true
+
+      texture_unit
+      {
+        texture water_column_midi3.tga
+        tex_address_mode clamp
+//	colour_op_ex modulate src_texture src_diffuse 
+//	alpha_op_ex modulate src_texture src_diffuse      
+      }
+    }
+  }
+}
+
+material Water/SplashMidi1
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      scene_blend alpha_blend
+      depth_write off
+      fog_override true
+
+      texture_unit
+      {
+        texture water_splash_midi1.tga
+        tex_address_mode clamp
+	colour_op_ex modulate src_texture src_diffuse 
+	alpha_op_ex modulate src_texture src_diffuse              
+      }
+    }
+  }
+}
+
+material Water/SplashMidi2
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      scene_blend alpha_blend
+      depth_write off
+      fog_override true
+
+      texture_unit
+      {
+        texture water_splash_midi2.tga
+        tex_address_mode clamp
+	colour_op_ex modulate src_texture src_diffuse 
+	alpha_op_ex modulate src_texture src_diffuse              
+      }
+    }
+  }
+}
+
+material Water/SplashMidi3
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      scene_blend alpha_blend
+      depth_write off
+      fog_override true
+
+      texture_unit
+      {
+        texture water_splash_midi3.tga
+        tex_address_mode clamp
+	colour_op_ex modulate src_texture src_diffuse 
+	alpha_op_ex modulate src_texture src_diffuse              
+      }
+    }
+  }
+}
+
+material Water/BigCircleMidi1
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      scene_blend alpha_blend
+      depth_write off
+      fog_override true
+
+      texture_unit
+      {
+        texture water_circle_midi1.tga
+        tex_address_mode clamp
+	colour_op_ex modulate src_texture src_diffuse 
+	alpha_op_ex modulate src_texture src_diffuse      
+      }
+    }
+  }
+}
+
+material Water/BigCircleMidi2
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      scene_blend alpha_blend
+      depth_write off
+      fog_override true
+
+      texture_unit
+      {
+        texture water_circle_midi2.tga
+        tex_address_mode clamp
+	colour_op_ex modulate src_texture src_diffuse 
+	alpha_op_ex modulate src_texture src_diffuse      
+      }
+    }
+  }
+}
+
+material Water/BigCircleMidi3
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      scene_blend alpha_blend
+      depth_write off
+      fog_override true
+
+      texture_unit
+      {
+        texture water_circle_midi3.tga
+        tex_address_mode clamp
+	colour_op_ex modulate src_texture src_diffuse 
+	alpha_op_ex modulate src_texture src_diffuse      
+      }
+    }
+  }
+}
+
+material Water/TrackMidi1
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      scene_blend alpha_blend
+      depth_write off
+      fog_override true
+
+      texture_unit
+      {
+        texture water_track_midi1.tga
+        tex_address_mode clamp
+	colour_op_ex modulate src_texture src_diffuse 
+	alpha_op_ex modulate src_texture src_diffuse      
+      }
+    }
+  }
+}
+
+material Water/TrackMidi2
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      scene_blend alpha_blend
+      depth_write off
+      fog_override true
+
+      texture_unit
+      {
+        texture water_track_midi2.tga
+        tex_address_mode clamp
+	colour_op_ex modulate src_texture src_diffuse 
+	alpha_op_ex modulate src_texture src_diffuse      
+      }
+    }
+  }
+}
+
+material Water/TrackMidi3
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      scene_blend alpha_blend
+      depth_write off
+      fog_override true
+
+      texture_unit
+      {
+        texture water_track_midi3.tga
+        tex_address_mode clamp
+	colour_op_ex modulate src_texture src_diffuse 
+	alpha_op_ex modulate src_texture src_diffuse      
+      }
+    }
+  }
+}
+
+///////////////////////////
+
+material Water/ColumnBigi1
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      scene_blend alpha_blend
+      depth_write off
+      fog_override true
+
+      texture_unit
+      {
+        texture water_column_bigi1.tga
+        tex_address_mode clamp
+//	colour_op_ex modulate src_texture src_diffuse 
+//	alpha_op_ex modulate src_texture src_diffuse      
+      }
+    }
+  }
+}
+
+material Water/ColumnBigi2
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      scene_blend alpha_blend
+      depth_write off
+      fog_override true
+
+      texture_unit
+      {
+        texture water_column_midi2.tga
+        tex_address_mode clamp
+//	colour_op_ex modulate src_texture src_diffuse 
+//	alpha_op_ex modulate src_texture src_diffuse      
+      }
+    }
+  }
+}
+
+material Water/ColumnBigi3
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      scene_blend alpha_blend
+      depth_write off
+      fog_override true
+
+      texture_unit
+      {
+        texture water_column_midi3.tga
+        tex_address_mode clamp
+//	colour_op_ex modulate src_texture src_diffuse 
+//	alpha_op_ex modulate src_texture src_diffuse      
+      }
+    }
+  }
+}
+
+material Water/SplashBigi1
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      scene_blend alpha_blend
+      depth_write off
+      fog_override true
+
+      texture_unit
+      {
+        texture water_splash_bigi1.tga
+        tex_address_mode clamp
+	colour_op_ex modulate src_texture src_diffuse 
+	alpha_op_ex modulate src_texture src_diffuse              
+      }
+    }
+  }
+}
+
+material Water/SplashBigi2
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      scene_blend alpha_blend
+      depth_write off
+      fog_override true
+
+      texture_unit
+      {
+        texture water_splash_bigi2.tga
+        tex_address_mode clamp
+	colour_op_ex modulate src_texture src_diffuse 
+	alpha_op_ex modulate src_texture src_diffuse              
+      }
+    }
+  }
+}
+
+material Water/SplashBigi3
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      scene_blend alpha_blend
+      depth_write off
+      fog_override true
+
+      texture_unit
+      {
+        texture water_splash_bigi3.tga
+        tex_address_mode clamp
+	colour_op_ex modulate src_texture src_diffuse 
+	alpha_op_ex modulate src_texture src_diffuse              
+      }
+    }
+  }
+}
+
+material Water/BigCircleBigi1
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      scene_blend alpha_blend
+      depth_write off
+      fog_override true
+
+      texture_unit
+      {
+        texture water_circle_bigi1.tga
+        tex_address_mode clamp
+	colour_op_ex modulate src_texture src_diffuse 
+	alpha_op_ex modulate src_texture src_diffuse      
+      }
+    }
+  }
+}
+
+material Water/BigCircleBigi2
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      scene_blend alpha_blend
+      depth_write off
+      fog_override true
+
+      texture_unit
+      {
+        texture water_circle_bigi2.tga
+        tex_address_mode clamp
+	colour_op_ex modulate src_texture src_diffuse 
+	alpha_op_ex modulate src_texture src_diffuse      
+      }
+    }
+  }
+}
+
+material Water/BigCircleBigi3
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      scene_blend alpha_blend
+      depth_write off
+      fog_override true
+
+      texture_unit
+      {
+        texture water_circle_bigi3.tga
+        tex_address_mode clamp
+	colour_op_ex modulate src_texture src_diffuse 
+	alpha_op_ex modulate src_texture src_diffuse      
+      }
+    }
+  }
+}
+
+material Water/TrackBigi1
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      scene_blend alpha_blend
+      depth_write off
+      fog_override true
+
+      texture_unit
+      {
+        texture water_track_bigi1.tga
+        tex_address_mode clamp
+	colour_op_ex modulate src_texture src_diffuse 
+	alpha_op_ex modulate src_texture src_diffuse      
+      }
+    }
+  }
+}
+
+material Water/TrackBigi2
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      scene_blend alpha_blend
+      depth_write off
+      fog_override true
+
+      texture_unit
+      {
+        texture water_track_bigi2.tga
+        tex_address_mode clamp
+	colour_op_ex modulate src_texture src_diffuse 
+	alpha_op_ex modulate src_texture src_diffuse      
+      }
+    }
+  }
+}
+
+material Water/TrackBigi3
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      scene_blend alpha_blend
+      depth_write off
+      fog_override true
+
+      texture_unit
+      {
+        texture water_track_bigi3.tga
+        tex_address_mode clamp
+	colour_op_ex modulate src_texture src_diffuse 
+	alpha_op_ex modulate src_texture src_diffuse      
+      }
+    }
+  }
+}
