@@ -1,0 +1,95 @@
+material NewWater/Reflection
+{
+    technique
+    {
+        pass
+        {
+            ambient 1 1 1
+
+            cull_hardware none
+            cull_software none
+            lighting off
+
+            vertex_program_ref NewWaterVP
+            {
+           		param_named_auto fogDensity fog_density
+                param_named_auto worldViewProj worldviewproj_matrix
+                param_named_auto worldMatrix world_matrix
+                param_named_auto viewMatrix view_matrix
+                param_named_auto camPos camera_position_object_space
+            }
+
+            fragment_program_ref NewWaterFP
+            {
+            }
+
+            //Текстура с водой
+            texture_unit
+            {
+                anim_texture water-c01.dds water-c02.dds water-c03.dds water-c04.dds water-c05.dds water-c06.dds water-c07.dds water-c08.dds water-c09.dds water-c10.dds water-c11.dds water-c12.dds water-c13.dds water-c14.dds water-c15.dds water-c16.dds water-c17.dds water-c18.dds water-c19.dds water-c20.dds water-c21.dds water-c22.dds water-c23.dds water-c24.dds 2.5
+                filtering trilinear
+                tex_address_mode wrap
+            }
+
+            // Текстура с отражением
+            texture_unit
+            {
+                // Будет генериться в рантайме
+                texture Reflection
+                tex_address_mode mirror
+            }
+
+            //Текстура с маской
+            texture_unit
+            {
+                anim_texture matte-a01.png matte-a02.png matte-a03.png matte-a04.png matte-a05.png matte-a06.png matte-a07.png matte-a08.png matte-a09.png matte-a10.png matte-a11.png matte-a12.png matte-a13.png matte-a14.png matte-a15.png matte-a16.png matte-a17.png matte-a18.png matte-a19.png matte-a20.png matte-a21.png matte-a22.png matte-a23.png matte-a24.png 2.5
+                //GREAT FOR RAIN
+                //anim_texture matte-e01.png matte-e02.png matte-e03.png matte-e04.png matte-e05.png matte-e06.png matte-e07.png matte-e08.png matte-e09.png matte-e10.png matte-e11.png matte-e12.png matte-e13.png matte-e14.png matte-e15.png matte-e16.png matte-e17.png matte-e18.png matte-e19.png matte-e20.png matte-e21.png matte-e22.png matte-e23.png matte-e24.png 3.0
+                //texture watermask.png
+                filtering trilinear
+                tex_address_mode wrap
+            }
+        }
+    }
+}
+
+
+material NewWater/Simple
+{
+    technique
+    {
+        pass
+        {
+            ambient 1 1 1
+            scene_blend alpha_blend
+
+            cull_hardware none
+            cull_software none
+            lighting off
+
+            vertex_program_ref WaterGridVP
+            {
+           		param_named_auto fogDensity fog_density
+                param_named_auto worldViewProj worldviewproj_matrix
+                param_named_auto worldMatrix world_matrix
+                param_named_auto viewMatrix view_matrix
+                param_named_auto camPos camera_position_object_space
+            }
+
+            texture_unit
+            {
+                anim_texture water01.dds water02.dds water03.dds water04.dds water05.dds water06.dds water07.dds water08.dds water09.dds water10.dds water11.dds water12.dds water13.dds water14.dds water15.dds water16.dds water17.dds water18.dds water19.dds water20.dds water21.dds water22.dds water23.dds 1.9
+                colour_op_ex add src_texture src_current
+                //filtering point point point
+            }
+
+            texture_unit
+            {
+                anim_texture water01.dds water02.dds water03.dds water04.dds water05.dds water06.dds water07.dds water08.dds water09.dds water10.dds water11.dds water12.dds water13.dds water14.dds water15.dds water16.dds water17.dds water18.dds water19.dds water20.dds water21.dds water22.dds water23.dds 3
+                colour_op_ex modulate_x2 src_texture src_current
+                alpha_op_ex modulate_x2 src_texture src_current
+				//filtering point point point
+            }
+        }
+    }
+}
